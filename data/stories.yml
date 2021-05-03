@@ -1,0 +1,47 @@
+version: "2.0"
+
+stories:
+
+- story: advisory path
+  steps:
+  - intent: xin_chao
+  - action: utter_xin_chao
+  - intent: gioi_thieuchucnang
+  - action: utter_gioi_thieuchucnang
+  - intent: tam_biet
+  - action: utter_tam_biet
+
+
+- story: cam on
+  steps:
+  - intent: cam_on
+  - action: utter_cam_on
+- story: bo mon
+  steps:
+  - intent: hoi_bomon_gv
+  - action: action_custom_hoi_bomon_gv
+
+- story: hoi giao vien 01
+  steps:
+  - intent: hoi_giaovien01
+  - action: action_custom_hoi_giaovien01
+
+- story: gioi thieu ten
+  steps:
+  - intent: gioi_thieuten
+  - action: utter_gioi_thieuten
+
+- story : what new
+  steps:
+  - intent: what_new
+  - action: action_whatnew
+
+- story: dinhnghia 
+  steps:
+  - intent: dinhnghia
+  - action: action_dinhnghia
+
+- story: hoi vi tri 
+  steps:
+  - intent: hoi_vitri
+  - action: action_hoi_vitri

@@ -1,0 +1,51 @@
+version: "2.0"
+
+intents:
+  - xin_chao
+  - tam_biet
+  - gioi_thieuten
+  - gioi_thieuchucnang
+  - cam_on
+  - hoi_vitri   
+  - hoi_ttgv
+  - hoi_nlgv
+  - goyy_qchv
+  - dinhnghia
+  - hoi_bomon_gv
+  - hoi_giaovien01
+  - what_new
+actions: 
+  - action_custom_hoi_bomon_gv
+  - action_custom_hoi_giaovien01
+  - action_unknown
+  - action_whatnew
+  - action_dinhnghia
+  - action_hoi_vitri
+responses:
+  utter_xin_chao:
+  - text: "Chào bạn!"
+  - text: "Chào bạn! Mình có thể giúp gì được cho bạn?"
+  - text: "Chào bạn! Bạn muốn mình giúp việc gì?"
+
+  utter_tam_biet:
+  - text: "Bye bye, chúc bạn một ngày tốt lành"
+  - text: "Tạm biệt! Một ngày đầy năng lượng nhé!"
+  - text: "Chào bạn! Thắc mắc gì cứ tìm mình nhé."
+  - text: "Rất vui vì đã giúp được bạn! Hẹn gặp lại."
+
+  utter_gioi_thieuten:
+  - text: "Tôi tên là Dừa, là một chatbot hổ trợ sinh viên của khoa CNTT & TT."
+  - text: "Tôi là Mr.Coconut, một hệ thống giúp trả lời các thắc mắc của sinh viên trong quá trình học và làm việc tại khoa CNTT & TT."
+
+  utter_gioi_thieuchucnang:
+  - text: "Tôi có thể giải đáp các vấn đề: tìm vị trí phòng học, thông tin về giáo viên tại khoa, giải đáp các câu hỏi thường được hỏi về quy chế học vụ, và những công việc liên quán đến khoa CNTT&TT"
+
+  utter_cam_on:
+  - text: "Giúp được bạn là niềm vui của tôi!"
+  - text: "Hi vọng bạn hài lòng với câu trả lời."
+
+  utter_fallback:
+    - text: "Xin lỗi tôi chưa hiểu ý bạn"
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

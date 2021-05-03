@@ -1,0 +1,229 @@
+version: '2.0'
+
+nlu:
+- intent: xin_chao
+  examples: |
+    - Xin chào
+    - Chào bạn
+    - Chào
+    - Hi
+    - Hey
+    - Hello
+- intent: tam_biet
+  examples: |
+    - Tạm biệt
+    - Hẹn gặp lại
+
+- intent: gioi_thieuten
+  examples: |
+    - Bạn là chatbot à
+    - Bạn là gì
+    - Hãy giới thiệu về bản thân
+    - Bạn là ai
+
+- intent: gioi_thieuchucnang
+  examples: |
+    - Công việc của bạn là gì?
+    - Bạn có thể làm được gì?
+    - Việc gì bạn làm được?
+    - Bạn hổ trợ những vấn đề nào?
+    - Bạn có thể giúp gì cho mình?
+
+- intent: cam_on
+  examples: |
+    - Cảm ơn vì giúp đỡ
+    - Cảm ơn nhiều nhé
+    - Tuyệt vời
+
+- intent: hoi_vitri
+  examples: |
+    - Văn phòng trung tâm
+    - bộ môn Công nghệ phần mềm
+    - bộ môn Công nghệ thông tin
+    - bộ môn Hệ thống thông tin
+    - bộ môn Khoa học máy tính
+    - bộ môn Mạng máy tính và truyền thông
+    - bộ môn Tin học ứng dụng
+    - nhà vệ sinh
+    - phòng 01
+    - phòng 01
+    - phòng 02
+    - phòng 03
+    - phòng 04
+    - phòng 05
+    - phòng 06
+    - phòng 07
+    - phòng 08
+    - phòng 09
+    - phòng 10
+    - phòng 11
+    - phòng 12
+    - phòng 13
+    - phòng 14
+    - phòng 15
+    - phòng 16
+    - phòng 17
+    - phòng 18
+    - phòng 19
+    - phòng 20
+    - phòng 21
+    - phòng 22
+    - phòng 23
+    - phòng 24
+    - phòng 25
+    - phòng CLC1
+    - phòng CLC2
+    - phòng CLC3
+    - phòng CLC4
+    - phòng GVTG
+    - phòng VP CN Khoa
+    - phòng họp 1
+    - phòng họp 2
+    - phòng họp 3
+    - phòng hội trường
+    - phòng không gian sáng chế
+    - không gian sáng chế
+    - phòng lí thuyết 1
+    - phòng lí thuyết 2
+    - phòng lí thuyết 3
+    - phòng lí thuyết 4
+    - phòng thư viện
+    - phòng văn phòng đoàn thanh niên khoa
+    - văn phòng đoàn thanh niên khoa
+    - văn phòng khoa
+
+- intent: hoi_bomon_gv
+  examples: |
+    - Bộ môn Công Nghệ Thông Tin gồm có ai
+    - Bộ môn Khoa học máy tính gồm có ai
+    - Bộ môn Mạng Máy Tính Và Truyền Thông gồm có ai
+    - Bộ môn Hệ Thống thông tin gồm có ai
+    - Bộ môn Tin học ứng dụng gồm có ai
+    - Bộ môn Công nghệ phần mềm gồm có ai
+    - Văn phòng khoa gồm có ai
+    - Bộ môn Công Nghệ Thông Tin có giáo viên nào
+    - Bộ môn Khoa học máy tính có giáo viên nào
+    - Bộ môn Mạng Máy Tính Và Truyền Thông có giáo viên nào
+    - Bộ môn Hệ Thống thông tin có giáo viên nào
+    - Bộ môn Tin học ứng dụng có giáo viên nào
+    - Bộ môn Công nghệ phần mềm có giáo viên nào
+    - Văn phòng khoa có giáo viên nào
+
+- intent: what_new
+  examples: |
+    - Có tin tức gì mới
+    - Có tin gì mới
+    - Cập nhật tin tức
+    - Có gì mới không
+
+
+- intent: hoi_giaovien01
+  examples: |
+    - Cô Khang
+    - Thầy Khang
+    - Thầy Phi
+    - Thầy Án
+    - Cô Bình
+    - Thầy Tuần
+    - Thầy Bảo
+    - Cô Diễm
+    - Cô Mỹ
+    - Thầy Ðệ
+    - Thầy Lâm
+    - Thầy Tân
+    - Cô Thầo
+    - Thầy Trung
+    - Thầy Thái
+    - Cô Trâm
+    - Thầy Hiệp
+    - Cô Tuyền
+    - Thầy Cường
+    - Thầy Nghi
+    - Cô Lan
+    - Thầy Lộc
+    - Cô  Lộc
+    - Thầy Hoàng
+    - Thầy Ðịnh
+    - Thầy Tài
+    - Thầy Nghe
+    - Thầy Hải
+    - Cô Phương
+    - Thầy Khiêm
+    - Thầy Quyền
+    - Thầy Thắng
+    - Thầy Nghị
+    - Thầy Huy
+    - Thầy Hùng
+    - Thầy Cang
+    - Thầy Ðiền
+    - Thầy Nguyện
+    - Cô Ngọc
+    - Thầy An
+    - Thầy Long
+    - Cô Ngoan
+    - Cô Quyên
+    - Thầy Dương
+    - Thầy Ðiện
+    - Thầy Minh
+    - Thầy Nghĩa
+    - Cô Thư
+    - Thầy Châu
+    - Thầy Ðạo
+    - Cô Hiền
+    - Cô Chi
+    - Cô Dung
+    - Thầy Diệp
+    - Thầy Thức
+    - Thầy Anh
+    - Thầy Hòa
+    - Thầy Vinh
+    - Thầy Tú
+    - Cô Ngân
+    - Thầy Việt
+    - Thầy Chính
+    - Thầy Linh
+    - Cô Linh
+    - Thầy Khoa
+    - Thầy Trí
+    - Thầy Toàn
+    - Thầy Ðãng
+    - Thầy Lý
+    - Cô Hạnh
+    - Thầy Quan
+    - Cô Chung
+
+
+
+- intent: goyy_qchv
+  examples: |
+    - Cần chú ý gì về quy chế học vụ không?
+    - Mình cần chú ý gì ở quy chế học vụ không?
+    - Phần nào quan trọng ở quy chế học vụ?
+
+- intent: dinhnghia
+  examples: |
+    - CNTT chất lượng cao
+    - CNTT CLC
+    - Công nghệ thông tin chất lượng cao
+    - Kế hoạch học tập
+    - KHHT
+    - Học phần
+    - Học phần bắt buộc
+    - Học phần tự chọn
+    - Học phần tiên quyết
+    - Học phần song hành
+    - Học phần điều kiện
+    - Lớp học phần
+    - Lớp chuyên ngành
+    - Tín chỉ
+    - TC
+    - Học bổng
+    - Quỹ hỗ trợ sinh viên
+    - trợ cấp xã hội
+    - Học phí
+    - BHYT
+    - Bảo hiểm ý tế
+    - tín dụng sinh viên
+    - Số tín chỉ
+    - Xóa lớp học phần
+    - Mở thêm lớp học phần
