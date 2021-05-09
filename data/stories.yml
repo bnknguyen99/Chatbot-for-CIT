@@ -26,6 +26,11 @@ stories:
   - intent: hoi_giaovien01
   - action: action_custom_hoi_giaovien01
 
+- story: hoi giao vien 02
+  steps:
+  - intent: hoi_giaovien02
+  - action: action_custom_hoi_giaovien02
+
 - story: gioi thieu ten
   steps:
   - intent: gioi_thieuten

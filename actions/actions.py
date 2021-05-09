@@ -18,6 +18,7 @@ from underthesea import pos_tag
 from bs4 import BeautifulSoup
 import urllib.request
 import wikipedia as wi
+import gc
 wi.set_lang("vi")
 
 conn = sqlite3.connect('chatbotdb')
@@ -99,6 +100,33 @@ class action_hoi_vitri(Action):
             text="Xin lỗi bạn vì hiện tại mình chưa hiểu bạn muốn gì! Bạn hãy bấm vào đây để  nhờ chị Google giải đáp nhé: https://www.google.com.vn/search?q=" +
                  tracker.latest_message['text'].replace(" ", "%20") )
 
+class ActionAskKnowledgeBasenohoigiaovien02(Action):
+    def name(self) -> Text:
+        return "action_custom_hoi_giaovien02"
+    
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        text = tracker.latest_message['text']
+        for x in text.split(' '):
+            if x.lower() == 'cô' or x.lower()=='thầy':
+                x = ''
+        text_input = text.lower()
+        sqlite_select_Query = "SELECT * from giaoVien"
+        cursor.execute(sqlite_select_Query)
+        record = cursor.fetchall()
+        check = False
+        for result in record:
+            name = result[1]
+            sex = result[2].lower()
+            info = result[4].lower()
+            if text in name:
+                check = True
+                dispatcher.utter_message(result[4])   
+        if not check :
+            dispatcher.utter_message("Không có giáo viên bạn cần tìm trong khoa!!!")
+
+
 class ActionAskKnowledgeBasenohoigiaovien01(Action):
     def name(self) -> Text:
         return "action_custom_hoi_giaovien01"
@@ -107,6 +135,11 @@ class ActionAskKnowledgeBasenohoigiaovien01(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         text = tracker.latest_message['text']
+        for x in text.split(' '):
+            if x == 'Cô':
+                x = 'cô'
+            if x == 'Thầy':
+                x = 'thầy'
         text_input = text.lower()
         sqlite_select_Query = "SELECT * from giaoVien"
         cursor.execute(sqlite_select_Query)
@@ -121,16 +154,16 @@ class ActionAskKnowledgeBasenohoigiaovien01(Action):
                     gvname=pos_tag(text)[i][0]
                     countsex+=1
                     j=i
-                gvsex=pos_tag(text)[j-countsex][0]
+                gvsex=pos_tag(text)[j-countsex][0].lower()
         if  gvname == '':
             dispatcher.utter_message("Không có giáo viên bạn cần tìm trong khoa!!!")
         else:
             print(gvsex)
             for result in record:
-                name = result[1].lower()
+                name = result[1]
                 sex = result[2].lower()
                 info = result[4].lower()
-                if gvname[0:len(gvname)-1].lower() in name.split(' ')[len(name.split(' '))-1] and sex==gvsex:
+                if name.split(' ')[len(name.split(' '))-1] in gvname[0:len(gvname)] and sex==gvsex:
                     check = True
                     dispatcher.utter_message(result[4])   
             if not check :
@@ -177,15 +210,4 @@ class action_unknown(Action):
             dispatcher.utter_message(
                 text="Xin lỗi bạn vì hiện tại mình chưa hiểu bạn muốn gì! Bạn hãy bấm vào đây để  nhờ chị Google giải đáp nhé: https://www.google.com.vn/search?q=" +
                     tracker.latest_message['text'].replace(" ", "%20") )
-# class ActionHelloWorld(Action):
-#
-#     def name(self) -> Text:
-#         return "action_hello_world"
-#
-#     def run(self, dispatcher: CollectingDispatcher,
-#             tracker: Tracker,
-#             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-#
-#         dispatcher.utter_message(text="Hello World!")
-#
-#         return []
+        gc.collect()

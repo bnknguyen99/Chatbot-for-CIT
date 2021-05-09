@@ -192,6 +192,75 @@ nlu:
     - Thầy Quan
     - Cô Chung
 
+- intent: hoi_giaovien02
+  examples: |
+    - Võ Huỳnh Trâm
+    - Huỳnh Xuân Hiệp
+    - Trương Thị Thanh Tuyền
+    - Lâm Hoài Bảo
+    - Phan Huy Cường
+    - Huỳnh Quang Nghi
+    - Phan Phương Lan
+    - Nguyễn Công Danh
+    - Cù Vĩnh Lộc
+    - Trần Văn Hoàng
+    - Hồ Quang Thái
+    - Trương Quốc Định
+    - Phan Tấn Tài
+    - Nguyễn Thái Nghe
+    - Phạm Thị Ngọc Diễm
+    - Trần Nguyễn Minh Thái
+    - Nguyễn Thanh Hải
+    - Bùi Đăng Hà Phương
+    - Nguyễn Minh Khiêm
+    - Phạm Ngọc Quyền
+    - Phạm Thị Xuân Lộc
+    - Lê Đức Thắng
+    - Đỗ Thanh Nghị
+    - Nguyễn Công Huy
+    - Ngô Bá Hùng
+    - Phạm Hữu Tài
+    - Phan Thượng Cang
+    - Trần Thanh Điền
+    - Lâm Chí Nguyện
+    - Nguyễn Cao Hồng Ngọc
+    - Hà Duy An
+    - Nguyễn Hữu Vân Long
+    - Triệu Thanh Ngoan
+    - Trần Thị Tố Quyên
+    - Lưu Trùng Dương
+    - Trần Thanh Điện
+    - Đoàn Hòa Minh
+    - Nguyễn Trọng Nghĩa
+    - Trần Nguyễn Minh Thư
+    - Trần Việt Châu
+    - Phạm Nguyên Khang
+    - Lưu Tiến Đạo
+    - Phạm Xuân Hiền
+    - Trần Nguyễn Dương Chi
+    - Lê Thị Phương Dung
+    - Nguyễn Bá Diệp
+    - Phạm Nguyên Hoàng
+    - Võ Trí Thức
+    - Huỳnh Ngọc Thái Anh
+    - Nguyễn Hữu Hòa
+    - Nguyễn Nhị Gia Vinh
+    - Hồ Văn Tú
+    - Phạm Trương Hồng Ngân
+    - Trần Hoàng Việt
+    - Bùi Quốc Chính
+    - Vũ Duy Linh
+    - Nguyễn Đức Khoa
+    - Hoàng Minh Trí
+    - Lê Thị Diễm
+    - Nguyễn Thị Thùy Linh
+    - Huỳnh Phụng Toàn
+    - Võ Hải Đăng
+    - Lê Minh Lý
+    - Đặng Mỹ Hạnh
+    - Lê Văn Quan
+    - Nguyễn Thị Thủy Chung
+    - Trần Minh Tân
 
 
 - intent: dinhnghia

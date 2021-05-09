@@ -29,6 +29,8 @@ intents:
     use_entities: true
 - hoi_giaovien01:
     use_entities: true
+- hoi_giaovien02:
+    use_entities: true
 - what_new:
     use_entities: true
 entities: []
@@ -56,6 +58,7 @@ responses:
 actions:
 - action_custom_hoi_bomon_gv
 - action_custom_hoi_giaovien01
+- action_custom_hoi_giaovien02
 - action_unknown
 - action_whatnew
 - action_dinhnghia
