@@ -1,5 +1,4 @@
-version: '2.0'
-
+version: "2.0"
 nlu:
 - intent: xin_chao
   examples: |
@@ -13,14 +12,12 @@ nlu:
   examples: |
     - Tạm biệt
     - Hẹn gặp lại
-
 - intent: gioi_thieuten
   examples: |
     - Bạn là chatbot à
     - Bạn là gì
     - Hãy giới thiệu về bản thân
     - Bạn là ai
-
 - intent: gioi_thieuchucnang
   examples: |
     - Công việc của bạn là gì?
@@ -28,24 +25,21 @@ nlu:
     - Việc gì bạn làm được?
     - Bạn hổ trợ những vấn đề nào?
     - Bạn có thể giúp gì cho mình?
-
 - intent: cam_on
   examples: |
     - Cảm ơn vì giúp đỡ
     - Cảm ơn nhiều nhé
     - Tuyệt vời
-
 - intent: hoi_vitri
   examples: |
     - Văn phòng trung tâm
-    - bộ môn Công nghệ phần mềm
-    - bộ môn Công nghệ thông tin
-    - bộ môn Hệ thống thông tin
-    - bộ môn Khoa học máy tính
-    - bộ môn Mạng máy tính và truyền thông
-    - bộ môn Tin học ứng dụng
+    - phòng bộ môn Công nghệ phần mềm
+    - phòng bộ môn Công nghệ thông tin
+    - phòng bộ môn Hệ thống thông tin
+    - phòng bộ môn Khoa học máy tính
+    - phòng bộ môn Mạng máy tính và truyền thông
+    - phòng bộ môn Tin học ứng dụng
     - nhà vệ sinh
-    - phòng 01
     - phòng 01
     - phòng 02
     - phòng 03
@@ -91,7 +85,6 @@ nlu:
     - phòng văn phòng đoàn thanh niên khoa
     - văn phòng đoàn thanh niên khoa
     - văn phòng khoa
-
 - intent: hoi_bomon_gv
   examples: |
     - Bộ môn Công Nghệ Thông Tin gồm có ai
@@ -108,15 +101,18 @@ nlu:
     - Bộ môn Tin học ứng dụng có giáo viên nào
     - Bộ môn Công nghệ phần mềm có giáo viên nào
     - Văn phòng khoa có giáo viên nào
-
 - intent: what_new
   examples: |
     - Có tin tức gì mới
     - Có tin gì mới
     - Cập nhật tin tức
     - Có gì mới không
-
-
+- intent: liet_ke_bo_mon
+  examples: |
+    - Khoa có những bộ môn nào
+    - Các bộ môn đào tạo
+    - Các bộ môn của khoa
+    - Khoa CNNT & TT có những bộ môn nào
 - intent: hoi_giaovien01
   examples: |
     - Cô Khang
@@ -191,7 +187,6 @@ nlu:
     - Cô Hạnh
     - Thầy Quan
     - Cô Chung
-
 - intent: hoi_giaovien02
   examples: |
     - Võ Huỳnh Trâm
@@ -261,8 +256,6 @@ nlu:
     - Lê Văn Quan
     - Nguyễn Thị Thủy Chung
     - Trần Minh Tân
-
-
 - intent: dinhnghia
   examples: |
     - CNTT chất lượng cao
@@ -290,3 +283,22 @@ nlu:
     - Số tín chỉ
     - Xóa lớp học phần
     - Mở thêm lớp học phần
+    - Đại học Cần Thơ
+    - lớp chuyên ngành là gì
+- synonym: Tín chỉ
+  examples: |
+    - TC
+    - credit
+- synonym: Công nghệ Thông tin và Truyền thông
+  examples: |
+    - CNTT & TT
+- synonym: Công nghệ thông tin
+  examples: |
+    - CNTT
+    - IT
+- synonym: chất lượng cao
+  examples: |
+    - CLC
+- synonym: khoa học máy tính
+  examples: |
+    - KHMT

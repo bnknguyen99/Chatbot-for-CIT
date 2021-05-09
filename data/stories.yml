@@ -11,12 +11,17 @@ stories:
   - intent: tam_biet
   - action: utter_tam_biet
 
+- story: liet ke bo mon
+  steps:
+  - intent: liet_ke_bo_mon
+  - action: utter_lietkebomon
 
 - story: cam on
   steps:
   - intent: cam_on
   - action: utter_cam_on
-- story: bo mon
+
+- story: giao vien bo mon
   steps:
   - intent: hoi_bomon_gv
   - action: action_custom_hoi_bomon_gv

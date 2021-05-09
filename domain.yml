@@ -9,6 +9,8 @@ intents:
     use_entities: true
 - tam_biet:
     use_entities: true
+- liet_ke_bo_mon:
+    use_entities: true
 - gioi_thieuten:
     use_entities: true
 - gioi_thieuchucnang:
@@ -53,8 +55,8 @@ responses:
   utter_cam_on:
   - text: Giúp được bạn là niềm vui của tôi!
   - text: Hi vọng bạn hài lòng với câu trả lời.
-  utter_fallback:
-  - text: Xin lỗi tôi chưa hiểu ý bạn
+  utter_lietkebomon:
+  - text: 'Khoa CNTT & TT gồm 7 bộ môn: Công nghệ thông tin, Công nghệ thông tin - CLC, Tin học Ứng dụng, Khoa học máy tính, Kỹ thuật phần mềm, Mạng máy tính, Hệ thống thông tin'
 actions:
 - action_custom_hoi_bomon_gv
 - action_custom_hoi_giaovien01

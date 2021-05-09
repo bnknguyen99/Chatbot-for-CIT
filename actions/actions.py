@@ -33,6 +33,7 @@ class ActionAskKnowledgeBasenohoibomon(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         text = tracker.latest_message['text']
+        print('[%s] <- %s' % (self.name(), tracker.latest_message['text']))
         text_input = text.lower()
         sqlite_select_Query = "SELECT * from giaoVien"
         cursor.execute(sqlite_select_Query)
@@ -58,6 +59,7 @@ class action_dinhnghia(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         text = tracker.latest_message['text']
+        print('[%s] <- %s' % (self.name(), tracker.latest_message['text']))
         text_input = text.lower()
         sqlite_select_Query = "SELECT * from quyChe"
         cursor.execute(sqlite_select_Query)
@@ -83,6 +85,7 @@ class action_hoi_vitri(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         text = tracker.latest_message['text']
+        print('[%s] <- %s' % (self.name(), tracker.latest_message['text']))
         text_input = text.lower()
         sqlite_select_Query = "SELECT * from phongHoc"
         cursor.execute(sqlite_select_Query)
@@ -108,6 +111,7 @@ class ActionAskKnowledgeBasenohoigiaovien02(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         text = tracker.latest_message['text']
+        print('[%s] <- %s' % (self.name(), tracker.latest_message['text']))
         for x in text.split(' '):
             if x.lower() == 'cô' or x.lower()=='thầy':
                 x = ''
@@ -134,6 +138,7 @@ class ActionAskKnowledgeBasenohoigiaovien01(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         text = tracker.latest_message['text']
+        print('[%s] <- %s' % (self.name(), tracker.latest_message['text']))
         for x in text.split(' '):
             if x == 'Cô':
                 x = 'cô'
@@ -207,4 +212,4 @@ class action_unknown(Action):
             dispatcher.utter_message(
                 text="Xin lỗi bạn vì hiện tại mình chưa hiểu bạn muốn gì! Bạn hãy bấm vào đây để  nhờ chị Google giải đáp nhé: https://www.google.com.vn/search?q=" +
                     tracker.latest_message['text'].replace(" ", "%20") )
-        gc.collect()
+
