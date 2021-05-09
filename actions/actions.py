@@ -17,10 +17,10 @@ import sqlite3
 from underthesea import pos_tag
 from bs4 import BeautifulSoup
 import urllib.request
+import wikipedia as wi
+wi.set_lang("vi")
 
-
-
-conn = sqlite3.connect('/home/knguyen/Desktop/Chatbot/chatbotdb')
+conn = sqlite3.connect('chatbotdb')
 cursor = conn.cursor()
 print("Database created and Successfully Connected to SQLite")
 class ActionAskKnowledgeBasenohoibomon(Action):
@@ -166,12 +166,17 @@ class action_unknown(Action):
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-        # Open a file: file
+        texttt = tracker.latest_message['text']
         print('[%s] <- %s' % (self.name(), tracker.latest_message['text']))
-
-        dispatcher.utter_message(
-            text="Xin lỗi bạn vì hiện tại mình chưa hiểu bạn muốn gì! Bạn hãy bấm vào đây để  nhờ chị Google giải đáp nhé: https://www.google.com.vn/search?q=" +
-                 tracker.latest_message['text'].replace(" ", "%20") )
+        try:
+            s = wi.summary(texttt)
+            s1 = wi.page(texttt)
+            dispatcher.utter_message(s.split('\n')[0])
+            dispatcher.utter_message(s1.url)
+        except:
+            dispatcher.utter_message(
+                text="Xin lỗi bạn vì hiện tại mình chưa hiểu bạn muốn gì! Bạn hãy bấm vào đây để  nhờ chị Google giải đáp nhé: https://www.google.com.vn/search?q=" +
+                    tracker.latest_message['text'].replace(" ", "%20") )
 # class ActionHelloWorld(Action):
 #
 #     def name(self) -> Text:

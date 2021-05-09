@@ -194,12 +194,6 @@ nlu:
 
 
 
-- intent: goyy_qchv
-  examples: |
-    - Cần chú ý gì về quy chế học vụ không?
-    - Mình cần chú ý gì ở quy chế học vụ không?
-    - Phần nào quan trọng ở quy chế học vụ?
-
 - intent: dinhnghia
   examples: |
     - CNTT chất lượng cao
