@@ -24,6 +24,7 @@ wi.set_lang("vi")
 conn = sqlite3.connect('chatbotdb')
 cursor = conn.cursor()
 print("Database created and Successfully Connected to SQLite")
+
 class ActionAskKnowledgeBasenohoibomon(Action):
     def name(self) -> Text:
         return "action_custom_hoi_bomon_gv"
@@ -48,7 +49,6 @@ class ActionAskKnowledgeBasenohoibomon(Action):
                 dispatcher.utter_message(result[4])       
         if not check:
             dispatcher.utter_message("Không có bộ môn bạn cần tìm trong khoa!!!")
-
 
 class action_dinhnghia(Action):
     def name(self) -> Text:
@@ -126,7 +126,6 @@ class ActionAskKnowledgeBasenohoigiaovien02(Action):
         if not check :
             dispatcher.utter_message("Không có giáo viên bạn cần tìm trong khoa!!!")
 
-
 class ActionAskKnowledgeBasenohoigiaovien01(Action):
     def name(self) -> Text:
         return "action_custom_hoi_giaovien01"
@@ -188,8 +187,6 @@ class action_whatnew(Action):
             title = feed_result.contents[0]
             link = feed_result.get('href')
             dispatcher.utter_message('Title: {} \n Link: {}'.format(title, url+link))
-
-
 
 class action_unknown(Action):
 
