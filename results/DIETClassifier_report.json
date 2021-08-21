@@ -1,0 +1,48 @@
+{
+  "falcuty_name": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 8,
+    "confused_with": {}
+  },
+  "university_name": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 2,
+    "confused_with": {}
+  },
+  "define": {
+    "precision": 1.0,
+    "recall": 0.8258064516129032,
+    "f1-score": 0.9045936395759718,
+    "support": 930,
+    "confused_with": {}
+  },
+  "major_name": {
+    "precision": 1.0,
+    "recall": 0.96105702364395,
+    "f1-score": 0.9801418439716312,
+    "support": 1438,
+    "confused_with": {}
+  },
+  "micro avg": {
+    "precision": 1.0,
+    "recall": 0.9083263246425568,
+    "f1-score": 0.9519612163948876,
+    "support": 2378
+  },
+  "macro avg": {
+    "precision": 1.0,
+    "recall": 0.9467158688142132,
+    "f1-score": 0.9711838708869007,
+    "support": 2378
+  },
+  "weighted avg": {
+    "precision": 1.0,
+    "recall": 0.9083263246425568,
+    "f1-score": 0.9506795863906053,
+    "support": 2378
+  }
+}

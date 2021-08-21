@@ -55,3 +55,43 @@ stories:
   steps:
   - intent: hoi_vitri
   - action: action_hoi_vitri
+- story: ask_major 
+  steps:
+  - intent: ask_major
+  - action: action_ask
+- story: ask_studyplan
+  steps:
+  - intent: ask_studyplan
+  - action: action_ask
+- story: ask_chuandaura
+  steps:
+  - intent: ask_chuandaura
+  - action: action_ask
+- story: ask_congty
+  steps:
+  - intent: ask_congty
+  - action: action_ask
+- story: ask_chvieclam
+  steps:
+  - intent: ask_chvieclam
+  - action: action_ask
+- story: ask_muctieu
+  steps:
+  - intent: ask_muctieu
+  - action: action_ask
+- story: ask_vitrilamviec 
+  steps:
+  - intent: ask_vitrilamviec
+  - action: action_ask
+- story: ask_ktchuyennganh 
+  steps:
+  - intent: ask_ktchuyennganh
+  - action: action_ask
+- story: ask_noilamviec
+  steps:
+  - intent: ask_noilamviec
+  - action: action_ask
+- story: ask_ctDaoTao
+  steps:
+  - intent: ask_ctDaoTao
+  - action: action_ask

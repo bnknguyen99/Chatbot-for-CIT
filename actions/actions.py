@@ -25,6 +25,16 @@ conn = sqlite3.connect('chatbotdb')
 cursor = conn.cursor()
 print("Database created and Successfully Connected to SQLite")
 
+def nocheck(dispatcher: CollectingDispatcher, tracker: Tracker,):
+    texttt = (tracker.latest_message['text']).lower()
+    try:
+        s = wi.summary(texttt, sentences='1')
+        s1 = wi.page(texttt)
+        return (s,s1.url)
+    except:
+        text = "Xin lỗi bạn vì hiện tại mình chưa hiểu bạn muốn gì! Bạn hãy bấm vào đây để  nhờ chị Google giải đáp nhé: https://www.google.com.vn/search?q=" + tracker.latest_message['text'].replace(" ", "%20") 
+        return text
+
 class ActionAskKnowledgeBasenohoibomon(Action):
     def name(self) -> Text:
         return "action_custom_hoi_bomon_gv"
@@ -99,9 +109,9 @@ class action_hoi_vitri(Action):
                 check = True
                 dispatcher.utter_message(define)       
         if not check:
-            dispatcher.utter_message(
-            text="Xin lỗi bạn vì hiện tại mình chưa hiểu bạn muốn gì! Bạn hãy bấm vào đây để  nhờ chị Google giải đáp nhé: https://www.google.com.vn/search?q=" +
-                 tracker.latest_message['text'].replace(" ", "%20") )
+            kq = nocheck( CollectingDispatcher, tracker)
+            for i in kq:
+                dispatcher.utter_message(i)
 
 class ActionAskKnowledgeBasenohoigiaovien02(Action):
     def name(self) -> Text:
@@ -193,6 +203,37 @@ class action_whatnew(Action):
             link = feed_result.get('href')
             dispatcher.utter_message('Title: {} \n Link: {}'.format(title, url+link))
 
+
+class action_ask(Action):
+    def name(self) -> Text:
+        return "action_ask"
+    
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        text = tracker.latest_message['text']
+        print('[%s] <- %s' % (self.name(), tracker.latest_message['text']))
+        ent = tracker.lastest_message['entities'].lower()
+        intent= tracker.latest_message['intent'].get('name').lower()
+        text_input = text.lower()
+        sqlite_select_Query = "SELECT * from" + intent
+        cursor.execute(sqlite_select_Query)
+        record = cursor.fetchall()
+        check = False
+        print(text_input)
+        for result in record:
+            name = result[1].lower()
+            define = result[2]
+            if name == ent:
+                check = True
+                dispatcher.utter_message(define)       
+        if not check:
+            dispatcher.utter_message(
+            text="Xin lỗi bạn vì hiện tại mình chưa hiểu bạn muốn gì! Bạn hãy bấm vào đây để  nhờ chị Google giải đáp nhé: https://www.google.com.vn/search?q=" +
+                 tracker.latest_message['text'].replace(" ", "%20") )
+
+
+
 class action_unknown(Action):
 
     def name(self) -> Text:
@@ -201,12 +242,12 @@ class action_unknown(Action):
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-        texttt = tracker.latest_message['text']
-        print('[%s] <- %s' % (self.name(), tracker.latest_message['text']))
+        texttt = (tracker.latest_message['text']).lower()
+        print('[%s] <- %s' % (self.name(), texttt))
         try:
-            s = wi.summary(texttt)
+            s = wi.summary(texttt, sentences='1')
             s1 = wi.page(texttt)
-            dispatcher.utter_message(s.split('\n')[0])
+            dispatcher.utter_message(s)
             dispatcher.utter_message(s1.url)
         except:
             dispatcher.utter_message(

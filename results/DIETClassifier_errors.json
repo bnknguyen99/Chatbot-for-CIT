@@ -1,0 +1,1748 @@
+[
+  {
+    "text": "Ngành công nghệ thông tin Chất lượng caocó chuẩn đầu ra có khó không",
+    "entities": [
+      {
+        "start": 6,
+        "end": 40,
+        "value": "công nghệ thông tin Chất lượng cao",
+        "entity": "major_name"
+      },
+      {
+        "start": 43,
+        "end": 55,
+        "value": "chuẩn đầu ra",
+        "entity": "define"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "define",
+        "start": 43,
+        "end": 55,
+        "confidence_entity": 0.9894809722900391,
+        "value": "chuẩn đầu ra",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Ngành công nghệ thông tin Chất lượng caochuẩn đầu ra như thế nào",
+    "entities": [
+      {
+        "start": 6,
+        "end": 40,
+        "value": "công nghệ thông tin Chất lượng cao",
+        "entity": "major_name"
+      },
+      {
+        "start": 40,
+        "end": 52,
+        "value": "chuẩn đầu ra",
+        "entity": "define"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Ngành Công nghệ thông tincó chuẩn đầu ra có khó không",
+    "entities": [
+      {
+        "start": 6,
+        "end": 25,
+        "value": "Công nghệ thông tin",
+        "entity": "major_name"
+      },
+      {
+        "start": 28,
+        "end": 40,
+        "value": "chuẩn đầu ra",
+        "entity": "define"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "define",
+        "start": 28,
+        "end": 40,
+        "confidence_entity": 0.9956159591674805,
+        "value": "chuẩn đầu ra",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Ngành Công nghệ thông tinchuẩn đầu ra như thế nào",
+    "entities": [
+      {
+        "start": 6,
+        "end": 25,
+        "value": "Công nghệ thông tin",
+        "entity": "major_name"
+      },
+      {
+        "start": 25,
+        "end": 37,
+        "value": "chuẩn đầu ra",
+        "entity": "define"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Ngành Khoa học máy tínhcó chuẩn đầu ra có khó không",
+    "entities": [
+      {
+        "start": 6,
+        "end": 23,
+        "value": "Khoa học máy tính",
+        "entity": "major_name"
+      },
+      {
+        "start": 26,
+        "end": 38,
+        "value": "chuẩn đầu ra",
+        "entity": "define"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "define",
+        "start": 26,
+        "end": 38,
+        "confidence_entity": 0.9994578957557678,
+        "value": "chuẩn đầu ra",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Ngành Khoa học máy tínhchuẩn đầu ra như thế nào",
+    "entities": [
+      {
+        "start": 6,
+        "end": 23,
+        "value": "Khoa học máy tính",
+        "entity": "major_name"
+      },
+      {
+        "start": 23,
+        "end": 35,
+        "value": "chuẩn đầu ra",
+        "entity": "define"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Thông tin về  mục tiêu đào tạo của ngành Hệ thống thông tin",
+    "entities": [
+      {
+        "start": 14,
+        "end": 30,
+        "value": "mục tiêu đào tạo",
+        "entity": "define"
+      },
+      {
+        "start": 41,
+        "end": 59,
+        "value": "Hệ thống thông tin",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Mình muốn biết thêm thông tin vềmục tiêu đào tạo của ngành Hệ thống thông tin",
+    "entities": [
+      {
+        "start": 32,
+        "end": 48,
+        "value": "mục tiêu đào tạo",
+        "entity": "define"
+      },
+      {
+        "start": 59,
+        "end": 77,
+        "value": "Hệ thống thông tin",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 59,
+        "end": 77,
+        "confidence_entity": 0.9994786381721497,
+        "value": "Hệ thống thông tin",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Có thể cho tôi biết thêm thông tin vềmục tiêu đào tạo của ngành Hệ thống thông tin không?",
+    "entities": [
+      {
+        "start": 37,
+        "end": 53,
+        "value": "mục tiêu đào tạo",
+        "entity": "define"
+      },
+      {
+        "start": 64,
+        "end": 82,
+        "value": "Hệ thống thông tin",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 64,
+        "end": 82,
+        "confidence_entity": 0.9972027540206909,
+        "value": "Hệ thống thông tin",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Giải thích vềmục tiêu đào tạo của ngành Hệ thống thông tin",
+    "entities": [
+      {
+        "start": 13,
+        "end": 29,
+        "value": "mục tiêu đào tạo",
+        "entity": "define"
+      },
+      {
+        "start": 40,
+        "end": 58,
+        "value": "Hệ thống thông tin",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 40,
+        "end": 58,
+        "confidence_entity": 0.9974699020385742,
+        "value": "Hệ thống thông tin",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Những điều cần chú ý vềmục tiêu đào tạo của ngành Hệ thống thông tin",
+    "entities": [
+      {
+        "start": 23,
+        "end": 39,
+        "value": "mục tiêu đào tạo",
+        "entity": "define"
+      },
+      {
+        "start": 50,
+        "end": 68,
+        "value": "Hệ thống thông tin",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 50,
+        "end": 68,
+        "confidence_entity": 0.9998652935028076,
+        "value": "Hệ thống thông tin",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Cho tôi biếtmục tiêu đào tạo của ngành Hệ thống thông tin là gì",
+    "entities": [
+      {
+        "start": 12,
+        "end": 28,
+        "value": "mục tiêu đào tạo",
+        "entity": "define"
+      },
+      {
+        "start": 39,
+        "end": 57,
+        "value": "Hệ thống thông tin",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 39,
+        "end": 57,
+        "confidence_entity": 0.999461829662323,
+        "value": "Hệ thống thông tin",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Tôi không rõ vềmục tiêu đào tạo của ngành Hệ thống thông tin, có thể cho tôi biết thêm không?",
+    "entities": [
+      {
+        "start": 15,
+        "end": 31,
+        "value": "mục tiêu đào tạo",
+        "entity": "define"
+      },
+      {
+        "start": 42,
+        "end": 60,
+        "value": "Hệ thống thông tin",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 42,
+        "end": 60,
+        "confidence_entity": 0.9997305274009705,
+        "value": "Hệ thống thông tin",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Tôi cần trợ giúp vềmục tiêu đào tạo của ngành Hệ thống thông tin",
+    "entities": [
+      {
+        "start": 19,
+        "end": 35,
+        "value": "mục tiêu đào tạo",
+        "entity": "define"
+      },
+      {
+        "start": 46,
+        "end": 64,
+        "value": "Hệ thống thông tin",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 46,
+        "end": 64,
+        "confidence_entity": 0.9998937845230103,
+        "value": "Hệ thống thông tin",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Cho tôi biếtmục tiêu đào tạo của ngành Hệ thống thông tin",
+    "entities": [
+      {
+        "start": 12,
+        "end": 28,
+        "value": "mục tiêu đào tạo",
+        "entity": "define"
+      },
+      {
+        "start": 39,
+        "end": 57,
+        "value": "Hệ thống thông tin",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 39,
+        "end": 57,
+        "confidence_entity": 0.999365508556366,
+        "value": "Hệ thống thông tin",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Thông tin về  mục tiêu đào tạo của ngành công nghệ thông tin Chất lượng cao",
+    "entities": [
+      {
+        "start": 14,
+        "end": 30,
+        "value": "mục tiêu đào tạo",
+        "entity": "define"
+      },
+      {
+        "start": 41,
+        "end": 75,
+        "value": "công nghệ thông tin Chất lượng cao",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Mình muốn biết thêm thông tin vềmục tiêu đào tạo của ngành công nghệ thông tin Chất lượng cao",
+    "entities": [
+      {
+        "start": 32,
+        "end": 48,
+        "value": "mục tiêu đào tạo",
+        "entity": "define"
+      },
+      {
+        "start": 59,
+        "end": 93,
+        "value": "công nghệ thông tin Chất lượng cao",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 59,
+        "end": 93,
+        "confidence_entity": 0.9993315935134888,
+        "value": "công nghệ thông tin Chất lượng cao",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Có thể cho tôi biết thêm thông tin vềmục tiêu đào tạo của ngành công nghệ thông tin Chất lượng cao không?",
+    "entities": [
+      {
+        "start": 37,
+        "end": 53,
+        "value": "mục tiêu đào tạo",
+        "entity": "define"
+      },
+      {
+        "start": 64,
+        "end": 98,
+        "value": "công nghệ thông tin Chất lượng cao",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 64,
+        "end": 98,
+        "confidence_entity": 0.9994598031044006,
+        "value": "công nghệ thông tin Chất lượng cao",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Giải thích vềmục tiêu đào tạo của ngành công nghệ thông tin Chất lượng cao",
+    "entities": [
+      {
+        "start": 13,
+        "end": 29,
+        "value": "mục tiêu đào tạo",
+        "entity": "define"
+      },
+      {
+        "start": 40,
+        "end": 74,
+        "value": "công nghệ thông tin Chất lượng cao",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 40,
+        "end": 74,
+        "confidence_entity": 0.9994937181472778,
+        "value": "công nghệ thông tin Chất lượng cao",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Những điều cần chú ý vềmục tiêu đào tạo của ngành công nghệ thông tin Chất lượng cao",
+    "entities": [
+      {
+        "start": 23,
+        "end": 39,
+        "value": "mục tiêu đào tạo",
+        "entity": "define"
+      },
+      {
+        "start": 50,
+        "end": 84,
+        "value": "công nghệ thông tin Chất lượng cao",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 50,
+        "end": 84,
+        "confidence_entity": 0.9996497631072998,
+        "value": "công nghệ thông tin Chất lượng cao",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Cho tôi biếtmục tiêu đào tạo của ngành công nghệ thông tin Chất lượng cao là gì",
+    "entities": [
+      {
+        "start": 12,
+        "end": 28,
+        "value": "mục tiêu đào tạo",
+        "entity": "define"
+      },
+      {
+        "start": 39,
+        "end": 73,
+        "value": "công nghệ thông tin Chất lượng cao",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 39,
+        "end": 73,
+        "confidence_entity": 0.9995385408401489,
+        "value": "công nghệ thông tin Chất lượng cao",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Tôi không rõ vềmục tiêu đào tạo của ngành công nghệ thông tin Chất lượng cao, có thể cho tôi biết thêm không?",
+    "entities": [
+      {
+        "start": 15,
+        "end": 31,
+        "value": "mục tiêu đào tạo",
+        "entity": "define"
+      },
+      {
+        "start": 42,
+        "end": 76,
+        "value": "công nghệ thông tin Chất lượng cao",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 42,
+        "end": 76,
+        "confidence_entity": 0.9994655251502991,
+        "value": "công nghệ thông tin Chất lượng cao",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Tôi cần trợ giúp vềmục tiêu đào tạo của ngành công nghệ thông tin Chất lượng cao",
+    "entities": [
+      {
+        "start": 19,
+        "end": 35,
+        "value": "mục tiêu đào tạo",
+        "entity": "define"
+      },
+      {
+        "start": 46,
+        "end": 80,
+        "value": "công nghệ thông tin Chất lượng cao",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 46,
+        "end": 80,
+        "confidence_entity": 0.9997097849845886,
+        "value": "công nghệ thông tin Chất lượng cao",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Cho tôi biếtmục tiêu đào tạo của ngành công nghệ thông tin Chất lượng cao",
+    "entities": [
+      {
+        "start": 12,
+        "end": 28,
+        "value": "mục tiêu đào tạo",
+        "entity": "define"
+      },
+      {
+        "start": 39,
+        "end": 73,
+        "value": "công nghệ thông tin Chất lượng cao",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 39,
+        "end": 73,
+        "confidence_entity": 0.99968421459198,
+        "value": "công nghệ thông tin Chất lượng cao",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Mình muốn biết thêm thông tin vềmục tiêu đào tạo của ngành Công nghệ thông tin",
+    "entities": [
+      {
+        "start": 32,
+        "end": 48,
+        "value": "mục tiêu đào tạo",
+        "entity": "define"
+      },
+      {
+        "start": 59,
+        "end": 78,
+        "value": "Công nghệ thông tin",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 59,
+        "end": 78,
+        "confidence_entity": 0.999942421913147,
+        "value": "Công nghệ thông tin",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Có thể cho tôi biết thêm thông tin vềmục tiêu đào tạo của ngành Công nghệ thông tin không?",
+    "entities": [
+      {
+        "start": 37,
+        "end": 53,
+        "value": "mục tiêu đào tạo",
+        "entity": "define"
+      },
+      {
+        "start": 64,
+        "end": 83,
+        "value": "Công nghệ thông tin",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 64,
+        "end": 83,
+        "confidence_entity": 0.9998979568481445,
+        "value": "Công nghệ thông tin",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Giải thích vềmục tiêu đào tạo của ngành Công nghệ thông tin",
+    "entities": [
+      {
+        "start": 13,
+        "end": 29,
+        "value": "mục tiêu đào tạo",
+        "entity": "define"
+      },
+      {
+        "start": 40,
+        "end": 59,
+        "value": "Công nghệ thông tin",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 40,
+        "end": 59,
+        "confidence_entity": 0.999913215637207,
+        "value": "Công nghệ thông tin",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Những điều cần chú ý vềmục tiêu đào tạo của ngành Công nghệ thông tin",
+    "entities": [
+      {
+        "start": 23,
+        "end": 39,
+        "value": "mục tiêu đào tạo",
+        "entity": "define"
+      },
+      {
+        "start": 50,
+        "end": 69,
+        "value": "Công nghệ thông tin",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 50,
+        "end": 69,
+        "confidence_entity": 0.9999679327011108,
+        "value": "Công nghệ thông tin",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Cho tôi biếtmục tiêu đào tạo của ngành Công nghệ thông tin là gì",
+    "entities": [
+      {
+        "start": 12,
+        "end": 28,
+        "value": "mục tiêu đào tạo",
+        "entity": "define"
+      },
+      {
+        "start": 39,
+        "end": 58,
+        "value": "Công nghệ thông tin",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 39,
+        "end": 58,
+        "confidence_entity": 0.9999285936355591,
+        "value": "Công nghệ thông tin",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Tôi không rõ vềmục tiêu đào tạo của ngành Công nghệ thông tin, có thể cho tôi biết thêm không?",
+    "entities": [
+      {
+        "start": 15,
+        "end": 31,
+        "value": "mục tiêu đào tạo",
+        "entity": "define"
+      },
+      {
+        "start": 42,
+        "end": 61,
+        "value": "Công nghệ thông tin",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 42,
+        "end": 61,
+        "confidence_entity": 0.9998527765274048,
+        "value": "Công nghệ thông tin",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Tôi cần trợ giúp vềmục tiêu đào tạo của ngành Công nghệ thông tin",
+    "entities": [
+      {
+        "start": 19,
+        "end": 35,
+        "value": "mục tiêu đào tạo",
+        "entity": "define"
+      },
+      {
+        "start": 46,
+        "end": 65,
+        "value": "Công nghệ thông tin",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 46,
+        "end": 65,
+        "confidence_entity": 0.9999679327011108,
+        "value": "Công nghệ thông tin",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Cho tôi biếtmục tiêu đào tạo của ngành Công nghệ thông tin",
+    "entities": [
+      {
+        "start": 12,
+        "end": 28,
+        "value": "mục tiêu đào tạo",
+        "entity": "define"
+      },
+      {
+        "start": 39,
+        "end": 58,
+        "value": "Công nghệ thông tin",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 39,
+        "end": 58,
+        "confidence_entity": 0.9999371767044067,
+        "value": "Công nghệ thông tin",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Thông tin về  mục tiêu đào tạo của ngành kỹ thuật phần mềm",
+    "entities": [
+      {
+        "start": 14,
+        "end": 30,
+        "value": "mục tiêu đào tạo",
+        "entity": "define"
+      },
+      {
+        "start": 41,
+        "end": 58,
+        "value": "kỹ thuật phần mềm",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Mình muốn biết thêm thông tin vềmục tiêu đào tạo của ngành kỹ thuật phần mềm",
+    "entities": [
+      {
+        "start": 32,
+        "end": 48,
+        "value": "mục tiêu đào tạo",
+        "entity": "define"
+      },
+      {
+        "start": 59,
+        "end": 76,
+        "value": "kỹ thuật phần mềm",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 59,
+        "end": 76,
+        "confidence_entity": 0.9998239874839783,
+        "value": "kỹ thuật phần mềm",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Có thể cho tôi biết thêm thông tin vềmục tiêu đào tạo của ngành kỹ thuật phần mềm không?",
+    "entities": [
+      {
+        "start": 37,
+        "end": 53,
+        "value": "mục tiêu đào tạo",
+        "entity": "define"
+      },
+      {
+        "start": 64,
+        "end": 81,
+        "value": "kỹ thuật phần mềm",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 64,
+        "end": 81,
+        "confidence_entity": 0.9998935461044312,
+        "value": "kỹ thuật phần mềm",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Giải thích vềmục tiêu đào tạo của ngành kỹ thuật phần mềm",
+    "entities": [
+      {
+        "start": 13,
+        "end": 29,
+        "value": "mục tiêu đào tạo",
+        "entity": "define"
+      },
+      {
+        "start": 40,
+        "end": 57,
+        "value": "kỹ thuật phần mềm",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 40,
+        "end": 57,
+        "confidence_entity": 0.9998750686645508,
+        "value": "kỹ thuật phần mềm",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Những điều cần chú ý vềmục tiêu đào tạo của ngành kỹ thuật phần mềm",
+    "entities": [
+      {
+        "start": 23,
+        "end": 39,
+        "value": "mục tiêu đào tạo",
+        "entity": "define"
+      },
+      {
+        "start": 50,
+        "end": 67,
+        "value": "kỹ thuật phần mềm",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 50,
+        "end": 67,
+        "confidence_entity": 0.9998918771743774,
+        "value": "kỹ thuật phần mềm",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Cho tôi biếtmục tiêu đào tạo của ngành kỹ thuật phần mềm là gì",
+    "entities": [
+      {
+        "start": 12,
+        "end": 28,
+        "value": "mục tiêu đào tạo",
+        "entity": "define"
+      },
+      {
+        "start": 39,
+        "end": 56,
+        "value": "kỹ thuật phần mềm",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 39,
+        "end": 56,
+        "confidence_entity": 0.9998782873153687,
+        "value": "kỹ thuật phần mềm",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Tôi không rõ vềmục tiêu đào tạo của ngành kỹ thuật phần mềm, có thể cho tôi biết thêm không?",
+    "entities": [
+      {
+        "start": 15,
+        "end": 31,
+        "value": "mục tiêu đào tạo",
+        "entity": "define"
+      },
+      {
+        "start": 42,
+        "end": 59,
+        "value": "kỹ thuật phần mềm",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 42,
+        "end": 59,
+        "confidence_entity": 0.9998676776885986,
+        "value": "kỹ thuật phần mềm",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Tôi cần trợ giúp vềmục tiêu đào tạo của ngành kỹ thuật phần mềm",
+    "entities": [
+      {
+        "start": 19,
+        "end": 35,
+        "value": "mục tiêu đào tạo",
+        "entity": "define"
+      },
+      {
+        "start": 46,
+        "end": 63,
+        "value": "kỹ thuật phần mềm",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 46,
+        "end": 63,
+        "confidence_entity": 0.9998910427093506,
+        "value": "kỹ thuật phần mềm",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Tôi cần tư vấn vềmục tiêu đào tạo của ngành kỹ thuật phần mềm",
+    "entities": [
+      {
+        "start": 17,
+        "end": 33,
+        "value": "mục tiêu đào tạo",
+        "entity": "define"
+      },
+      {
+        "start": 44,
+        "end": 61,
+        "value": "kỹ thuật phần mềm",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 44,
+        "end": 61,
+        "confidence_entity": 0.9998985528945923,
+        "value": "kỹ thuật phần mềm",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Thông tin về  mục tiêu đào tạo của ngành Khoa học máy tính",
+    "entities": [
+      {
+        "start": 14,
+        "end": 30,
+        "value": "mục tiêu đào tạo",
+        "entity": "define"
+      },
+      {
+        "start": 41,
+        "end": 58,
+        "value": "Khoa học máy tính",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Mình muốn biết thêm thông tin vềmục tiêu đào tạo của ngành Khoa học máy tính",
+    "entities": [
+      {
+        "start": 32,
+        "end": 48,
+        "value": "mục tiêu đào tạo",
+        "entity": "define"
+      },
+      {
+        "start": 59,
+        "end": 76,
+        "value": "Khoa học máy tính",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 59,
+        "end": 76,
+        "confidence_entity": 0.9999380111694336,
+        "value": "Khoa học máy tính",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Có thể cho tôi biết thêm thông tin vềmục tiêu đào tạo của ngành Khoa học máy tính không?",
+    "entities": [
+      {
+        "start": 37,
+        "end": 53,
+        "value": "mục tiêu đào tạo",
+        "entity": "define"
+      },
+      {
+        "start": 64,
+        "end": 81,
+        "value": "Khoa học máy tính",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 64,
+        "end": 81,
+        "confidence_entity": 0.9998835325241089,
+        "value": "Khoa học máy tính",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Giải thích vềmục tiêu đào tạo của ngành Khoa học máy tính",
+    "entities": [
+      {
+        "start": 13,
+        "end": 29,
+        "value": "mục tiêu đào tạo",
+        "entity": "define"
+      },
+      {
+        "start": 40,
+        "end": 57,
+        "value": "Khoa học máy tính",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 40,
+        "end": 57,
+        "confidence_entity": 0.9995414018630981,
+        "value": "Khoa học máy tính",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Những điều cần chú ý vềmục tiêu đào tạo của ngành Khoa học máy tính",
+    "entities": [
+      {
+        "start": 23,
+        "end": 39,
+        "value": "mục tiêu đào tạo",
+        "entity": "define"
+      },
+      {
+        "start": 50,
+        "end": 67,
+        "value": "Khoa học máy tính",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 50,
+        "end": 67,
+        "confidence_entity": 0.9999115467071533,
+        "value": "Khoa học máy tính",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Cho tôi biếtmục tiêu đào tạo của ngành Khoa học máy tính là gì",
+    "entities": [
+      {
+        "start": 12,
+        "end": 28,
+        "value": "mục tiêu đào tạo",
+        "entity": "define"
+      },
+      {
+        "start": 39,
+        "end": 56,
+        "value": "Khoa học máy tính",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 39,
+        "end": 56,
+        "confidence_entity": 0.9999055862426758,
+        "value": "Khoa học máy tính",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Tôi không rõ vềmục tiêu đào tạo của ngành Khoa học máy tính, có thể cho tôi biết thêm không?",
+    "entities": [
+      {
+        "start": 15,
+        "end": 31,
+        "value": "mục tiêu đào tạo",
+        "entity": "define"
+      },
+      {
+        "start": 42,
+        "end": 59,
+        "value": "Khoa học máy tính",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 42,
+        "end": 59,
+        "confidence_entity": 0.9998939037322998,
+        "value": "Khoa học máy tính",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Tôi cần trợ giúp vềmục tiêu đào tạo của ngành Khoa học máy tính",
+    "entities": [
+      {
+        "start": 19,
+        "end": 35,
+        "value": "mục tiêu đào tạo",
+        "entity": "define"
+      },
+      {
+        "start": 46,
+        "end": 63,
+        "value": "Khoa học máy tính",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 46,
+        "end": 63,
+        "confidence_entity": 0.9999146461486816,
+        "value": "Khoa học máy tính",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Cho tôi biếtmục tiêu đào tạo của ngành Khoa học máy tính",
+    "entities": [
+      {
+        "start": 12,
+        "end": 28,
+        "value": "mục tiêu đào tạo",
+        "entity": "define"
+      },
+      {
+        "start": 39,
+        "end": 56,
+        "value": "Khoa học máy tính",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 39,
+        "end": 56,
+        "confidence_entity": 0.9998890161514282,
+        "value": "Khoa học máy tính",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Mình muốn biết thêm thông tin vềmục tiêu đào tạo của ngành tin học ứng dụng",
+    "entities": [
+      {
+        "start": 32,
+        "end": 48,
+        "value": "mục tiêu đào tạo",
+        "entity": "define"
+      },
+      {
+        "start": 59,
+        "end": 75,
+        "value": "tin học ứng dụng",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 59,
+        "end": 75,
+        "confidence_entity": 0.9999361038208008,
+        "value": "tin học ứng dụng",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Có thể cho tôi biết thêm thông tin vềmục tiêu đào tạo của ngành tin học ứng dụng không?",
+    "entities": [
+      {
+        "start": 37,
+        "end": 53,
+        "value": "mục tiêu đào tạo",
+        "entity": "define"
+      },
+      {
+        "start": 64,
+        "end": 80,
+        "value": "tin học ứng dụng",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 64,
+        "end": 80,
+        "confidence_entity": 0.9999531507492065,
+        "value": "tin học ứng dụng",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Giải thích vềmục tiêu đào tạo của ngành tin học ứng dụng",
+    "entities": [
+      {
+        "start": 13,
+        "end": 29,
+        "value": "mục tiêu đào tạo",
+        "entity": "define"
+      },
+      {
+        "start": 40,
+        "end": 56,
+        "value": "tin học ứng dụng",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 40,
+        "end": 56,
+        "confidence_entity": 0.9999668598175049,
+        "value": "tin học ứng dụng",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Những điều cần chú ý vềmục tiêu đào tạo của ngành tin học ứng dụng",
+    "entities": [
+      {
+        "start": 23,
+        "end": 39,
+        "value": "mục tiêu đào tạo",
+        "entity": "define"
+      },
+      {
+        "start": 50,
+        "end": 66,
+        "value": "tin học ứng dụng",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 50,
+        "end": 66,
+        "confidence_entity": 0.9999598264694214,
+        "value": "tin học ứng dụng",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Cho tôi biếtmục tiêu đào tạo của ngành tin học ứng dụng là gì",
+    "entities": [
+      {
+        "start": 12,
+        "end": 28,
+        "value": "mục tiêu đào tạo",
+        "entity": "define"
+      },
+      {
+        "start": 39,
+        "end": 55,
+        "value": "tin học ứng dụng",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 39,
+        "end": 55,
+        "confidence_entity": 0.999957799911499,
+        "value": "tin học ứng dụng",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Tôi không rõ vềmục tiêu đào tạo của ngành tin học ứng dụng, có thể cho tôi biết thêm không?",
+    "entities": [
+      {
+        "start": 15,
+        "end": 31,
+        "value": "mục tiêu đào tạo",
+        "entity": "define"
+      },
+      {
+        "start": 42,
+        "end": 58,
+        "value": "tin học ứng dụng",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 42,
+        "end": 58,
+        "confidence_entity": 0.9999488592147827,
+        "value": "tin học ứng dụng",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Tôi cần trợ giúp vềmục tiêu đào tạo của ngành tin học ứng dụng",
+    "entities": [
+      {
+        "start": 19,
+        "end": 35,
+        "value": "mục tiêu đào tạo",
+        "entity": "define"
+      },
+      {
+        "start": 46,
+        "end": 62,
+        "value": "tin học ứng dụng",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 46,
+        "end": 62,
+        "confidence_entity": 0.9999599456787109,
+        "value": "tin học ứng dụng",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Cho tôi biếtmục tiêu đào tạo của ngành tin học ứng dụng",
+    "entities": [
+      {
+        "start": 12,
+        "end": 28,
+        "value": "mục tiêu đào tạo",
+        "entity": "define"
+      },
+      {
+        "start": 39,
+        "end": 55,
+        "value": "tin học ứng dụng",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 39,
+        "end": 55,
+        "confidence_entity": 0.9999626874923706,
+        "value": "tin học ứng dụng",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "chương trình đào tạo của ngành Hệ thống thông tingồm những gì?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 20,
+        "value": "chương trình đào tạo",
+        "entity": "define"
+      },
+      {
+        "start": 31,
+        "end": 49,
+        "value": "Hệ thống thông tin",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "define",
+        "start": 0,
+        "end": 20,
+        "confidence_entity": 0.9989519119262695,
+        "value": "chương trình đào tạo",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Ngành Hệ thống thông tincó chương trình đào tạo là gì?",
+    "entities": [
+      {
+        "start": 6,
+        "end": 24,
+        "value": "Hệ thống thông tin",
+        "entity": "major_name"
+      },
+      {
+        "start": 27,
+        "end": 47,
+        "value": "chương trình đào tạo",
+        "entity": "define"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "define",
+        "start": 27,
+        "end": 47,
+        "confidence_entity": 0.9990548491477966,
+        "value": "chương trình đào tạo",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "chương trình đào tạo của ngành công nghệ thông tin Chất lượng caogồm những gì?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 20,
+        "value": "chương trình đào tạo",
+        "entity": "define"
+      },
+      {
+        "start": 31,
+        "end": 65,
+        "value": "công nghệ thông tin Chất lượng cao",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "define",
+        "start": 0,
+        "end": 20,
+        "confidence_entity": 0.9991662502288818,
+        "value": "chương trình đào tạo",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Ngành công nghệ thông tin Chất lượng caocó chương trình đào tạo là gì?",
+    "entities": [
+      {
+        "start": 6,
+        "end": 40,
+        "value": "công nghệ thông tin Chất lượng cao",
+        "entity": "major_name"
+      },
+      {
+        "start": 43,
+        "end": 63,
+        "value": "chương trình đào tạo",
+        "entity": "define"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "define",
+        "start": 43,
+        "end": 63,
+        "confidence_entity": 0.9991331696510315,
+        "value": "chương trình đào tạo",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Ngành Công nghệ thông tincó chương trình đào tạo là gì?",
+    "entities": [
+      {
+        "start": 6,
+        "end": 25,
+        "value": "Công nghệ thông tin",
+        "entity": "major_name"
+      },
+      {
+        "start": 28,
+        "end": 48,
+        "value": "chương trình đào tạo",
+        "entity": "define"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "define",
+        "start": 28,
+        "end": 48,
+        "confidence_entity": 0.998976469039917,
+        "value": "chương trình đào tạo",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "chương trình đào tạo của ngành Khoa học máy tínhgồm những gì?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 20,
+        "value": "chương trình đào tạo",
+        "entity": "define"
+      },
+      {
+        "start": 31,
+        "end": 48,
+        "value": "Khoa học máy tính",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "define",
+        "start": 0,
+        "end": 20,
+        "confidence_entity": 0.9990320205688477,
+        "value": "chương trình đào tạo",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Ngành Khoa học máy tínhcó chương trình đào tạo là gì?",
+    "entities": [
+      {
+        "start": 6,
+        "end": 23,
+        "value": "Khoa học máy tính",
+        "entity": "major_name"
+      },
+      {
+        "start": 26,
+        "end": 46,
+        "value": "chương trình đào tạo",
+        "entity": "define"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "define",
+        "start": 26,
+        "end": 46,
+        "confidence_entity": 0.9990028738975525,
+        "value": "chương trình đào tạo",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "chương trình đào tạo của ngành tin học ứng dụnggồm những gì?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 20,
+        "value": "chương trình đào tạo",
+        "entity": "define"
+      },
+      {
+        "start": 31,
+        "end": 47,
+        "value": "tin học ứng dụng",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "define",
+        "start": 0,
+        "end": 20,
+        "confidence_entity": 0.9990522265434265,
+        "value": "chương trình đào tạo",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Ngành tin học ứng dụngcó chương trình đào tạo là gì?",
+    "entities": [
+      {
+        "start": 6,
+        "end": 22,
+        "value": "tin học ứng dụng",
+        "entity": "major_name"
+      },
+      {
+        "start": 25,
+        "end": 45,
+        "value": "chương trình đào tạo",
+        "entity": "define"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "define",
+        "start": 25,
+        "end": 45,
+        "confidence_entity": 0.9989523887634277,
+        "value": "chương trình đào tạo",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]

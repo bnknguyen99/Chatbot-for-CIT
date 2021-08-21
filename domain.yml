@@ -35,7 +35,33 @@ intents:
     use_entities: true
 - what_new:
     use_entities: true
-entities: []
+- ask_major:
+    use_entities: true
+- ask_studyplan:
+    use_entities: true
+- ask_chuandaura:
+    use_entities: true
+- ask_congty:
+    use_entities: true
+- ask_chvieclam:
+    use_entities: true
+- ask_muctieu:
+    use_entities: true
+- ask_vitrilamviec:
+    use_entities: true
+- ask_ktchuyennganh:
+    use_entities: true
+- ask_noilamviec:
+    use_entities: true
+- ask_ctDaoTao:
+    use_entities: true
+entities:
+  - faculty_name
+  - subject_name
+  - major_name
+  - define
+  - university_name
+  - teacher
 slots: {}
 responses:
   utter_xin_chao:
@@ -65,5 +91,6 @@ actions:
 - action_whatnew
 - action_dinhnghia
 - action_hoi_vitri
+- action_ask
 forms: {}
 e2e_actions: []

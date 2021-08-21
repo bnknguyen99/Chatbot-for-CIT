@@ -8,16 +8,44 @@ nlu:
     - Hi
     - Hey
     - Hello
+    - 2
+    - Yo
+    - Hey yo	
+    - Chào cậu
+    - Nice too meet you.
+    - Hi my friend.
+    - Hi buddy.
+
 - intent: tam_biet
   examples: |
+    - Bye.
     - Tạm biệt
+    - Bai
     - Hẹn gặp lại
+    - Baiiii
+    - Good bye
+    - ừa bai
+    - bái bai.
 - intent: gioi_thieuten
   examples: |
     - Bạn là chatbot à
     - Bạn là gì
     - Hãy giới thiệu về bản thân
     - Bạn là ai
+    - Bạn là ai?
+    - Bạn tên gì?
+    - Bạn là chatbot à?
+    - Chat bot gì?
+    - Chatbot?
+    - Bạn là gì?
+    - Bạn là gì vậy?
+    - Giới thiệu về bản thân?
+    - Giới thiệu.
+    - Who are you?
+    - Giới thiệu đi.
+    - Bản thân.
+    - Thông tin cá nhân
+    - Thông tin bản thân
 - intent: gioi_thieuchucnang
   examples: |
     - Công việc của bạn là gì?
@@ -25,81 +53,1483 @@ nlu:
     - Việc gì bạn làm được?
     - Bạn hổ trợ những vấn đề nào?
     - Bạn có thể giúp gì cho mình?
+    - Công việc của bạn là gì?
+    - Bạn có thể làm được gì?
+    - Việc gì bạn làm được?
+    - Làm được gì?
+    - Chức năng?
+    - Công dụng.
+    - Lợi ích khi sử dụng bạn.
+    - Có thể hỏi gì với bạn.
+    - Hỏi gì giờ?
+    - Hỏi gì đây?
+    - Nói gì nói đi.
 - intent: cam_on
   examples: |
+    - Cảm ơn
     - Cảm ơn vì giúp đỡ
     - Cảm ơn nhiều nhé
-    - Tuyệt vời
+    - Ngon
+    - Siêu
+    - Tuyệt
+    - Tks
+    - Thanks you
+    - I got it.
+    - Ok
+    - Perfect
+    - Briliant.
+    - Ok luôn
+    - Ok bạn ey.
+    - Ok luôn bạn ơi.
+    - Ồ
+    - Thì ra là vậy
+    - Mình hiểu rồi
+    - Wah
+    - Dễ vậy à
+    - Cuối cùng cũng biết
+    - Oh
+    - Tiện nhỉ
+    - Tìm được rồi.
+    - Mình nhớ đường rồi.
+- intent: ask_major
+    - Giới thiệu ngành [Hệ thống thông tin](major_name)
+    - Có ngành nào tên [httt](major_name) không?
+    - Thông tin về ngành [HTTT](major_name)
+    - Bot cho hỏi ngành [hệ thống thông tin](major_name) là gì?
+    - Cho mình hỏi có ngành tên [Hệ thống thông tin](major_name) không?
+    - Có thể cho mình biết thông tin về ngành [Hệ thống thông tin](major_name) không?
+    - Tôi muốn biết thêm thông tin về ngành [Hệ thống thông tin](major_name)
+    - Nói về ngành [Hệ thống thông tin](major_name)
+    - Giải thích về ngành [hệ thống thông tin](major_name)
+    - Những điều cần chú ý về ngành [Hệ thống thông tin](major_name)
+    - Cho tôi biết ngành [Hệ thống thông tin](major_name) là gì?
+    - Tôi không rõ về ngành [Hệ thống thông tin](major_name)
+    - Tôi cần trợ giúp về ngành [Hệ thống thông tin](major_name)
+    - Giới thiệu ngành [Hệ thống thông tin](major_name)
+    - Thông tin về ngành [HTTT](major_name)
+    - Giải thích về ngành [Hệ thống thông tin](major_name)
+    - Những điều cần chú ý về ngành [Hệ thống thông tin](major_name)
+    - Cho tôi biết ngành [Hệ thống thông tin](major_name) là gì?
+    - Tôi không rõ về ngành [Hệ thống thông tin](major_name)
+    - Tôi cần trợ giúp về ngành [Hệ thống thông tin](major_name)
+    - [httt](major_name) info.
+    - Giới thiệu [Hệ thống thông tin](major_name).
+    - [Hệ thống thông tin](major_name).
+    - ngành [Hệ thống thông tin](major_name) là gì?
+    - Giới thiệu ngành [công nghệ thông tin Chất lượng cao](major_name)
+    - Có ngành nào tên [cnttclc](major_name) không?
+    - Thông tin về ngành [công nghệ thông tin Chất lượng cao](major_name)
+    - Bot cho hỏi ngành [CNTTCLC](major_name) là gì?
+    - Cho mình hỏi có ngành tên [công nghệ thông tin Chất lượng cao](major_name) không?
+    - Có thể cho mình biết thông tin về ngành [công nghệ thông tin Chất lượng cao](major_name) không?
+    - Tôi muốn biết thêm thông tin về ngành [công nghệ thông tin Chất lượng cao](major_name)
+    - Nói về ngành [cnttclc](major_name)
+    - Giải thích về ngành [công nghệ thông tin Chất lượng cao](major_name)
+    - Những điều cần chú ý về ngành [công nghệ thông tin Chất lượng cao](major_name)
+    - Cho tôi biết ngành [công nghệ thông tin Chất lượng cao](major_name) là gì?
+    - Tôi không rõ về ngành [công nghệ thông tin Chất lượng cao](major_name)
+    - Tôi cần trợ giúp về ngành [công nghệ thông tin Chất lượng cao](major_name)
+    - [công nghệ thông tin Chất lượng cao](major_name) info.
+    - Giới thiệu [công nghệ thông tin Chất lượng cao](major_name).
+    - [công nghệ thông tin Chất lượng cao](major_name).
+    - ngành [CNTTCLC](major_name) là gì?
+    - Giới thiệu ngành [công nghệ thông tin ](major_name)
+    - Thông tin về ngành [công nghệ thông tin ](major_name)
+    - Bot cho hỏi ngành [công nghệ thông tin ](major_name) là gì?
+    - Cho mình hỏi có ngành tên [công nghệ thông tin ](major_name) không?
+    - Có thể cho mình biết thông tin về ngành [công nghệ thông tin ](major_name) không?
+    - Tôi muốn biết thêm thông tin về ngành [công nghệ thông tin ](major_name)
+    - Nói về ngành [công nghệ thông tin ](major_name)
+    - Giải thích về ngành [công nghệ thông tin ](major_name)
+    - Những điều cần chú ý về ngành [công nghệ thông tin ](major_name)
+    - Cho tôi biết ngành [công nghệ thông tin ](major_name) là gì?
+    - Tôi không rõ về ngành [công nghệ thông tin ](major_name)
+    - Tôi cần trợ giúp về ngành [công nghệ thông tin ](major_name)
+    - Giới thiệu ngành [công nghệ thông tin ](major_name)
+    - Thông tin về ngành [cntt](major_name)
+    - Giải thích về ngành [cntt](major_name)
+    - Những điều cần chú ý về ngành [công nghệ thông tin ](major_name)
+    - Cho tôi biết ngành [công nghệ thông tin ](major_name) là gì?
+    - Tôi không rõ về ngành [công nghệ thông tin ](major_name)
+    - Tôi cần trợ giúp về ngành [công nghệ thông tin ](major_name)
+    - [CNTT](major_name) info.
+    - Giới thiệu [công nghệ thông tin ](major_name).
+    - [công nghệ thông tin ](major_name).
+    - ngành [CNTT](major_name) là gì?
+    - Giới thiệu ngành [kỹ thuật phần mềm](major_name)
+    - Ngành [kỹ thuật phần mềm](major_name) là gì?
+    - Có ngành nào tên [KTPM]](major_name) không?
+    - Thông tin về ngành [ktpm](major_name)
+    - Bot cho hỏi ngành [kỹ thuật phần mềm](major_name) là gì?
+    - Tôi muốn biết thêm thông tin về ngành [kỹ thuật PM](major_name)
+    - Có thể cho mình biết thêm thông tin về ngành [kỹ thuật pm](major_name) không?
+    - Nói về ngành [kt phần mềm](major_name)
+    - Giải thích về ngành [KT phần mềm](major_name)
+    - Những điều cần chú ý về ngành [kỹ thuật phần mềm](major_name)
+    - Cho tôi biết ngành [kỹ thuật phần mềm](major_name) là gì
+    - Tôi không rõ về ngành [kỹ thuật phần mềm](major_name), chatbot có thể giải thích thêm được không?
+    - Tôi cần trợ giúp về ngành [kỹ thuật phần mềm](major_name)
+    - Tôi cần tư vấn về ngành [kỹ thuật phần mềm](major_name)
+    - Giới thiệu chuyên ngành [Khoa học máy tính](major_name)
+    - Giới thiệu chuyên ngành [Khoa học máy tính](major_name)
+    - Có chuyên ngành nào tên [KHMT](major_name) không?
+    - Thông tin về ngành [khoa học máy tính](major_name)
+    - Thông tin về ngành [KHMT](major_name)
+    - Bot cho hỏi ngành [KHMT](major_name) là gì?
+    - Cho mình hỏi có ngành tên [KHMT](major_name) không?
+    - Có thể cho mình biết thông tin về ngành [KHMT](major_name) không?
+    - Tôi muốn biết thêm thông tin về ngành [KHMT](major_name)
+    - Nói về ngành [KHMT](major_name)
+    - Giải thích về ngành [Khoa học máy tính](major_name)
+    - Những điều cần chú ý về chuyên ngành [Khoa học máy tính](major_name)
+    - Những điều cần chú ý về ngành [KHMT](major_name)
+    - Cho tôi biết ngành [Khoa học máy tính](major_name) là gì?
+    - Tôi không rõ về ngành [Khoa học máy tính](major_name)
+    - Tôi cần trợ giúp về ngành [Khoa học máy tính](major_name)
+    - [KHMT](major_name) info.
+    - Giới thiệu [KHMT](major_name).
+    - [KHMT](major_name).
+    - Ngành [KHMT](major_name) là gì?
+    - Giới thiệu chuyên ngành [tin học ứng dụng](major_name)
+    - Có chuyên ngành nào tên [tin học ứng dụng](major_name) không?
+    - Thông tin về ngành [tin học ứng dụng](major_name)
+    - Thông tin về ngành [tin học ứng dụng](major_name)
+    - Bot cho hỏi ngành [tin học ứng dụng](major_name) là gì?
+    - Cho mình hỏi có ngành tên [tin học ứng dụng](major_name) không?
+    - Có thể cho mình biết thông tin về ngành [tin học ứng dụng](major_name) không?
+    - Tôi muốn biết thêm thông tin về ngành [tin học ứng dụng](major_name)
+    - Nói về ngành [tin học ứng dụng](major_name)
+    - Giải thích về ngành [tin học ứng dụng](major_name)
+    - Những điều cần chú ý về chuyên ngành 
+    - Những điều cần chú ý về ngành [tin học ứng dụng](major_name)
+    - Cho tôi biết ngành [tin học ứng dụng](major_name) là gì?
+    - Tôi không rõ về ngành [tin học ứng dụng](major_name)
+    - Tôi cần trợ giúp về ngành [tin học ứng dụng](major_name)
+- intent: ask_studyplan
+  examples: |
+    - [kế hoạch học tập](define) của ngành [Hệ thống thông tin](major_name) là gì
+    - Ngành [Hệ thống thông tin](major_name) có [kế hoạch học tập](define) như thế nào?
+    - Để học ngành [Hệ thống thông tin](major_name) cần [khht](define) gì?
+    - Nói về [khht](define) của ngành [Hệ thống thông tin](major_name)
+    - Tôi muốn biết thêm thông tin về [khht](define) của ngành [Hệ thống thông tin](major_name)
+    - Giải thích về [khht](define) của ngành [Hệ thống thông tin](major_name)
+    - Những điều cần chú ý về [khht](define) của ngành [Hệ thống thông tin](major_name)
+    - Cho tôi biết [khht](define) của ngành [Hệ thống thông tin](major_name) gồm những gì
+    - Tôi không rõ về [khht](define) của ngành [Hệ thống thông tin](major_name), có thể cho tôi biết thêm không?
+    - Tôi cần trợ giúp về [khht](define) của ngành [Hệ thống thông tin](major_name)
+    - [kế hoạch học tập](define) của ngành [Hệ thống thông tin](major_name) là gì
+    - Ngành [Hệ thống thông tin](major_name) có [kế hoạch học tập](define) như thế nào?
+    - Để học ngành [Hệ thống thông tin](major_name) cần [khht](define) gì?
+    - Nói về [khht](define) của ngành [Hệ thống thông tin](major_name)
+    - Tôi muốn biết thêm thông tin về [khht](define) của ngành [Hệ thống thông tin](major_name)
+    - Giải thích về [khht](define) của ngành [Hệ thống thông tin](major_name)
+    - Những điều cần chú ý về [khht](define) của ngành [Hệ thống thông tin](major_name)
+    - Cho tôi biết [khht](define) của ngành [Hệ thống thông tin](major_name) gồm những gì
+    - Tôi không rõ về [khht](define) của ngành [Hệ thống thông tin](major_name), có thể cho tôi biết thêm không?
+    - Tôi cần trợ giúp về [khht](define) của ngành [Hệ thống thông tin](major_name)
+    - [kế hoạch học tập](define) của ngành [công nghệ thông tin Chất lượng cao](major_name) là gì
+    - Ngành [công nghệ thông tin Chất lượng cao](major_name) có [kế hoạch học tập](define) như thế nào?
+    - Để học ngành [công nghệ thông tin Chất lượng cao](major_name) cần [khht](define) gì?
+    - Nói về [khht](define) của ngành [công nghệ thông tin Chất lượng cao](major_name)
+    - Tôi muốn biết thêm thông tin về [khht](define) của ngành [công nghệ thông tin Chất lượng cao](major_name)
+    - Giải thích về [khht](define) của ngành [công nghệ thông tin Chất lượng cao](major_name)
+    - Những điều cần chú ý về [khht](define) của ngành [công nghệ thông tin Chất lượng cao](major_name)
+    - Cho tôi biết [khht](define) của ngành [công nghệ thông tin Chất lượng cao](major_name) gồm những gì
+    - Tôi không rõ về [khht](define) của ngành [công nghệ thông tin Chất lượng cao](major_name), có thể cho tôi biết thêm không?
+    - Tôi cần trợ giúp về [khht](define) của ngành [công nghệ thông tin Chất lượng cao](major_name)
+    - [kế hoạch học tập](define) của ngành [công nghệ thông tin Chất lượng cao](major_name) là gì
+    - Ngành [công nghệ thông tin Chất lượng cao](major_name) có [kế hoạch học tập](define) như thế nào?
+    - Để học ngành [công nghệ thông tin Chất lượng cao](major_name) cần [khht](define) gì?
+    - Nói về [khht](define) của ngành [công nghệ thông tin Chất lượng cao](major_name)
+    - Tôi muốn biết thêm thông tin về [khht](define) của ngành [công nghệ thông tin Chất lượng cao](major_name)
+    - Giải thích về [khht](define) của ngành [công nghệ thông tin Chất lượng cao](major_name)
+    - Những điều cần chú ý về [khht](define) của ngành [công nghệ thông tin Chất lượng cao](major_name)
+    - Cho tôi biết [khht](define) của ngành [công nghệ thông tin Chất lượng cao](major_name) gồm những gì
+    - Tôi không rõ về [khht](define) của ngành [công nghệ thông tin Chất lượng cao](major_name), có thể cho tôi biết thêm không?
+    - Tôi cần trợ giúp về [khht](define) của ngành [công nghệ thông tin Chất lượng cao](major_name)
+    - [kế hoạch học tập](define) của ngành [Công nghệ thông tin](major_name) là gì
+    - Ngành [Công nghệ thông tin](major_name) có [kế hoạch học tập](define) như thế nào?
+    - Để học ngành [Công nghệ thông tin](major_name) cần [khht](define) gì?
+    - Nói về [khht](define) của ngành [Công nghệ thông tin](major_name)
+    - Tôi muốn biết thêm thông tin về [khht](define) của ngành [Công nghệ thông tin](major_name)
+    - Giải thích về [khht](define) của ngành [Công nghệ thông tin](major_name)
+    - Những điều cần chú ý về [khht](define) của ngành [Công nghệ thông tin](major_name)
+    - Cho tôi biết [khht](define) của ngành [Công nghệ thông tin](major_name) gồm những gì
+    - Tôi không rõ về [khht](define) của ngành [Công nghệ thông tin](major_name), có thể cho tôi biết thêm không?
+    - Tôi cần trợ giúp về [khht](define) của ngành [Công nghệ thông tin](major_name)
+    - [kế hoạch học tập](define) của ngành [Công nghệ thông tin](major_name) là gì
+    - Ngành [Công nghệ thông tin](major_name) có [kế hoạch học tập](define) như thế nào?
+    - Để học ngành [Công nghệ thông tin](major_name) cần [khht](define) gì?
+    - Nói về [khht](define) của ngành [Công nghệ thông tin](major_name)
+    - Tôi muốn biết thêm thông tin về [khht](define) của ngành [Công nghệ thông tin](major_name)
+    - Giải thích về [khht](define) của ngành [Công nghệ thông tin](major_name)
+    - Những điều cần chú ý về [khht](define) của ngành [Công nghệ thông tin](major_name)
+    - Cho tôi biết [khht](define) của ngành [Công nghệ thông tin](major_name) gồm những gì
+    - Tôi không rõ về [khht](define) của ngành [Công nghệ thông tin](major_name), có thể cho tôi biết thêm không?
+    - Tôi cần trợ giúp về [khht](define) của ngành [Công nghệ thông tin](major_name)
+    - [kế hoạch học tập](define) của ngành [kỹ thuật phần mềm](major_name) là gì
+    - Ngành [kỹ thuật phần mềm](major_name) có [kế hoạch học tập](define) như thế nào?
+    - Để học ngành [kỹ thuật phần mềm](major_name) cần [khht](define) gì?
+    - Nói về [khht](define) của ngành [kỹ thuật phần mềm](major_name)
+    - Tôi muốn biết thêm thông tin về [khht](define) của ngành [kỹ thuật phần mềm](major_name)
+    - Giải thích về [khht](define) của ngành [kỹ thuật phần mềm](major_name)
+    - Những điều cần chú ý về [khht](define) của ngành [kỹ thuật phần mềm](major_name)
+    - Cho tôi biết [khht](define) của ngành [kỹ thuật phần mềm](major_name) gồm những gì
+    - Tôi không rõ về [khht](define) của ngành [kỹ thuật phần mềm](major_name), có thể cho tôi biết thêm không?
+    - Tôi cần trợ giúp về [khht](define) của ngành [kỹ thuật phần mềm](major_name)
+    - Tôi cần tư vấn về [khht](define) của ngành [kỹ thuật phần mềm](major_name)
+    - [kế hoạch học tập](define) của ngành [Khoa học máy tính](major_name) là gì
+    - Ngành [Khoa học máy tính](major_name) có [kế hoạch học tập](define) như thế nào?
+    - Để học ngành [Khoa học máy tính](major_name) cần [khht](define) gì?
+    - Nói về [khht](define) của ngành [Khoa học máy tính](major_name)
+    - Tôi muốn biết thêm thông tin về [khht](define) của ngành [Khoa học máy tính](major_name)
+    - Giải thích về [khht](define) của ngành [Khoa học máy tính](major_name)
+    - Những điều cần chú ý về [khht](define) của ngành [Khoa học máy tính](major_name)
+    - Cho tôi biết [khht](define) của ngành [Khoa học máy tính](major_name) gồm những gì
+    - Tôi không rõ về [khht](define) của ngành [Khoa học máy tính](major_name), có thể cho tôi biết thêm không?
+    - Tôi cần trợ giúp về [khht](define) của ngành [Khoa học máy tính](major_name)  
+    - [kế hoạch học tập](define) của ngành [Khoa học máy tính](major_name) là gì
+    - Ngành [Khoa học máy tính](major_name) có [kế hoạch học tập](define) như thế nào?
+    - Để học ngành [Khoa học máy tính](major_name) cần [khht](define) gì?
+    - Nói về [khht](define) của ngành [Khoa học máy tính](major_name)
+    - Tôi muốn biết thêm thông tin về [khht](define) của ngành [Khoa học máy tính](major_name)
+    - Giải thích về [khht](define) của ngành [Khoa học máy tính](major_name)
+    - Những điều cần chú ý về [khht](define) của ngành [Khoa học máy tính](major_name)
+    - Cho tôi biết [khht](define) của ngành [Khoa học máy tính](major_name) gồm những gì
+    - Tôi không rõ về [khht](define) của ngành [Khoa học máy tính](major_name), có thể cho tôi biết thêm không?
+    - Tôi cần trợ giúp về [khht](define) của ngành [Khoa học máy tính](major_name)
+    - [kế hoạch học tập](define) của ngành [tin học ứng dụng](major_name) là gì
+    - Ngành [tin học ứng dụng](major_name) có [kế hoạch học tập](define) như thế nào?
+    - Để học ngành [tin học ứng dụng](major_name) cần [khht](define) gì?
+    - Nói về [khht](define) của ngành [tin học ứng dụng](major_name)
+    - Tôi muốn biết thêm thông tin về [khht](define) của ngành [tin học ứng dụng](major_name)
+    - Giải thích về [khht](define) của ngành [tin học ứng dụng](major_name)
+    - Những điều cần chú ý về [khht](define) của ngành [tin học ứng dụng](major_name)
+    - Cho tôi biết [khht](define) của ngành [tin học ứng dụng](major_name) gồm những gì
+    - Tôi không rõ về [khht](define) của ngành [tin học ứng dụng](major_name), có thể cho tôi biết thêm không?
+    - Tôi cần trợ giúp về [khht](define) của ngành [tin học ứng dụng](major_name)    
+    - [kế hoạch học tập](define) của ngành [tin học ứng dụng](major_name) là gì
+    - Ngành [tin học ứng dụng](major_name) có [kế hoạch học tập](define) như thế nào?
+    - Để học ngành [tin học ứng dụng](major_name) cần [khht](define) gì?
+    - Nói về [khht](define) của ngành [tin học ứng dụng](major_name)
+    - Tôi muốn biết thêm thông tin về [khht](define) của ngành [tin học ứng dụng](major_name)
+    - Giải thích về [khht](define) của ngành [tin học ứng dụng](major_name)
+    - Những điều cần chú ý về [khht](define) của ngành [tin học ứng dụng](major_name)
+    - Cho tôi biết [khht](define) của ngành [tin học ứng dụng](major_name) gồm những gì
+    - Tôi không rõ về [khht](define) của ngành [tin học ứng dụng](major_name), có thể cho tôi biết thêm không?
+    - Tôi cần trợ giúp về [khht](define) của ngành [tin học ứng dụng](major_name)
+- intent: ask_chuandaura
+  examples: |
+    - [chuẩn đầu ra](define) của ngành [Hệ thống thông tin](major_name) là gì
+    - Ngành [Hệ thống thông tin](major_name) có [chuẩn đầu ra](define) có khó không
+    - Ngành [Hệ thống thông tin](major_name) có [chuẩn đầu ra](define) như thế nào
+    - Thông tin về [chuẩn đầu ra](define) của ngành [Hệ thống thông tin](major_name)
+    - Nói về [chuẩn đầu ra](define) của ngành [Hệ thống thông tin](major_name)
+    - Tôi muốn biết thêm thông tin về [chuẩn đầu ra](define) của ngành [Hệ thống thông tin](major_name)
+    - Có thể cho tôi biết thêm thông tin về [chuẩn đầu ra](define) của ngành [Hệ thống thông tin](major_name) không?
+    - Giải thích về [chuẩn đầu ra](define) của ngành [Hệ thống thông tin](major_name)
+    - Những điều cần chú ý về [chuẩn đầu ra](define) của ngành [Hệ thống thông tin](major_name)
+    - Cho tôi biết [chuẩn đầu ra](define) của ngành [Hệ thống thông tin](major_name) là gì
+    - Tôi không rõ về [chuẩn đầu ra](define) của ngành [Hệ thống thông tin](major_name), có thể cho tôi biết thêm không?
+    - Tôi cần trợ giúp về [chuẩn đầu ra](define) của ngành [Hệ thống thông tin](major_name)
+    - [chuẩn đầu ra](define) của ngành [Hệ thống thông tin](major_name)
+    - Ngành [Hệ thống thông tin](major_name) có [chuẩn đầu ra](define) có khó không
+    - Ngành [Hệ thống thông tin](major_name) [chuẩn đầu ra](define) như thế nào
+    - Thông tin về [chuẩn đầu ra](define) của ngành [Hệ thống thông tin](major_name)
+    - Nói về [chuẩn đầu ra](define) của ngành [Hệ thống thông tin](major_name)
+    - Tôi muốn biết thêm thông tin về [chuẩn đầu ra](define) của ngành [Hệ thống thông tin](major_name)
+    - Có thể cho tôi biết thêm thông tin về [chuẩn đầu ra](define) của ngành [Hệ thống thông tin](major_name) không?
+    - Giải thích về [chuẩn đầu ra](define) của ngành [Hệ thống thông tin](major_name)
+    - Những điều cần chú ý về [chuẩn đầu ra](define) của ngành [Hệ thống thông tin](major_name)
+    - Cho tôi biết [chuẩn đầu ra](define) của ngành [Hệ thống thông tin](major_name)
+    - Tôi không rõ về [chuẩn đầu ra](define) của ngành [Hệ thống thông tin](major_name), có thể cho tôi biết thêm không?
+    - Tôi cần trợ giúp về [chuẩn đầu ra](define) của ngành [Hệ thống thông tin](major_name)
+    - [chuẩn đầu ra](define) của ngành [công nghệ thông tin Chất lượng cao](major_name) là gì
+    - Ngành [công nghệ thông tin Chất lượng cao](major_name) có [chuẩn đầu ra](define) có khó không
+    - Ngành [công nghệ thông tin Chất lượng cao](major_name) có [chuẩn đầu ra](define) như thế nào
+    - Thông tin về [chuẩn đầu ra](define) của ngành [công nghệ thông tin Chất lượng cao](major_name)
+    - Nói về [chuẩn đầu ra](define) của ngành [công nghệ thông tin Chất lượng cao](major_name)
+    - Tôi muốn biết thêm thông tin về [chuẩn đầu ra](define) của ngành [công nghệ thông tin Chất lượng cao](major_name)
+    - Có thể cho tôi biết thêm thông tin về [chuẩn đầu ra](define) của ngành [công nghệ thông tin Chất lượng cao](major_name) không?
+    - Giải thích về [chuẩn đầu ra](define) của ngành [công nghệ thông tin Chất lượng cao](major_name)
+    - Những điều cần chú ý về [chuẩn đầu ra](define) của ngành [công nghệ thông tin Chất lượng cao](major_name)
+    - Cho tôi biết [chuẩn đầu ra](define) của ngành [công nghệ thông tin Chất lượng cao](major_name) là gì
+    - Tôi không rõ về [chuẩn đầu ra](define) của ngành [công nghệ thông tin Chất lượng cao](major_name), có thể cho tôi biết thêm không?
+    - Tôi cần trợ giúp về [chuẩn đầu ra](define) của ngành [công nghệ thông tin Chất lượng cao](major_name)   
+    - [chuẩn đầu ra](define) của ngành [công nghệ thông tin Chất lượng cao](major_name)
+    - Ngành [công nghệ thông tin Chất lượng cao](major_name)có [chuẩn đầu ra](define) có khó không
+    - Ngành [công nghệ thông tin Chất lượng cao](major_name)[chuẩn đầu ra](define) như thế nào
+    - Thông tin về [chuẩn đầu ra](define) của ngành [công nghệ thông tin Chất lượng cao](major_name)
+    - Nói về [chuẩn đầu ra](define) của ngành [công nghệ thông tin Chất lượng cao](major_name)
+    - Tôi muốn biết thêm thông tin về [chuẩn đầu ra](define) của ngành [công nghệ thông tin Chất lượng cao](major_name)
+    - Có thể cho tôi biết thêm thông tin về [chuẩn đầu ra](define) của ngành [công nghệ thông tin Chất lượng cao](major_name) không?
+    - Giải thích về [chuẩn đầu ra](define) của ngành [công nghệ thông tin Chất lượng cao](major_name)
+    - Những điều cần chú ý về [chuẩn đầu ra](define) của ngành [công nghệ thông tin Chất lượng cao](major_name)
+    - Cho tôi biết [chuẩn đầu ra](define) của ngành [công nghệ thông tin Chất lượng cao](major_name)
+    - Tôi không rõ về [chuẩn đầu ra](define) của ngành [công nghệ thông tin Chất lượng cao](major_name), có thể cho tôi biết thêm không?
+    - Tôi cần trợ giúp về [chuẩn đầu ra](define) của ngành [công nghệ thông tin Chất lượng cao](major_name)
+    - [chuẩn đầu ra](define) của ngành [Công nghệ thông tin](major_name) là gì
+    - Ngành [Công nghệ thông tin](major_name) có [chuẩn đầu ra](define) có khó không
+    - Ngành [Công nghệ thông tin](major_name) có [chuẩn đầu ra](define) như thế nào
+    - Thông tin về [chuẩn đầu ra](define) của ngành [Công nghệ thông tin](major_name)
+    - Nói về [chuẩn đầu ra](define) của ngành [Công nghệ thông tin](major_name)
+    - Tôi muốn biết thêm thông tin về [chuẩn đầu ra](define) của ngành [Công nghệ thông tin](major_name)
+    - Có thể cho tôi biết thêm thông tin về [chuẩn đầu ra](define) của ngành [Công nghệ thông tin](major_name) không?
+    - Giải thích về [chuẩn đầu ra](define) của ngành [Công nghệ thông tin](major_name)
+    - Những điều cần chú ý về [chuẩn đầu ra](define) của ngành [Công nghệ thông tin](major_name)
+    - Cho tôi biết [chuẩn đầu ra](define) của ngành [Công nghệ thông tin](major_name) là gì
+    - Tôi không rõ về [chuẩn đầu ra](define) của ngành [Công nghệ thông tin](major_name), có thể cho tôi biết thêm không?
+    - Tôi cần trợ giúp về [chuẩn đầu ra](define) của ngành [Công nghệ thông tin](major_name)    
+    - [chuẩn đầu ra](define) của ngành [Công nghệ thông tin](major_name)
+    - Ngành [Công nghệ thông tin](major_name)có [chuẩn đầu ra](define) có khó không
+    - Ngành [Công nghệ thông tin](major_name)[chuẩn đầu ra](define) như thế nào
+    - Thông tin về [chuẩn đầu ra](define) của ngành [Công nghệ thông tin](major_name)
+    - Nói về [chuẩn đầu ra](define) của ngành [Công nghệ thông tin](major_name)
+    - Tôi muốn biết thêm thông tin về [chuẩn đầu ra](define) của ngành [Công nghệ thông tin](major_name)
+    - Có thể cho tôi biết thêm thông tin về [chuẩn đầu ra](define) của ngành [Công nghệ thông tin](major_name) không?
+    - Giải thích về [chuẩn đầu ra](define) của ngành [Công nghệ thông tin](major_name)
+    - Những điều cần chú ý về [chuẩn đầu ra](define) của ngành [Công nghệ thông tin](major_name)
+    - Cho tôi biết [chuẩn đầu ra](define) của ngành [Công nghệ thông tin](major_name)
+    - Tôi không rõ về [chuẩn đầu ra](define) của ngành [Công nghệ thông tin](major_name), có thể cho tôi biết thêm không?
+    - Tôi cần trợ giúp về [chuẩn đầu ra](define) của ngành [Công nghệ thông tin](major_name)
+    - [chuẩn đầu ra](define) của ngành [kỹ thuật phần mềm](major_name) là gì
+    - Ngành [kỹ thuật phần mềm](major_name) có [chuẩn đầu ra](define) có khó không
+    - Ngành [kỹ thuật phần mềm](major_name) có [chuẩn đầu ra](define) như thế nào
+    - Thông tin về [chuẩn đầu ra](define) của ngành [kỹ thuật phần mềm](major_name)
+    - Nói về [chuẩn đầu ra](define) của ngành [kỹ thuật phần mềm](major_name)
+    - Tôi muốn biết thêm thông tin về [chuẩn đầu ra](define) của ngành [kỹ thuật phần mềm](major_name)
+    - Có thể cho tôi biết thêm thông tin về [chuẩn đầu ra](define) của ngành [kỹ thuật phần mềm](major_name) không?
+    - Giải thích về [chuẩn đầu ra](define) của ngành [kỹ thuật phần mềm](major_name)
+    - Những điều cần chú ý về [chuẩn đầu ra](define) của ngành [kỹ thuật phần mềm](major_name)
+    - Cho tôi biết [chuẩn đầu ra](define) của ngành [kỹ thuật phần mềm](major_name) là gì
+    - Tôi không rõ về [chuẩn đầu ra](define) của ngành [kỹ thuật phần mềm](major_name), có thể cho tôi biết thêm không?
+    - Tôi cần trợ giúp về [chuẩn đầu ra](define) của ngành [kỹ thuật phần mềm](major_name)
+    - Tôi cần tư vấn về [chuẩn đầu ra](define) của ngành [kỹ thuật phần mềm](major_name)
+    - [chuẩn đầu ra](define) của ngành [Khoa học máy tính](major_name) là gì
+    - Ngành [Khoa học máy tính](major_name) có [chuẩn đầu ra](define) có khó không
+    - Ngành [Khoa học máy tính](major_name) có [chuẩn đầu ra](define) như thế nào
+    - Thông tin về [chuẩn đầu ra](define) của ngành [Khoa học máy tính](major_name)
+    - Nói về [chuẩn đầu ra](define) của ngành [Khoa học máy tính](major_name)
+    - Tôi muốn biết thêm thông tin về [chuẩn đầu ra](define) của ngành [Khoa học máy tính](major_name)
+    - Có thể cho tôi biết thêm thông tin về [chuẩn đầu ra](define) của ngành [Khoa học máy tính](major_name) không?
+    - Giải thích về [chuẩn đầu ra](define) của ngành [Khoa học máy tính](major_name)
+    - Những điều cần chú ý về [chuẩn đầu ra](define) của ngành [Khoa học máy tính](major_name)
+    - Cho tôi biết [chuẩn đầu ra](define) của ngành [Khoa học máy tính](major_name) là gì
+    - Tôi không rõ về [chuẩn đầu ra](define) của ngành [Khoa học máy tính](major_name), có thể cho tôi biết thêm không?
+    - Tôi cần trợ giúp về [chuẩn đầu ra](define) của ngành [Khoa học máy tính](major_name)  
+    - [chuẩn đầu ra](define) của ngành [Khoa học máy tính](major_name)
+    - Ngành [Khoa học máy tính](major_name)có [chuẩn đầu ra](define) có khó không
+    - Ngành [Khoa học máy tính](major_name)[chuẩn đầu ra](define) như thế nào
+    - Thông tin về [chuẩn đầu ra](define) của ngành [Khoa học máy tính](major_name)
+    - Nói về [chuẩn đầu ra](define) của ngành [Khoa học máy tính](major_name)
+    - Tôi muốn biết thêm thông tin về [chuẩn đầu ra](define) của ngành [Khoa học máy tính](major_name)
+    - Có thể cho tôi biết thêm thông tin về [chuẩn đầu ra](define) của ngành [Khoa học máy tính](major_name) không?
+    - Giải thích về [chuẩn đầu ra](define) của ngành [Khoa học máy tính](major_name)
+    - Những điều cần chú ý về [chuẩn đầu ra](define) của ngành [Khoa học máy tính](major_name)
+    - Cho tôi biết [chuẩn đầu ra](define) của ngành [Khoa học máy tính](major_name)
+    - Tôi không rõ về [chuẩn đầu ra](define) của ngành [Khoa học máy tính](major_name), có thể cho tôi biết thêm không?
+    - Tôi cần trợ giúp về [chuẩn đầu ra](define) của ngành [Khoa học máy tính](major_name)
+    - [chuẩn đầu ra](define) của ngành [tin học ứng dụng](major_name) là gì
+    - Ngành [tin học ứng dụng](major_name) có [chuẩn đầu ra](define) có khó không
+    - Ngành [tin học ứng dụng](major_name) có [chuẩn đầu ra](define) như thế nào
+    - Thông tin về [chuẩn đầu ra](define) của ngành [tin học ứng dụng](major_name)
+    - Nói về [chuẩn đầu ra](define) của ngành [tin học ứng dụng](major_name)
+    - Tôi muốn biết thêm thông tin về [chuẩn đầu ra](define) của ngành [tin học ứng dụng](major_name)
+    - Có thể cho tôi biết thêm thông tin về [chuẩn đầu ra](define) của ngành [tin học ứng dụng](major_name) không?
+    - Giải thích về [chuẩn đầu ra](define) của ngành [tin học ứng dụng](major_name)
+    - Những điều cần chú ý về [chuẩn đầu ra](define) của ngành [tin học ứng dụng](major_name)
+    - Cho tôi biết [chuẩn đầu ra](define) của ngành [tin học ứng dụng](major_name) là gì
+    - Tôi không rõ về [chuẩn đầu ra](define) của ngành [tin học ứng dụng](major_name), có thể cho tôi biết thêm không?
+    - Tôi cần trợ giúp về [chuẩn đầu ra](define) của ngành [tin học ứng dụng](major_name)    
+    - [chuẩn đầu ra](define) của ngành [tin học ứng dụng](major_name)
+    - Ngành [tin học ứng dụng](major_name) có [chuẩn đầu ra](define) có khó không
+    - Ngành [tin học ứng dụng](major_name) [chuẩn đầu ra](define) như thế nào
+    - Thông tin về [chuẩn đầu ra](define) của ngành [tin học ứng dụng](major_name)
+    - Nói về [chuẩn đầu ra](define) của ngành [tin học ứng dụng](major_name)
+    - Tôi muốn biết thêm thông tin về [chuẩn đầu ra](define) của ngành [tin học ứng dụng](major_name)
+    - Có thể cho tôi biết thêm thông tin về [chuẩn đầu ra](define) của ngành [tin học ứng dụng](major_name) không?
+    - Giải thích về [chuẩn đầu ra](define) của ngành [tin học ứng dụng](major_name)
+    - Những điều cần chú ý về [chuẩn đầu ra](define) của ngành [tin học ứng dụng](major_name)
+    - Cho tôi biết [chuẩn đầu ra](define) của ngành [tin học ứng dụng](major_name)
+    - Tôi không rõ về [chuẩn đầu ra](define) của ngành [tin học ứng dụng](major_name), có thể cho tôi biết thêm không?
+    - Tôi cần trợ giúp về [chuẩn đầu ra](define) của ngành [tin học ứng dụng](major_name)
+- intent: ask_congty
+  examples: |
+    - Tốt nghiệp ngành [Hệ thống thông tin](major_name) làm ở công ty nào?
+    - Tổ chức, cơ quan, công ty tuyển dụng sinh viên ngành [Hệ thống thông tin](major_name)
+    - Các công ty tiêu biểu tuyển dụng sinh viên ngành [Hệ thống thông tin](major_name)
+    - Các công ty liên quan đến [Hệ thống thông tin](major_name)
+    - Các công ty mạnh về [Hệ thống thông tin](major_name)
+    - [Hệ thống thông tin](major_name) các công ty liên quan 
+    - Sinh viên ngành [Hệ thống thông tin](major_name) nên ứng tuyển vào những công ty nào
+    - Các công ty tiêu biểu tuyển dụng sinh viên ngành [Hệ thống thông tin](major_name)
+    - Các công ty liên quan đến [Hệ thống thông tin](major_name)
+    - Các công ty mạnh về [Hệ thống thông tin](major_name)
+    - [Hệ thống thông tin](major_name) các công ty liên quan 
+    - Sinh viên ngành [Hệ thống thông tin](major_name) nên ứng tuyển vào những công ty nào
+    - Tốt nghiệp ngành [công nghệ thông tin Chất lượng cao](major_name) làm ở công ty nào?
+    - Tổ chức, cơ quan, công ty tuyển dụng sinh viên ngành [công nghệ thông tin Chất lượng cao](major_name)
+    - Các công ty tiêu biểu tuyển dụng sinh viên ngành [công nghệ thông tin Chất lượng cao](major_name)
+    - Các công ty liên quan đến [công nghệ thông tin Chất lượng cao](major_name)
+    - Các công ty mạnh về [công nghệ thông tin Chất lượng cao](major_name)
+    - [công nghệ thông tin Chất lượng cao](major_name) các công ty liên quan 
+    - Sinh viên ngành [công nghệ thông tin Chất lượng cao](major_name) nên ứng tuyển vào những công ty nào 
+    - Các công ty tiêu biểu tuyển dụng sinh viên ngành [công nghệ thông tin Chất lượng cao](major_name)
+    - Các công ty liên quan đến [công nghệ thông tin Chất lượng cao](major_name)
+    - Các công ty mạnh về [công nghệ thông tin Chất lượng cao](major_name)
+    - [công nghệ thông tin Chất lượng cao](major_name) các công ty liên quan 
+    - Sinh viên ngành [công nghệ thông tin Chất lượng cao](major_name) nên ứng tuyển vào những công ty nào
+    - Tốt nghiệp ngành [Công nghệ thông tin](major_name) làm ở công ty nào?
+    - Tổ chức, cơ quan, công ty tuyển dụng sinh viên ngành [Công nghệ thông tin](major_name)  
+    - Các công ty tiêu biểu tuyển dụng sinh viên ngành [Công nghệ thông tin](major_name)
+    - Các công ty liên quan đến [Công nghệ thông tin](major_name)
+    - Các công ty mạnh về [Công nghệ thông tin](major_name)
+    - [Công nghệ thông tin](major_name) các công ty liên quan 
+    - Sinh viên ngành [Công nghệ thông tin](major_name) nên ứng tuyển vào những công ty nào  
+    - Các công ty tiêu biểu tuyển dụng sinh viên ngành [Công nghệ thông tin](major_name)
+    - Các công ty liên quan đến [Công nghệ thông tin](major_name)
+    - Các công ty mạnh về [Công nghệ thông tin](major_name)
+    - [Công nghệ thông tin](major_name) các công ty liên quan 
+    - Sinh viên ngành [Công nghệ thông tin](major_name) nên ứng tuyển vào những công ty nào
+    - Tốt nghiệp ngành [kỹ thuật phần mềm](major_name) làm ở công ty nào?
+    - Tổ chức, cơ quan, công ty tuyển dụng sinh viên ngành [kỹ thuật phần mềm](major_name)
+    - Sinh viên ngành [kỹ thuật phần mềm](major_name) được chỗ nào tuyển?
+    - Nói về tổ chức, cơ quan, công ty tuyển dụng sinh viên ngành [kỹ thuật phần mềm](major_name)
+    - Tôi muốn biết thêm thông tin về tổ chức, cơ quan, công ty tuyển dụng sinh viên ngành [kỹ thuật phần mềm](major_name)
+    - Liệt kê các tổ chức, cơ quan, công ty tuyển dụng sinh viên ngành [kỹ thuật phần mềm](major_name)
+    - Cho tôi biết các tổ chức, cơ quan, công ty nào tuyển dụng sinh viên ngành [kỹ thuật phần mềm](major_name)
+    - Tôi không rõ về các tổ chức, cơ quan, công ty tuyển dụng sinh viên ngành [kỹ thuật phần mềm](major_name)
+    - Tôi cần tư vấn về các tổ chức, cơ quan, công ty tuyển dụng sinh viên ngành [kỹ thuật phần mềm](major_name)
+    - Tôi cần trợ giúp về các tổ chức, cơ quan, công ty tuyển dụng sinh viên ngành [kỹ thuật phần mềm](major_name)
+    - Tốt nghiệp ngành [Khoa học máy tính](major_name) làm ở công ty nào?
+    - Tổ chức, cơ quan, công ty tuyển dụng sinh viên ngành [Khoa học máy tính](major_name)  
+    - Các công ty tiêu biểu tuyển dụng sinh viên ngành [Khoa học máy tính](major_name)
+    - Các công ty liên quan đến [Khoa học máy tính](major_name)
+    - Các công ty mạnh về [Khoa học máy tính](major_name)
+    - [Khoa học máy tính](major_name) các công ty liên quan 
+    - Sinh viên ngành [Khoa học máy tính](major_name) nên ứng tuyển vào những công ty nào    
+    - Các công ty tiêu biểu tuyển dụng sinh viên ngành [Khoa học máy tính](major_name)
+    - Các công ty liên quan đến [Khoa học máy tính](major_name)
+    - Các công ty mạnh về [Khoa học máy tính](major_name)
+    - [Khoa học máy tính](major_name) các công ty liên quan 
+    - Sinh viên ngành [Khoa học máy tính](major_name) nên ứng tuyển vào những công ty nào
+    - Tốt nghiệp ngành [tin học ứng dụng](major_name) làm ở công ty nào?
+    - Tổ chức, cơ quan, công ty tuyển dụng sinh viên ngành [tin học ứng dụng](major_name)    
+    - Các công ty tiêu biểu tuyển dụng sinh viên ngành [tin học ứng dụng](major_name)
+    - Các công ty liên quan đến [tin học ứng dụng](major_name)
+    - Các công ty mạnh về [tin học ứng dụng](major_name)
+    - [tin học ứng dụng](major_name) các công ty liên quan 
+    - Sinh viên ngành [tin học ứng dụng](major_name) nên ứng tuyển vào những công ty nào    
+    - Các công ty tiêu biểu tuyển dụng sinh viên ngành [tin học ứng dụng](major_name)
+    - Các công ty liên quan đến [tin học ứng dụng](major_name)
+    - Các công ty mạnh về [tin học ứng dụng](major_name)
+    - [tin học ứng dụng](major_name) các công ty liên quan 
+    - Sinh viên ngành [tin học ứng dụng](major_name) nên ứng tuyển vào những công ty nào
+- intent: ask_chvieclam
+  examples: |
+    - [Cơ hội việc làm](define) sau khi tốt nghiệp ngành [Hệ thống thông tin](major_name)
+    - Sau khi tốt nghiệp ngành [Hệ thống thông tin](major_name) làm việc gì
+    - Thông tin về việc làm của ngành [Hệ thống thông tin](major_name)
+    - Nói về [cơ hội việc làm](define) của ngành [Hệ thống thông tin](major_name)
+    - Tôi muốn biết thêm thông tin về [cơ hội việc làm](define) của ngành [Hệ thống thông tin](major_name)
+    - Giải thích về [cơ hội việc làm](define) của ngành [Hệ thống thông tin](major_name)
+    - Những điều cần chú ý về [Cơ hội việc làm](define) của ngành [Hệ thống thông tin](major_name)
+    - Cho tôi biết [cơ hội việc làm](define) của ngành [Hệ thống thông tin](major_name) gồm những gì
+    - Tôi không rõ về [cơ hội việc làm](define) của ngành [Hệ thống thông tin](major_name), có thể cho tôi biết thêm không?
+    - Tôi cần trợ giúp về [cơ hội việc làm](define) của ngành [Hệ thống thông tin](major_name)
+    - [Cơ hội việc làm](define) sau khi tốt nghiệp ngành [Hệ thống thông tin](major_name)
+    - Sau khi tốt nghiệp ngành [Hệ thống thông tin](major_name) làm việc gì
+    - Thông tin về việc làm của ngành [Hệ thống thông tin](major_name)
+    - Nói về [cơ hội việc làm](define) của ngành [Hệ thống thông tin](major_name)
+    - Tôi muốn biết thêm thông tin về [cơ hội việc làm](define) của ngành [Hệ thống thông tin](major_name)
+    - Giải thích về [cơ hội việc làm](define) của ngành [Hệ thống thông tin](major_name)
+    - Những điều cần chú ý về [Cơ hội việc làm](define) của ngành [Hệ thống thông tin](major_name)
+    - Cho tôi biết [cơ hội việc làm](define) của ngành [Hệ thống thông tin](major_name) gồm những gì
+    - Tôi không rõ về [cơ hội việc làm](define) của ngành [Hệ thống thông tin](major_name), có thể cho tôi biết thêm không?
+    - Tôi cần trợ giúp về [cơ hội việc làm](define) của ngành [Hệ thống thông tin](major_name)
+    - [Cơ hội việc làm](define) sau khi tốt nghiệp ngành [công nghệ thông tin Chất lượng cao](major_name)
+    - Sau khi tốt nghiệp ngành [công nghệ thông tin Chất lượng cao](major_name) làm việc gì
+    - Thông tin về việc làm của ngành [công nghệ thông tin Chất lượng cao](major_name)
+    - Nói về [cơ hội việc làm](define) của ngành [công nghệ thông tin Chất lượng cao](major_name)
+    - Tôi muốn biết thêm thông tin về [cơ hội việc làm](define) của ngành [công nghệ thông tin Chất lượng cao](major_name)
+    - Giải thích về [cơ hội việc làm](define) của ngành [công nghệ thông tin Chất lượng cao](major_name)
+    - Những điều cần chú ý về [Cơ hội việc làm](define) của ngành [công nghệ thông tin Chất lượng cao](major_name)
+    - Cho tôi biết [cơ hội việc làm](define) của ngành [công nghệ thông tin Chất lượng cao](major_name) gồm những gì
+    - Tôi không rõ về [cơ hội việc làm](define) của ngành [công nghệ thông tin Chất lượng cao](major_name), có thể cho tôi biết thêm không?
+    - Tôi cần trợ giúp về [cơ hội việc làm](define) của ngành [công nghệ thông tin Chất lượng cao](major_name)
+    - [Cơ hội việc làm](define) sau khi tốt nghiệp ngành [công nghệ thông tin Chất lượng cao](major_name)
+    - Sau khi tốt nghiệp ngành [công nghệ thông tin Chất lượng cao](major_name) làm việc gì
+    - Thông tin về việc làm của ngành [công nghệ thông tin Chất lượng cao](major_name)
+    - Nói về [cơ hội việc làm](define) của ngành [công nghệ thông tin Chất lượng cao](major_name)
+    - Tôi muốn biết thêm thông tin về [cơ hội việc làm](define) của ngành [công nghệ thông tin Chất lượng cao](major_name)
+    - Giải thích về [cơ hội việc làm](define) của ngành [công nghệ thông tin Chất lượng cao](major_name)
+    - Những điều cần chú ý về [Cơ hội việc làm](define) của ngành [công nghệ thông tin Chất lượng cao](major_name)
+    - Cho tôi biết [cơ hội việc làm](define) của ngành [công nghệ thông tin Chất lượng cao](major_name) gồm những gì
+    - Tôi không rõ về [cơ hội việc làm](define) của ngành [công nghệ thông tin Chất lượng cao](major_name), có thể cho tôi biết thêm không?
+    - Tôi cần trợ giúp về [cơ hội việc làm](define) của ngành [công nghệ thông tin Chất lượng cao](major_name)
+    - [Cơ hội việc làm](define) sau khi tốt nghiệp ngành [Công nghệ thông tin](major_name)
+    - Sau khi tốt nghiệp ngành [Công nghệ thông tin](major_name) làm việc gì
+    - Thông tin về việc làm của ngành [Công nghệ thông tin](major_name)
+    - Nói về [cơ hội việc làm](define) của ngành [Công nghệ thông tin](major_name)
+    - Tôi muốn biết thêm thông tin về [cơ hội việc làm](define) của ngành [Công nghệ thông tin](major_name)
+    - Giải thích về [cơ hội việc làm](define) của ngành [Công nghệ thông tin](major_name)
+    - Những điều cần chú ý về [Cơ hội việc làm](define) của ngành [Công nghệ thông tin](major_name)
+    - Cho tôi biết [cơ hội việc làm](define) của ngành [Công nghệ thông tin](major_name) gồm những gì
+    - Tôi không rõ về [cơ hội việc làm](define) của ngành [Công nghệ thông tin](major_name), có thể cho tôi biết thêm không?
+    - Tôi cần trợ giúp về [cơ hội việc làm](define) của ngành [Công nghệ thông tin](major_name)    
+    - [Cơ hội việc làm](define) sau khi tốt nghiệp ngành [Công nghệ thông tin](major_name)
+    - Sau khi tốt nghiệp ngành [Công nghệ thông tin](major_name) làm việc gì
+    - Thông tin về việc làm của ngành [Công nghệ thông tin](major_name)
+    - Nói về [cơ hội việc làm](define) của ngành [Công nghệ thông tin](major_name)
+    - Tôi muốn biết thêm thông tin về [cơ hội việc làm](define) của ngành [Công nghệ thông tin](major_name)
+    - Giải thích về [cơ hội việc làm](define) của ngành [Công nghệ thông tin](major_name)
+    - Những điều cần chú ý về [Cơ hội việc làm](define) của ngành [Công nghệ thông tin](major_name)
+    - Cho tôi biết [cơ hội việc làm](define) của ngành [Công nghệ thông tin](major_name) gồm những gì
+    - Tôi không rõ về [cơ hội việc làm](define) của ngành [Công nghệ thông tin](major_name), có thể cho tôi biết thêm không?
+    - Tôi cần trợ giúp về [cơ hội việc làm](define) của ngành [Công nghệ thông tin](major_name)
+    - [Cơ hội việc làm](define) sau khi tốt nghiệp ngành [kỹ thuật phần mềm](major_name)
+    - Sau khi tốt nghiệp ngành [kỹ thuật phần mềm](major_name) làm việc gì
+    - Thông tin về việc làm của ngành [kỹ thuật phần mềm](major_name)
+    - Nói về [cơ hội việc làm](define) của ngành [kỹ thuật phần mềm](major_name)
+    - Tôi muốn biết thêm thông tin về [cơ hội việc làm](define) của ngành [kỹ thuật phần mềm](major_name)
+    - Giải thích về [cơ hội việc làm](define) của ngành [kỹ thuật phần mềm](major_name)
+    - Những điều cần chú ý về [Cơ hội việc làm](define) của ngành [kỹ thuật phần mềm](major_name)
+    - Cho tôi biết [cơ hội việc làm](define) của ngành [kỹ thuật phần mềm](major_name) gồm những gì
+    - Tôi không rõ về [cơ hội việc làm](define) của ngành [kỹ thuật phần mềm](major_name), có thể cho tôi biết thêm không?
+    - Tôi cần trợ giúp về [cơ hội việc làm](define) của ngành [kỹ thuật phần mềm](major_name)
+    - Tôi cần tư vấn về [cơ hội việc làm](define) của ngành [kỹ thuật phần mềm](major_name)
+    - Sinh viên KTPM ra trường làm gì
+    - [Cơ hội việc làm](define) sau khi tốt nghiệp ngành [Khoa học máy tính](major_name)
+    - Sau khi tốt nghiệp ngành [Khoa học máy tính](major_name) làm việc gì
+    - Thông tin về việc làm của ngành [Khoa học máy tính](major_name)
+    - Nói về [cơ hội việc làm](define) của ngành [Khoa học máy tính](major_name)
+    - Tôi muốn biết thêm thông tin về [cơ hội việc làm](define) của ngành [Khoa học máy tính](major_name)
+    - Giải thích về [cơ hội việc làm](define) của ngành [Khoa học máy tính](major_name)
+    - Những điều cần chú ý về [Cơ hội việc làm](define) của ngành [Khoa học máy tính](major_name)
+    - Cho tôi biết [cơ hội việc làm](define) của ngành [Khoa học máy tính](major_name) gồm những gì
+    - Tôi không rõ về [cơ hội việc làm](define) của ngành [Khoa học máy tính](major_name), có thể cho tôi biết thêm không?
+    - Tôi cần trợ giúp về [cơ hội việc làm](define) của ngành [Khoa học máy tính](major_name)  
+    - [Cơ hội việc làm](define) sau khi tốt nghiệp ngành [Khoa học máy tính](major_name)
+    - Sau khi tốt nghiệp ngành [Khoa học máy tính](major_name) làm việc gì
+    - Thông tin về việc làm của ngành [Khoa học máy tính](major_name)
+    - Nói về [cơ hội việc làm](define) của ngành [Khoa học máy tính](major_name)
+    - Tôi muốn biết thêm thông tin về [cơ hội việc làm](define) của ngành [Khoa học máy tính](major_name)
+    - Giải thích về [cơ hội việc làm](define) của ngành [Khoa học máy tính](major_name)
+    - Những điều cần chú ý về [Cơ hội việc làm](define) của ngành [Khoa học máy tính](major_name)
+    - Cho tôi biết [cơ hội việc làm](define) của ngành [Khoa học máy tính](major_name) gồm những gì
+    - Tôi không rõ về [cơ hội việc làm](define) của ngành [Khoa học máy tính](major_name), có thể cho tôi biết thêm không?
+    - Tôi cần trợ giúp về [cơ hội việc làm](define) của ngành [Khoa học máy tính](major_name)
+    - [Cơ hội việc làm](define) sau khi tốt nghiệp ngành [tin học ứng dụng](major_name)
+    - Sau khi tốt nghiệp ngành [tin học ứng dụng](major_name) làm việc gì
+    - Thông tin về việc làm của ngành [tin học ứng dụng](major_name)
+    - Nói về [cơ hội việc làm](define) của ngành [tin học ứng dụng](major_name)
+    - Tôi muốn biết thêm thông tin về [cơ hội việc làm](define) của ngành [tin học ứng dụng](major_name)
+    - Giải thích về [cơ hội việc làm](define) của ngành [tin học ứng dụng](major_name)
+    - Những điều cần chú ý về [Cơ hội việc làm](define) của ngành [tin học ứng dụng](major_name)
+    - Cho tôi biết [cơ hội việc làm](define) của ngành [tin học ứng dụng](major_name) gồm những gì
+    - Tôi không rõ về [cơ hội việc làm](define) của ngành [tin học ứng dụng](major_name), có thể cho tôi biết thêm không?
+    - Tôi cần trợ giúp về [cơ hội việc làm](define) của ngành [tin học ứng dụng](major_name)   
+    - [Cơ hội việc làm](define) sau khi tốt nghiệp ngành [tin học ứng dụng](major_name)
+    - Sau khi tốt nghiệp ngành [tin học ứng dụng](major_name) làm việc gì
+    - Thông tin về việc làm của ngành [tin học ứng dụng](major_name)
+    - Nói về [cơ hội việc làm](define) của ngành [tin học ứng dụng](major_name)
+    - Tôi muốn biết thêm thông tin về [cơ hội việc làm](define) của ngành [tin học ứng dụng](major_name)
+    - Giải thích về [cơ hội việc làm](define) của ngành [tin học ứng dụng](major_name)
+    - Những điều cần chú ý về [Cơ hội việc làm](define) của ngành [tin học ứng dụng](major_name)
+    - Cho tôi biết [cơ hội việc làm](define) của ngành [tin học ứng dụng](major_name) gồm những gì
+    - Tôi không rõ về [cơ hội việc làm](define) của ngành [tin học ứng dụng](major_name), có thể cho tôi biết thêm không?
+    - Tôi cần trợ giúp về [cơ hội việc làm](define) của ngành [tin học ứng dụng](major_name)
+- intent: ask_muctieu
+  examples: |
+    - [mục tiêu đào tạo](define) của ngành [Hệ thống thông tin](major_name) là gì
+    - Thông tin về  [mục tiêu đào tạo](define) của ngành [Hệ thống thông tin](major_name)
+    - [Hệ thống thông tin](major_name) có [mục tiêu đào tạo](define) là gì
+    - Ngành [Hệ thống thông tin](major_name) có mục tiêu dt như thế nào
+    - Nói về mục tiêu ĐT của ngành [Hệ thống thông tin](major_name)
+    - Mình muốn biết thêm thông tin về[mục tiêu đào tạo](define) của ngành [Hệ thống thông tin](major_name)
+    - Có thể cho tôi biết thêm thông tin về[mục tiêu đào tạo](define) của ngành [Hệ thống thông tin](major_name) không?
+    - Giải thích về[mục tiêu đào tạo](define) của ngành [Hệ thống thông tin](major_name)
+    - Những điều cần chú ý về[mục tiêu đào tạo](define) của ngành [Hệ thống thông tin](major_name)
+    - Cho tôi biết[mục tiêu đào tạo](define) của ngành [Hệ thống thông tin](major_name) là gì
+    - Tôi không rõ về[mục tiêu đào tạo](define) của ngành [Hệ thống thông tin](major_name), có thể cho tôi biết thêm không?
+    - Tôi cần trợ giúp về[mục tiêu đào tạo](define) của ngành [Hệ thống thông tin](major_name)
+    - [mục tiêu đào tạo](define) của ngành [Hệ thống thông tin](major_name)
+    - Thông tin về  [mục tiêu đào tạo](define) của ngành [Hệ thống thông tin](major_name)
+    - [Hệ thống thông tin](major_name) có [mục tiêu đào tạo](define) là gì
+    - Ngành [Hệ thống thông tin](major_name) có mục tiêu dt như thế nào
+    - Nói về mục tiêu ĐT của ngành [Hệ thống thông tin](major_name)
+    - Mình muốn biết thêm thông tin về[mục tiêu đào tạo](define) của ngành [Hệ thống thông tin](major_name)
+    - Có thể cho tôi biết thêm thông tin về[mục tiêu đào tạo](define) của ngành [Hệ thống thông tin](major_name) không?
+    - Giải thích về[mục tiêu đào tạo](define) của ngành [Hệ thống thông tin](major_name)
+    - Những điều cần chú ý về[mục tiêu đào tạo](define) của ngành [Hệ thống thông tin](major_name)
+    - Cho tôi biết[mục tiêu đào tạo](define) của ngành [Hệ thống thông tin](major_name)
+    - Tôi không rõ về[mục tiêu đào tạo](define) của ngành [Hệ thống thông tin](major_name), có thể cho tôi biết thêm không?
+    - Tôi cần trợ giúp về[mục tiêu đào tạo](define) của ngành [Hệ thống thông tin](major_name)
+    - [mục tiêu đào tạo](define) của ngành [công nghệ thông tin Chất lượng cao](major_name) là gì
+    - Thông tin về  [mục tiêu đào tạo](define) của ngành [công nghệ thông tin Chất lượng cao](major_name)
+    - [công nghệ thông tin Chất lượng cao](major_name) có [mục tiêu đào tạo](define) là gì
+    - Ngành [công nghệ thông tin Chất lượng cao](major_name) có mục tiêu dt như thế nào
+    - Nói về mục tiêu ĐT của ngành [công nghệ thông tin Chất lượng cao](major_name)
+    - Mình muốn biết thêm thông tin về[mục tiêu đào tạo](define) của ngành [công nghệ thông tin Chất lượng cao](major_name)
+    - Có thể cho tôi biết thêm thông tin về[mục tiêu đào tạo](define) của ngành [công nghệ thông tin Chất lượng cao](major_name) không?
+    - Giải thích về[mục tiêu đào tạo](define) của ngành [công nghệ thông tin Chất lượng cao](major_name)
+    - Những điều cần chú ý về[mục tiêu đào tạo](define) của ngành [công nghệ thông tin Chất lượng cao](major_name)
+    - Cho tôi biết[mục tiêu đào tạo](define) của ngành [công nghệ thông tin Chất lượng cao](major_name) là gì
+    - Tôi không rõ về[mục tiêu đào tạo](define) của ngành [công nghệ thông tin Chất lượng cao](major_name), có thể cho tôi biết thêm không?
+    - Tôi cần trợ giúp về[mục tiêu đào tạo](define) của ngành [công nghệ thông tin Chất lượng cao](major_name)    
+    - [mục tiêu đào tạo](define) của ngành [công nghệ thông tin Chất lượng cao](major_name)
+    - Thông tin về  [mục tiêu đào tạo](define) của ngành [công nghệ thông tin Chất lượng cao](major_name)
+    - [công nghệ thông tin Chất lượng cao](major_name) có [mục tiêu đào tạo](define) là gì
+    - Ngành [công nghệ thông tin Chất lượng cao](major_name) có mục tiêu dt như thế nào
+    - Nói về mục tiêu ĐT của ngành [công nghệ thông tin Chất lượng cao](major_name)
+    - Mình muốn biết thêm thông tin về[mục tiêu đào tạo](define) của ngành [công nghệ thông tin Chất lượng cao](major_name)
+    - Có thể cho tôi biết thêm thông tin về[mục tiêu đào tạo](define) của ngành [công nghệ thông tin Chất lượng cao](major_name) không?
+    - Giải thích về[mục tiêu đào tạo](define) của ngành [công nghệ thông tin Chất lượng cao](major_name)
+    - Những điều cần chú ý về[mục tiêu đào tạo](define) của ngành [công nghệ thông tin Chất lượng cao](major_name)
+    - Cho tôi biết[mục tiêu đào tạo](define) của ngành [công nghệ thông tin Chất lượng cao](major_name)
+    - Tôi không rõ về[mục tiêu đào tạo](define) của ngành [công nghệ thông tin Chất lượng cao](major_name), có thể cho tôi biết thêm không?
+    - Tôi cần trợ giúp về[mục tiêu đào tạo](define) của ngành [công nghệ thông tin Chất lượng cao](major_name)
+    - [mục tiêu đào tạo](define) của ngành [Công nghệ thông tin](major_name) là gì
+    - Thông tin về [mục tiêu đào tạo](define) của ngành [Công nghệ thông tin](major_name)
+    - [Công nghệ thông tin](major_name) có [mục tiêu đào tạo](define) là gì
+    - Ngành [Công nghệ thông tin](major_name) có mục tiêu dt như thế nào
+    - Nói về mục tiêu ĐT của ngành [Công nghệ thông tin](major_name)
+    - Mình muốn biết thêm thông tin về[mục tiêu đào tạo](define) của ngành [Công nghệ thông tin](major_name)
+    - Có thể cho tôi biết thêm thông tin về[mục tiêu đào tạo](define) của ngành [Công nghệ thông tin](major_name) không?
+    - Giải thích về[mục tiêu đào tạo](define) của ngành [Công nghệ thông tin](major_name)
+    - Những điều cần chú ý về[mục tiêu đào tạo](define) của ngành [Công nghệ thông tin](major_name)
+    - Cho tôi biết[mục tiêu đào tạo](define) của ngành [Công nghệ thông tin](major_name) là gì
+    - Tôi không rõ về[mục tiêu đào tạo](define) của ngành [Công nghệ thông tin](major_name), có thể cho tôi biết thêm không?
+    - Tôi cần trợ giúp về[mục tiêu đào tạo](define) của ngành [Công nghệ thông tin](major_name)
+    - [mục tiêu đào tạo](define) của ngành [Công nghệ thông tin](major_name)
+    - Thông tin về [mục tiêu đào tạo](define) của ngành [Công nghệ thông tin](major_name)
+    - [Công nghệ thông tin](major_name) có [mục tiêu đào tạo](define) là gì
+    - Ngành [Công nghệ thông tin](major_name) có mục tiêu dt như thế nào
+    - Nói về mục tiêu ĐT của ngành [Công nghệ thông tin](major_name)
+    - Mình muốn biết thêm thông tin về[mục tiêu đào tạo](define) của ngành [Công nghệ thông tin](major_name)
+    - Có thể cho tôi biết thêm thông tin về[mục tiêu đào tạo](define) của ngành [Công nghệ thông tin](major_name) không?
+    - Giải thích về[mục tiêu đào tạo](define) của ngành [Công nghệ thông tin](major_name)
+    - Những điều cần chú ý về[mục tiêu đào tạo](define) của ngành [Công nghệ thông tin](major_name)
+    - Cho tôi biết[mục tiêu đào tạo](define) của ngành [Công nghệ thông tin](major_name)
+    - Tôi không rõ về[mục tiêu đào tạo](define) của ngành [Công nghệ thông tin](major_name), có thể cho tôi biết thêm không?
+    - Tôi cần trợ giúp về[mục tiêu đào tạo](define) của ngành [Công nghệ thông tin](major_name)
+    - [mục tiêu đào tạo](define) của ngành [kỹ thuật phần mềm](major_name) là gì
+    - Thông tin về  [mục tiêu đào tạo](define) của ngành [kỹ thuật phần mềm](major_name)
+    - [kỹ thuật phần mềm](major_name) có [mục tiêu đào tạo](define) là gì
+    - Ngành [kỹ thuật phần mềm](major_name) có mục tiêu dt như thế nào
+    - Nói về mục tiêu ĐT của ngành [kỹ thuật phần mềm](major_name)
+    - Mình muốn biết thêm thông tin về[mục tiêu đào tạo](define) của ngành [kỹ thuật phần mềm](major_name)
+    - Có thể cho tôi biết thêm thông tin về[mục tiêu đào tạo](define) của ngành [kỹ thuật phần mềm](major_name) không?
+    - Giải thích về[mục tiêu đào tạo](define) của ngành [kỹ thuật phần mềm](major_name)
+    - Những điều cần chú ý về[mục tiêu đào tạo](define) của ngành [kỹ thuật phần mềm](major_name)
+    - Cho tôi biết[mục tiêu đào tạo](define) của ngành [kỹ thuật phần mềm](major_name) là gì
+    - Tôi không rõ về[mục tiêu đào tạo](define) của ngành [kỹ thuật phần mềm](major_name), có thể cho tôi biết thêm không?
+    - Tôi cần trợ giúp về[mục tiêu đào tạo](define) của ngành [kỹ thuật phần mềm](major_name)
+    - Tôi cần tư vấn về[mục tiêu đào tạo](define) của ngành [kỹ thuật phần mềm](major_name)
+    - [mục tiêu đào tạo](define) của ngành [Khoa học máy tính](major_name) là gì
+    - Thông tin về  [mục tiêu đào tạo](define) của ngành [Khoa học máy tính](major_name)
+    - [Khoa học máy tính](major_name) có [mục tiêu đào tạo](define) là gì
+    - Ngành [Khoa học máy tính](major_name) có mục tiêu dt như thế nào
+    - Nói về mục tiêu ĐT của ngành [Khoa học máy tính](major_name)
+    - Mình muốn biết thêm thông tin về[mục tiêu đào tạo](define) của ngành [Khoa học máy tính](major_name)
+    - Có thể cho tôi biết thêm thông tin về[mục tiêu đào tạo](define) của ngành [Khoa học máy tính](major_name) không?
+    - Giải thích về[mục tiêu đào tạo](define) của ngành [Khoa học máy tính](major_name)
+    - Những điều cần chú ý về[mục tiêu đào tạo](define) của ngành [Khoa học máy tính](major_name)
+    - Cho tôi biết[mục tiêu đào tạo](define) của ngành [Khoa học máy tính](major_name) là gì
+    - Tôi không rõ về[mục tiêu đào tạo](define) của ngành [Khoa học máy tính](major_name), có thể cho tôi biết thêm không?
+    - Tôi cần trợ giúp về[mục tiêu đào tạo](define) của ngành [Khoa học máy tính](major_name)  
+    - [mục tiêu đào tạo](define) của ngành [Khoa học máy tính](major_name)
+    - Thông tin về  [mục tiêu đào tạo](define) của ngành [Khoa học máy tính](major_name)
+    - [Khoa học máy tính](major_name) có [mục tiêu đào tạo](define) là gì
+    - Ngành [Khoa học máy tính](major_name) có mục tiêu dt như thế nào
+    - Nói về mục tiêu ĐT của ngành [Khoa học máy tính](major_name)
+    - Mình muốn biết thêm thông tin về[mục tiêu đào tạo](define) của ngành [Khoa học máy tính](major_name)
+    - Có thể cho tôi biết thêm thông tin về[mục tiêu đào tạo](define) của ngành [Khoa học máy tính](major_name) không?
+    - Giải thích về[mục tiêu đào tạo](define) của ngành [Khoa học máy tính](major_name)
+    - Những điều cần chú ý về[mục tiêu đào tạo](define) của ngành [Khoa học máy tính](major_name)
+    - Cho tôi biết[mục tiêu đào tạo](define) của ngành [Khoa học máy tính](major_name)
+    - Tôi không rõ về[mục tiêu đào tạo](define) của ngành [Khoa học máy tính](major_name), có thể cho tôi biết thêm không?
+    - Tôi cần trợ giúp về[mục tiêu đào tạo](define) của ngành [Khoa học máy tính](major_name)
+    - [mục tiêu đào tạo](define) của ngành [tin học ứng dụng](major_name) là gì
+    - Thông tin về [mục tiêu đào tạo](define) của ngành [tin học ứng dụng](major_name)
+    - [tin học ứng dụng](major_name) có [mục tiêu đào tạo](define) là gì
+    - Ngành [tin học ứng dụng](major_name) có mục tiêu dt như thế nào
+    - Nói về mục tiêu ĐT của ngành [tin học ứng dụng](major_name)
+    - Mình muốn biết thêm thông tin về[mục tiêu đào tạo](define) của ngành [tin học ứng dụng](major_name)
+    - Có thể cho tôi biết thêm thông tin về[mục tiêu đào tạo](define) của ngành [tin học ứng dụng](major_name) không?
+    - Giải thích về[mục tiêu đào tạo](define) của ngành [tin học ứng dụng](major_name)
+    - Những điều cần chú ý về[mục tiêu đào tạo](define) của ngành [tin học ứng dụng](major_name)
+    - Cho tôi biết[mục tiêu đào tạo](define) của ngành [tin học ứng dụng](major_name) là gì
+    - Tôi không rõ về[mục tiêu đào tạo](define) của ngành [tin học ứng dụng](major_name), có thể cho tôi biết thêm không?
+    - Tôi cần trợ giúp về[mục tiêu đào tạo](define) của ngành [tin học ứng dụng](major_name)
+    - [mục tiêu đào tạo](define) của ngành [tin học ứng dụng](major_name)
+    - Thông tin về [mục tiêu đào tạo](define) của ngành [tin học ứng dụng](major_name)
+    - [tin học ứng dụng](major_name) có [mục tiêu đào tạo](define) là gì
+    - Ngành [tin học ứng dụng](major_name) có mục tiêu dt như thế nào
+    - Nói về mục tiêu ĐT của ngành [tin học ứng dụng](major_name)
+    - Mình muốn biết thêm thông tin về[mục tiêu đào tạo](define) của ngành [tin học ứng dụng](major_name)
+    - Có thể cho tôi biết thêm thông tin về[mục tiêu đào tạo](define) của ngành [tin học ứng dụng](major_name) không?
+    - Giải thích về[mục tiêu đào tạo](define) của ngành [tin học ứng dụng](major_name)
+    - Những điều cần chú ý về[mục tiêu đào tạo](define) của ngành [tin học ứng dụng](major_name)
+    - Cho tôi biết[mục tiêu đào tạo](define) của ngành [tin học ứng dụng](major_name)
+    - Tôi không rõ về[mục tiêu đào tạo](define) của ngành [tin học ứng dụng](major_name), có thể cho tôi biết thêm không?
+    - Tôi cần trợ giúp về[mục tiêu đào tạo](define) của ngành [tin học ứng dụng](major_name)
+- intent: ask_vitrilamviec
+  examples: |
+    - Kỹ sư [Hệ thống thông tin](major_name) làm việc ở vị trí nào
+    - [vị trí việc làm](define) của Kỹ sư [Hệ thống thông tin](major_name) là gì?
+    - [cơ hội việc làm](define) position của Kỹ sư [Hệ thống thông tin](major_name) là gì?
+    - Sinh viên ngành [Hệ thống thông tin](major_name) có [vị trí việc làm](define) như thế nào?
+    - Nói về [vị trí việc làm](define) của Kỹ sư [Hệ thống thông tin](major_name)
+    - Tôi muốn biết thêm thông tin về [vị trí việc làm](define) của Kỹ sư [Hệ thống thông tin](major_name)
+    - Cho tôi biết [vị trí việc làm](define) của Kỹ sư [Hệ thống thông tin](major_name) là gì
+    - Tôi không rõ về [vị trí việc làm](define) của Kỹ sư [Hệ thống thông tin](major_name)
+    - Tôi cần tư vấn về [vị trí việc làm](define) của Kỹ sư [Hệ thống thông tin](major_name)
+    - Tôi cần trợ giúp về [vị trí việc làm](define) của Kỹ sư [Hệ thống thông tin](major_name)
+    - Kỹ sư [công nghệ thông tin Chất lượng cao](major_name) làm việc ở vị trí nào
+    - [vị trí việc làm](define) của Kỹ sư [công nghệ thông tin Chất lượng cao](major_name) là gì?
+    - [cơ hội việc làm](define) position của Kỹ sư [công nghệ thông tin Chất lượng cao](major_name) là gì?
+    - Sinh viên ngành [công nghệ thông tin Chất lượng cao](major_name) có [vị trí việc làm](define) như thế nào?
+    - Nói về [vị trí việc làm](define) của Kỹ sư [công nghệ thông tin Chất lượng cao](major_name)
+    - Tôi muốn biết thêm thông tin về [vị trí việc làm](define) của Kỹ sư [công nghệ thông tin Chất lượng cao](major_name)
+    - Cho tôi biết [vị trí việc làm](define) của Kỹ sư [công nghệ thông tin Chất lượng cao](major_name) là gì
+    - Tôi không rõ về [vị trí việc làm](define) của Kỹ sư [công nghệ thông tin Chất lượng cao](major_name)
+    - Tôi cần tư vấn về [vị trí việc làm](define) của Kỹ sư [công nghệ thông tin Chất lượng cao](major_name)
+    - Tôi cần trợ giúp về [vị trí việc làm](define) của Kỹ sư [công nghệ thông tin Chất lượng cao](major_name)
+    - Kỹ sư [Công nghệ thông tin](major_name) làm việc ở vị trí nào
+    - [vị trí việc làm](define) của Kỹ sư [Công nghệ thông tin](major_name) là gì?
+    - [cơ hội việc làm](define) position của Kỹ sư [Công nghệ thông tin](major_name) là gì?
+    - Sinh viên ngành [Công nghệ thông tin](major_name) có [vị trí việc làm](define) như thế nào?
+    - Nói về [vị trí việc làm](define) của Kỹ sư [Công nghệ thông tin](major_name)
+    - Tôi muốn biết thêm thông tin về [vị trí việc làm](define) của Kỹ sư [Công nghệ thông tin](major_name)
+    - Cho tôi biết [vị trí việc làm](define) của Kỹ sư [Công nghệ thông tin](major_name) là gì
+    - Tôi không rõ về [vị trí việc làm](define) của Kỹ sư [Công nghệ thông tin](major_name)
+    - Tôi cần tư vấn về [vị trí việc làm](define) của Kỹ sư [Công nghệ thông tin](major_name)
+    - Tôi cần trợ giúp về [vị trí việc làm](define) của Kỹ sư [Công nghệ thông tin](major_name)
+    - Kỹ sư [kỹ thuật phần mềm](major_name) làm việc ở vị trí nào
+    - [vị trí việc làm](define) của Kỹ sư [kỹ thuật phần mềm](major_name) là gì?
+    - [cơ hội việc làm](define) position của Kỹ sư [kỹ thuật phần mềm](major_name) là gì?
+    - Sinh viên ngành [kỹ thuật phần mềm](major_name) có [vị trí việc làm](define) như thế nào?
+    - Nói về [vị trí việc làm](define) của Kỹ sư [kỹ thuật phần mềm](major_name)
+    - Tôi muốn biết thêm thông tin về [vị trí việc làm](define) của Kỹ sư [kỹ thuật phần mềm](major_name)
+    - Cho tôi biết [vị trí việc làm](define) của Kỹ sư [kỹ thuật phần mềm](major_name) là gì
+    - Tôi không rõ về [vị trí việc làm](define) của Kỹ sư [kỹ thuật phần mềm](major_name)
+    - Tôi cần tư vấn về [vị trí việc làm](define) của Kỹ sư [kỹ thuật phần mềm](major_name)
+    - Tôi cần trợ giúp về [vị trí việc làm](define) của Kỹ sư [kỹ thuật phần mềm](major_name)
+    - Kỹ sư [Khoa học máy tính](major_name) làm việc ở vị trí nào
+    - [vị trí việc làm](define) của kỹ sư [Khoa học máy tính](major_name) là gì?
+    - [cơ hội việc làm](define) position của Kỹ sư [kỹ thuật phần mềm](major_name) là gì?
+    - Sinh viên ngành [Khoa học máy tính](major_name) có [vị trí việc làm](define) như thế nào?
+    - Nói về [vị trí việc làm](define) của Kỹ sư [Khoa học máy tính](major_name)
+    - Tôi muốn biết thêm thông tin về [vị trí việc làm](define) của Kỹ sư [Khoa học máy tính](major_name)
+    - Cho tôi biết [vị trí việc làm](define) của Kỹ sư [Khoa học máy tính](major_name) là gì
+    - Tôi không rõ về [vị trí việc làm](define) của Kỹ sư [Khoa học máy tính](major_name)
+    - Tôi cần tư vấn về [vị trí việc làm](define) của Kỹ sư [Khoa học máy tính](major_name)
+    - Tôi cần trợ giúp về [vị trí việc làm](define) của Kỹ sư [Khoa học máy tính](major_name)
+    - Kỹ sư [tin học ứng dụng](major_name) làm việc ở vị trí nào
+    - [vị trí việc làm](define) của Kỹ sư [tin học ứng dụng](major_name) là gì?
+    - Kỹ sư [tin học ứng dụng](major_name) làm việc ở vị trí nào
+    - [vị trí việc làm](define) của Kỹ sư [tin học ứng dụng](major_name) là gì?
+- intent: ask_ktchuyennganh
+  examples: |
+    - Để tốt nghiệp ngành [Hệ thống thông tin](major_name) cần [kiến thức đầu ra](define) gì?
+    - [kiến thức đầu ra](define) cần thiết để tốt nghiệp ngành [Hệ thống thông tin](major_name) là gì?
+    - Ngành [Hệ thống thông tin](major_name) cần [kiến thức đầu ra](define) như thế nào?
+    - Thông tin về [kiến thức đầu ra](define) của ngành [Hệ thống thông tin](major_name)
+    - Nói về [kiến thức đầu ra](define) của ngành [Hệ thống thông tin](major_name)
+    - Tôi muốn biết thêm thông tin về [kiến thức đầu ra](define) của ngành [Hệ thống thông tin](major_name)
+    - Có thể cho tôi biết thêm thông tin về [kiến thức đầu ra](define) của ngành [Hệ thống thông tin](major_name) không?
+    - Giải thích về [kiến thức đầu ra](define) của ngành [Hệ thống thông tin](major_name)
+    - Những điều cần chú ý về [kiến thức đầu ra](define) của ngành [Hệ thống thông tin](major_name)
+    - Cho tôi biết [kiến thức đầu ra](define) của ngành [Hệ thống thông tin](major_name) gồm những gì
+    - Tôi không rõ về [kiến thức đầu ra](define) của ngành [Hệ thống thông tin](major_name), có thể cho tôi biết thêm không?
+    - Tôi cần trợ giúp về [kiến thức đầu ra](define) của ngành [Hệ thống thông tin](major_name)
+    - Để tốt nghiệp ngành [Hệ thống thông tin](major_name) cần [kiến thức đầu ra](define) gì?
+    - [kiến thức đầu ra](define) cần thiết để tốt nghiệp ngành [Hệ thống thông tin](major_name) là gì?
+    - Ngành [Hệ thống thông tin](major_name) cần [kiến thức đầu ra](define) như thế nào?
+    - Thông tin về [kiến thức đầu ra](define) của ngành [Hệ thống thông tin](major_name)
+    - Nói về [kiến thức đầu ra](define) của ngành [Hệ thống thông tin](major_name)
+    - Tôi muốn biết thêm thông tin về [kiến thức đầu ra](define) của ngành [Hệ thống thông tin](major_name)
+    - Có thể cho tôi biết thêm thông tin về [kiến thức đầu ra](define) của ngành [Hệ thống thông tin](major_name) không?
+    - Giải thích về [kiến thức đầu ra](define) của ngành [Hệ thống thông tin](major_name)
+    - Những điều cần chú ý về [kiến thức đầu ra](define) của ngành [Hệ thống thông tin](major_name)
+    - Cho tôi biết [kiến thức đầu ra](define) của ngành [Hệ thống thông tin](major_name) gồm những gì
+    - Tôi không rõ về [kiến thức đầu ra](define) của ngành [Hệ thống thông tin](major_name), có thể cho tôi biết thêm không?
+    - Tôi cần trợ giúp về [kiến thức đầu ra](define) của ngành [Hệ thống thông tin](major_name)
+    - Để tốt nghiệp ngành [công nghệ thông tin Chất lượng cao](major_name) cần [kiến thức đầu ra](define) gì?
+    - [kiến thức đầu ra](define) cần thiết để tốt nghiệp ngành [công nghệ thông tin Chất lượng cao](major_name) là gì?
+    - Ngành [công nghệ thông tin Chất lượng cao](major_name) cần [kiến thức đầu ra](define) như thế nào?
+    - Thông tin về [kiến thức đầu ra](define) của ngành [công nghệ thông tin Chất lượng cao](major_name)
+    - Nói về [kiến thức đầu ra](define) của ngành [công nghệ thông tin Chất lượng cao](major_name)
+    - Tôi muốn biết thêm thông tin về [kiến thức đầu ra](define) của ngành [công nghệ thông tin Chất lượng cao](major_name)
+    - Có thể cho tôi biết thêm thông tin về [kiến thức đầu ra](define) của ngành [công nghệ thông tin Chất lượng cao](major_name) không?
+    - Giải thích về [kiến thức đầu ra](define) của ngành [công nghệ thông tin Chất lượng cao](major_name)
+    - Những điều cần chú ý về [kiến thức đầu ra](define) của ngành [công nghệ thông tin Chất lượng cao](major_name)
+    - Cho tôi biết [kiến thức đầu ra](define) của ngành [công nghệ thông tin Chất lượng cao](major_name) gồm những gì
+    - Tôi không rõ về [kiến thức đầu ra](define) của ngành [công nghệ thông tin Chất lượng cao](major_name), có thể cho tôi biết thêm không?
+    - Tôi cần trợ giúp về [kiến thức đầu ra](define) của ngành [công nghệ thông tin Chất lượng cao](major_name)    
+    - Để tốt nghiệp ngành [công nghệ thông tin Chất lượng cao](major_name) cần [kiến thức đầu ra](define) gì?
+    - [kiến thức đầu ra](define) cần thiết để tốt nghiệp ngành [công nghệ thông tin Chất lượng cao](major_name) là gì?
+    - Ngành [công nghệ thông tin Chất lượng cao](major_name) cần [kiến thức đầu ra](define) như thế nào?
+    - Thông tin về [kiến thức đầu ra](define) của ngành [công nghệ thông tin Chất lượng cao](major_name)
+    - Nói về [kiến thức đầu ra](define) của ngành [công nghệ thông tin Chất lượng cao](major_name)
+    - Tôi muốn biết thêm thông tin về [kiến thức đầu ra](define) của ngành [công nghệ thông tin Chất lượng cao](major_name)
+    - Có thể cho tôi biết thêm thông tin về [kiến thức đầu ra](define) của ngành [công nghệ thông tin Chất lượng cao](major_name) không?
+    - Giải thích về [kiến thức đầu ra](define) của ngành [công nghệ thông tin Chất lượng cao](major_name)
+    - Những điều cần chú ý về [kiến thức đầu ra](define) của ngành [công nghệ thông tin Chất lượng cao](major_name)
+    - Cho tôi biết [kiến thức đầu ra](define) của ngành [công nghệ thông tin Chất lượng cao](major_name) gồm những gì
+    - Tôi không rõ về [kiến thức đầu ra](define) của ngành [công nghệ thông tin Chất lượng cao](major_name), có thể cho tôi biết thêm không?
+    - Tôi cần trợ giúp về [kiến thức đầu ra](define) của ngành [công nghệ thông tin Chất lượng cao](major_name)
+    - Để tốt nghiệp ngành [Công nghệ thông tin](major_name) cần [kiến thức đầu ra](define) gì?
+    - [kiến thức đầu ra](define) cần thiết để tốt nghiệp ngành [Công nghệ thông tin](major_name) là gì?
+    - Ngành [Công nghệ thông tin](major_name) cần [kiến thức đầu ra](define) như thế nào?
+    - Thông tin về [kiến thức đầu ra](define) của ngành [Công nghệ thông tin](major_name)
+    - Nói về [kiến thức đầu ra](define) của ngành [Công nghệ thông tin](major_name)
+    - Tôi muốn biết thêm thông tin về [kiến thức đầu ra](define) của ngành [Công nghệ thông tin](major_name)
+    - Có thể cho tôi biết thêm thông tin về [kiến thức đầu ra](define) của ngành [Công nghệ thông tin](major_name) không?
+    - Giải thích về [kiến thức đầu ra](define) của ngành [Công nghệ thông tin](major_name)
+    - Những điều cần chú ý về [kiến thức đầu ra](define) của ngành [Công nghệ thông tin](major_name)
+    - Cho tôi biết [kiến thức đầu ra](define) của ngành [Công nghệ thông tin](major_name) gồm những gì
+    - Tôi không rõ về [kiến thức đầu ra](define) của ngành [Công nghệ thông tin](major_name), có thể cho tôi biết thêm không?
+    - Tôi cần trợ giúp về [kiến thức đầu ra](define) của ngành [Công nghệ thông tin](major_name)
+    - Để tốt nghiệp ngành [Công nghệ thông tin](major_name) cần [kiến thức đầu ra](define) gì?
+    - [kiến thức đầu ra](define) cần thiết để tốt nghiệp ngành [Công nghệ thông tin](major_name) là gì?
+    - Ngành [Công nghệ thông tin](major_name) cần [kiến thức đầu ra](define) như thế nào?
+    - Thông tin về [kiến thức đầu ra](define) của ngành [Công nghệ thông tin](major_name)
+    - Nói về [kiến thức đầu ra](define) của ngành [Công nghệ thông tin](major_name)
+    - Tôi muốn biết thêm thông tin về [kiến thức đầu ra](define) của ngành [Công nghệ thông tin](major_name)
+    - Có thể cho tôi biết thêm thông tin về [kiến thức đầu ra](define) của ngành [Công nghệ thông tin](major_name) không?
+    - Giải thích về [kiến thức đầu ra](define) của ngành [Công nghệ thông tin](major_name)
+    - Những điều cần chú ý về [kiến thức đầu ra](define) của ngành [Công nghệ thông tin](major_name)
+    - Cho tôi biết [kiến thức đầu ra](define) của ngành [Công nghệ thông tin](major_name) gồm những gì
+    - Tôi không rõ về [kiến thức đầu ra](define) của ngành [Công nghệ thông tin](major_name), có thể cho tôi biết thêm không?
+    - Tôi cần trợ giúp về [kiến thức đầu ra](define) của ngành [Công nghệ thông tin](major_name)
+    - Để tốt nghiệp ngành [kỹ thuật phần mềm](major_name) cần [kiến thức đầu ra](define) gì?
+    - [kiến thức đầu ra](define) cần thiết để tốt nghiệp ngành [kỹ thuật phần mềm](major_name) là gì?
+    - Ngành [kỹ thuật phần mềm](major_name) cần [kiến thức đầu ra](define) như thế nào?
+    - Thông tin về [kiến thức đầu ra](define) của ngành [kỹ thuật phần mềm](major_name)
+    - Nói về [kiến thức đầu ra](define) của ngành [kỹ thuật phần mềm](major_name)
+    - Tôi muốn biết thêm thông tin về [kiến thức đầu ra](define) của ngành [kỹ thuật phần mềm](major_name)
+    - Có thể cho tôi biết thêm thông tin về [kiến thức đầu ra](define) của ngành [kỹ thuật phần mềm](major_name) không?
+    - Giải thích về kiến thức đạt được sau khi tốt nghiệp của ngành [kỹ thuật phần mềm](major_name)
+    - Những điều cần chú ý về [kiến thức đầu ra](define) của ngành [kỹ thuật phần mềm](major_name)
+    - Cho tôi biết [chuẩn đầu ra](define) về kiến thức của ngành [kỹ thuật phần mềm](major_name) gồm những gì
+    - Tôi không rõ về [kiến thức đầu ra](define) của ngành [kỹ thuật phần mềm](major_name), có thể cho tôi biết thêm không?
+    - Tôi cần trợ giúp về [kiến thức đầu ra](define) của ngành [kỹ thuật phần mềm](major_name)
+    - Tôi cần tư vấn về [kiến thức đầu ra](define) của ngành [kỹ thuật phần mềm](major_name)
+    - Để tốt nghiệp ngành [Khoa học máy tính](major_name) cần [kiến thức đầu ra](define) gì?
+    - [kiến thức đầu ra](define) cần thiết để tốt nghiệp ngành [Khoa học máy tính](major_name) là gì?
+    - Ngành [Khoa học máy tính](major_name) cần [kiến thức đầu ra](define) như thế nào?
+    - Thông tin về [kiến thức đầu ra](define) của ngành [Khoa học máy tính](major_name)
+    - Nói về [kiến thức đầu ra](define) của ngành [Khoa học máy tính](major_name)
+    - Tôi muốn biết thêm thông tin về [kiến thức đầu ra](define) của ngành [Khoa học máy tính](major_name)
+    - Có thể cho tôi biết thêm thông tin về [kiến thức đầu ra](define) của ngành [Khoa học máy tính](major_name) không?
+    - Giải thích về [kiến thức đầu ra](define) của ngành [Khoa học máy tính](major_name)
+    - Những điều cần chú ý về [kiến thức đầu ra](define) của ngành [Khoa học máy tính](major_name)
+    - Cho tôi biết [kiến thức đầu ra](define) của ngành [Khoa học máy tính](major_name) gồm những gì
+    - Tôi không rõ về [kiến thức đầu ra](define) của ngành [Khoa học máy tính](major_name), có thể cho tôi biết thêm không?
+    - Tôi cần trợ giúp về [kiến thức đầu ra](define) của ngành [Khoa học máy tính](major_name)
+    - Để tốt nghiệp ngành [Khoa học máy tính](major_name) cần [kiến thức đầu ra](define) gì?
+    - [kiến thức đầu ra](define) cần thiết để tốt nghiệp ngành [Khoa học máy tính](major_name) là gì?
+    - Ngành [Khoa học máy tính](major_name) cần [kiến thức đầu ra](define) như thế nào?
+    - Thông tin về [kiến thức đầu ra](define) của ngành [Khoa học máy tính](major_name)
+    - Nói về [kiến thức đầu ra](define) của ngành [Khoa học máy tính](major_name)
+    - Tôi muốn biết thêm thông tin về [kiến thức đầu ra](define) của ngành [Khoa học máy tính](major_name)
+    - Có thể cho tôi biết thêm thông tin về [kiến thức đầu ra](define) của ngành [Khoa học máy tính](major_name) không?
+    - Giải thích về [kiến thức đầu ra](define) của ngành [Khoa học máy tính](major_name)
+    - Những điều cần chú ý về [kiến thức đầu ra](define) của ngành [Khoa học máy tính](major_name)
+    - Cho tôi biết [kiến thức đầu ra](define) của ngành [Khoa học máy tính](major_name) gồm những gì
+    - Tôi không rõ về [kiến thức đầu ra](define) của ngành [Khoa học máy tính](major_name), có thể cho tôi biết thêm không?
+    - Tôi cần trợ giúp về [kiến thức đầu ra](define) của ngành [Khoa học máy tính](major_name) 
+    - Để tốt nghiệp ngành [tin học ứng dụng](major_name) cần [kiến thức đầu ra](define) gì?
+    - [kiến thức đầu ra](define) cần thiết để tốt nghiệp ngành [tin học ứng dụng](major_name) là gì?
+    - Ngành [tin học ứng dụng](major_name) cần [kiến thức đầu ra](define) như thế nào?
+    - Thông tin về [kiến thức đầu ra](define) của ngành [tin học ứng dụng](major_name)
+    - Nói về [kiến thức đầu ra](define) của ngành [tin học ứng dụng](major_name)
+    - Tôi muốn biết thêm thông tin về [kiến thức đầu ra](define) của ngành [tin học ứng dụng](major_name)
+    - Có thể cho tôi biết thêm thông tin về [kiến thức đầu ra](define) của ngành [tin học ứng dụng](major_name) không?
+    - Giải thích về [kiến thức đầu ra](define) của ngành [tin học ứng dụng](major_name)
+    - Những điều cần chú ý về [kiến thức đầu ra](define) của ngành [tin học ứng dụng](major_name)
+    - Cho tôi biết [kiến thức đầu ra](define) của ngành [tin học ứng dụng](major_name) gồm những gì
+    - Tôi không rõ về [kiến thức đầu ra](define) của ngành [tin học ứng dụng](major_name), có thể cho tôi biết thêm không?
+    - Tôi cần trợ giúp về [kiến thức đầu ra](define) của ngành [tin học ứng dụng](major_name)   
+    - Để tốt nghiệp ngành [tin học ứng dụng](major_name) cần [kiến thức đầu ra](define) gì?
+    - [kiến thức đầu ra](define) cần thiết để tốt nghiệp ngành [tin học ứng dụng](major_name) là gì?
+    - Ngành [tin học ứng dụng](major_name) cần [kiến thức đầu ra](define) như thế nào?
+    - Thông tin về [kiến thức đầu ra](define) của ngành [tin học ứng dụng](major_name)
+    - Nói về [kiến thức đầu ra](define) của ngành [tin học ứng dụng](major_name)
+    - Tôi muốn biết thêm thông tin về [kiến thức đầu ra](define) của ngành [tin học ứng dụng](major_name)
+    - Có thể cho tôi biết thêm thông tin về [kiến thức đầu ra](define) của ngành [tin học ứng dụng](major_name) không?
+    - Giải thích về [kiến thức đầu ra](define) của ngành [tin học ứng dụng](major_name)
+    - Những điều cần chú ý về [kiến thức đầu ra](define) của ngành [tin học ứng dụng](major_name)
+    - Cho tôi biết [kiến thức đầu ra](define) của ngành [tin học ứng dụng](major_name) gồm những gì
+    - Tôi không rõ về [kiến thức đầu ra](define) của ngành [tin học ứng dụng](major_name), có thể cho tôi biết thêm không?
+    - Tôi cần trợ giúp về [kiến thức đầu ra](define) của ngành [tin học ứng dụng](major_name)
+- intent: ask_noilamviec
+  examples: |
+    - Làm việc ở đâu sau khi tốt nghiệp ngành [Hệ thống thông tin](major_name)?
+    - Sinh viên tốt nghiệp ngành [Hệ thống thông tin](major_name) có thể làm việc ở đâu?
+    - Nói về chỗ làm việc sau khi tốt nghiệp ngành [Hệ thống thông tin](major_name)
+    - Tôi muốn biết về chỗ làm việc sau khi tốt nghiệp ngành [Hệ thống thông tin](major_name)
+    - Cho mình biết về chỗ làm việc sau khi tốt nghiệp ngành [Hệ thống thông tin](major_name)
+    - Tôi không rõ về chỗ làm việc sau khi tốt nghiệp ngành [Hệ thống thông tin](major_name)
+    - Tôi cần tư vấn về chỗ làm việc sau khi tốt nghiệp ngành [Hệ thống thông tin](major_name)
+    - Tôi cần trợ giúp về chỗ làm việc sau khi tốt nghiệp ngành [Hệ thống thông tin](major_name)
+    - Làm việc ở đâu sau khi tốt nghiệp ngành [công nghệ thông tin Chất lượng cao](major_name)?
+    - Sinh viên tốt nghiệp ngành [công nghệ thông tin Chất lượng cao](major_name) có thể làm việc ở đâu?
+    - Nói về chỗ làm việc sau khi tốt nghiệp ngành [công nghệ thông tin Chất lượng cao](major_name)
+    - Tôi muốn biết về chỗ làm việc sau khi tốt nghiệp ngành [công nghệ thông tin Chất lượng cao](major_name)
+    - Cho mình biết về chỗ làm việc sau khi tốt nghiệp ngành [công nghệ thông tin Chất lượng cao](major_name)
+    - Tôi không rõ về chỗ làm việc sau khi tốt nghiệp ngành [công nghệ thông tin Chất lượng cao](major_name)
+    - Tôi cần tư vấn về chỗ làm việc sau khi tốt nghiệp ngành [công nghệ thông tin Chất lượng cao](major_name)
+    - Tôi cần trợ giúp về chỗ làm việc sau khi tốt nghiệp ngành [công nghệ thông tin Chất lượng cao](major_name)
+    - Làm việc ở đâu sau khi tốt nghiệp ngành [Công nghệ thông tin](major_name)?
+    - Sinh viên tốt nghiệp ngành [Công nghệ thông tin](major_name) có thể làm việc ở đâu?
+    - Nói về chỗ làm việc sau khi tốt nghiệp ngành [Công nghệ thông tin](major_name)
+    - Tôi muốn biết về chỗ làm việc sau khi tốt nghiệp ngành [Công nghệ thông tin](major_name)
+    - Cho mình biết về chỗ làm việc sau khi tốt nghiệp ngành [Công nghệ thông tin](major_name)
+    - Tôi không rõ về chỗ làm việc sau khi tốt nghiệp ngành [Công nghệ thông tin](major_name)
+    - Tôi cần tư vấn về chỗ làm việc sau khi tốt nghiệp ngành [Công nghệ thông tin](major_name)
+    - Tôi cần trợ giúp về chỗ làm việc sau khi tốt nghiệp ngành [Công nghệ thông tin](major_name)
+    - Làm việc ở đâu sau khi tốt nghiệp ngành [kỹ thuật phần mềm](major_name)?
+    - Sinh viên tốt nghiệp ngành [kỹ thuật phần mềm](major_name) có thể làm việc ở đâu?
+    - Nói về chỗ làm việc sau khi tốt nghiệp ngành [kỹ thuật phần mềm](major_name)
+    - Tôi muốn biết về chỗ làm việc sau khi tốt nghiệp ngành [kỹ thuật phần mềm](major_name)
+    - Cho mình biết về chỗ làm việc sau khi tốt nghiệp ngành [kỹ thuật phần mềm](major_name)
+    - Tôi không rõ về chỗ làm việc sau khi tốt nghiệp ngành [kỹ thuật phần mềm](major_name)
+    - Tôi cần tư vấn về chỗ làm việc sau khi tốt nghiệp ngành [kỹ thuật phần mềm](major_name)
+    - Tôi cần trợ giúp về chỗ làm việc sau khi tốt nghiệp ngành [kỹ thuật phần mềm](major_name)
+    - Làm việc ở đâu sau khi tốt nghiệp ngành [Khoa học máy tính](major_name)?
+    - Sinh viên tốt nghiệp ngành [Khoa học máy tính](major_name) có thể làm việc ở đâu?
+    - Nói về chỗ làm việc sau khi tốt nghiệp ngành [Khoa học máy tính](major_name)
+    - Tôi muốn biết về chỗ làm việc sau khi tốt nghiệp ngành [Khoa học máy tính](major_name)
+    - Cho mình biết về chỗ làm việc sau khi tốt nghiệp ngành [Khoa học máy tính](major_name)
+    - Tôi không rõ về chỗ làm việc sau khi tốt nghiệp ngành [Khoa học máy tính](major_name)
+    - Tôi cần tư vấn về chỗ làm việc sau khi tốt nghiệp ngành [Khoa học máy tính](major_name)
+    - Tôi cần trợ giúp về chỗ làm việc sau khi tốt nghiệp ngành [Khoa học máy tính](major_name)
+    - Làm việc ở đâu sau khi tốt nghiệp ngành [tin học ứng dụng](major_name)
+    - Sinh viên tốt nghiệp ngành [tin học ứng dụng](major_name) có thể làm việc ở đâu?
+    - Làm việc ở đâu sau khi tốt nghiệp ngành [tin học ứng dụng](major_name)
+    - Sinh viên tốt nghiệp ngành [tin học ứng dụng](major_name) có thể làm việc ở đâu?
+- intent: ask_ctDaoTao
+  examples: |
+    - [chương trình đào tạo](define) của ngành [Hệ thống thông tin](major_name) gồm những gì?
+    - Thông tin về CTDT của ngành [Hệ thống thông tin](major_name)
+    - ctdt của ngành [Hệ thống thông tin](major_name) có khó không?
+    - Ngành [Hệ thống thông tin](major_name) có [chương trình đào tạo](define) là gì?
+    - Giới thiệu [chương trình đào tạo](define) của ngành [Hệ thống thông tin](major_name)
+    - Nói về [chương trình đào tạo](define) của ngành [Hệ thống thông tin](major_name)
+    - Tôi muốn biết thêm thông tin về [chương trình đào tạo](define) của ngành [Hệ thống thông tin](major_name)
+    - Có thể cho mình biết thêm thông tin về ctdt của ngành [Hệ thống thông tin](major_name) không?
+    - Giải thích về [chương trình đào tạo](define) của ngành [Hệ thống thông tin](major_name)
+    - Những điều cần chú ý về [chương trình đào tạo](define) của ngành [Hệ thống thông tin](major_name)
+    - Cho tôi biết về [chương trình đào tạo](define) của ngành [Hệ thống thông tin](major_name)
+    - Tôi không rõ về [chương trình đào tạo](define) của ngành [Hệ thống thông tin](major_name), bot có thể nói thêm được không?
+    - Tôi cần trợ giúp về [chương trình đào tạo](define) của ngành [Hệ thống thông tin](major_name)
+    - [chương trình đào tạo](define) của ngành [Hệ thống thông tin](major_name)gồm những gì?
+    - Thông tin về CTDT của ngành [Hệ thống thông tin](major_name)
+    - ctdt của ngành [Hệ thống thông tin](major_name) có khó không?
+    - Ngành [Hệ thống thông tin](major_name)có [chương trình đào tạo](define) là gì?
+    - Giới thiệu [chương trình đào tạo](define) của ngành [Hệ thống thông tin](major_name)
+    - Nói về [chương trình đào tạo](define) của ngành [Hệ thống thông tin](major_name)
+    - Tôi muốn biết thêm thông tin về [chương trình đào tạo](define) của ngành [Hệ thống thông tin](major_name)
+    - Có thể cho mình biết thêm thông tin về ctdt của ngành [Hệ thống thông tin](major_name)?
+    - Giải thích về [chương trình đào tạo](define) của ngành [Hệ thống thông tin](major_name)
+    - Những điều cần chú ý về [chương trình đào tạo](define) của ngành [Hệ thống thông tin](major_name)
+    - Cho tôi biết về [chương trình đào tạo](define) của ngành [Hệ thống thông tin](major_name)
+    - Tôi không rõ về [chương trình đào tạo](define) của ngành [Hệ thống thông tin](major_name), bot có thể nói thêm được không?
+    - Tôi cần trợ giúp về [chương trình đào tạo](define) của ngành [Hệ thống thông tin](major_name)
+    - [chương trình đào tạo](define) của ngành [công nghệ thông tin Chất lượng cao](major_name) gồm những gì?
+    - Thông tin về CTDT của ngành [công nghệ thông tin Chất lượng cao](major_name)
+    - ctdt của ngành [công nghệ thông tin Chất lượng cao](major_name) có khó không?
+    - Ngành [công nghệ thông tin Chất lượng cao](major_name) có [chương trình đào tạo](define) là gì?
+    - Giới thiệu [chương trình đào tạo](define) của ngành [công nghệ thông tin Chất lượng cao](major_name)
+    - Nói về [chương trình đào tạo](define) của ngành [công nghệ thông tin Chất lượng cao](major_name)
+    - Tôi muốn biết thêm thông tin về [chương trình đào tạo](define) của ngành [công nghệ thông tin Chất lượng cao](major_name)
+    - Có thể cho mình biết thêm thông tin về ctdt của ngành [công nghệ thông tin Chất lượng cao](major_name) không?
+    - Giải thích về [chương trình đào tạo](define) của ngành [công nghệ thông tin Chất lượng cao](major_name)
+    - Những điều cần chú ý về [chương trình đào tạo](define) của ngành [công nghệ thông tin Chất lượng cao](major_name)
+    - Cho tôi biết về [chương trình đào tạo](define) của ngành [công nghệ thông tin Chất lượng cao](major_name)
+    - Tôi không rõ về [chương trình đào tạo](define) của ngành [công nghệ thông tin Chất lượng cao](major_name), bot có thể nói thêm được không?
+    - Tôi cần trợ giúp về [chương trình đào tạo](define) của ngành [công nghệ thông tin Chất lượng cao](major_name)    
+    - [chương trình đào tạo](define) của ngành [công nghệ thông tin Chất lượng cao](major_name)gồm những gì?
+    - Thông tin về CTDT của ngành [công nghệ thông tin Chất lượng cao](major_name)
+    - ctdt của ngành [công nghệ thông tin Chất lượng cao](major_name) có khó không?
+    - Ngành [công nghệ thông tin Chất lượng cao](major_name)có [chương trình đào tạo](define) là gì?
+    - Giới thiệu [chương trình đào tạo](define) của ngành [công nghệ thông tin Chất lượng cao](major_name)
+    - Nói về [chương trình đào tạo](define) của ngành [công nghệ thông tin Chất lượng cao](major_name)
+    - Tôi muốn biết thêm thông tin về [chương trình đào tạo](define) của ngành [công nghệ thông tin Chất lượng cao](major_name)
+    - Có thể cho mình biết thêm thông tin về ctdt của ngành [công nghệ thông tin Chất lượng cao](major_name)?
+    - Giải thích về [chương trình đào tạo](define) của ngành [công nghệ thông tin Chất lượng cao](major_name)
+    - Những điều cần chú ý về [chương trình đào tạo](define) của ngành [công nghệ thông tin Chất lượng cao](major_name)
+    - Cho tôi biết về [chương trình đào tạo](define) của ngành [công nghệ thông tin Chất lượng cao](major_name)
+    - Tôi không rõ về [chương trình đào tạo](define) của ngành [công nghệ thông tin Chất lượng cao](major_name), bot có thể nói thêm được không?
+    - Tôi cần trợ giúp về [chương trình đào tạo](define) của ngành [công nghệ thông tin Chất lượng cao](major_name)
+    - [chương trình đào tạo](define) của ngành [Công nghệ thông tin](major_name) gồm những gì?
+    - Thông tin về CTDT của ngành [Công nghệ thông tin](major_name)
+    - ctdt của ngành [Công nghệ thông tin](major_name) có khó không?
+    - Ngành [Công nghệ thông tin](major_name) có [chương trình đào tạo](define) là gì?
+    - Giới thiệu [chương trình đào tạo](define) của ngành [Công nghệ thông tin](major_name)
+    - Nói về [chương trình đào tạo](define) của ngành [Công nghệ thông tin](major_name)
+    - Tôi muốn biết thêm thông tin về [chương trình đào tạo](define) của ngành [Công nghệ thông tin](major_name)
+    - Có thể cho mình biết thêm thông tin về ctdt của ngành [Công nghệ thông tin](major_name) không?
+    - Giải thích về [chương trình đào tạo](define) của ngành [Công nghệ thông tin](major_name)
+    - Những điều cần chú ý về [chương trình đào tạo](define) của ngành [Công nghệ thông tin](major_name)
+    - Cho tôi biết về [chương trình đào tạo](define) của ngành [Công nghệ thông tin](major_name)
+    - Tôi không rõ về [chương trình đào tạo](define) của ngành [Công nghệ thông tin](major_name), bot có thể nói thêm được không?
+    - Tôi cần trợ giúp về [chương trình đào tạo](define) của ngành [Công nghệ thông tin](major_name)    
+    - [chương trình đào tạo](define) của ngành [Công nghệ thông tin](major_name) gồm những gì?
+    - Thông tin về CTDT của ngành [Công nghệ thông tin](major_name)
+    - ctdt của ngành [Công nghệ thông tin](major_name) có khó không?
+    - Ngành [Công nghệ thông tin](major_name)có [chương trình đào tạo](define) là gì?
+    - Giới thiệu [chương trình đào tạo](define) của ngành [Công nghệ thông tin](major_name)
+    - Nói về [chương trình đào tạo](define) của ngành [Công nghệ thông tin](major_name)
+    - Tôi muốn biết thêm thông tin về [chương trình đào tạo](define) của ngành [Công nghệ thông tin](major_name)
+    - Có thể cho mình biết thêm thông tin về ctdt của ngành [Công nghệ thông tin](major_name)?
+    - Giải thích về [chương trình đào tạo](define) của ngành [Công nghệ thông tin](major_name)
+    - Những điều cần chú ý về [chương trình đào tạo](define) của ngành [Công nghệ thông tin](major_name)
+    - Cho tôi biết về [chương trình đào tạo](define) của ngành [Công nghệ thông tin](major_name)
+    - Tôi không rõ về [chương trình đào tạo](define) của ngành [Công nghệ thông tin](major_name), bot có thể nói thêm được không?
+    - Tôi cần trợ giúp về [chương trình đào tạo](define) của ngành [Công nghệ thông tin](major_name)
+    - [chương trình đào tạo](define) của ngành [kỹ thuật phần mềm](major_name) gồm những gì?
+    - Thông tin về CTDT của ngành [kỹ thuật phần mềm](major_name)
+    - ctdt của ngành [kỹ thuật phần mềm](major_name) có khó không?
+    - Ngành [kỹ thuật phần mềm](major_name) có [chương trình đào tạo](define) là gì?
+    - Giới thiệu [chương trình đào tạo](define) của ngành [kỹ thuật phần mềm](major_name)
+    - Nói về [chương trình đào tạo](define) của ngành [kỹ thuật phần mềm](major_name)
+    - Tôi muốn biết thêm thông tin về [chương trình đào tạo](define) của ngành [kỹ thuật phần mềm](major_name)
+    - Có thể cho mình biết thêm thông tin về ctdt của ngành [kỹ thuật phần mềm](major_name) không?
+    - Giải thích về [chương trình đào tạo](define) của ngành [kỹ thuật phần mềm](major_name)
+    - Những điều cần chú ý về [chương trình đào tạo](define) của ngành [kỹ thuật phần mềm](major_name)
+    - Cho tôi biết về [chương trình đào tạo](define) của ngành [kỹ thuật phần mềm](major_name)
+    - Tôi không rõ về [chương trình đào tạo](define) của ngành [kỹ thuật phần mềm](major_name), bot có thể nói thêm được không?
+    - Tôi cần trợ giúp về [chương trình đào tạo](define) của ngành [kỹ thuật phần mềm](major_name)
+    - Tôi cần tư vấn về [chương trình đào tạo](define) của ngành [kỹ thuật phần mềm](major_name)
+    - [chương trình đào tạo](define) của ngành [Khoa học máy tính](major_name) gồm những gì?
+    - Thông tin về CTDT của ngành [Khoa học máy tính](major_name)
+    - ctdt của ngành [Khoa học máy tính](major_name) có khó không?
+    - Ngành [Khoa học máy tính](major_name) có [chương trình đào tạo](define) là gì?
+    - Giới thiệu [chương trình đào tạo](define) của ngành [Khoa học máy tính](major_name)
+    - Nói về [chương trình đào tạo](define) của ngành [Khoa học máy tính](major_name)
+    - Tôi muốn biết thêm thông tin về [chương trình đào tạo](define) của ngành [Khoa học máy tính](major_name)
+    - Có thể cho mình biết thêm thông tin về ctdt của ngành [Khoa học máy tính](major_name) không?
+    - Giải thích về [chương trình đào tạo](define) của ngành [Khoa học máy tính](major_name)
+    - Những điều cần chú ý về [chương trình đào tạo](define) của ngành [Khoa học máy tính](major_name)
+    - Cho tôi biết về [chương trình đào tạo](define) của ngành [Khoa học máy tính](major_name)
+    - Tôi không rõ về [chương trình đào tạo](define) của ngành [Khoa học máy tính](major_name), bot có thể nói thêm được không?
+    - Tôi cần trợ giúp về [chương trình đào tạo](define) của ngành [Khoa học máy tính](major_name)    
+    - [chương trình đào tạo](define) của ngành [Khoa học máy tính](major_name)gồm những gì?
+    - Thông tin về CTDT của ngành [Khoa học máy tính](major_name)
+    - ctdt của ngành [Khoa học máy tính](major_name) có khó không?
+    - Ngành [Khoa học máy tính](major_name)có [chương trình đào tạo](define) là gì?
+    - Giới thiệu [chương trình đào tạo](define) của ngành [Khoa học máy tính](major_name)
+    - Nói về [chương trình đào tạo](define) của ngành [Khoa học máy tính](major_name)
+    - Tôi muốn biết thêm thông tin về [chương trình đào tạo](define) của ngành [Khoa học máy tính](major_name)
+    - Có thể cho mình biết thêm thông tin về ctdt của ngành [Khoa học máy tính](major_name)?
+    - Giải thích về [chương trình đào tạo](define) của ngành [Khoa học máy tính](major_name)
+    - Những điều cần chú ý về [chương trình đào tạo](define) của ngành [Khoa học máy tính](major_name)
+    - Cho tôi biết về [chương trình đào tạo](define) của ngành [Khoa học máy tính](major_name)
+    - Tôi không rõ về [chương trình đào tạo](define) của ngành [Khoa học máy tính](major_name), bot có thể nói thêm được không?
+    - Tôi cần trợ giúp về [chương trình đào tạo](define) của ngành [Khoa học máy tính](major_name)
+    - [chương trình đào tạo](define) của ngành [tin học ứng dụng](major_name) gồm những gì?
+    - Thông tin về CTDT của ngành [tin học ứng dụng](major_name)
+    - ctdt của ngành [tin học ứng dụng](major_name) có khó không?
+    - Ngành [tin học ứng dụng](major_name) có [chương trình đào tạo](define) là gì?
+    - Giới thiệu [chương trình đào tạo](define) của ngành [tin học ứng dụng](major_name)
+    - Nói về [chương trình đào tạo](define) của ngành [tin học ứng dụng](major_name)
+    - Tôi muốn biết thêm thông tin về [chương trình đào tạo](define) của ngành [tin học ứng dụng](major_name)
+    - Có thể cho mình biết thêm thông tin về ctdt của ngành [tin học ứng dụng](major_name) không?
+    - Giải thích về [chương trình đào tạo](define) của ngành [tin học ứng dụng](major_name)
+    - Những điều cần chú ý về [chương trình đào tạo](define) của ngành [tin học ứng dụng](major_name)
+    - Cho tôi biết về [chương trình đào tạo](define) của ngành [tin học ứng dụng](major_name)
+    - Tôi không rõ về [chương trình đào tạo](define) của ngành [tin học ứng dụng](major_name), bot có thể nói thêm được không?
+    - Tôi cần trợ giúp về [chương trình đào tạo](define) của ngành [tin học ứng dụng](major_name)    
+    - [chương trình đào tạo](define) của ngành [tin học ứng dụng](major_name)gồm những gì?
+    - Thông tin về CTDT của ngành [tin học ứng dụng](major_name)
+    - ctdt của ngành [tin học ứng dụng](major_name) có khó không?
+    - Ngành [tin học ứng dụng](major_name)có [chương trình đào tạo](define) là gì?
+    - Giới thiệu [chương trình đào tạo](define) của ngành [tin học ứng dụng](major_name)
+    - Nói về [chương trình đào tạo](define) của ngành [tin học ứng dụng](major_name)
+    - Tôi muốn biết thêm thông tin về [chương trình đào tạo](define) của ngành [tin học ứng dụng](major_name)
+    - Có thể cho mình biết thêm thông tin về ctdt của ngành [tin học ứng dụng](major_name)?
+    - Giải thích về [chương trình đào tạo](define) của ngành [tin học ứng dụng](major_name)
+    - Những điều cần chú ý về [chương trình đào tạo](define) của ngành [tin học ứng dụng](major_name)
+    - Cho tôi biết về [chương trình đào tạo](define) của ngành [tin học ứng dụng](major_name)
+    - Tôi không rõ về [chương trình đào tạo](define) của ngành [tin học ứng dụng](major_name), bot có thể nói thêm được không?
+    - Tôi cần trợ giúp về [chương trình đào tạo](define) của ngành [tin học ứng dụng](major_name)
 - intent: hoi_vitri
   examples: |
-    - Văn phòng trung tâm
-    - phòng bộ môn Công nghệ phần mềm
-    - phòng bộ môn Công nghệ thông tin
-    - phòng bộ môn Hệ thống thông tin
-    - phòng bộ môn Khoa học máy tính
-    - phòng bộ môn Mạng máy tính và truyền thông
-    - phòng bộ môn Tin học ứng dụng
-    - nhà vệ sinh
-    - phòng 01
-    - phòng 02
-    - phòng 03
-    - phòng 04
-    - phòng 05
-    - phòng 06
-    - phòng 07
-    - phòng 08
-    - phòng 09
-    - phòng 10
-    - phòng 11
-    - phòng 12
-    - phòng 13
-    - phòng 14
-    - phòng 15
-    - phòng 16
-    - phòng 17
-    - phòng 18
-    - phòng 19
-    - phòng 20
-    - phòng 21
-    - phòng 22
-    - phòng 23
-    - phòng 24
-    - phòng 25
-    - phòng CLC1
-    - phòng CLC2
-    - phòng CLC3
-    - phòng CLC4
-    - phòng GVTG
-    - phòng VP CN Khoa
-    - phòng họp 1
-    - phòng họp 2
-    - phòng họp 3
-    - phòng hội trường
-    - phòng không gian sáng chế
-    - không gian sáng chế
-    - phòng lí thuyết 1
-    - phòng lí thuyết 2
-    - phòng lí thuyết 3
-    - phòng lí thuyết 4
-    - phòng thư viện
-    - phòng văn phòng đoàn thanh niên khoa
-    - văn phòng đoàn thanh niên khoa
-    - văn phòng khoa
+    - [văn phòng trung tâm](location) ở đâu
+    - cho tôi biết [văn phòng trung tâm](location) ở đâu
+    - tìm giúp tôi [văn phòng trung tâm](location)
+    - [văn phòng trung tâm](location) là phòng nào
+    - chỉ chỗ [văn phòng trung tâm](location)
+    - tìm [văn phòng trung tâm](location)
+    - phòng [văn phòng trung tâm](location)	
+    - phòng bộ môn [công nghệ phần mềm](location) ở đâu
+    - cho tôi biết phòng [công nghệ phần mềm](location) ở đâu
+    - tìm giúp tôi phòng [công nghệ phần mềm](location)
+    - phòng [công nghệ phần mềm](location) là phòng nào
+    - chỉ chỗ phòng [công nghệ phần mềm](location)
+    - tìm phòng [công nghệ phần mềm](location)
+    - phòng [công nghệ phần mềm](location)
+    - phòng bộ môn [công nghệ thông tin](location) ở đâu
+    - cho tôi biết phòng [công nghệ thông tin](location) ở đâu
+    - tìm giúp tôi phòng [công nghệ thông tin](location)
+    - phòng [công nghệ thông tin](location) là phòng nào
+    - chỉ chỗ phòng [công nghệ thông tin](location)
+    - tìm phòng [công nghệ thông tin](location)
+    - phòng [công nghệ thông tin](location)
+    - phòng bộ môn [hệ thống thông tin](location) ở đâu
+    - cho tôi biết phòng [hệ thống thông tin](location) ở đâu
+    - tìm giúp tôi phòng [hệ thống thông tin](location)
+    - phòng [hệ thống thông tin](location) là phòng nào
+    - chỉ chỗ phòng [hệ thống thông tin](location)
+    - tìm phòng [hệ thống thông tin](location)
+    - phòng [hệ thống thông tin](location)
+    - phòng bộ môn [khoa học máy tính](location) ở đâu
+    - cho tôi biết phòng [khoa học máy tính](location) ở đâu
+    - tìm giúp tôi phòng [khoa học máy tính](location)
+    - phòng [khoa học máy tính](location) là phòng nào
+    - chỉ chỗ phòng [khoa học máy tính](location)
+    - tìm phòng [khoa học máy tính](location)
+    - phòng [khoa học máy tính](location)
+    - phòng bộ môn [mạng máy tính và truyền thông](location) ở đâu
+    - cho tôi biết phòng [mạng máy tính và truyền thông](location) ở đâu
+    - tìm giúp tôi phòng [mạng máy tính và truyền thông](location)
+    - phòng [mạng máy tính và truyền thông](location) là phòng nào
+    - chỉ chỗ phòng [mạng máy tính và truyền thông](location)
+    - tìm phòng [mạng máy tính và truyền thông](location)
+    - phòng [mạng máy tính và truyền thông](location)
+    - phòng bộ môn [tin học ứng dụng](location) ở đâu
+    - cho tôi biết phòng [tin học ứng dụng](location) ở đâu
+    - tìm giúp tôi phòng [tin học ứng dụng](location)
+    - phòng [tin học ứng dụng](location) là phòng nào
+    - chỉ chỗ phòng [tin học ứng dụng](location)
+    - tìm phòng [tin học ứng dụng](location)
+    -  phòng [tin học ứng dụng](location)
+    - [nhà vệ sinh](location) ở đâu
+    - cho tôi biết phòng [nhà vệ sinh](location) ở đâu
+    - tìm giúp tôi phòng [nhà vệ sinh](location)
+    - phòng [nhà vệ sinh](location) là phòng nào
+    - chỉ chỗ phòng [nhà vệ sinh](location)
+    - tìm phòng [nhà vệ sinh](location)
+    -  phòng [nhà vệ sinh](location)
+    - phòng [01](location) ở đâu
+    - cho tôi biết phòng [01](location) ở đâu
+    - tìm giúp tôi phòng [01](location)
+    - phòng [01](location) là phòng nào
+    - chỉ chỗ phòng [01](location)
+    - tìm phòng [01](location)
+    - phòng [01](location)
+    - phòng [02](location) ở đâu
+    - cho tôi biết phòng [02](location) ở đâu
+    - tìm giúp tôi phòng [02](location)
+    - phòng [02](location) là phòng nào
+    - chỉ chỗ phòng [02](location)
+    - tìm phòng [02](location)
+    - phòng [02](location)
+    - phòng [03](location) ở đâu
+    - cho tôi biết phòng [03](location) ở đâu
+    - tìm giúp tôi phòng [03](location)
+    - phòng [03](location) là phòng nào
+    - chỉ chỗ phòng [03](location)
+    - tìm phòng [03](location)
+    - phòng [03](location)
+    - phòng [04](location) ở đâu
+    - cho tôi biết phòng [04](location) ở đâu
+    - tìm giúp tôi phòng [04](location)
+    - phòng [04](location) là phòng nào
+    - chỉ chỗ phòng [04](location)
+    - tìm phòng [04](location)
+    - phòng [04](location)
+    - phòng [05](location) ở đâu
+    - cho tôi biết phòng [05](location) ở đâu
+    - tìm giúp tôi phòng [05](location)
+    - phòng [05](location) là phòng nào
+    - chỉ chỗ phòng [05](location)
+    - tìm phòng [05](location)
+    - phòng [05](location)
+    - phòng [06](location) ở đâu
+    - cho tôi biết phòng [06](location) ở đâu
+    - tìm giúp tôi phòng [06](location)
+    - phòng [06](location) là phòng nào
+    - chỉ chỗ phòng [06](location)
+    - tìm phòng [06](location)
+    - phòng [06](location)
+    - phòng [07](location) ở đâu
+    - cho tôi biết phòng [07](location) ở đâu
+    - tìm giúp tôi phòng [07](location)
+    - phòng [07](location) là phòng nào
+    - chỉ chỗ phòng [07](location)
+    - tìm phòng [07](location)
+    - phòng [07](location)
+    - phòng [08](location) ở đâu
+    - cho tôi biết phòng [08](location) ở đâu
+    - tìm giúp tôi phòng [08](location)
+    - phòng [08](location) là phòng nào
+    - chỉ chỗ phòng [08](location)
+    - tìm phòng [08](location)
+    - phòng [08](location)
+    - phòng [09](location) ở đâu
+    - cho tôi biết phòng [09](location) ở đâu
+    - tìm giúp tôi phòng [09](location)
+    - phòng [09](location) là phòng nào
+    - chỉ chỗ phòng [09](location)
+    - tìm phòng [09](location)
+    - phòng [09](location)
+    - phòng [10](location) ở đâu
+    - cho tôi biết phòng [10](location) ở đâu
+    - tìm giúp tôi phòng [10](location)
+    - phòng [10](location) là phòng nào
+    - chỉ chỗ phòng [10](location)
+    - tìm phòng [10](location)
+    - phòng [10](location)
+    - phòng [11](location) ở đâu
+    - cho tôi biết phòng [11](location) ở đâu
+    - tìm giúp tôi phòng [11](location)
+    - phòng [11](location) là phòng nào
+    - chỉ chỗ phòng [11](location)
+    - tìm phòng [11](location)
+    - phòng [11](location)
+    - phòng [12](location) ở đâu
+    - cho tôi biết phòng [12](location) ở đâu
+    - tìm giúp tôi phòng [12](location)
+    - phòng [12](location) là phòng nào
+    - chỉ chỗ phòng [12](location)
+    - phòng [12](location)
+    - phòng [13](location) ở đâu
+    - cho tôi biết phòng [13](location) ở đâu
+    - tìm giúp tôi phòng [13](location)
+    - phòng [13](location) là phòng nào
+    - chỉ chỗ phòng [13](location)
+    - tìm phòng [13](location)
+    - phòng [13](location)
+    - phòng [14](location) ở đâu
+    - cho tôi biết phòng [14](location) ở đâu
+    - tìm giúp tôi phòng [14](location)
+    - phòng [14](location) là phòng nào
+    - chỉ chỗ phòng [14](location)
+    - tìm phòng [14](location)
+    - phòng [14](location)
+    - phòng [15](location) ở đâu
+    - cho tôi biết phòng [15](location) ở đâu
+    - tìm giúp tôi phòng [15](location)
+    - phòng [15](location) là phòng nào
+    - chỉ chỗ phòng [15](location)
+    - tìm phòng [15](location)
+    - phòng [15](location)
+    - phòng [16](location) ở đâu
+    - cho tôi biết phòng [16](location) ở đâu
+    - tìm giúp tôi phòng [16](location)
+    - phòng [16](location) là phòng nào
+    - chỉ chỗ phòng [16](location)
+    - tìm phòng [16](location)
+    - phòng [16](location)
+    - phòng [17](location) ở đâu
+    - cho tôi biết phòng [17](location) ở đâu
+    - tìm giúp tôi phòng [17](location)
+    - phòng [17](location) là phòng nào
+    - chỉ chỗ phòng [17](location)
+    - tìm phòng [17](location)
+    - phòng [18](location) ở đâu
+    - cho tôi biết phòng [18](location) ở đâu
+    - tìm giúp tôi phòng [18](location)
+    - phòng [18](location) là phòng nào
+    - chỉ chỗ phòng [18](location)
+    - tìm phòng [18](location)
+    - phòng [18](location)	
+    - phòng [19](location) ở đâu
+    - cho tôi biết phòng [19](location) ở đâu
+    - tìm giúp tôi phòng [19](location)
+    - phòng [19](location) là phòng nào
+    - chỉ chỗ phòng [19](location)
+    - tìm phòng [19](location)
+    - phòng [19](location)
+    - phòng [20](location) ở đâu
+    - cho tôi biết phòng [20](location) ở đâu
+    - tìm giúp tôi phòng [20](location)
+    - phòng [20](location) là phòng nào
+    - chỉ chỗ phòng [20](location)
+    - tìm phòng [20](location)
+    - phòng [20](location)
+    - phòng [21](location) ở đâu
+    - cho tôi biết phòng [21](location) ở đâu
+    - tìm giúp tôi phòng [21](location)
+    - phòng [21](location) là phòng nào
+    - chỉ chỗ phòng [21](location)
+    - tìm phòng [21](location)
+    - phòng [21](location)
+    - phòng [22](location) ở đâu
+    - cho tôi biết phòng [22](location) ở đâu
+    - tìm giúp tôi phòng [22](location)
+    - phòng [22](location) là phòng nào
+    - chỉ chỗ phòng [22](location)
+    - tìm phòng [22](location)
+    - phòng [22](location)
+    - phòng [23](location) ở đâu
+    - cho tôi biết phòng [23](location) ở đâu
+    - tìm giúp tôi phòng [23](location)
+    - phòng [23](location) là phòng nào
+    - chỉ chỗ phòng [23](location)
+    - tìm phòng [23](location)
+    - phòng [23](location)
+    - phòng [24](location) ở đâu
+    - cho tôi biết phòng [24](location) ở đâu
+    - tìm giúp tôi phòng [24](location)
+    - phòng [24](location) là phòng nào
+    - chỉ chỗ phòng [24](location)
+    - tìm phòng [24](location)
+    - phòng [24](location)
+    - phòng [25](location) ở đâu
+    - cho tôi biết phòng [25](location) ở đâu
+    - tìm giúp tôi phòng [25](location)
+    - phòng [25](location) là phòng nào
+    - chỉ chỗ phòng [25](location)
+    - tìm phòng [25](location)
+    - phòng [25](location)
+    - phòng [clc1](location) ở đâu
+    - cho tôi biết phòng [clc1](location) ở đâu
+    - tìm giúp tôi phòng [clc1](location)
+    - phòng [clc1](location) là phòng nào
+    - chỉ chỗ phòng [clc1](location)
+    - tìm phòng [clc1](location)
+    - phòng [clc1](location)
+    - phòng [clc2](location) ở đâu
+    - cho tôi biết phòng [clc2](location) ở đâu
+    - tìm giúp tôi phòng [clc2](location)
+    - phòng [clc2](location) là phòng nào
+    - chỉ chỗ phòng [clc2](location)
+    - tìm phòng [clc2](location)
+    - phòng [clc2](location)
+    - phòng [clc3](location) ở đâu
+    - cho tôi biết phòng [clc3](location) ở đâu
+    - tìm giúp tôi phòng [clc3](location)
+    - phòng [clc3](location) là phòng nào
+    - chỉ chỗ phòng [clc3](location)
+    - tìm phòng [clc3](location)
+    - phòng [clc3](location)
+    - phòng [clc4](location) ở đâu
+    - cho tôi biết phòng [clc4](location) ở đâu
+    - tìm giúp tôi phòng [clc4](location)
+    - phòng [clc4](location) là phòng nào
+    - chỉ chỗ phòng [clc4](location)
+    - tìm phòng [clc4](location)
+    - phòng [clc4](location)	
+    - phòng [gvtg](location) ở đâu
+    - cho tôi biết phòng [gvtg](location) ở đâu
+    - tìm giúp tôi phòng [gvtg](location)
+    - phòng [gvtg](location) là phòng nào
+    - chỉ chỗ phòng [gvtg](location)
+    - tìm phòng [gvtg](location)
+    - phòng [gvtg](location)
+    - phòng [họp 1](location) ở đâu
+    - cho tôi biết phòng [họp 1](location) ở đâu
+    - tìm giúp tôi phòng [họp 1](location)
+    - phòng [họp 1](location) là phòng nào
+    - chỉ chỗ phòng [họp 1](location)
+    - tìm phòng [họp 1](location)
+    - phòng [họp 1](location)
+    - phòng [họp 2](location) ở đâu
+    - cho tôi biết phòng [họp 2](location) ở đâu
+    - tìm giúp tôi phòng [họp 2](location)
+    - phòng [họp 2](location) là phòng nào
+    - chỉ chỗ phòng [họp 2](location)
+    - tìm phòng [họp 2](location)
+    - phòng [họp 2](location)		
+    - phòng [họp 3](location) ở đâu
+    - cho tôi biết phòng [họp 3](location) ở đâu
+    - tìm giúp tôi phòng [họp 3](location)
+    - phòng [họp 3](location) là phòng nào
+    - chỉ chỗ phòng [họp 3](location)
+    - tìm phòng [họp 3](location)
+    - phòng [họp 3](location)
+    - phòng [hội trường](location) ở đâu
+    - cho tôi biết phòng [hội trường](location) ở đâu
+    - tìm giúp tôi phòng [hội trường](location)
+    - phòng [hội trường](location) là phòng nào
+    - chỉ chỗ phòng [hội trường](location)
+    - tìm phòng [hội trường](location)
+    - phòng [hội trường](location)
+    - phòng [không gian sáng chế](location) ở đâu
+    - cho tôi biết phòng [không gian sáng chế](location) ở đâu
+    - tìm giúp tôi phòng [không gian sáng chế](location)
+    - phòng [không gian sáng chế](location) là phòng nào
+    - chỉ chỗ phòng [không gian sáng chế](location)
+    - tìm phòng [không gian sáng chế](location)
+    - phòng [không gian sáng chế](location)
+    - phòng [lí thuyết 1](location) ở đâu
+    - cho tôi biết phòng [lí thuyết 1](location) ở đâu
+    - tìm giúp tôi phòng [lí thuyết 1](location)
+    - phòng [lí thuyết 1](location) là phòng nào
+    - chỉ chỗ phòng [lí thuyết 1](location)
+    - tìm phòng [lí thuyết 1](location)
+    - phòng [lí thuyết 1](location)
+    - phòng [lí thuyết 2](location) ở đâu
+    - cho tôi biết phòng [lí thuyết 2](location) ở đâu
+    - tìm giúp tôi phòng [lí thuyết 2](location)
+    - phòng [lí thuyết 2](location) là phòng nào
+    - chỉ chỗ phòng [lí thuyết 2](location)
+    - tìm phòng [lí thuyết 2](location)
+    - phòng [lí thuyết 2](location)
+    - phòng [lí thuyết 3](location) ở đâu
+    - cho tôi biết phòng [lí thuyết 3](location) ở đâu
+    - tìm giúp tôi phòng [lí thuyết 3](location)
+    - phòng [lí thuyết 3](location) là phòng nào
+    - chỉ chỗ phòng [lí thuyết 3](location)
+    - tìm phòng [lí thuyết 3](location)
+    - phòng [lí thuyết 3](location)
+    - phòng [lí thuyết 4](location) ở đâu
+    - cho tôi biết phòng [lí thuyết 4](location) ở đâu
+    - tìm giúp tôi phòng [lí thuyết 4](location)
+    - phòng [lí thuyết 4](location) là phòng nào
+    - chỉ chỗ phòng [lí thuyết 4](location)
+    - tìm phòng [lí thuyết 4](location)
+    - phòng [lí thuyết 4](location)
+    - phòng [thư viện](location) ở đâu
+    - cho tôi biết phòng [thư viện](location) ở đâu
+    - tìm giúp tôi phòng [thư viện](location)
+    - phòng [thư viện](location) là phòng nào
+    - chỉ chỗ phòng [thư viện](location)
+    - tìm phòng [thư viện](location)
+    - phòng [thư viện](location)
+    - phòng [văn phòng đoàn thanh niên khoa](location) ở đâu
+    - cho tôi biết phòng [văn phòng đoàn thanh niên khoa](location) ở đâu
+    - tìm giúp tôi phòng [văn phòng đoàn thanh niên khoa](location)
+    - phòng [văn phòng đoàn thanh niên khoa](location) là phòng nào
+    - chỉ chỗ phòng [văn phòng đoàn thanh niên khoa](location)
+    - tìm phòng [văn phòng đoàn thanh niên khoa](location)
+    - phòng [văn phòng đoàn thanh niên khoa](location)
+    - phòng [đoàn thanh niên khoa](location) ở đâu
+    - cho tôi biết phòng [đoàn thanh niên khoa](location) ở đâu
+    - tìm giúp tôi phòng [đoàn thanh niên khoa](location)
+    - phòng [đoàn thanh niên khoa](location) là phòng nào
+    - chỉ chỗ phòng [đoàn thanh niên khoa](location)
+    - tìm phòng [đoàn thanh niên khoa](location)
+    - phòng [đoàn thanh niên khoa](location)
+    - phòng [văn phòng khoa](location) ở đâu
+    - cho tôi biết phòng [văn phòng khoa](location) ở đâu
+    - tìm giúp tôi phòng [văn phòng khoa](location)
+    - phòng [văn phòng khoa](location) là phòng nào
+    - chỉ chỗ phòng [văn phòng khoa](location)
+    - tìm phòng [văn phòng khoa](location)
+    - phòng [văn phòng khoa](location)
+
 - intent: hoi_bomon_gv
   examples: |
-    - Bộ môn Công Nghệ Thông Tin gồm có ai
-    - Bộ môn Khoa học máy tính gồm có ai
+    - Bộ môn [Công nghệ thông tin](major_name) gồm có ai
+    - Bộ môn [Khoa học máy tính](major_name) gồm có ai
     - Bộ môn Mạng Máy Tính Và Truyền Thông gồm có ai
-    - Bộ môn Hệ Thống thông tin gồm có ai
-    - Bộ môn Tin học ứng dụng gồm có ai
+    - Bộ môn [Hệ thống thông tin](major_name) gồm có ai
+    - Bộ môn [tin học ứng dụng](major_name) gồm có ai
     - Bộ môn Công nghệ phần mềm gồm có ai
-    - Văn phòng khoa gồm có ai
-    - Bộ môn Công Nghệ Thông Tin có giáo viên nào
-    - Bộ môn Khoa học máy tính có giáo viên nào
+    - [Văn phòng khoa](major_name) gồm có ai
+    - Bộ môn [Công nghệ thông tin](major_name) có giáo viên nào
+    - Bộ môn [Khoa học máy tính](major_name) có giáo viên nào
     - Bộ môn Mạng Máy Tính Và Truyền Thông có giáo viên nào
-    - Bộ môn Hệ Thống thông tin có giáo viên nào
-    - Bộ môn Tin học ứng dụng có giáo viên nào
-    - Bộ môn Công nghệ phần mềm có giáo viên nào
+    - Bộ môn [Hệ thống thông tin](major_name) có giáo viên nào
+    - Bộ môn [tin học ứng dụng](major_name) có giáo viên nào
+    - Bộ môn [Công nghệ phần mềm](major_name) có giáo viên nào
     - Văn phòng khoa có giáo viên nào
 - intent: what_new
   examples: |
@@ -115,190 +1545,1553 @@ nlu:
     - Khoa CNNT & TT có những bộ môn nào
 - intent: hoi_giaovien01
   examples: |
-    - Cô Khang
-    - Thầy Khang
-    - Thầy Phi
-    - Thầy Án
-    - Cô Bình
-    - Thầy Tuần
-    - Thầy Bảo
-    - Cô Diễm
-    - Cô Mỹ
-    - Thầy Ðệ
-    - Thầy Lâm
-    - Thầy Tân
-    - Cô Thầo
-    - Thầy Trung
-    - Thầy Thái
-    - Cô Trâm
-    - Thầy Hiệp
-    - Cô Tuyền
-    - Thầy Cường
-    - Thầy Nghi
-    - Cô Lan
-    - Thầy Lộc
-    - Cô  Lộc
-    - Thầy Hoàng
-    - Thầy Ðịnh
-    - Thầy Tài
-    - Thầy Nghe
-    - Thầy Hải
-    - Cô Phương
-    - Thầy Khiêm
-    - Thầy Quyền
-    - Thầy Thắng
-    - Thầy Nghị
-    - Thầy Huy
-    - Thầy Hùng
-    - Thầy Cang
-    - Thầy Ðiền
-    - Thầy Nguyện
-    - Cô Ngọc
-    - Thầy An
-    - Thầy Long
-    - Cô Ngoan
-    - Cô Quyên
-    - Thầy Dương
-    - Thầy Ðiện
-    - Thầy Minh
-    - Thầy Nghĩa
-    - Cô Thư
-    - Thầy Châu
-    - Thầy Ðạo
-    - Cô Hiền
-    - Cô Chi
-    - Cô Dung
-    - Thầy Diệp
-    - Thầy Thức
-    - Thầy Anh
-    - Thầy Hòa
-    - Thầy Vinh
-    - Thầy Tú
-    - Cô Ngân
-    - Thầy Việt
-    - Thầy Chính
-    - Thầy Linh
-    - Cô Linh
-    - Thầy Khoa
-    - Thầy Trí
-    - Thầy Toàn
-    - Thầy Ðãng
-    - Thầy Lý
-    - Cô Hạnh
-    - Thầy Quan
-    - Cô Chung
+    - [Cô Khang](teacher) là ai
+    - Ai là [Thầy Khang](teacher)
+    - [Thầy Phi](teacher) là người nào
+    - Thông tin về [Thầy Án](teacher)
+    - [Cô Bình](teacher) dạy môn gì
+    - [Thầy Tuần](teacher)
+    - [Thầy Bảo](teacher)
+    - [Cô Diễm](teacher)
+    - [Cô Mỹ](teacher)
+    - [Thầy Ðệ](teacher)
+    - [Thầy Lâm](teacher)
+    - [Thầy Tân](teacher)
+    - [Cô Thầo](teacher)
+    - [Thầy Trung](teacher)
+    - [Thầy Thái](teacher)
+    - [Cô Trâm](teacher)
+    - [Thầy Hiệp](teacher)
+    - [Cô Tuyền](teacher)
+    - [Thầy Cường](teacher)
+    - [Thầy Nghi](teacher)
+    - [Cô Lan](teacher)
+    - [Thầy Lộc](teacher)
+    - [Cô  Lộc](teacher)
+    - [Thầy Hoàng](teacher)
+    - [Thầy Ðịnh](teacher)
+    - [Thầy Tài](teacher)
+    - [Thầy Nghe](teacher)
+    - [Thầy Hải](teacher)
+    - [Cô Phương](teacher)
+    - [Thầy Khiêm](teacher)
+    - [Thầy Quyền](teacher)
+    - [Thầy Thắng](teacher)
+    - [Thầy Nghị](teacher)
+    - [Thầy Huy](teacher)
+    - [Thầy Hùng](teacher)
+    - [Thầy Cang](teacher)
+    - [Thầy Ðiền](teacher)
+    - [Thầy Nguyện](teacher)
+    - [Cô Ngọc](teacher)
+    - [Thầy An](teacher)
+    - [Thầy Long](teacher)
+    - [Cô Ngoan](teacher)
+    - [Cô Quyên](teacher)
+    - [Thầy Dương](teacher)
+    - [Thầy Ðiện](teacher)
+    - [Thầy Minh](teacher)
+    - [Thầy Nghĩa](teacher)
+    - [Cô Thư](teacher)
+    - [Thầy Châu](teacher)
+    - [Thầy Ðạo](teacher)
+    - [Cô Hiền](teacher)
+    - [Cô Chi](teacher)
+    - [Cô Dung](teacher)
+    - [Thầy Diệp](teacher)
+    - [Thầy Thức](teacher)
+    - [Thầy Anh](teacher)
+    - [Thầy Hòa](teacher)
+    - [Thầy Vinh](teacher)
+    - [Thầy Tú](teacher)
+    - [Cô Ngân](teacher)
+    - [Thầy Việt](teacher)
+    - [Thầy Chính](teacher)
+    - [Thầy Linh](teacher)
+    - [Cô Linh](teacher)
+    - [Thầy Khoa](teacher)
+    - [Thầy Trí](teacher)
+    - [Thầy Toàn](teacher)
+    - [Thầy Ðãng](teacher)
+    - [Thầy Lý](teacher)
+    - [Cô Hạnh](teacher)
+    - [Thầy Quan](teacher)
+    - [Cô Chung](teacher)
 - intent: hoi_giaovien02
   examples: |
-    - Võ Huỳnh Trâm
-    - Huỳnh Xuân Hiệp
-    - Trương Thị Thanh Tuyền
-    - Lâm Hoài Bảo
-    - Phan Huy Cường
-    - Huỳnh Quang Nghi
-    - Phan Phương Lan
-    - Nguyễn Công Danh
-    - Cù Vĩnh Lộc
-    - Trần Văn Hoàng
-    - Hồ Quang Thái
-    - Trương Quốc Định
-    - Phan Tấn Tài
-    - Nguyễn Thái Nghe
-    - Phạm Thị Ngọc Diễm
-    - Trần Nguyễn Minh Thái
-    - Nguyễn Thanh Hải
-    - Bùi Đăng Hà Phương
-    - Nguyễn Minh Khiêm
-    - Phạm Ngọc Quyền
-    - Phạm Thị Xuân Lộc
-    - Lê Đức Thắng
-    - Đỗ Thanh Nghị
-    - Nguyễn Công Huy
-    - Ngô Bá Hùng
-    - Phạm Hữu Tài
-    - Phan Thượng Cang
-    - Trần Thanh Điền
-    - Lâm Chí Nguyện
-    - Nguyễn Cao Hồng Ngọc
-    - Hà Duy An
-    - Nguyễn Hữu Vân Long
-    - Triệu Thanh Ngoan
-    - Trần Thị Tố Quyên
-    - Lưu Trùng Dương
-    - Trần Thanh Điện
-    - Đoàn Hòa Minh
-    - Nguyễn Trọng Nghĩa
-    - Trần Nguyễn Minh Thư
-    - Trần Việt Châu
-    - Phạm Nguyên Khang
-    - Lưu Tiến Đạo
-    - Phạm Xuân Hiền
-    - Trần Nguyễn Dương Chi
-    - Lê Thị Phương Dung
-    - Nguyễn Bá Diệp
-    - Phạm Nguyên Hoàng
-    - Võ Trí Thức
-    - Huỳnh Ngọc Thái Anh
-    - Nguyễn Hữu Hòa
-    - Nguyễn Nhị Gia Vinh
-    - Hồ Văn Tú
-    - Phạm Trương Hồng Ngân
-    - Trần Hoàng Việt
-    - Bùi Quốc Chính
-    - Vũ Duy Linh
-    - Nguyễn Đức Khoa
-    - Hoàng Minh Trí
-    - Lê Thị Diễm
-    - Nguyễn Thị Thùy Linh
-    - Huỳnh Phụng Toàn
-    - Võ Hải Đăng
-    - Lê Minh Lý
-    - Đặng Mỹ Hạnh
-    - Lê Văn Quan
-    - Nguyễn Thị Thủy Chung
-    - Trần Minh Tân
+    - Bạn biết cô [Lâm Nhựt Khang](person) không?
+    - Ê biết cô [Lâm Nhựt Khang](person) không?
+    - Biết cô [Lâm Nhựt Khang](person) không?
+    - Cô [Lâm Nhựt Khang](person) bạn biết không?
+    - Cô [Lâm Nhựt Khang](person) dạy môn nào vậy?
+    - Cô [Lâm Nhựt Khang](person) dạy gì vậy?
+    - Bạn có biết cô [Lâm Nhựt Khang](person) dạy môn nào không ?
+    - Bạn biết gì về cô [Lâm Nhựt Khang](person) không ?
+    - Cô [Lâm Nhựt Khang](person)
+    - Email của cô [Lâm Nhựt Khang](person)
+    - Cô [Lâm Nhựt Khang](person) chuyên ngành là gì vậy.
+    - Cô [Lâm Nhựt Khang](person) ở bộ môn nào vậy.
+    - Chuyên ngành của cô [Lâm Nhựt Khang](person)
+    - Cô Khang tên đầy đủ là gì vậy?
+    - Thông tin về cô [Lâm Nhựt Khang](person)
+    - Cô [Lâm Nhựt Khang](person) chi tiết
+    - Chi tiết về cô [Lâm Nhựt Khang](person)
+    - Bạn biết cô [Trần Ngân Bình](person) không?
+    - Ê biết cô [Trần Ngân Bình](person) không?
+    - Biết cô [Trần Ngân Bình](person) không?
+    - Cô [Trần Ngân Bình](person) bạn biết không?
+    - Cô [Trần Ngân Bình](person) dạy môn nào vậy?
+    - Cô [Trần Ngân Bình](person) dạy gì vậy?
+    - Bạn có biết cô [Trần Ngân Bình](person) dạy môn nào không ?
+    - Bạn biết gì về cô [Trần Ngân Bình](person) không ?
+    - Cô [Trần Ngân Bình](person)
+    - Email của cô [Trần Ngân Bình](person)
+    - Cô [Trần Ngân Bình](person) chuyên ngành là gì vậy.
+    - Cô [Trần Ngân Bình](person) ở bộ môn nào vậy.
+    - Chuyên ngành của cô [Trần Ngân Bình](person)
+    - Cô Bình tên đầy đủ là gì vậy?
+    - Thông tin về cô [Trần Ngân Bình](person)
+    - Cô [Trần Ngân Bình](person) chi tiết
+    - Chi tiết về cô [Trần Ngân Bình](person)
+    - Bạn biết cô [Phạm Thị Xuân Diễm](person) không?
+    - Ê biết cô [Phạm Thị Xuân Diễm](person) không?
+    - Biết cô [Phạm Thị Xuân Diễm](person) không?
+    - Cô [Phạm Thị Xuân Diễm](person) bạn biết không?
+    - Cô [Phạm Thị Xuân Diễm](person) dạy môn nào vậy?
+    - Cô [Phạm Thị Xuân Diễm](person) dạy gì vậy?
+    - Bạn có biết cô [Phạm Thị Xuân Diễm](person) dạy môn nào không ?
+    - Bạn biết gì về cô [Phạm Thị Xuân Diễm](person) không ?
+    - Cô [Phạm Thị Xuân Diễm](person)
+    - Email của cô [Phạm Thị Xuân Diễm](person)
+    - Cô [Phạm Thị Xuân Diễm](person) chuyên ngành là gì vậy.
+    - Cô [Phạm Thị Xuân Diễm](person) ở bộ môn nào vậy.
+    - Chuyên ngành của cô [Phạm Thị Xuân Diễm](person)
+    - Cô Diễm tên đầy đủ là gì vậy?
+    - Thông tin về cô [Phạm Thị Xuân Diễm](person)
+    - Cô [Phạm Thị Xuân Diễm](person) chi tiết
+    - Chi tiết về cô [Phạm Thị Xuân Diễm](person)
+    - Bạn biết cô [Nguyễn Ngọc Mỹ](person) không?
+    - Ê biết cô [Nguyễn Ngọc Mỹ](person) không?
+    - Biết cô [Nguyễn Ngọc Mỹ](person) không?
+    - Cô [Nguyễn Ngọc Mỹ](person) bạn biết không?
+    - Cô [Nguyễn Ngọc Mỹ](person) dạy môn nào vậy?
+    - Cô [Nguyễn Ngọc Mỹ](person) dạy gì vậy?
+    - Bạn có biết cô [Nguyễn Ngọc Mỹ](person) dạy môn nào không ?
+    - Bạn biết gì về cô [Nguyễn Ngọc Mỹ](person) không ?
+    - Cô [Nguyễn Ngọc Mỹ](person)
+    - Email của cô [Nguyễn Ngọc Mỹ](person)
+    - Cô [Nguyễn Ngọc Mỹ](person) chuyên ngành là gì vậy.
+    - Cô [Nguyễn Ngọc Mỹ](person) ở bộ môn nào vậy.
+    - Chuyên ngành của cô [Nguyễn Ngọc Mỹ](person)
+    - Thông tin về cô [Nguyễn Ngọc Mỹ](person)
+    - Cô [Nguyễn Ngọc Mỹ](person) chi tiết
+    - Chi tiết về cô [Nguyễn Ngọc Mỹ](person)
+    - Bạn biết cô [Lê Hoàng Thảo](person) không?
+    - Ê biết cô [Lê Hoàng Thảo](person) không?
+    - Biết cô [Lê Hoàng Thảo](person) không?
+    - Cô [Lê Hoàng Thảo](person) bạn biết không?
+    - Cô [Lê Hoàng Thảo](person) dạy môn nào vậy?
+    - Cô [Lê Hoàng Thảo](person) dạy gì vậy?
+    - Bạn có biết cô [Lê Hoàng Thảo](person) dạy môn nào không ?
+    - Bạn biết gì về cô [Lê Hoàng Thảo](person) không ?
+    - Cô [Lê Hoàng Thảo](person)
+    - Email của cô [Lê Hoàng Thảo](person)
+    - Cô [Lê Hoàng Thảo](person) chuyên ngành là gì vậy.
+    - Cô [Lê Hoàng Thảo](person) ở bộ môn nào vậy.
+    - Chuyên ngành của cô [Lê Hoàng Thảo](person)
+    - Thông tin về cô [Lê Hoàng Thảo](person)
+    - Cô [Lê Hoàng Thảo](person) chi tiết
+    - Chi tiết về cô [Lê Hoàng Thảo](person)
+    - Bạn biết cô [Võ Huỳnh Trâm](person) không?
+    - Ê biết cô [Võ Huỳnh Trâm](person) không?
+    - Biết cô [Võ Huỳnh Trâm](person) không?
+    - Cô [Võ Huỳnh Trâm](person) bạn biết không?
+    - Cô [Võ Huỳnh Trâm](person) dạy môn nào vậy?
+    - Cô [Võ Huỳnh Trâm](person) dạy gì vậy?
+    - Bạn có biết cô [Võ Huỳnh Trâm](person) dạy môn nào không ?
+    - Bạn biết gì về cô [Võ Huỳnh Trâm](person) không ?
+    - Cô [Võ Huỳnh Trâm](person)
+    - Email của cô [Võ Huỳnh Trâm](person)
+    - Cô [Võ Huỳnh Trâm](person) chuyên ngành là gì vậy.
+    - Cô [Võ Huỳnh Trâm](person) ở bộ môn nào vậy.
+    - Chuyên ngành của cô [Võ Huỳnh Trâm](person)
+    - Thông tin về cô [Võ Huỳnh Trâm](person)
+    - Cô [Võ Huỳnh Trâm](person) chi tiết
+    - Chi tiết về cô [Võ Huỳnh Trâm](person)
+    - Bạn biết cô [Trương Thị Thanh Tuyền](person) không?
+    - Ê biết cô [Trương Thị Thanh Tuyền](person) không?
+    - Biết cô [Trương Thị Thanh Tuyền](person) không?
+    - Cô [Trương Thị Thanh Tuyền](person) bạn biết không?
+    - Cô [Trương Thị Thanh Tuyền](person) dạy môn nào vậy?
+    - Cô [Trương Thị Thanh Tuyền](person) dạy gì vậy?
+    - Bạn có biết cô [Trương Thị Thanh Tuyền](person) dạy môn nào không ?
+    - Bạn biết gì về cô [Trương Thị Thanh Tuyền](person) không ?
+    - Cô [Trương Thị Thanh Tuyền](person)
+    - Email của cô [Trương Thị Thanh Tuyền](person)
+    - Cô [Trương Thị Thanh Tuyền](person) chuyên ngành là gì vậy.
+    - Cô [Trương Thị Thanh Tuyền](person) ở bộ môn nào vậy.
+    - Chuyên ngành của cô [Trương Thị Thanh Tuyền](person)
+    - Thông tin về cô [Trương Thị Thanh Tuyền](person)
+    - Cô [Trương Thị Thanh Tuyền](person) chi tiết
+    - Chi tiết về cô [Trương Thị Thanh Tuyền](person)
+    - Bạn biết cô [Phan Phương Lan](person) không?
+    - Ê biết cô [Phan Phương Lan](person) không?
+    - Biết cô [Phan Phương Lan](person) không?
+    - Cô [Phan Phương Lan](person) bạn biết không?
+    - Cô [Phan Phương Lan](person) dạy môn nào vậy?
+    - Cô [Phan Phương Lan](person) dạy gì vậy?
+    - Bạn có biết cô [Phan Phương Lan](person) dạy môn nào không ?
+    - Bạn biết gì về cô [Phan Phương Lan](person) không ?
+    - Cô [Phan Phương Lan](person)
+    - Email của cô [Phan Phương Lan](person)
+    - Cô [Phan Phương Lan](person) chuyên ngành là gì vậy.
+    - Cô [Phan Phương Lan](person) ở bộ môn nào vậy.
+    - Chuyên ngành của cô [Phan Phương Lan](person)
+    - Thông tin về cô [Phan Phương Lan](person)
+    - Cô [Phan Phương Lan](person) chi tiết
+    - Chi tiết về cô [Phan Phương Lan](person)
+    - Bạn biết cô [Phạm Thị Ngọc Diễm](person) không?
+    - Ê biết cô [Phạm Thị Ngọc Diễm](person) không?
+    - Biết cô [Phạm Thị Ngọc Diễm](person) không?
+    - Cô [Phạm Thị Ngọc Diễm](person) bạn biết không?
+    - Cô [Phạm Thị Ngọc Diễm](person) dạy môn nào vậy?
+    - Cô [Phạm Thị Ngọc Diễm](person) dạy gì vậy?
+    - Bạn có biết cô [Phạm Thị Ngọc Diễm](person) dạy môn nào không ?
+    - Bạn biết gì về cô [Phạm Thị Ngọc Diễm](person) không ?
+    - Cô [Phạm Thị Ngọc Diễm](person)
+    - Email của cô [Phạm Thị Ngọc Diễm](person)
+    - Cô [Phạm Thị Ngọc Diễm](person) chuyên ngành là gì vậy.
+    - Cô [Phạm Thị Ngọc Diễm](person) ở bộ môn nào vậy.
+    - Chuyên ngành của cô [Phạm Thị Ngọc Diễm](person)
+    - Thông tin về cô [Phạm Thị Ngọc Diễm](person)
+    - Cô [Phạm Thị Ngọc Diễm](person) chi tiết
+    - Chi tiết về cô [Phạm Thị Ngọc Diễm](person)
+    - Bạn biết cô [Bùi Đăng Hà Phương](person) không?
+    - Ê biết cô [Bùi Đăng Hà Phương](person) không?
+    - Biết cô [Bùi Đăng Hà Phương](person) không?
+    - Cô [Bùi Đăng Hà Phương](person) bạn biết không?
+    - Cô [Bùi Đăng Hà Phương](person) dạy môn nào vậy?
+    - Cô [Bùi Đăng Hà Phương](person) dạy gì vậy?
+    - Bạn có biết cô [Bùi Đăng Hà Phương](person) dạy môn nào không ?
+    - Bạn biết gì về cô [Bùi Đăng Hà Phương](person) không ?
+    - Cô [Bùi Đăng Hà Phương](person)
+    - Email của cô [Bùi Đăng Hà Phương](person)
+    - Cô [Bùi Đăng Hà Phương](person) chuyên ngành là gì vậy.
+    - Cô [Bùi Đăng Hà Phương](person) ở bộ môn nào vậy.
+    - Chuyên ngành của cô [Bùi Đăng Hà Phương](person)
+    - Thông tin về cô [Bùi Đăng Hà Phương](person)
+    - Cô [Bùi Đăng Hà Phương](person) chi tiết
+    - Chi tiết về cô [Bùi Đăng Hà Phương](person)
+    - Bạn biết cô [Phạm Thị Xuân Lộc](person) không?
+    - Ê biết cô [Phạm Thị Xuân Lộc](person) không?
+    - Biết cô [Phạm Thị Xuân Lộc](person) không?
+    - Cô [Phạm Thị Xuân Lộc](person) bạn biết không?
+    - Cô [Phạm Thị Xuân Lộc](person) dạy môn nào vậy?
+    - Cô [Phạm Thị Xuân Lộc](person) dạy gì vậy?
+    - Bạn có biết cô [Phạm Thị Xuân Lộc](person) dạy môn nào không ?
+    - Bạn biết gì về cô [Phạm Thị Xuân Lộc](person) không ?
+    - Cô [Phạm Thị Xuân Lộc](person)
+    - Email của cô [Phạm Thị Xuân Lộc](person)
+    - Cô [Phạm Thị Xuân Lộc](person) chuyên ngành là gì vậy.
+    - Cô [Phạm Thị Xuân Lộc](person) ở bộ môn nào vậy.
+    - Chuyên ngành của cô [Phạm Thị Xuân Lộc](person)
+    - Thông tin về cô [Phạm Thị Xuân Lộc](person)
+    - Cô [Phạm Thị Xuân Lộc](person) chi tiết
+    - Chi tiết về cô [Phạm Thị Xuân Lộc](person)
+    - Bạn biết cô [Nguyễn Cao Hồng Ngọc](person) không?
+    - Ê biết cô [Nguyễn Cao Hồng Ngọc](person) không?
+    - Biết cô [Nguyễn Cao Hồng Ngọc](person) không?
+    - Cô [Nguyễn Cao Hồng Ngọc](person) bạn biết không?
+    - Cô [Nguyễn Cao Hồng Ngọc](person) dạy môn nào vậy?
+    - Cô [Nguyễn Cao Hồng Ngọc](person) dạy gì vậy?
+    - Bạn có biết cô [Nguyễn Cao Hồng Ngọc](person) dạy môn nào không ?
+    - Bạn biết gì về cô [Nguyễn Cao Hồng Ngọc](person) không ?
+    - Cô [Nguyễn Cao Hồng Ngọc](person)
+    - Email của cô [Nguyễn Cao Hồng Ngọc](person)
+    - Cô [Nguyễn Cao Hồng Ngọc](person) chuyên ngành là gì vậy.
+    - Cô [Nguyễn Cao Hồng Ngọc](person) ở bộ môn nào vậy.
+    - Chuyên ngành của cô [Nguyễn Cao Hồng Ngọc](person)
+    - Thông tin về cô [Nguyễn Cao Hồng Ngọc](person)
+    - Cô [Nguyễn Cao Hồng Ngọc](person) chi tiết
+    - Chi tiết về cô [Nguyễn Cao Hồng Ngọc](person)
+    - Bạn biết cô [Triệu Thanh Ngoan](person) không?
+    - Ê biết cô [Triệu Thanh Ngoan](person) không?
+    - Biết cô [Triệu Thanh Ngoan](person) không?
+    - Cô [Triệu Thanh Ngoan](person) bạn biết không?
+    - Cô [Triệu Thanh Ngoan](person) dạy môn nào vậy?
+    - Cô [Triệu Thanh Ngoan](person) dạy gì vậy?
+    - Bạn có biết cô [Triệu Thanh Ngoan](person) dạy môn nào không ?
+    - Bạn biết gì về cô [Triệu Thanh Ngoan](person) không ?
+    - Cô [Triệu Thanh Ngoan](person)
+    - Email của cô [Triệu Thanh Ngoan](person)
+    - Cô [Triệu Thanh Ngoan](person) chuyên ngành là gì vậy.
+    - Cô [Triệu Thanh Ngoan](person) ở bộ môn nào vậy.
+    - Chuyên ngành của cô [Triệu Thanh Ngoan](person)
+    - Thông tin về cô [Triệu Thanh Ngoan](person)
+    - Cô [Triệu Thanh Ngoan](person) chi tiết
+    - Chi tiết về cô [Triệu Thanh Ngoan](person)
+    - Bạn biết cô [Trần Thị Tố Quyên](person) không?
+    - Ê biết cô [Trần Thị Tố Quyên](person) không?
+    - Biết cô [Trần Thị Tố Quyên](person) không?
+    - Cô [Trần Thị Tố Quyên](person) bạn biết không?
+    - Cô [Trần Thị Tố Quyên](person) dạy môn nào vậy?
+    - Cô [Trần Thị Tố Quyên](person) dạy gì vậy?
+    - Bạn có biết cô [Trần Thị Tố Quyên](person) dạy môn nào không ?
+    - Bạn biết gì về cô [Trần Thị Tố Quyên](person) không ?
+    - Cô [Trần Thị Tố Quyên](person)
+    - Email của cô [Trần Thị Tố Quyên](person)
+    - Cô [Trần Thị Tố Quyên](person) chuyên ngành là gì vậy.
+    - Cô [Trần Thị Tố Quyên](person) ở bộ môn nào vậy.
+    - Chuyên ngành của cô [Trần Thị Tố Quyên](person)
+    - Thông tin về cô [Trần Thị Tố Quyên](person)
+    - Cô [Trần Thị Tố Quyên](person) chi tiết
+    - Chi tiết về cô [Trần Thị Tố Quyên](person)
+    - Bạn biết cô [Trần Nguyễn Minh Thư](person) không?
+    - Ê biết cô [Trần Nguyễn Minh Thư](person) không?
+    - Biết cô [Trần Nguyễn Minh Thư](person) không?
+    - Cô [Trần Nguyễn Minh Thư](person) bạn biết không?
+    - Cô [Trần Nguyễn Minh Thư](person) dạy môn nào vậy?
+    - Cô [Trần Nguyễn Minh Thư](person) dạy gì vậy?
+    - Bạn có biết cô [Trần Nguyễn Minh Thư](person) dạy môn nào không ?
+    - Bạn biết gì về cô [Trần Nguyễn Minh Thư](person) không ?
+    - Cô [Trần Nguyễn Minh Thư](person)
+    - Email của cô [Trần Nguyễn Minh Thư](person)
+    - Cô [Trần Nguyễn Minh Thư](person) chuyên ngành là gì vậy.
+    - Cô [Trần Nguyễn Minh Thư](person) ở bộ môn nào vậy.
+    - Chuyên ngành của cô [Trần Nguyễn Minh Thư](person)
+    - Thông tin về cô [Trần Nguyễn Minh Thư](person)
+    - Cô [Trần Nguyễn Minh Thư](person) chi tiết
+    - Chi tiết về cô [Trần Nguyễn Minh Thư](person)
+    - Bạn biết cô [Phạm Xuân Hiền](person) không?
+    - Ê biết cô [Phạm Xuân Hiền](person) không?
+    - Biết cô [Phạm Xuân Hiền](person) không?
+    - Cô [Phạm Xuân Hiền](person) bạn biết không?
+    - Cô [Phạm Xuân Hiền](person) dạy môn nào vậy?
+    - Cô [Phạm Xuân Hiền](person) dạy gì vậy?
+    - Bạn có biết cô [Phạm Xuân Hiền](person) dạy môn nào không ?
+    - Bạn biết gì về cô [Phạm Xuân Hiền](person) không ?
+    - Cô [Phạm Xuân Hiền](person)
+    - Email của cô [Phạm Xuân Hiền](person)
+    - Cô [Phạm Xuân Hiền](person) chuyên ngành là gì vậy.
+    - Cô [Phạm Xuân Hiền](person) ở bộ môn nào vậy.
+    - Chuyên ngành của cô [Phạm Xuân Hiền](person)
+    - Thông tin về cô [Phạm Xuân Hiền](person)
+    - Cô [Phạm Xuân Hiền](person) chi tiết
+    - Chi tiết về cô [Phạm Xuân Hiền](person)
+    - Bạn biết cô [Trần Nguyễn Dương Chi](person) không?
+    - Ê biết cô [Trần Nguyễn Dương Chi](person) không?
+    - Biết cô [Trần Nguyễn Dương Chi](person) không?
+    - Cô [Trần Nguyễn Dương Chi](person) bạn biết không?
+    - Cô [Trần Nguyễn Dương Chi](person) dạy môn nào vậy?
+    - Cô [Trần Nguyễn Dương Chi](person) dạy gì vậy?
+    - Bạn có biết cô [Trần Nguyễn Dương Chi](person) dạy môn nào không ?
+    - Bạn biết gì về cô [Trần Nguyễn Dương Chi](person) không ?
+    - Cô [Trần Nguyễn Dương Chi](person)
+    - Email của cô [Trần Nguyễn Dương Chi](person)
+    - Cô [Trần Nguyễn Dương Chi](person) chuyên ngành là gì vậy.
+    - Cô [Trần Nguyễn Dương Chi](person) ở bộ môn nào vậy.
+    - Chuyên ngành của cô [Trần Nguyễn Dương Chi](person)
+    - Thông tin về cô [Trần Nguyễn Dương Chi](person)
+    - Cô [Trần Nguyễn Dương Chi](person) chi tiết
+    - Chi tiết về cô [Trần Nguyễn Dương Chi](person) 
+    - Bạn biết cô [Lê Thị Phương Dung](person) không?
+    - Ê biết cô [Lê Thị Phương Dung](person) không?
+    - Biết cô [Lê Thị Phương Dung](person) không?
+    - Cô [Lê Thị Phương Dung](person) bạn biết không?
+    - Cô [Lê Thị Phương Dung](person) dạy môn nào vậy?
+    - Cô [Lê Thị Phương Dung](person) dạy gì vậy?
+    - Bạn có biết cô [Lê Thị Phương Dung](person) dạy môn nào không ?
+    - Bạn biết gì về cô [Lê Thị Phương Dung](person) không ?
+    - Cô [Lê Thị Phương Dung](person)
+    - Email của cô [Lê Thị Phương Dung](person)
+    - Cô [Lê Thị Phương Dung](person) chuyên ngành là gì vậy.
+    - Cô [Lê Thị Phương Dung](person) ở bộ môn nào vậy.
+    - Chuyên ngành của cô [Lê Thị Phương Dung](person)
+    - Thông tin về cô [Lê Thị Phương Dung](person)
+    - Cô [Lê Thị Phương Dung](person) chi tiết
+    - Chi tiết về cô [Lê Thị Phương Dung](person)
+    - Bạn biết cô [Phạm Trương Hồng Ngân](person) không?
+    - Ê biết cô [Phạm Trương Hồng Ngân](person) không?
+    - Biết cô [Phạm Trương Hồng Ngân](person) không?
+    - Cô [Phạm Trương Hồng Ngân](person) bạn biết không?
+    - Cô [Phạm Trương Hồng Ngân](person) dạy môn nào vậy?
+    - Cô [Phạm Trương Hồng Ngân](person) dạy gì vậy?
+    - Bạn có biết cô [Phạm Trương Hồng Ngân](person) dạy môn nào không ?
+    - Bạn biết gì về cô [Phạm Trương Hồng Ngân](person) không ?
+    - Cô [Phạm Trương Hồng Ngân](person)
+    - Email của cô [Phạm Trương Hồng Ngân](person)
+    - Cô [Phạm Trương Hồng Ngân](person) chuyên ngành là gì vậy.
+    - Cô [Phạm Trương Hồng Ngân](person) ở bộ môn nào vậy.
+    - Chuyên ngành của cô [Phạm Trương Hồng Ngân](person)
+    - Thông tin về cô [Phạm Trương Hồng Ngân](person)
+    - Cô [Phạm Trương Hồng Ngân](person) chi tiết
+    - Chi tiết về cô [Phạm Trương Hồng Ngân](person)
+    - Bạn biết cô [Lê Thị Diễm](person) không?
+    - Ê biết cô [Lê Thị Diễm](person) không?
+    - Biết cô [Lê Thị Diễm](person) không?
+    - Cô [Lê Thị Diễm](person) bạn biết không?
+    - Cô [Lê Thị Diễm](person) dạy môn nào vậy?
+    - Cô [Lê Thị Diễm](person) dạy gì vậy?
+    - Bạn có biết cô [Lê Thị Diễm](person) dạy môn nào không ?
+    - Bạn biết gì về cô [Lê Thị Diễm](person) không ?
+    - Cô [Lê Thị Diễm](person)
+    - Email của cô [Lê Thị Diễm](person)
+    - Cô [Lê Thị Diễm](person) chuyên ngành là gì vậy.
+    - Cô [Lê Thị Diễm](person) ở bộ môn nào vậy.
+    - Chuyên ngành của cô [Lê Thị Diễm](person)
+    - Thông tin về cô [Lê Thị Diễm](person)
+    - Cô [Lê Thị Diễm](person) chi tiết
+    - Chi tiết về cô [Lê Thị Diễm](person)
+    - Bạn biết cô [Nguyễn Thị Thùy Linh](person) không?
+    - Ê biết cô [Nguyễn Thị Thùy Linh](person) không?
+    - Biết cô [Nguyễn Thị Thùy Linh](person) không?
+    - Cô [Nguyễn Thị Thùy Linh](person) bạn biết không?
+    - Cô [Nguyễn Thị Thùy Linh](person) dạy môn nào vậy?
+    - Cô [Nguyễn Thị Thùy Linh](person) dạy gì vậy?
+    - Bạn có biết cô [Nguyễn Thị Thùy Linh](person) dạy môn nào không ?
+    - Bạn biết gì về cô [Nguyễn Thị Thùy Linh](person) không ?
+    - Cô [Nguyễn Thị Thùy Linh](person)
+    - Email của cô [Nguyễn Thị Thùy Linh](person)
+    - Cô [Nguyễn Thị Thùy Linh](person) chuyên ngành là gì vậy.
+    - Cô [Nguyễn Thị Thùy Linh](person) ở bộ môn nào vậy.
+    - Chuyên ngành của cô [Nguyễn Thị Thùy Linh](person)
+    - Thông tin về cô [Nguyễn Thị Thùy Linh](person)
+    - Cô [Nguyễn Thị Thùy Linh](person) chi tiết
+    - Chi tiết về cô [Nguyễn Thị Thùy Linh](person)
+    - Bạn biết cô [Đặng Mỹ Hạnh](person) không?
+    - Ê biết cô [Đặng Mỹ Hạnh](person) không?
+    - Biết cô [Đặng Mỹ Hạnh](person) không?
+    - Cô [Đặng Mỹ Hạnh](person) bạn biết không?
+    - Cô [Đặng Mỹ Hạnh](person) dạy môn nào vậy?
+    - Cô [Đặng Mỹ Hạnh](person) dạy gì vậy?
+    - Bạn có biết cô [Đặng Mỹ Hạnh](person) dạy môn nào không ?
+    - Bạn biết gì về cô [Đặng Mỹ Hạnh](person) không ?
+    - Cô [Đặng Mỹ Hạnh](person)
+    - Email của cô [Đặng Mỹ Hạnh](person)
+    - Cô [Đặng Mỹ Hạnh](person) chuyên ngành là gì vậy.
+    - Cô [Đặng Mỹ Hạnh](person) ở bộ môn nào vậy.
+    - Chuyên ngành của cô [Đặng Mỹ Hạnh](person)
+    - Thông tin về cô [Đặng Mỹ Hạnh](person)
+    - Cô [Đặng Mỹ Hạnh](person) chi tiết
+    - Chi tiết về cô [Đặng Mỹ Hạnh](person)
+    - Bạn biết cô [Nguyễn Thị Thủy Chung](person) không?
+    - Ê biết cô [Nguyễn Thị Thủy Chung](person) không?
+    - Biết cô [Nguyễn Thị Thủy Chung](person) không?
+    - Cô [Nguyễn Thị Thủy Chung](person) bạn biết không?
+    - Cô [Nguyễn Thị Thủy Chung](person) dạy môn nào vậy?
+    - Cô [Nguyễn Thị Thủy Chung](person) dạy gì vậy?
+    - Bạn có biết cô [Nguyễn Thị Thủy Chung](person) dạy môn nào không ?
+    - Bạn biết gì về cô [Nguyễn Thị Thủy Chung](person) không ?
+    - Cô [Nguyễn Thị Thủy Chung](person)
+    - Email của cô [Nguyễn Thị Thủy Chung](person)
+    - Cô [Nguyễn Thị Thủy Chung](person) chuyên ngành là gì vậy.
+    - Cô [Nguyễn Thị Thủy Chung](person) ở bộ môn nào vậy.
+    - Chuyên ngành của cô [Nguyễn Thị Thủy Chung](person)
+    - Thông tin về cô [Nguyễn Thị Thủy Chung](person)
+    - Cô [Nguyễn Thị Thủy Chung](person) chi tiết
+    - Chi tiết về cô [Nguyễn Thị Thủy Chung](person)
+    - Bạn biết thầy [Phạm Thế Phi](person) không?
+    - Ê biết thầy [Phạm Thế Phi](person) không?
+    - Biết thầy [Phạm Thế Phi](person) không?
+    - thầy [Phạm Thế Phi](person) bạn biết không?
+    - thầy [Phạm Thế Phi](person) dạy môn nào vậy?
+    - thầy [Phạm Thế Phi](person) dạy gì vậy?
+    - Bạn có biết thầy [Phạm Thế Phi](person) dạy môn nào không ?
+    - Bạn biết gì về thầy [Phạm Thế Phi](person) không ?
+    - thầy [Phạm Thế Phi](person)
+    - Email của thầy [Phạm Thế Phi](person)
+    - thầy [Phạm Thế Phi](person) chuyên ngành là gì vậy.
+    - thầy [Phạm Thế Phi](person) ở bộ môn nào vậy.
+    - Chuyên ngành của thầy [Phạm Thế Phi](person)
+    - Thông tin về thầy [Phạm Thế Phi](person)
+    - thầy [Phạm Thế Phi](person) chi tiết
+    - Chi tiết về thầy [Phạm Thế Phi](person)
+    - Bạn biết thầy [Trần Công Án](person) không?
+    - Ê biết thầy [Trần Công Án](person) không?
+    - Biết thầy [Trần Công Án](person) không?
+    - thầy [Trần Công Án](person) bạn biết không?
+    - thầy [Trần Công Án](person) dạy môn nào vậy?
+    - thầy [Trần Công Án](person) dạy gì vậy?
+    - Bạn có biết thầy [Trần Công Án](person) dạy môn nào không ?
+    - Bạn biết gì về thầy [Trần Công Án](person) không ?
+    - thầy [Trần Công Án](person)
+    - Email của thầy [Trần Công Án](person)
+    - thầy [Trần Công Án](person) chuyên ngành là gì vậy.
+    - thầy [Trần Công Án](person) ở bộ môn nào vậy.
+    - Chuyên ngành của thầy [Trần Công Án](person)
+    - Thông tin về thầy [Trần Công Án](person)
+    - thầy [Trần Công Án](person) chi tiết
+    - Chi tiết về thầy [Trần Công Án](person)
+    - Bạn biết thầy [Thái Minh Tuấn](person) không?
+    - Ê biết thầy [Thái Minh Tuấn](person) không?
+    - Biết thầy [Thái Minh Tuấn](person) không?
+    - thầy [Thái Minh Tuấn](person) bạn biết không?
+    - thầy [Thái Minh Tuấn](person) dạy môn nào vậy?
+    - thầy [Thái Minh Tuấn](person) dạy gì vậy?
+    - Bạn có biết thầy [Thái Minh Tuấn](person) dạy môn nào không ?
+    - Bạn biết gì về thầy [Thái Minh Tuấn](person) không ?
+    - thầy [Thái Minh Tuấn](person)
+    - Email của thầy [Thái Minh Tuấn](person)
+    - thầy [Thái Minh Tuấn](person) chuyên ngành là gì vậy.
+    - thầy [Thái Minh Tuấn](person) ở bộ môn nào vậy.
+    - Chuyên ngành của thầy [Thái Minh Tuấn](person)
+    - Thông tin về thầy [Thái Minh Tuấn](person)
+    - thầy [Thái Minh Tuấn](person) chi tiết
+    - Chi tiết về thầy [Thái Minh Tuấn](person)
+    - Bạn biết thầy [Bùi Võ Quốc Bảo](person) không?
+    - Ê biết thầy [Bùi Võ Quốc Bảo](person) không?
+    - Biết thầy [Bùi Võ Quốc Bảo](person) không?
+    - thầy [Bùi Võ Quốc Bảo](person) bạn biết không?
+    - thầy [Bùi Võ Quốc Bảo](person) dạy môn nào vậy?
+    - thầy [Bùi Võ Quốc Bảo](person) dạy gì vậy?
+    - Bạn có biết thầy [Bùi Võ Quốc Bảo](person) dạy môn nào không ?
+    - Bạn biết gì về thầy [Bùi Võ Quốc Bảo](person) không ?
+    - thầy [Bùi Võ Quốc Bảo](person)
+    - Email của thầy [Bùi Võ Quốc Bảo](person)
+    - thầy [Bùi Võ Quốc Bảo](person) chuyên ngành là gì vậy.
+    - thầy [Bùi Võ Quốc Bảo](person) ở bộ môn nào vậy.
+    - Chuyên ngành của thầy [Bùi Võ Quốc Bảo](person)
+    - Thông tin về thầy [Bùi Võ Quốc Bảo](person)
+    - thầy [Bùi Võ Quốc Bảo](person) chi tiết
+    - Chi tiết về thầy [Bùi Võ Quốc Bảo](person)
+    - Bạn biết thầy [Trần Cao Đệ](person) không?
+    - Ê biết thầy [Trần Cao Đệ](person) không?
+    - Biết thầy [Trần Cao Đệ](person) không?
+    - thầy [Trần Cao Đệ](person) bạn biết không?
+    - thầy [Trần Cao Đệ](person) dạy môn nào vậy?
+    - thầy [Trần Cao Đệ](person) dạy gì vậy?
+    - Bạn có biết thầy [Trần Cao Đệ](person) dạy môn nào không ?
+    - Bạn biết gì về thầy [Trần Cao Đệ](person) không ?
+    - thầy [Trần Cao Đệ](person)
+    - Email của thầy [Trần Cao Đệ](person)
+    - thầy [Trần Cao Đệ](person) chuyên ngành là gì vậy.
+    - thầy [Trần Cao Đệ](person) ở bộ môn nào vậy.
+    - Chuyên ngành của thầy [Trần Cao Đệ](person)
+    - Thông tin về thầy [Trần Cao Đệ](person)
+    - thầy [Trần Cao Đệ](person) chi tiết
+    - Chi tiết về thầy [Trần Cao Đệ](person)
+    - Bạn biết thầy [Lê Văn Lâm](person) không?
+    - Ê biết thầy [Lê Văn Lâm](person) không?
+    - Biết thầy [Lê Văn Lâm](person) không?
+    - thầy [Lê Văn Lâm](person) bạn biết không?
+    - thầy [Lê Văn Lâm](person) dạy môn nào vậy?
+    - thầy [Lê Văn Lâm](person) dạy gì vậy?
+    - Bạn có biết thầy [Lê Văn Lâm](person) dạy môn nào không ?
+    - Bạn biết gì về thầy [Lê Văn Lâm](person) không ?
+    - thầy [Lê Văn Lâm](person)
+    - Email của thầy [Lê Văn Lâm](person)
+    - thầy [Lê Văn Lâm](person) chuyên ngành là gì vậy.
+    - thầy [Lê Văn Lâm](person) ở bộ môn nào vậy.
+    - Chuyên ngành của thầy [Lê Văn Lâm](person)
+    - Thông tin về thầy [Lê Văn Lâm](person)
+    - thầy [Lê Văn Lâm](person) chi tiết
+    - Chi tiết về thầy [Lê Văn Lâm](person)
+    - Bạn biết thầy [Trần Minh Tân](person) không?
+    - Ê biết thầy [Trần Minh Tân](person) không?
+    - Biết thầy [Trần Minh Tân](person) không?
+    - thầy [Trần Minh Tân](person) bạn biết không?
+    - thầy [Trần Minh Tân](person) dạy môn nào vậy?
+    - thầy [Trần Minh Tân](person) dạy gì vậy?
+    - Bạn có biết thầy [Trần Minh Tân](person) dạy môn nào không ?
+    - Bạn biết gì về thầy [Trần Minh Tân](person) không ?
+    - thầy [Trần Minh Tân](person)
+    - Email của thầy [Trần Minh Tân](person)
+    - thầy [Trần Minh Tân](person) chuyên ngành là gì vậy.
+    - thầy [Trần Minh Tân](person) ở bộ môn nào vậy.
+    - Chuyên ngành của thầy [Trần Minh Tân](person)
+    - Thông tin về thầy [Trần Minh Tân](person)
+    - thầy [Trần Minh Tân](person) chi tiết
+    - Chi tiết về thầy [Trần Minh Tân](person)
+    - Bạn biết thầy [Nguyễn Minh Trung](person) không?
+    - Ê biết thầy [Nguyễn Minh Trung](person) không?
+    - Biết thầy [Nguyễn Minh Trung](person) không?
+    - thầy [Nguyễn Minh Trung](person) bạn biết không?
+    - thầy [Nguyễn Minh Trung](person) dạy môn nào vậy?
+    - thầy [Nguyễn Minh Trung](person) dạy gì vậy?
+    - Bạn có biết thầy [Nguyễn Minh Trung](person) dạy môn nào không ?
+    - Bạn biết gì về thầy [Nguyễn Minh Trung](person) không ?
+    - thầy [Nguyễn Minh Trung](person)
+    - Email của thầy [Nguyễn Minh Trung](person)
+    - thầy [Nguyễn Minh Trung](person) chuyên ngành là gì vậy.
+    - thầy [Nguyễn Minh Trung](person) ở bộ môn nào vậy.
+    - Chuyên ngành của thầy [Nguyễn Minh Trung](person)
+    - Thông tin về thầy [Nguyễn Minh Trung](person)
+    - thầy [Nguyễn Minh Trung](person) chi tiết
+    - Chi tiết về thầy [Nguyễn Minh Trung](person)
+    - Bạn biết thầy [Trương Minh Thái](person) không?
+    - Ê biết thầy [Trương Minh Thái](person) không?
+    - Biết thầy [Trương Minh Thái](person) không?
+    - thầy [Trương Minh Thái](person) bạn biết không?
+    - thầy [Trương Minh Thái](person) dạy môn nào vậy?
+    - thầy [Trương Minh Thái](person) dạy gì vậy?
+    - Bạn có biết thầy [Trương Minh Thái](person) dạy môn nào không ?
+    - Bạn biết gì về thầy [Trương Minh Thái](person) không ?
+    - thầy [Trương Minh Thái](person)
+    - Email của thầy [Trương Minh Thái](person)
+    - thầy [Trương Minh Thái](person) chuyên ngành là gì vậy.
+    - thầy [Trương Minh Thái](person) ở bộ môn nào vậy.
+    - Chuyên ngành của thầy [Trương Minh Thái](person)
+    - Thông tin về thầy [Trương Minh Thái](person)
+    - thầy [Trương Minh Thái](person) chi tiết
+    - Chi tiết về thầy [Trương Minh Thái](person)
+    - Bạn biết thầy [Huỳnh Xuân Hiệp](person) không?
+    - Ê biết thầy [Huỳnh Xuân Hiệp](person) không?
+    - Biết thầy [Huỳnh Xuân Hiệp](person) không?
+    - thầy [Huỳnh Xuân Hiệp](person) bạn biết không?
+    - thầy [Huỳnh Xuân Hiệp](person) dạy môn nào vậy?
+    - thầy [Huỳnh Xuân Hiệp](person) dạy gì vậy?
+    - Bạn có biết thầy [Huỳnh Xuân Hiệp](person) dạy môn nào không ?
+    - Bạn biết gì về thầy [Huỳnh Xuân Hiệp](person) không ?
+    - thầy [Huỳnh Xuân Hiệp](person)
+    - Email của thầy [Huỳnh Xuân Hiệp](person)
+    - thầy [Huỳnh Xuân Hiệp](person) chuyên ngành là gì vậy.
+    - thầy [Huỳnh Xuân Hiệp](person) ở bộ môn nào vậy.
+    - Chuyên ngành của thầy [Huỳnh Xuân Hiệp](person)
+    - Thông tin về thầy [Huỳnh Xuân Hiệp](person)
+    - thầy [Huỳnh Xuân Hiệp](person) chi tiết
+    - Chi tiết về thầy [Huỳnh Xuân Hiệp](person)
+    - Bạn biết thầy [Lâm Hoài Bảo](person) không?
+    - Ê biết thầy [Lâm Hoài Bảo](person) không?
+    - Biết thầy [Lâm Hoài Bảo](person) không?
+    - thầy [Lâm Hoài Bảo](person) bạn biết không?
+    - thầy [Lâm Hoài Bảo](person) dạy môn nào vậy?
+    - thầy [Lâm Hoài Bảo](person) dạy gì vậy?
+    - Bạn có biết thầy [Lâm Hoài Bảo](person) dạy môn nào không ?
+    - Bạn biết gì về thầy [Lâm Hoài Bảo](person) không ?
+    - thầy [Lâm Hoài Bảo](person)
+    - Email của thầy [Lâm Hoài Bảo](person)
+    - thầy [Lâm Hoài Bảo](person) chuyên ngành là gì vậy.
+    - thầy [Lâm Hoài Bảo](person) ở bộ môn nào vậy.
+    - Chuyên ngành của thầy [Lâm Hoài Bảo](person)
+    - Thông tin về thầy [Lâm Hoài Bảo](person)
+    - thầy [Lâm Hoài Bảo](person) chi tiết
+    - Chi tiết về thầy [Lâm Hoài Bảo](person)
+    - Bạn biết thầy [Phan Huy Cường](person) không?
+    - Ê biết thầy [Phan Huy Cường](person) không?
+    - Biết thầy [Phan Huy Cường](person) không?
+    - thầy [Phan Huy Cường](person) bạn biết không?
+    - thầy [Phan Huy Cường](person) dạy môn nào vậy?
+    - thầy [Phan Huy Cường](person) dạy gì vậy?
+    - Bạn có biết thầy [Phan Huy Cường](person) dạy môn nào không ?
+    - Bạn biết gì về thầy [Phan Huy Cường](person) không ?
+    - thầy [Phan Huy Cường](person)
+    - Email của thầy [Phan Huy Cường](person)
+    - thầy [Phan Huy Cường](person) chuyên ngành là gì vậy.
+    - thầy [Phan Huy Cường](person) ở bộ môn nào vậy.
+    - Chuyên ngành của thầy [Phan Huy Cường](person)
+    - Thông tin về thầy [Phan Huy Cường](person)
+    - thầy [Phan Huy Cường](person) chi tiết
+    - Chi tiết về thầy [Phan Huy Cường](person)
+    - Bạn biết thầy [Huỳnh Quang Nghi](person) không?
+    - Ê biết thầy [Huỳnh Quang Nghi](person) không?
+    - Biết thầy [Huỳnh Quang Nghi](person) không?
+    - thầy [Huỳnh Quang Nghi](person) bạn biết không?
+    - thầy [Huỳnh Quang Nghi](person) dạy môn nào vậy?
+    - thầy [Huỳnh Quang Nghi](person) dạy gì vậy?
+    - Bạn có biết thầy [Huỳnh Quang Nghi](person) dạy môn nào không ?
+    - Bạn biết gì về thầy [Huỳnh Quang Nghi](person) không ?
+    - thầy [Huỳnh Quang Nghi](person)
+    - Email của thầy [Huỳnh Quang Nghi](person)
+    - thầy [Huỳnh Quang Nghi](person) chuyên ngành là gì vậy.
+    - thầy [Huỳnh Quang Nghi](person) ở bộ môn nào vậy.
+    - Chuyên ngành của thầy [Huỳnh Quang Nghi](person)
+    - Thông tin về thầy [Huỳnh Quang Nghi](person)
+    - thầy [Huỳnh Quang Nghi](person) chi tiết
+    - Chi tiết về thầy [Huỳnh Quang Nghi](person)
+    - Bạn biết thầy [Nguyễn Công Danh](person) không?
+    - Ê biết thầy [Nguyễn Công Danh](person) không?
+    - Biết thầy [Nguyễn Công Danh](person) không?
+    - thầy [Nguyễn Công Danh](person) bạn biết không?
+    - thầy [Nguyễn Công Danh](person) dạy môn nào vậy?
+    - thầy [Nguyễn Công Danh](person) dạy gì vậy?
+    - Bạn có biết thầy [Nguyễn Công Danh](person) dạy môn nào không ?
+    - Bạn biết gì về thầy [Nguyễn Công Danh](person) không ?
+    - thầy [Nguyễn Công Danh](person)
+    - Email của thầy [Nguyễn Công Danh](person)
+    - thầy [Nguyễn Công Danh](person) chuyên ngành là gì vậy.
+    - thầy [Nguyễn Công Danh](person) ở bộ môn nào vậy.
+    - Chuyên ngành của thầy [Nguyễn Công Danh](person)
+    - Thông tin về thầy [Nguyễn Công Danh](person)
+    - thầy [Nguyễn Công Danh](person) chi tiết
+    - Chi tiết về thầy [Nguyễn Công Danh](person)
+    - Bạn biết thầy [Cù Vĩnh Lộc](person) không?
+    - Ê biết thầy [Cù Vĩnh Lộc](person) không?
+    - Biết thầy [Cù Vĩnh Lộc](person) không?
+    - thầy [Cù Vĩnh Lộc](person) bạn biết không?
+    - thầy [Cù Vĩnh Lộc](person) dạy môn nào vậy?
+    - thầy [Cù Vĩnh Lộc](person) dạy gì vậy?
+    - Bạn có biết thầy [Cù Vĩnh Lộc](person) dạy môn nào không ?
+    - Bạn biết gì về thầy [Cù Vĩnh Lộc](person) không ?
+    - thầy [Cù Vĩnh Lộc](person)
+    - Email của thầy [Cù Vĩnh Lộc](person)
+    - thầy [Cù Vĩnh Lộc](person) chuyên ngành là gì vậy.
+    - thầy [Cù Vĩnh Lộc](person) ở bộ môn nào vậy.
+    - Chuyên ngành của thầy [Cù Vĩnh Lộc](person)
+    - Thông tin về thầy [Cù Vĩnh Lộc](person)
+    - thầy [Cù Vĩnh Lộc](person) chi tiết
+    - Chi tiết về thầy [Cù Vĩnh Lộc](person)
+    - Bạn biết thầy [Trần Văn Hoàng](person) không?
+    - Ê biết thầy [Trần Văn Hoàng](person) không?
+    - Biết thầy [Trần Văn Hoàng](person) không?
+    - thầy [Trần Văn Hoàng](person) bạn biết không?
+    - thầy [Trần Văn Hoàng](person) dạy môn nào vậy?
+    - thầy [Trần Văn Hoàng](person) dạy gì vậy?
+    - Bạn có biết thầy [Trần Văn Hoàng](person) dạy môn nào không ?
+    - Bạn biết gì về thầy [Trần Văn Hoàng](person) không ?
+    - thầy [Trần Văn Hoàng](person)
+    - Email của thầy [Trần Văn Hoàng](person)
+    - thầy [Trần Văn Hoàng](person) chuyên ngành là gì vậy.
+    - thầy [Trần Văn Hoàng](person) ở bộ môn nào vậy.
+    - Chuyên ngành của thầy [Trần Văn Hoàng](person)
+    - Thông tin về thầy [Trần Văn Hoàng](person)
+    - thầy [Trần Văn Hoàng](person) chi tiết
+    - Chi tiết về thầy [Trần Văn Hoàng](person)
+    - Bạn biết thầy [Hồ Quang Thái](person) không?
+    - Ê biết thầy [Hồ Quang Thái](person) không?
+    - Biết thầy [Hồ Quang Thái](person) không?
+    - thầy [Hồ Quang Thái](person) bạn biết không?
+    - thầy [Hồ Quang Thái](person) dạy môn nào vậy?
+    - thầy [Hồ Quang Thái](person) dạy gì vậy?
+    - Bạn có biết thầy [Hồ Quang Thái](person) dạy môn nào không ?
+    - Bạn biết gì về thầy [Hồ Quang Thái](person) không ?
+    - thầy [Hồ Quang Thái](person)
+    - Email của thầy [Hồ Quang Thái](person)
+    - thầy [Hồ Quang Thái](person) chuyên ngành là gì vậy.
+    - thầy [Hồ Quang Thái](person) ở bộ môn nào vậy.
+    - Chuyên ngành của thầy [Hồ Quang Thái](person)
+    - Thông tin về thầy [Hồ Quang Thái](person)
+    - thầy [Hồ Quang Thái](person) chi tiết
+    - Chi tiết về thầy [Hồ Quang Thái](person)
+    - Bạn biết thầy [Trương Quốc Định](person) không?
+    - Ê biết thầy [Trương Quốc Định](person) không?
+    - Biết thầy [Trương Quốc Định](person) không?
+    - thầy [Trương Quốc Định](person) bạn biết không?
+    - thầy [Trương Quốc Định](person) dạy môn nào vậy?
+    - thầy [Trương Quốc Định](person) dạy gì vậy?
+    - Bạn có biết thầy [Trương Quốc Định](person) dạy môn nào không ?
+    - Bạn biết gì về thầy [Trương Quốc Định](person) không ?
+    - thầy [Trương Quốc Định](person)
+    - Email của thầy [Trương Quốc Định](person)
+    - thầy [Trương Quốc Định](person) chuyên ngành là gì vậy.
+    - thầy [Trương Quốc Định](person) ở bộ môn nào vậy.
+    - Chuyên ngành của thầy [Trương Quốc Định](person)
+    - Thông tin về thầy [Trương Quốc Định](person)
+    - thầy [Trương Quốc Định](person) chi tiết
+    - Chi tiết về thầy [Trương Quốc Định](person)
+    - Bạn biết thầy [Phan Tấn Tài](person) không?
+    - Ê biết thầy [Phan Tấn Tài](person) không?
+    - Biết thầy [Phan Tấn Tài](person) không?
+    - thầy [Phan Tấn Tài](person) bạn biết không?
+    - thầy [Phan Tấn Tài](person) dạy môn nào vậy?
+    - thầy [Phan Tấn Tài](person) dạy gì vậy?
+    - Bạn có biết thầy [Phan Tấn Tài](person) dạy môn nào không ?
+    - Bạn biết gì về thầy [Phan Tấn Tài](person) không ?
+    - thầy [Phan Tấn Tài](person)
+    - Email của thầy [Phan Tấn Tài](person)
+    - thầy [Phan Tấn Tài](person) chuyên ngành là gì vậy.
+    - thầy [Phan Tấn Tài](person) ở bộ môn nào vậy.
+    - Chuyên ngành của thầy [Phan Tấn Tài](person)
+    - Thông tin về thầy [Phan Tấn Tài](person)
+    - thầy [Phan Tấn Tài](person) chi tiết
+    - Chi tiết về thầy [Phan Tấn Tài](person)
+    - Bạn biết thầy [Nguyễn Thái Nghe](person) không?
+    - Ê biết thầy [Nguyễn Thái Nghe](person) không?
+    - Biết thầy [Nguyễn Thái Nghe](person) không?
+    - thầy [Nguyễn Thái Nghe](person) bạn biết không?
+    - thầy [Nguyễn Thái Nghe](person) dạy môn nào vậy?
+    - thầy [Nguyễn Thái Nghe](person) dạy gì vậy?
+    - Bạn có biết thầy [Nguyễn Thái Nghe](person) dạy môn nào không ?
+    - Bạn biết gì về thầy [Nguyễn Thái Nghe](person) không ?
+    - thầy [Nguyễn Thái Nghe](person)
+    - Email của thầy [Nguyễn Thái Nghe](person)
+    - thầy [Nguyễn Thái Nghe](person) chuyên ngành là gì vậy.
+    - thầy [Nguyễn Thái Nghe](person) ở bộ môn nào vậy.
+    - Chuyên ngành của thầy [Nguyễn Thái Nghe](person)
+    - Thông tin về thầy [Nguyễn Thái Nghe](person)
+    - thầy [Nguyễn Thái Nghe](person) chi tiết
+    - Chi tiết về thầy [Nguyễn Thái Nghe](person)
+    - Bạn biết thầy [Trần Nguyễn Minh Thái](person) không?
+    - Ê biết thầy [Trần Nguyễn Minh Thái](person) không?
+    - Biết thầy [Trần Nguyễn Minh Thái](person) không?
+    - thầy [Trần Nguyễn Minh Thái](person) bạn biết không?
+    - thầy [Trần Nguyễn Minh Thái](person) dạy môn nào vậy?
+    - thầy [Trần Nguyễn Minh Thái](person) dạy gì vậy?
+    - Bạn có biết thầy [Trần Nguyễn Minh Thái](person) dạy môn nào không ?
+    - Bạn biết gì về thầy [Trần Nguyễn Minh Thái](person) không ?
+    - thầy [Trần Nguyễn Minh Thái](person)
+    - Email của thầy [Trần Nguyễn Minh Thái](person)
+    - thầy [Trần Nguyễn Minh Thái](person) chuyên ngành là gì vậy.
+    - thầy [Trần Nguyễn Minh Thái](person) ở bộ môn nào vậy.
+    - Chuyên ngành của thầy [Trần Nguyễn Minh Thái](person)
+    - Thông tin về thầy [Trần Nguyễn Minh Thái](person)
+    - thầy [Trần Nguyễn Minh Thái](person) chi tiết
+    - Chi tiết về thầy [Trần Nguyễn Minh Thái](person)
+    - Bạn biết thầy [Nguyễn Thanh Hải](person) không?
+    - Ê biết thầy [Nguyễn Thanh Hải](person) không?
+    - Biết thầy [Nguyễn Thanh Hải](person) không?
+    - thầy [Nguyễn Thanh Hải](person) bạn biết không?
+    - thầy [Nguyễn Thanh Hải](person) dạy môn nào vậy?
+    - thầy [Nguyễn Thanh Hải](person) dạy gì vậy?
+    - Bạn có biết thầy [Nguyễn Thanh Hải](person) dạy môn nào không ?
+    - Bạn biết gì về thầy [Nguyễn Thanh Hải](person) không ?
+    - thầy [Nguyễn Thanh Hải](person)
+    - Email của thầy [Nguyễn Thanh Hải](person)
+    - thầy [Nguyễn Thanh Hải](person) chuyên ngành là gì vậy.
+    - thầy [Nguyễn Thanh Hải](person) ở bộ môn nào vậy.
+    - Chuyên ngành của thầy [Nguyễn Thanh Hải](person)
+    - Thông tin về thầy [Nguyễn Thanh Hải](person)
+    - thầy [Nguyễn Thanh Hải](person) chi tiết
+    - Chi tiết về thầy [Nguyễn Thanh Hải](person)
+    - Bạn biết thầy [Nguyễn Minh Khiêm](person) không?
+    - Ê biết thầy [Nguyễn Minh Khiêm](person) không?
+    - Biết thầy [Nguyễn Minh Khiêm](person) không?
+    - thầy [Nguyễn Minh Khiêm](person) bạn biết không?
+    - thầy [Nguyễn Minh Khiêm](person) dạy môn nào vậy?
+    - thầy [Nguyễn Minh Khiêm](person) dạy gì vậy?
+    - Bạn có biết thầy [Nguyễn Minh Khiêm](person) dạy môn nào không ?
+    - Bạn biết gì về thầy [Nguyễn Minh Khiêm](person) không ?
+    - thầy [Nguyễn Minh Khiêm](person)
+    - Email của thầy [Nguyễn Minh Khiêm](person)
+    - thầy [Nguyễn Minh Khiêm](person) chuyên ngành là gì vậy.
+    - thầy [Nguyễn Minh Khiêm](person) ở bộ môn nào vậy.
+    - Chuyên ngành của thầy [Nguyễn Minh Khiêm](person)
+    - Thông tin về thầy [Nguyễn Minh Khiêm](person)
+    - thầy [Nguyễn Minh Khiêm](person) chi tiết
+    - Chi tiết về thầy [Nguyễn Minh Khiêm](person)
+    - Bạn biết thầy [Phạm Ngọc Quyền](person) không?
+    - Ê biết thầy [Phạm Ngọc Quyền](person) không?
+    - Biết thầy [Phạm Ngọc Quyền](person) không?
+    - thầy [Phạm Ngọc Quyền](person) bạn biết không?
+    - thầy [Phạm Ngọc Quyền](person) dạy môn nào vậy?
+    - thầy [Phạm Ngọc Quyền](person) dạy gì vậy?
+    - Bạn có biết thầy [Phạm Ngọc Quyền](person) dạy môn nào không ?
+    - Bạn biết gì về thầy [Phạm Ngọc Quyền](person) không ?
+    - thầy [Phạm Ngọc Quyền](person)
+    - Email của thầy [Phạm Ngọc Quyền](person)
+    - thầy [Phạm Ngọc Quyền](person) chuyên ngành là gì vậy.
+    - thầy [Phạm Ngọc Quyền](person) ở bộ môn nào vậy.
+    - Chuyên ngành của thầy [Phạm Ngọc Quyền](person)
+    - Thông tin về thầy [Phạm Ngọc Quyền](person)
+    - thầy [Phạm Ngọc Quyền](person) chi tiết
+    - Chi tiết về thầy [Phạm Ngọc Quyền](person)
+    - Bạn biết thầy [Lê Đức Thắng](person) không?
+    - Ê biết thầy [Lê Đức Thắng](person) không?
+    - Biết thầy [Lê Đức Thắng](person) không?
+    - thầy [Lê Đức Thắng](person) bạn biết không?
+    - thầy [Lê Đức Thắng](person) dạy môn nào vậy?
+    - thầy [Lê Đức Thắng](person) dạy gì vậy?
+    - Bạn có biết thầy [Lê Đức Thắng](person) dạy môn nào không ?
+    - Bạn biết gì về thầy [Lê Đức Thắng](person) không ?
+    - thầy [Lê Đức Thắng](person)
+    - Email của thầy [Lê Đức Thắng](person)
+    - thầy [Lê Đức Thắng](person) chuyên ngành là gì vậy.
+    - thầy [Lê Đức Thắng](person) ở bộ môn nào vậy.
+    - Chuyên ngành của thầy [Lê Đức Thắng](person)
+    - Thông tin về thầy [Lê Đức Thắng](person)
+    - thầy [Lê Đức Thắng](person) chi tiết
+    - Chi tiết về thầy [Lê Đức Thắng](person)
+    - Bạn biết thầy [Đỗ Thanh Nghị](person) không?
+    - Ê biết thầy [Đỗ Thanh Nghị](person) không?
+    - Biết thầy [Đỗ Thanh Nghị](person) không?
+    - thầy [Đỗ Thanh Nghị](person) bạn biết không?
+    - thầy [Đỗ Thanh Nghị](person) dạy môn nào vậy?
+    - thầy [Đỗ Thanh Nghị](person) dạy gì vậy?
+    - Bạn có biết thầy [Đỗ Thanh Nghị](person) dạy môn nào không ?
+    - Bạn biết gì về thầy [Đỗ Thanh Nghị](person) không ?
+    - thầy [Đỗ Thanh Nghị](person)
+    - Email của thầy [Đỗ Thanh Nghị](person)
+    - thầy [Đỗ Thanh Nghị](person) chuyên ngành là gì vậy.
+    - thầy [Đỗ Thanh Nghị](person) ở bộ môn nào vậy.
+    - Chuyên ngành của thầy [Đỗ Thanh Nghị](person)
+    - Thông tin về thầy [Đỗ Thanh Nghị](person)
+    - thầy [Đỗ Thanh Nghị](person) chi tiết
+    - Chi tiết về thầy [Đỗ Thanh Nghị](person)
+    - Bạn biết thầy [Nguyễn Công Huy](person) không?
+    - Ê biết thầy [Nguyễn Công Huy](person) không?
+    - Biết thầy [Nguyễn Công Huy](person) không?
+    - thầy [Nguyễn Công Huy](person) bạn biết không?
+    - thầy [Nguyễn Công Huy](person) dạy môn nào vậy?
+    - thầy [Nguyễn Công Huy](person) dạy gì vậy?
+    - Bạn có biết thầy [Nguyễn Công Huy](person) dạy môn nào không ?
+    - Bạn biết gì về thầy [Nguyễn Công Huy](person) không ?
+    - thầy [Nguyễn Công Huy](person)
+    - Email của thầy [Nguyễn Công Huy](person)
+    - thầy [Nguyễn Công Huy](person) chuyên ngành là gì vậy.
+    - thầy [Nguyễn Công Huy](person) ở bộ môn nào vậy.
+    - Chuyên ngành của thầy [Nguyễn Công Huy](person)
+    - Thông tin về thầy [Nguyễn Công Huy](person)
+    - thầy [Nguyễn Công Huy](person) chi tiết
+    - Chi tiết về thầy [Nguyễn Công Huy](person)
+    - Bạn biết thầy [Ngô Bá Hùng](person) không?
+    - Ê biết thầy [Ngô Bá Hùng](person) không?
+    - Biết thầy [Ngô Bá Hùng](person) không?
+    - thầy [Ngô Bá Hùng](person) bạn biết không?
+    - thầy [Ngô Bá Hùng](person) dạy môn nào vậy?
+    - thầy [Ngô Bá Hùng](person) dạy gì vậy?
+    - Bạn có biết thầy [Ngô Bá Hùng](person) dạy môn nào không ?
+    - Bạn biết gì về thầy [Ngô Bá Hùng](person) không ?
+    - thầy [Ngô Bá Hùng](person)
+    - Email của thầy [Ngô Bá Hùng](person)
+    - thầy [Ngô Bá Hùng](person) chuyên ngành là gì vậy.
+    - thầy [Ngô Bá Hùng](person) ở bộ môn nào vậy.
+    - Chuyên ngành của thầy [Ngô Bá Hùng](person)
+    - Thông tin về thầy [Ngô Bá Hùng](person)
+    - thầy [Ngô Bá Hùng](person) chi tiết
+    - Chi tiết về thầy [Ngô Bá Hùng](person)
+    - Bạn biết thầy [Phạm Hữu Tài](person) không?
+    - Ê biết thầy [Phạm Hữu Tài](person) không?
+    - Biết thầy [Phạm Hữu Tài](person) không?
+    - thầy [Phạm Hữu Tài](person) bạn biết không?
+    - thầy [Phạm Hữu Tài](person) dạy môn nào vậy?
+    - thầy [Phạm Hữu Tài](person) dạy gì vậy?
+    - Bạn có biết thầy [Phạm Hữu Tài](person) dạy môn nào không ?
+    - Bạn biết gì về thầy [Phạm Hữu Tài](person) không ?
+    - thầy [Phạm Hữu Tài](person)
+    - Email của thầy [Phạm Hữu Tài](person)
+    - thầy [Phạm Hữu Tài](person) chuyên ngành là gì vậy.
+    - thầy [Phạm Hữu Tài](person) ở bộ môn nào vậy.
+    - Chuyên ngành của thầy [Phạm Hữu Tài](person)
+    - Thông tin về thầy [Phạm Hữu Tài](person)
+    - thầy [Phạm Hữu Tài](person) chi tiết
+    - Chi tiết về thầy [Phạm Hữu Tài](person)
+    - Bạn biết thầy [Phan Thượng Cang](person) không?
+    - Ê biết thầy [Phan Thượng Cang](person) không?
+    - Biết thầy [Phan Thượng Cang](person) không?
+    - thầy [Phan Thượng Cang](person) bạn biết không?
+    - thầy [Phan Thượng Cang](person) dạy môn nào vậy?
+    - thầy [Phan Thượng Cang](person) dạy gì vậy?
+    - Bạn có biết thầy [Phan Thượng Cang](person) dạy môn nào không ?
+    - Bạn biết gì về thầy [Phan Thượng Cang](person) không ?
+    - thầy [Phan Thượng Cang](person)
+    - Email của thầy [Phan Thượng Cang](person)
+    - thầy [Phan Thượng Cang](person) chuyên ngành là gì vậy.
+    - thầy [Phan Thượng Cang](person) ở bộ môn nào vậy.
+    - Chuyên ngành của thầy [Phan Thượng Cang](person)
+    - Thông tin về thầy [Phan Thượng Cang](person)
+    - thầy [Phan Thượng Cang](person) chi tiết
+    - Chi tiết về thầy [Phan Thượng Cang](person)
+    - Bạn biết thầy [Trần Thanh Điền](person) không?
+    - Ê biết thầy [Trần Thanh Điền](person) không?
+    - Biết thầy [Trần Thanh Điền](person) không?
+    - thầy [Trần Thanh Điền](person) bạn biết không?
+    - thầy [Trần Thanh Điền](person) dạy môn nào vậy?
+    - thầy [Trần Thanh Điền](person) dạy gì vậy?
+    - Bạn có biết thầy [Trần Thanh Điền](person) dạy môn nào không ?
+    - Bạn biết gì về thầy [Trần Thanh Điền](person) không ?
+    - thầy [Trần Thanh Điền](person)
+    - Email của thầy [Trần Thanh Điền](person)
+    - thầy [Trần Thanh Điền](person) chuyên ngành là gì vậy.
+    - thầy [Trần Thanh Điền](person) ở bộ môn nào vậy.
+    - Chuyên ngành của thầy [Trần Thanh Điền](person)
+    - Thông tin về thầy [Trần Thanh Điền](person)
+    - thầy [Trần Thanh Điền](person) chi tiết
+    - Chi tiết về thầy [Trần Thanh Điền](person)
+    - Bạn biết thầy [Lâm Chí Nguyện](person) không?
+    - Ê biết thầy [Lâm Chí Nguyện](person) không?
+    - Biết thầy [Lâm Chí Nguyện](person) không?
+    - thầy [Lâm Chí Nguyện](person) bạn biết không?
+    - thầy [Lâm Chí Nguyện](person) dạy môn nào vậy?
+    - thầy [Lâm Chí Nguyện](person) dạy gì vậy?
+    - Bạn có biết thầy [Lâm Chí Nguyện](person) dạy môn nào không ?
+    - Bạn biết gì về thầy [Lâm Chí Nguyện](person) không ?
+    - thầy [Lâm Chí Nguyện](person)
+    - Email của thầy [Lâm Chí Nguyện](person)
+    - thầy [Lâm Chí Nguyện](person) chuyên ngành là gì vậy.
+    - thầy [Lâm Chí Nguyện](person) ở bộ môn nào vậy.
+    - Chuyên ngành của thầy [Lâm Chí Nguyện](person)
+    - Thông tin về thầy [Lâm Chí Nguyện](person)
+    - thầy [Lâm Chí Nguyện](person) chi tiết
+    - Chi tiết về thầy [Lâm Chí Nguyện](person)
+    - Bạn biết thầy [Hà Duy An](person) không?
+    - Ê biết thầy [Hà Duy An](person) không?
+    - Biết thầy [Hà Duy An](person) không?
+    - thầy [Hà Duy An](person) bạn biết không?
+    - thầy [Hà Duy An](person) dạy môn nào vậy?
+    - thầy [Hà Duy An](person) dạy gì vậy?
+    - Bạn có biết thầy [Hà Duy An](person) dạy môn nào không ?
+    - Bạn biết gì về thầy [Hà Duy An](person) không ?
+    - thầy [Hà Duy An](person)
+    - Email của thầy [Hà Duy An](person)
+    - thầy [Hà Duy An](person) chuyên ngành là gì vậy.
+    - thầy [Hà Duy An](person) ở bộ môn nào vậy.
+    - Chuyên ngành của thầy [Hà Duy An](person)
+    - Thông tin về thầy [Hà Duy An](person)
+    - thầy [Hà Duy An](person) chi tiết
+    - Chi tiết về thầy [Hà Duy An](person)
+    - Bạn biết thầy [Nguyễn Hữu Vân Long](person) không?
+    - Ê biết thầy [Nguyễn Hữu Vân Long](person) không?
+    - Biết thầy [Nguyễn Hữu Vân Long](person) không?
+    - thầy [Nguyễn Hữu Vân Long](person) bạn biết không?
+    - thầy [Nguyễn Hữu Vân Long](person) dạy môn nào vậy?
+    - thầy [Nguyễn Hữu Vân Long](person) dạy gì vậy?
+    - Bạn có biết thầy [Nguyễn Hữu Vân Long](person) dạy môn nào không ?
+    - Bạn biết gì về thầy [Nguyễn Hữu Vân Long](person) không ?
+    - thầy [Nguyễn Hữu Vân Long](person)
+    - Email của thầy [Nguyễn Hữu Vân Long](person)
+    - thầy [Nguyễn Hữu Vân Long](person) chuyên ngành là gì vậy.
+    - thầy [Nguyễn Hữu Vân Long](person) ở bộ môn nào vậy.
+    - Chuyên ngành của thầy [Nguyễn Hữu Vân Long](person)
+    - Thông tin về thầy [Nguyễn Hữu Vân Long](person)
+    - thầy [Nguyễn Hữu Vân Long](person) chi tiết
+    - Chi tiết về thầy [Nguyễn Hữu Vân Long](person)
+    - Bạn biết thầy [Lưu Trùng Dương](person) không?
+    - Ê biết thầy [Lưu Trùng Dương](person) không?
+    - Biết thầy [Lưu Trùng Dương](person) không?
+    - thầy [Lưu Trùng Dương](person) bạn biết không?
+    - thầy [Lưu Trùng Dương](person) dạy môn nào vậy?
+    - thầy [Lưu Trùng Dương](person) dạy gì vậy?
+    - Bạn có biết thầy [Lưu Trùng Dương](person) dạy môn nào không ?
+    - Bạn biết gì về thầy [Lưu Trùng Dương](person) không ?
+    - thầy [Lưu Trùng Dương](person)
+    - Email của thầy [Lưu Trùng Dương](person)
+    - thầy [Lưu Trùng Dương](person) chuyên ngành là gì vậy.
+    - thầy [Lưu Trùng Dương](person) ở bộ môn nào vậy.
+    - Chuyên ngành của thầy [Lưu Trùng Dương](person)
+    - Thông tin về thầy [Lưu Trùng Dương](person)
+    - thầy [Lưu Trùng Dương](person) chi tiết
+    - Chi tiết về thầy [Lưu Trùng Dương](person)
+    - Bạn biết thầy [Trần Thanh Điện](person) không?
+    - Ê biết thầy [Trần Thanh Điện](person) không?
+    - Biết thầy [Trần Thanh Điện](person) không?
+    - thầy [Trần Thanh Điện](person) bạn biết không?
+    - thầy [Trần Thanh Điện](person) dạy môn nào vậy?
+    - thầy [Trần Thanh Điện](person) dạy gì vậy?
+    - Bạn có biết thầy [Trần Thanh Điện](person) dạy môn nào không ?
+    - Bạn biết gì về thầy [Trần Thanh Điện](person) không ?
+    - thầy [Trần Thanh Điện](person)
+    - Email của thầy [Trần Thanh Điện](person)
+    - thầy [Trần Thanh Điện](person) chuyên ngành là gì vậy.
+    - thầy [Trần Thanh Điện](person) ở bộ môn nào vậy.
+    - Chuyên ngành của thầy [Trần Thanh Điện](person)
+    - Thông tin về thầy [Trần Thanh Điện](person)
+    - thầy [Trần Thanh Điện](person) chi tiết
+    - Chi tiết về thầy [Trần Thanh Điện](person)
+    - Bạn biết thầy [Đoàn Hòa Minh](person) không?
+    - Ê biết thầy [Đoàn Hòa Minh](person) không?
+    - Biết thầy [Đoàn Hòa Minh](person) không?
+    - thầy [Đoàn Hòa Minh](person) bạn biết không?
+    - thầy [Đoàn Hòa Minh](person) dạy môn nào vậy?
+    - thầy [Đoàn Hòa Minh](person) dạy gì vậy?
+    - Bạn có biết thầy [Đoàn Hòa Minh](person) dạy môn nào không ?
+    - Bạn biết gì về thầy [Đoàn Hòa Minh](person) không ?
+    - thầy [Đoàn Hòa Minh](person)
+    - Email của thầy [Đoàn Hòa Minh](person)
+    - thầy [Đoàn Hòa Minh](person) chuyên ngành là gì vậy.
+    - thầy [Đoàn Hòa Minh](person) ở bộ môn nào vậy.
+    - Chuyên ngành của thầy [Đoàn Hòa Minh](person)
+    - Thông tin về thầy [Đoàn Hòa Minh](person)
+    - thầy [Đoàn Hòa Minh](person) chi tiết
+    - Chi tiết về thầy [Đoàn Hòa Minh](person)
+    - Bạn biết thầy [Nguyễn Trọng Nghĩa](person) không?
+    - Ê biết thầy [Nguyễn Trọng Nghĩa](person) không?
+    - Biết thầy [Nguyễn Trọng Nghĩa](person) không?
+    - thầy [Nguyễn Trọng Nghĩa](person) bạn biết không?
+    - thầy [Nguyễn Trọng Nghĩa](person) dạy môn nào vậy?
+    - thầy [Nguyễn Trọng Nghĩa](person) dạy gì vậy?
+    - Bạn có biết thầy [Nguyễn Trọng Nghĩa](person) dạy môn nào không ?
+    - Bạn biết gì về thầy [Nguyễn Trọng Nghĩa](person) không ?
+    - thầy [Nguyễn Trọng Nghĩa](person)
+    - Email của thầy [Nguyễn Trọng Nghĩa](person)
+    - thầy [Nguyễn Trọng Nghĩa](person) chuyên ngành là gì vậy.
+    - thầy [Nguyễn Trọng Nghĩa](person) ở bộ môn nào vậy.
+    - Chuyên ngành của thầy [Nguyễn Trọng Nghĩa](person)
+    - Thông tin về thầy [Nguyễn Trọng Nghĩa](person)
+    - thầy [Nguyễn Trọng Nghĩa](person) chi tiết
+    - Chi tiết về thầy [Nguyễn Trọng Nghĩa](person)
+    - Bạn biết thầy [Trần Việt Châu](person) không?
+    - Ê biết thầy [Trần Việt Châu](person) không?
+    - Biết thầy [Trần Việt Châu](person) không?
+    - thầy [Trần Việt Châu](person) bạn biết không?
+    - thầy [Trần Việt Châu](person) dạy môn nào vậy?
+    - thầy [Trần Việt Châu](person) dạy gì vậy?
+    - Bạn có biết thầy [Trần Việt Châu](person) dạy môn nào không ?
+    - Bạn biết gì về thầy [Trần Việt Châu](person) không ?
+    - thầy [Trần Việt Châu](person)
+    - Email của thầy [Trần Việt Châu](person)
+    - thầy [Trần Việt Châu](person) chuyên ngành là gì vậy.
+    - thầy [Trần Việt Châu](person) ở bộ môn nào vậy.
+    - Chuyên ngành của thầy [Trần Việt Châu](person)
+    - Thông tin về thầy [Trần Việt Châu](person)
+    - thầy [Trần Việt Châu](person) chi tiết
+    - Chi tiết về thầy [Trần Việt Châu](person)
+    - Bạn biết thầy [Phạm Nguyên Khang](person) không?
+    - Ê biết thầy [Phạm Nguyên Khang](person) không?
+    - Biết thầy [Phạm Nguyên Khang](person) không?
+    - thầy [Phạm Nguyên Khang](person) bạn biết không?
+    - thầy [Phạm Nguyên Khang](person) dạy môn nào vậy?
+    - thầy [Phạm Nguyên Khang](person) dạy gì vậy?
+    - Bạn có biết thầy [Phạm Nguyên Khang](person) dạy môn nào không ?
+    - Bạn biết gì về thầy [Phạm Nguyên Khang](person) không ?
+    - thầy [Phạm Nguyên Khang](person)
+    - Email của thầy [Phạm Nguyên Khang](person)
+    - thầy [Phạm Nguyên Khang](person) chuyên ngành là gì vậy.
+    - thầy [Phạm Nguyên Khang](person) ở bộ môn nào vậy.
+    - Chuyên ngành của thầy [Phạm Nguyên Khang](person)
+    - thầy Khang tên đầy đủ là gì vậy?
+    - Thông tin về thầy [Phạm Nguyên Khang](person)
+    - thầy [Phạm Nguyên Khang](person) chi tiết
+    - Chi tiết về thầy [Phạm Nguyên Khang](person)
+    - Bạn biết thầy [Lưu Tiến Đạo](person) không?
+    - Ê biết thầy [Lưu Tiến Đạo](person) không?
+    - Biết thầy [Lưu Tiến Đạo](person) không?
+    - thầy [Lưu Tiến Đạo](person) bạn biết không?
+    - thầy [Lưu Tiến Đạo](person) dạy môn nào vậy?
+    - thầy [Lưu Tiến Đạo](person) dạy gì vậy?
+    - Bạn có biết thầy [Lưu Tiến Đạo](person) dạy môn nào không ?
+    - Bạn biết gì về thầy [Lưu Tiến Đạo](person) không ?
+    - thầy [Lưu Tiến Đạo](person)
+    - Email của thầy [Lưu Tiến Đạo](person)
+    - thầy [Lưu Tiến Đạo](person) chuyên ngành là gì vậy.
+    - thầy [Lưu Tiến Đạo](person) ở bộ môn nào vậy.
+    - Chuyên ngành của thầy [Lưu Tiến Đạo](person)
+    - Thông tin về thầy [Lưu Tiến Đạo](person)
+    - thầy [Lưu Tiến Đạo](person) chi tiết
+    - Chi tiết về thầy [Lưu Tiến Đạo](person)
+    - Bạn biết thầy [Nguyễn Bá Diệp](person) không?
+    - Ê biết thầy [Nguyễn Bá Diệp](person) không?
+    - Biết thầy [Nguyễn Bá Diệp](person) không?
+    - thầy [Nguyễn Bá Diệp](person) bạn biết không?
+    - thầy [Nguyễn Bá Diệp](person) dạy môn nào vậy?
+    - thầy [Nguyễn Bá Diệp](person) dạy gì vậy?
+    - Bạn có biết thầy [Nguyễn Bá Diệp](person) dạy môn nào không ?
+    - Bạn biết gì về thầy [Nguyễn Bá Diệp](person) không ?
+    - thầy [Nguyễn Bá Diệp](person)
+    - Email của thầy [Nguyễn Bá Diệp](person)
+    - thầy [Nguyễn Bá Diệp](person) chuyên ngành là gì vậy.
+    - thầy [Nguyễn Bá Diệp](person) ở bộ môn nào vậy.
+    - Chuyên ngành của thầy [Nguyễn Bá Diệp](person)
+    - Thông tin về thầy [Nguyễn Bá Diệp](person)
+    - thầy [Nguyễn Bá Diệp](person) chi tiết
+    - Chi tiết về thầy [Nguyễn Bá Diệp](person)
+    - Bạn biết thầy [Phạm Nguyên Hoàng](person) không?
+    - Ê biết thầy [Phạm Nguyên Hoàng](person) không?
+    - Biết thầy [Phạm Nguyên Hoàng](person) không?
+    - thầy [Phạm Nguyên Hoàng](person) bạn biết không?
+    - thầy [Phạm Nguyên Hoàng](person) dạy môn nào vậy?
+    - thầy [Phạm Nguyên Hoàng](person) dạy gì vậy?
+    - Bạn có biết thầy [Phạm Nguyên Hoàng](person) dạy môn nào không ?
+    - Bạn biết gì về thầy [Phạm Nguyên Hoàng](person) không ?
+    - thầy [Phạm Nguyên Hoàng](person)
+    - Email của thầy [Phạm Nguyên Hoàng](person)
+    - thầy [Phạm Nguyên Hoàng](person) chuyên ngành là gì vậy.
+    - thầy [Phạm Nguyên Hoàng](person) ở bộ môn nào vậy.
+    - Chuyên ngành của thầy [Phạm Nguyên Hoàng](person)
+    - Thông tin về thầy [Phạm Nguyên Hoàng](person)
+    - thầy [Phạm Nguyên Hoàng](person) chi tiết
+    - Chi tiết về thầy [Phạm Nguyên Hoàng](person)
+    - Bạn biết thầy [Võ Trí Thức](person) không?
+    - Ê biết thầy [Võ Trí Thức](person) không?
+    - Biết thầy [Võ Trí Thức](person) không?
+    - thầy [Võ Trí Thức](person) bạn biết không?
+    - thầy [Võ Trí Thức](person) dạy môn nào vậy?
+    - thầy [Võ Trí Thức](person) dạy gì vậy?
+    - Bạn có biết thầy [Võ Trí Thức](person) dạy môn nào không ?
+    - Bạn biết gì về thầy [Võ Trí Thức](person) không ?
+    - thầy [Võ Trí Thức](person)
+    - Email của thầy [Võ Trí Thức](person)
+    - thầy [Võ Trí Thức](person) chuyên ngành là gì vậy.
+    - thầy [Võ Trí Thức](person) ở bộ môn nào vậy.
+    - Chuyên ngành của thầy [Võ Trí Thức](person)
+    - Thông tin về thầy [Võ Trí Thức](person)
+    - thầy [Võ Trí Thức](person) chi tiết
+    - Chi tiết về thầy [Võ Trí Thức](person)
+    - Bạn biết thầy [Huỳnh Ngọc Thái Anh](person) không?
+    - Ê biết thầy [Huỳnh Ngọc Thái Anh](person) không?
+    - Biết thầy [Huỳnh Ngọc Thái Anh](person) không?
+    - thầy [Huỳnh Ngọc Thái Anh](person) bạn biết không?
+    - thầy [Huỳnh Ngọc Thái Anh](person) dạy môn nào vậy?
+    - thầy [Huỳnh Ngọc Thái Anh](person) dạy gì vậy?
+    - Bạn có biết thầy [Huỳnh Ngọc Thái Anh](person) dạy môn nào không ?
+    - Bạn biết gì về thầy [Huỳnh Ngọc Thái Anh](person) không ?
+    - thầy [Huỳnh Ngọc Thái Anh](person)
+    - Email của thầy [Huỳnh Ngọc Thái Anh](person)
+    - thầy [Huỳnh Ngọc Thái Anh](person) chuyên ngành là gì vậy.
+    - thầy [Huỳnh Ngọc Thái Anh](person) ở bộ môn nào vậy.
+    - Chuyên ngành của thầy [Huỳnh Ngọc Thái Anh](person)
+    - Thông tin về thầy [Huỳnh Ngọc Thái Anh](person)
+    - thầy [Huỳnh Ngọc Thái Anh](person) chi tiết
+    - Chi tiết về thầy [Huỳnh Ngọc Thái Anh](person)
+    - Bạn biết thầy [Nguyễn Hữu Hòa](person) không?
+    - Ê biết thầy [Nguyễn Hữu Hòa](person) không?
+    - Biết thầy [Nguyễn Hữu Hòa](person) không?
+    - thầy [Nguyễn Hữu Hòa](person) bạn biết không?
+    - thầy [Nguyễn Hữu Hòa](person) dạy môn nào vậy?
+    - thầy [Nguyễn Hữu Hòa](person) dạy gì vậy?
+    - Bạn có biết thầy [Nguyễn Hữu Hòa](person) dạy môn nào không ?
+    - Bạn biết gì về thầy [Nguyễn Hữu Hòa](person) không ?
+    - thầy [Nguyễn Hữu Hòa](person)
+    - Email của thầy [Nguyễn Hữu Hòa](person)
+    - thầy [Nguyễn Hữu Hòa](person) chuyên ngành là gì vậy.
+    - thầy [Nguyễn Hữu Hòa](person) ở bộ môn nào vậy.
+    - Chuyên ngành của thầy [Nguyễn Hữu Hòa](person)
+    - Thông tin về thầy [Nguyễn Hữu Hòa](person)
+    - thầy [Nguyễn Hữu Hòa](person) chi tiết
+    - Chi tiết về thầy [Nguyễn Hữu Hòa](person)
+    - Bạn biết thầy [Nguyễn Nhị Gia Vinh](person) không?
+    - Ê biết thầy [Nguyễn Nhị Gia Vinh](person) không?
+    - Biết thầy [Nguyễn Nhị Gia Vinh](person) không?
+    - thầy [Nguyễn Nhị Gia Vinh](person) bạn biết không?
+    - thầy [Nguyễn Nhị Gia Vinh](person) dạy môn nào vậy?
+    - thầy [Nguyễn Nhị Gia Vinh](person) dạy gì vậy?
+    - Bạn có biết thầy [Nguyễn Nhị Gia Vinh](person) dạy môn nào không ?
+    - Bạn biết gì về thầy [Nguyễn Nhị Gia Vinh](person) không ?
+    - thầy [Nguyễn Nhị Gia Vinh](person)
+    - Email của thầy [Nguyễn Nhị Gia Vinh](person)
+    - thầy [Nguyễn Nhị Gia Vinh](person) chuyên ngành là gì vậy.
+    - thầy [Nguyễn Nhị Gia Vinh](person) ở bộ môn nào vậy.
+    - Chuyên ngành của thầy [Nguyễn Nhị Gia Vinh](person)
+    - Thông tin về thầy [Nguyễn Nhị Gia Vinh](person)
+    - thầy [Nguyễn Nhị Gia Vinh](person) chi tiết
+    - Chi tiết về thầy [Nguyễn Nhị Gia Vinh](person)
+    - Bạn biết thầy [Hồ Văn Tú](person) không?
+    - Ê biết thầy [Hồ Văn Tú](person) không?
+    - Biết thầy [Hồ Văn Tú](person) không?
+    - thầy [Hồ Văn Tú](person) bạn biết không?
+    - thầy [Hồ Văn Tú](person) dạy môn nào vậy?
+    - thầy [Hồ Văn Tú](person) dạy gì vậy?
+    - Bạn có biết thầy [Hồ Văn Tú](person) dạy môn nào không ?
+    - Bạn biết gì về thầy [Hồ Văn Tú](person) không ?
+    - thầy [Hồ Văn Tú](person)
+    - Email của thầy [Hồ Văn Tú](person)
+    - thầy [Hồ Văn Tú](person) chuyên ngành là gì vậy.
+    - thầy [Hồ Văn Tú](person) ở bộ môn nào vậy.
+    - Chuyên ngành của thầy [Hồ Văn Tú](person)
+    - Thông tin về thầy [Hồ Văn Tú](person)
+    - thầy [Hồ Văn Tú](person) chi tiết
+    - Chi tiết về thầy [Hồ Văn Tú](person)
+    - Bạn biết thầy [Trần Hoàng Việt](person) không?
+    - Ê biết thầy [Trần Hoàng Việt](person) không?
+    - Biết thầy [Trần Hoàng Việt](person) không?
+    - thầy [Trần Hoàng Việt](person) bạn biết không?
+    - thầy [Trần Hoàng Việt](person) dạy môn nào vậy?
+    - thầy [Trần Hoàng Việt](person) dạy gì vậy?
+    - Bạn có biết thầy [Trần Hoàng Việt](person) dạy môn nào không ?
+    - Bạn biết gì về thầy [Trần Hoàng Việt](person) không ?
+    - thầy [Trần Hoàng Việt](person)
+    - Email của thầy [Trần Hoàng Việt](person)
+    - thầy [Trần Hoàng Việt](person) chuyên ngành là gì vậy.
+    - thầy [Trần Hoàng Việt](person) ở bộ môn nào vậy.
+    - Chuyên ngành của thầy [Trần Hoàng Việt](person)
+    - Thông tin về thầy [Trần Hoàng Việt](person)
+    - thầy [Trần Hoàng Việt](person) chi tiết
+    - Chi tiết về thầy [Trần Hoàng Việt](person)
+    - Bạn biết thầy [Bùi Quốc Chính](person) không?
+    - Ê biết thầy [Bùi Quốc Chính](person) không?
+    - Biết thầy [Bùi Quốc Chính](person) không?
+    - thầy [Bùi Quốc Chính](person) bạn biết không?
+    - thầy [Bùi Quốc Chính](person) dạy môn nào vậy?
+    - thầy [Bùi Quốc Chính](person) dạy gì vậy?
+    - Bạn có biết thầy [Bùi Quốc Chính](person) dạy môn nào không ?
+    - Bạn biết gì về thầy [Bùi Quốc Chính](person) không ?
+    - thầy [Bùi Quốc Chính](person)
+    - Email của thầy [Bùi Quốc Chính](person)
+    - thầy [Bùi Quốc Chính](person) chuyên ngành là gì vậy.
+    - thầy [Bùi Quốc Chính](person) ở bộ môn nào vậy.
+    - Chuyên ngành của thầy [Bùi Quốc Chính](person)
+    - Thông tin về thầy [Bùi Quốc Chính](person)
+    - thầy [Bùi Quốc Chính](person) chi tiết
+    - Chi tiết về thầy [Bùi Quốc Chính](person)
+    - Bạn biết thầy [Vũ Duy Linh](person) không?
+    - Ê biết thầy [Vũ Duy Linh](person) không?
+    - Biết thầy [Vũ Duy Linh](person) không?
+    - thầy [Vũ Duy Linh](person) bạn biết không?
+    - thầy [Vũ Duy Linh](person) dạy môn nào vậy?
+    - thầy [Vũ Duy Linh](person) dạy gì vậy?
+    - Bạn có biết thầy [Vũ Duy Linh](person) dạy môn nào không ?
+    - Bạn biết gì về thầy [Vũ Duy Linh](person) không ?
+    - thầy [Vũ Duy Linh](person)
+    - Email của thầy [Vũ Duy Linh](person)
+    - thầy [Vũ Duy Linh](person) chuyên ngành là gì vậy.
+    - thầy [Vũ Duy Linh](person) ở bộ môn nào vậy.
+    - Chuyên ngành của thầy [Vũ Duy Linh](person)
+    - Thông tin về thầy [Vũ Duy Linh](person)
+    - thầy [Vũ Duy Linh](person) chi tiết
+    - Chi tiết về thầy [Vũ Duy Linh](person)
+    - Bạn biết thầy [Nguyễn Đức Khoa](person) không?
+    - Ê biết thầy [Nguyễn Đức Khoa](person) không?
+    - Biết thầy [Nguyễn Đức Khoa](person) không?
+    - thầy [Nguyễn Đức Khoa](person) bạn biết không?
+    - thầy [Nguyễn Đức Khoa](person) dạy môn nào vậy?
+    - thầy [Nguyễn Đức Khoa](person) dạy gì vậy?
+    - Bạn có biết thầy [Nguyễn Đức Khoa](person) dạy môn nào không ?
+    - Bạn biết gì về thầy [Nguyễn Đức Khoa](person) không ?
+    - thầy [Nguyễn Đức Khoa](person)
+    - Email của thầy [Nguyễn Đức Khoa](person)
+    - thầy [Nguyễn Đức Khoa](person) chuyên ngành là gì vậy.
+    - thầy [Nguyễn Đức Khoa](person) ở bộ môn nào vậy.
+    - Chuyên ngành của thầy [Nguyễn Đức Khoa](person)
+    - Thông tin về thầy [Nguyễn Đức Khoa](person)
+    - thầy [Nguyễn Đức Khoa](person) chi tiết
+    - Chi tiết về thầy [Nguyễn Đức Khoa](person)
+    - Bạn biết thầy [Hoàng Minh Trí](person) không?
+    - Ê biết thầy [Hoàng Minh Trí](person) không?
+    - Biết thầy [Hoàng Minh Trí](person) không?
+    - thầy [Hoàng Minh Trí](person) bạn biết không?
+    - thầy [Hoàng Minh Trí](person) dạy môn nào vậy?
+    - thầy [Hoàng Minh Trí](person) dạy gì vậy?
+    - Bạn có biết thầy [Hoàng Minh Trí](person) dạy môn nào không ?
+    - Bạn biết gì về thầy [Hoàng Minh Trí](person) không ?
+    - thầy [Hoàng Minh Trí](person)
+    - Email của thầy [Hoàng Minh Trí](person)
+    - thầy [Hoàng Minh Trí](person) chuyên ngành là gì vậy.
+    - thầy [Hoàng Minh Trí](person) ở bộ môn nào vậy.
+    - Chuyên ngành của thầy [Hoàng Minh Trí](person)
+    - Thông tin về thầy [Hoàng Minh Trí](person)
+    - thầy [Hoàng Minh Trí](person) chi tiết
+    - Chi tiết về thầy [Hoàng Minh Trí](person)
+    - Bạn biết thầy [Huỳnh Phụng Toàn](person) không?
+    - Ê biết thầy [Huỳnh Phụng Toàn](person) không?
+    - Biết thầy [Huỳnh Phụng Toàn](person) không?
+    - thầy [Huỳnh Phụng Toàn](person) bạn biết không?
+    - thầy [Huỳnh Phụng Toàn](person) dạy môn nào vậy?
+    - thầy [Huỳnh Phụng Toàn](person) dạy gì vậy?
+    - Bạn có biết thầy [Huỳnh Phụng Toàn](person) dạy môn nào không ?
+    - Bạn biết gì về thầy [Huỳnh Phụng Toàn](person) không ?
+    - thầy [Huỳnh Phụng Toàn](person)
+    - Email của thầy [Huỳnh Phụng Toàn](person)
+    - thầy [Huỳnh Phụng Toàn](person) chuyên ngành là gì vậy.
+    - thầy [Huỳnh Phụng Toàn](person) ở bộ môn nào vậy.
+    - Chuyên ngành của thầy [Huỳnh Phụng Toàn](person)
+    - thầy Khang tên đầy đủ là gì vậy?
+    - thầy [Huỳnh Phụng Toàn](person) chi tiết
+    - Chi tiết về thầy [Huỳnh Phụng Toàn](person)
+    - Bạn biết thầy [Võ Hải Đăng](person) không?
+    - Ê biết thầy [Võ Hải Đăng](person) không?
+    - Biết thầy [Võ Hải Đăng](person) không?
+    - thầy [Võ Hải Đăng](person) bạn biết không?
+    - thầy [Võ Hải Đăng](person) dạy môn nào vậy?
+    - thầy [Võ Hải Đăng](person) dạy gì vậy?
+    - Bạn có biết thầy [Võ Hải Đăng](person) dạy môn nào không ?
+    - Bạn biết gì về thầy [Võ Hải Đăng](person) không ?
+    - thầy [Võ Hải Đăng](person)
+    - Email của thầy [Võ Hải Đăng](person)
+    - thầy [Võ Hải Đăng](person) chuyên ngành là gì vậy.
+    - thầy [Võ Hải Đăng](person) ở bộ môn nào vậy.
+    - Chuyên ngành của thầy [Võ Hải Đăng](person)
+    - Thông tin về thầy [Võ Hải Đăng](person)
+    - thầy [Võ Hải Đăng](person) chi tiết
+    - Chi tiết về thầy [Võ Hải Đăng](person)
+    - Bạn biết thầy [Lê Minh Lý](person) không?
+    - Ê biết thầy [Lê Minh Lý](person) không?
+    - Biết thầy [Lê Minh Lý](person) không?
+    - thầy [Lê Minh Lý](person) bạn biết không?
+    - thầy [Lê Minh Lý](person) dạy môn nào vậy?
+    - thầy [Lê Minh Lý](person) dạy gì vậy?
+    - Bạn có biết thầy [Lê Minh Lý](person) dạy môn nào không ?
+    - Bạn biết gì về thầy [Lê Minh Lý](person) không ?
+    - thầy [Lê Minh Lý](person)
+    - Email của thầy [Lê Minh Lý](person)
+    - thầy [Lê Minh Lý](person) chuyên ngành là gì vậy.
+    - thầy [Lê Minh Lý](person) ở bộ môn nào vậy.
+    - Chuyên ngành của thầy [Lê Minh Lý](person)
+    - Thông tin về thầy [Lê Minh Lý](person)
+    - thầy [Lê Minh Lý](person) chi tiết
+    - Chi tiết về thầy [Lê Minh Lý](person)
+    - Bạn biết thầy [Lê Văn Quan](person) không?
+    - Ê biết thầy [Lê Văn Quan](person) không?
+    - Biết thầy [Lê Văn Quan](person) không?
+    - thầy [Lê Văn Quan](person) bạn biết không?
+    - thầy [Lê Văn Quan](person) dạy môn nào vậy?
+    - thầy [Lê Văn Quan](person) dạy gì vậy?
+    - Bạn có biết thầy [Lê Văn Quan](person) dạy môn nào không ?
+    - Bạn biết gì về thầy [Lê Văn Quan](person) không ?
+    - thầy [Lê Văn Quan](person)
+    - Email của thầy [Lê Văn Quan](person)
+    - thầy [Lê Văn Quan](person) chuyên ngành là gì vậy.
+    - thầy [Lê Văn Quan](person) ở bộ môn nào vậy.
+    - Chuyên ngành của thầy [Lê Văn Quan](person)
+    - Thông tin về thầy [Lê Văn Quan](person)
+    - thầy [Lê Văn Quan](person) chi tiết
+    - Chi tiết về thầy [Lê Văn Quan](person)
+    - Bạn biết thầy [Trần Minh Tân](person) không?
+    - Ê biết thầy [Trần Minh Tân](person) không?
+    - Biết thầy [Trần Minh Tân](person) không?
+    - thầy [Trần Minh Tân](person) bạn biết không?
+    - thầy [Trần Minh Tân](person) dạy môn nào vậy?
+    - thầy [Trần Minh Tân](person) dạy gì vậy?
+    - Bạn có biết thầy [Trần Minh Tân](person) dạy môn nào không ?
+    - Bạn biết gì về thầy [Trần Minh Tân](person) không ?
+    - thầy [Trần Minh Tân](person)
+    - Email của thầy [Trần Minh Tân](person)
+    - thầy [Trần Minh Tân](person) chuyên ngành là gì vậy.
+    - thầy [Trần Minh Tân](person) ở bộ môn nào vậy.
+    - Chuyên ngành của thầy [Trần Minh Tân](person)
+    - Thông tin về thầy [Trần Minh Tân](person)
+    - thầy [Trần Minh Tân](person) chi tiết
+    - Chi tiết về thầy [Trần Minh Tân](person)
 - intent: dinhnghia
   examples: |
-    - CNTT chất lượng cao
-    - CNTT CLC
-    - Công nghệ thông tin chất lượng cao
-    - Kế hoạch học tập
-    - KHHT
-    - Học phần
-    - Học phần bắt buộc
-    - Học phần tự chọn
-    - Học phần tiên quyết
-    - Học phần song hành
-    - Học phần điều kiện
-    - Lớp học phần
-    - Lớp chuyên ngành
-    - Tín chỉ
-    - TC
-    - Học bổng
-    - Quỹ hỗ trợ sinh viên
-    - trợ cấp xã hội
-    - Học phí
-    - BHYT
-    - Bảo hiểm ý tế
-    - tín dụng sinh viên
-    - Số tín chỉ
-    - Xóa lớp học phần
-    - Mở thêm lớp học phần
-    - Đại học Cần Thơ
-    - lớp chuyên ngành là gì
-- synonym: Tín chỉ
-  examples: |
-    - TC
-    - credit
+    - [kế hoạch học tập](define) là gì
+    - thông tin về [khht](define)
+    - [Học phần](define)
+    - [Học phần bắt buộc](define)
+    - [Học phần tự chọn](define)
+    - [Học phần tiên quyết](define)
+    - [Học phần song hành](define)
+    - [Học phần điều kiện](define)
+    - [Lớp học phần](define)
+    - [Lớp chuyên ngành](define)
+    - [Tín chỉ](define)
+    - [TC](define)
+    - [Học bổng](define)
+    - [Quỹ hỗ trợ sinh viên](define)
+    - [trợ cấp xã hội](define)
+    - [Học phí](define)
+    - [BHYT](define)
+    - [Bảo hiểm ý tế](define)
+    - [tín dụng sinh viên](define)
+    - [Số tín chỉ](define)
+    - [Xóa lớp học phần](define)
+    - [Mở thêm lớp học phần](define)
+    - [Đại học Cần Thơ](university_name)
+    - [lớp chuyên ngành](define) là gì
+    - Khoa [Công nghệ thông tin và Truyền thông](falcuty_name) 
+    - [Công nghệ thông tin và Truyền thông](falcuty_name)
+
+# từ đồng nghĩa
 - synonym: Công nghệ Thông tin và Truyền thông
   examples: |
-    - CNTT & TT
+    - CNTT&TT
+    - CNTT-TT
+- synonym: Đại học Cần Thơ
+  examples: |
+    - DHCT
+    - đại học Cần Thơ
+    - đại học cần thơ
+    - trường Đại học Cần Thơ
+    - dhct
+- synonym: Mạng máy tính và truyền thông
+  examples: |
+    - MMT-TT
+    - mạng máy tính và truyền thông
+    - MMT&TT
+    - mmt&tt
+    - mmtvtt
+    - mmt-tt
+- synonym: Mạng máy tính và truyền thông dữ liệu
+  examples: |
+    - MMT&TTDL
+    - MMT-TTDL
+    - mạng máy tính và truyền thông dữ liệu
+    - mmt-ttdl
+    - mmtvttdl
+    - mmt&ttdl
 - synonym: Công nghệ thông tin
   examples: |
     - CNTT
-    - IT
-- synonym: chất lượng cao
+    - công nghệ thông tin
+    - cntt
+- synonym: Công nghệ thông tin Chất lượng cao
   examples: |
-    - CLC
-- synonym: khoa học máy tính
+    - CNTTCLC
+    - công nghệ thông tin chất lượng cao
+    - cnttclc
+- synonym: Hệ thống thông tin 
+  examples: |
+    - HTTT
+    - hệ thống thông tin
+    - httt
+- synonym: Công nghệ phần mềm 
+  examples: |
+    - CNPM
+    - công nghệ phần mềm
+    - cnpm
+- synonym: Kỹ thuật phần mềm
+  examples: |
+    - KTPM
+    - ktpm
+    - kỹ thuật phần mềm
+    - kt phần mềm
+    - KT phần mềm
+    - kỹ thuật pm
+    - kỹ thuật PM
+    
+- synonym: Tin học ứng dụng
+  examples: |
+    - thud
+    - TH ứng dụng
+    - Tin học UD
+    - THUD
+    - tin học ứng dụng
+    - tin học ud
+- synonym: Khoa học máy tính
   examples: |
     - KHMT
+    - khoa học máy tính
+    - Data Science
+    - khmt
+    - data science
+    - DS
+    - ds
+- synonym: Chương trình đào tạo
+  examples: |
+    - CTDT
+    - ctdt
+    - CT đào tạo
+    - ct đào tạo
+- synonym: Mục tiêu đào tạo
+  examples: |
+    - MTDT
+    - mtdt
+    - mục tiêu dt
+    - mục tiêu DT
+- synonym: Chuẩn đầu ra
+  examples: |
+    - chuẩn đầu ra
+    - cđr
+    - CĐR
+    - CDR
+    - cdr
+- synonym: Kiến thức đầu ra
+  examples: |
+    - kiến thức đầu ra
+    - KTDR
+    - ktdr
+    - KTĐR
+    - ktđr
+    - kiến thức
+    - chuẩn đầu ra về kiến thức
+- synonym: Kỹ năng đầu ra
+  examples: |
+    - kỹ năng đầu ra
+    - kndr
+    - KNĐR
+    - knđr
+    - KNDR
+    - kỹ năng
+    - chuẩn đầu ra về kỹ năng
+- synonym: Cơ hội việc làm
+  examples: |
+    - việc làm
+    - job
+    - jobs
+    - việc
+    - cơ hội việc làm
+    - CHVL
+    - VL
+    - chvl
+    - vl
+- synonym: Kế hoạch học tập
+  examples: |
+    - kế hoạch học tập
+    - khht
+    - KHHT
+- synonym: Định hướng chương trình đào tạo
+  examples: |
+    - định hướng
+    - hướng đào tạo 
+    - định hướng đào tạo
+- synonym: Công ty
+  examples: |
+    - Tổ chức
+    - công ty
+    - tổ chức 
+    - cơ quan
+- synonym: Vị trí việc làm
+  examples: |
+    - Job position
+    - vị trí
+- synonym: khó khăn
+  examples: |
+    - khó
+    - sự khó khăn
