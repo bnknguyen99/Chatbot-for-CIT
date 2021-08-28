@@ -1,128 +1,23 @@
 {
-  "cam_on": {
+  "bomon_gv": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 25,
+    "support": 14,
     "confused_with": {}
   },
-  "ask_gv02": {
-    "precision": 1.0,
+  "bomon": {
+    "precision": 0.97,
     "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 1283,
+    "f1-score": 0.9847715736040609,
+    "support": 97,
     "confused_with": {}
   },
-  "dinhnghia": {
+  "chvieclam": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 26,
-    "confused_with": {}
-  },
-  "ask_chvieclam": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 62,
-    "confused_with": {}
-  },
-  "ask_vitrilamviec": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 51,
-    "confused_with": {}
-  },
-  "ask_congty": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 45,
-    "confused_with": {}
-  },
-  "gioi_thieuten": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 18,
-    "confused_with": {}
-  },
-  "ask_chuandaura": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 88,
-    "confused_with": {}
-  },
-  "ask_ktchuyennganh": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 74,
-    "confused_with": {}
-  },
-  "ask_noilamviec": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 42,
-    "confused_with": {}
-  },
-  "xin_chao": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 13,
-    "confused_with": {}
-  },
-  "ask_ctDaoTao": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 84,
-    "confused_with": {}
-  },
-  "gioi_thieuchucnang": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 13,
-    "confused_with": {}
-  },
-  "hoi_vitri": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 355,
-    "confused_with": {}
-  },
-  "ask_gv01": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 72,
-    "confused_with": {}
-  },
-  "ask_studyplan": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 61,
-    "confused_with": {}
-  },
-  "ask_muctieu": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 83,
-    "confused_with": {}
-  },
-  "what_new": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 4,
+    "support": 73,
     "confused_with": {}
   },
   "tam_biet": {
@@ -132,11 +27,11 @@
     "support": 8,
     "confused_with": {}
   },
-  "hoi_bomon_gv": {
+  "muctieu": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 14,
+    "support": 96,
     "confused_with": {}
   },
   "liet_ke_bo_mon": {
@@ -146,17 +41,138 @@
     "support": 4,
     "confused_with": {}
   },
-  "accuracy": 1.0,
-  "macro avg": {
+  "ktchuyennganh": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 2425
+    "support": 87,
+    "confused_with": {}
+  },
+  "ctdaotao": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 98,
+    "confused_with": {}
+  },
+  "hoi_vitri": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 355,
+    "confused_with": {}
+  },
+  "what_new": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 4,
+    "confused_with": {}
+  },
+  "cam_on": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 25,
+    "confused_with": {}
+  },
+  "congty": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 55,
+    "confused_with": {}
+  },
+  "vitrilamviec": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 53,
+    "confused_with": {}
+  },
+  "gioi_thieuchucnang": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 13,
+    "confused_with": {}
+  },
+  "dinhnghia": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 26,
+    "confused_with": {}
+  },
+  "gv_fullname": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1283,
+    "confused_with": {}
+  },
+  "chuyennganh": {
+    "precision": 1.0,
+    "recall": 0.9734513274336283,
+    "f1-score": 0.9865470852017937,
+    "support": 113,
+    "confused_with": {
+      "bomon": 3
+    }
+  },
+  "noilamviec": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 42,
+    "confused_with": {}
+  },
+  "gv_name": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 72,
+    "confused_with": {}
+  },
+  "gioi_thieuten": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 18,
+    "confused_with": {}
+  },
+  "chuandaura": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 101,
+    "confused_with": {}
+  },
+  "xin_chao": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 13,
+    "confused_with": {}
+  },
+  "studyplan": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 72,
+    "confused_with": {}
+  },
+  "accuracy": 0.9988978692138134,
+  "macro avg": {
+    "precision": 0.998695652173913,
+    "recall": 0.9988457098884187,
+    "f1-score": 0.9987529851654718,
+    "support": 2722
   },
   "weighted avg": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 2425
+    "precision": 0.998930933137399,
+    "recall": 0.9988978692138134,
+    "f1-score": 0.9988988476368099,
+    "support": 2722
   }
 }

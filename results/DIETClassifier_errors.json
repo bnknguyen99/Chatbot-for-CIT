@@ -1,936 +1,195 @@
 [
   {
-    "text": "Thông tin về  mục tiêu đào tạo của ngành Hệ thống thông tin",
+    "text": "giới thiệu khmt.",
     "entities": [
       {
-        "start": 14,
-        "end": 30,
-        "value": "mục tiêu đào tạo",
-        "entity": "define"
-      },
-      {
-        "start": 41,
-        "end": 59,
-        "value": "Hệ thống thông tin",
-        "entity": "major_name"
+        "start": 11,
+        "end": 15,
+        "value": "khmt",
+        "entity": "bo_mon"
       }
     ],
-    "predicted_entities": []
-  },
-  {
-    "text": "Thông tin về  mục tiêu đào tạo của ngành công nghệ thông tin Chất lượng cao",
-    "entities": [
+    "predicted_entities": [
       {
-        "start": 14,
-        "end": 30,
-        "value": "mục tiêu đào tạo",
-        "entity": "define"
-      },
-      {
-        "start": 41,
-        "end": 75,
-        "value": "công nghệ thông tin Chất lượng cao",
-        "entity": "major_name"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "Thông tin về  mục tiêu đào tạo của ngành kỹ thuật phần mềm",
-    "entities": [
-      {
-        "start": 14,
-        "end": 30,
-        "value": "mục tiêu đào tạo",
-        "entity": "define"
-      },
-      {
-        "start": 41,
-        "end": 58,
-        "value": "kỹ thuật phần mềm",
-        "entity": "major_name"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "Thông tin về  mục tiêu đào tạo của ngành Khoa học máy tính",
-    "entities": [
-      {
-        "start": 14,
-        "end": 30,
-        "value": "mục tiêu đào tạo",
-        "entity": "define"
-      },
-      {
-        "start": 41,
-        "end": 58,
+        "entity": "nganh_hoc",
+        "start": 11,
+        "end": 15,
+        "confidence_entity": 0.5002687573432922,
         "value": "Khoa học máy tính",
-        "entity": "major_name"
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
       }
-    ],
-    "predicted_entities": []
+    ]
   },
   {
-    "text": "cô Bình dạy môn gì",
+    "text": "khmt info.",
     "entities": [
       {
-        "start": 3,
-        "end": 7,
-        "value": "Bình",
-        "entity": "teacher"
+        "start": 0,
+        "end": 4,
+        "value": "khmt",
+        "entity": "nganh_hoc"
       }
     ],
-    "predicted_entities": []
+    "predicted_entities": [
+      {
+        "entity": "bo_mon",
+        "start": 0,
+        "end": 4,
+        "confidence_entity": 0.5239537954330444,
+        "value": "Khoa học máy tính",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
   },
   {
-    "text": "cô  Lộc",
+    "text": "khmt .",
     "entities": [
       {
-        "start": 3,
-        "end": 7,
-        "value": " Lộc",
-        "entity": "teacher"
+        "start": 0,
+        "end": 4,
+        "value": "khmt",
+        "entity": "nganh_hoc"
       }
     ],
-    "predicted_entities": []
+    "predicted_entities": [
+      {
+        "entity": "bo_mon",
+        "start": 0,
+        "end": 4,
+        "confidence_entity": 0.5391485095024109,
+        "value": "Khoa học máy tính",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
   },
   {
-    "text": "Cô Lâm Nhựt Khang dạy môn nào vậy?",
+    "text": "sau khi tốt nghiệp ngành mạng máy tính và truyền thông dữ liệu làm việc gì",
     "entities": [
       {
-        "start": 3,
-        "end": 17,
-        "value": "Lâm Nhựt Khang",
-        "entity": "teacher"
+        "start": 25,
+        "end": 62,
+        "value": "mạng máy tính và truyền thông dữ liệu",
+        "entity": "nganh_hoc"
+      },
+      {
+        "start": 67,
+        "end": 71,
+        "value": "việc",
+        "entity": "khai_niem"
       }
     ],
-    "predicted_entities": []
+    "predicted_entities": [
+      {
+        "entity": "nganh_hoc",
+        "start": 25,
+        "end": 62,
+        "confidence_entity": 0.9999790191650391,
+        "value": "mạng máy tính và truyền thông dữ liệu",
+        "extractor": "DIETClassifier"
+      }
+    ]
   },
   {
-    "text": "Bạn có biết cô Lâm Nhựt Khang dạy môn nào không ?",
+    "text": "thầy Quyền",
     "entities": [
       {
-        "start": 15,
-        "end": 29,
-        "value": "Lâm Nhựt Khang",
-        "entity": "teacher"
+        "start": 5,
+        "end": 10,
+        "value": "Quyền",
+        "entity": "giao_vien"
       }
     ],
     "predicted_entities": []
   },
   {
-    "text": "Cô Trần Ngân Bình dạy môn nào vậy?",
-    "entities": [
-      {
-        "start": 3,
-        "end": 17,
-        "value": "Trần Ngân Bình",
-        "entity": "teacher"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "Bạn có biết cô Trần Ngân Bình dạy môn nào không ?",
-    "entities": [
-      {
-        "start": 15,
-        "end": 29,
-        "value": "Trần Ngân Bình",
-        "entity": "teacher"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "Cô Nguyễn Ngọc Mỹ dạy môn nào vậy?",
-    "entities": [
-      {
-        "start": 3,
-        "end": 17,
-        "value": "Nguyễn Ngọc Mỹ",
-        "entity": "teacher"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "Bạn có biết cô Nguyễn Ngọc Mỹ dạy môn nào không ?",
-    "entities": [
-      {
-        "start": 15,
-        "end": 29,
-        "value": "Nguyễn Ngọc Mỹ",
-        "entity": "teacher"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "Cô Lê Hoàng Thảo dạy môn nào vậy?",
-    "entities": [
-      {
-        "start": 3,
-        "end": 16,
-        "value": "Lê Hoàng Thảo",
-        "entity": "teacher"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "Bạn có biết cô Lê Hoàng Thảo dạy môn nào không ?",
-    "entities": [
-      {
-        "start": 15,
-        "end": 28,
-        "value": "Lê Hoàng Thảo",
-        "entity": "teacher"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "Cô Trương Thị Thanh Tuyền dạy môn nào vậy?",
-    "entities": [
-      {
-        "start": 3,
-        "end": 25,
-        "value": "Trương Thị Thanh Tuyền",
-        "entity": "teacher"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "Bạn có biết cô Trương Thị Thanh Tuyền dạy môn nào không ?",
-    "entities": [
-      {
-        "start": 15,
-        "end": 37,
-        "value": "Trương Thị Thanh Tuyền",
-        "entity": "teacher"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "Cô Phan Phương Lan dạy môn nào vậy?",
-    "entities": [
-      {
-        "start": 3,
-        "end": 18,
-        "value": "Phan Phương Lan",
-        "entity": "teacher"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "Bạn có biết cô Phan Phương Lan dạy môn nào không ?",
-    "entities": [
-      {
-        "start": 15,
-        "end": 30,
-        "value": "Phan Phương Lan",
-        "entity": "teacher"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "Cô Phạm Thị Ngọc Diễm dạy môn nào vậy?",
-    "entities": [
-      {
-        "start": 3,
-        "end": 21,
-        "value": "Phạm Thị Ngọc Diễm",
-        "entity": "teacher"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "Bạn có biết cô Phạm Thị Ngọc Diễm dạy môn nào không ?",
-    "entities": [
-      {
-        "start": 15,
-        "end": 33,
-        "value": "Phạm Thị Ngọc Diễm",
-        "entity": "teacher"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "Cô Bùi Đăng Hà Phương dạy môn nào vậy?",
+    "text": "cô Bùi Đăng Hà Phương chi tiết",
     "entities": [
       {
         "start": 3,
         "end": 21,
         "value": "Bùi Đăng Hà Phương",
-        "entity": "teacher"
+        "entity": "giao_vien"
       }
     ],
     "predicted_entities": []
   },
   {
-    "text": "Bạn có biết cô Bùi Đăng Hà Phương dạy môn nào không ?",
-    "entities": [
-      {
-        "start": 15,
-        "end": 33,
-        "value": "Bùi Đăng Hà Phương",
-        "entity": "teacher"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "Cô Phạm Thị Xuân Lộc dạy môn nào vậy?",
-    "entities": [
-      {
-        "start": 3,
-        "end": 20,
-        "value": "Phạm Thị Xuân Lộc",
-        "entity": "teacher"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "Bạn có biết cô Phạm Thị Xuân Lộc dạy môn nào không ?",
-    "entities": [
-      {
-        "start": 15,
-        "end": 32,
-        "value": "Phạm Thị Xuân Lộc",
-        "entity": "teacher"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "Cô Nguyễn Cao Hồng Ngọc dạy môn nào vậy?",
-    "entities": [
-      {
-        "start": 3,
-        "end": 23,
-        "value": "Nguyễn Cao Hồng Ngọc",
-        "entity": "teacher"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "Bạn có biết cô Nguyễn Cao Hồng Ngọc dạy môn nào không ?",
-    "entities": [
-      {
-        "start": 15,
-        "end": 35,
-        "value": "Nguyễn Cao Hồng Ngọc",
-        "entity": "teacher"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "Cô Trần Thị Tố Quyên dạy môn nào vậy?",
-    "entities": [
-      {
-        "start": 3,
-        "end": 20,
-        "value": "Trần Thị Tố Quyên",
-        "entity": "teacher"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "Bạn có biết cô Trần Thị Tố Quyên dạy môn nào không ?",
-    "entities": [
-      {
-        "start": 15,
-        "end": 32,
-        "value": "Trần Thị Tố Quyên",
-        "entity": "teacher"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "Cô Trần Nguyễn Minh Thư dạy môn nào vậy?",
-    "entities": [
-      {
-        "start": 3,
-        "end": 23,
-        "value": "Trần Nguyễn Minh Thư",
-        "entity": "teacher"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "Bạn có biết cô Trần Nguyễn Minh Thư dạy môn nào không ?",
-    "entities": [
-      {
-        "start": 15,
-        "end": 35,
-        "value": "Trần Nguyễn Minh Thư",
-        "entity": "teacher"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "Cô Phạm Xuân Hiền dạy môn nào vậy?",
-    "entities": [
-      {
-        "start": 3,
-        "end": 17,
-        "value": "Phạm Xuân Hiền",
-        "entity": "teacher"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "Bạn có biết cô Phạm Xuân Hiền dạy môn nào không ?",
-    "entities": [
-      {
-        "start": 15,
-        "end": 29,
-        "value": "Phạm Xuân Hiền",
-        "entity": "teacher"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "Cô Trần Nguyễn Dương Chi dạy môn nào vậy?",
+    "text": "cô Trần Nguyễn Dương Chi chi tiết",
     "entities": [
       {
         "start": 3,
         "end": 24,
         "value": "Trần Nguyễn Dương Chi",
-        "entity": "teacher"
+        "entity": "giao_vien"
       }
     ],
     "predicted_entities": []
   },
   {
-    "text": "Bạn có biết cô Trần Nguyễn Dương Chi dạy môn nào không ?",
-    "entities": [
-      {
-        "start": 15,
-        "end": 36,
-        "value": "Trần Nguyễn Dương Chi",
-        "entity": "teacher"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "Cô Lê Thị Phương Dung dạy môn nào vậy?",
-    "entities": [
-      {
-        "start": 3,
-        "end": 21,
-        "value": "Lê Thị Phương Dung",
-        "entity": "teacher"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "Bạn có biết cô Lê Thị Phương Dung dạy môn nào không ?",
-    "entities": [
-      {
-        "start": 15,
-        "end": 33,
-        "value": "Lê Thị Phương Dung",
-        "entity": "teacher"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "Cô Phạm Trương Hồng Ngân dạy môn nào vậy?",
-    "entities": [
-      {
-        "start": 3,
-        "end": 24,
-        "value": "Phạm Trương Hồng Ngân",
-        "entity": "teacher"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "Bạn có biết cô Phạm Trương Hồng Ngân dạy môn nào không ?",
-    "entities": [
-      {
-        "start": 15,
-        "end": 36,
-        "value": "Phạm Trương Hồng Ngân",
-        "entity": "teacher"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "Cô Lê Thị Diễm dạy môn nào vậy?",
-    "entities": [
-      {
-        "start": 3,
-        "end": 14,
-        "value": "Lê Thị Diễm",
-        "entity": "teacher"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "Bạn có biết cô Lê Thị Diễm dạy môn nào không ?",
-    "entities": [
-      {
-        "start": 15,
-        "end": 26,
-        "value": "Lê Thị Diễm",
-        "entity": "teacher"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "Cô Nguyễn Thị Thùy Linh chi tiết",
+    "text": "cô Nguyễn Thị Thùy Linh chi tiết",
     "entities": [
       {
         "start": 3,
         "end": 23,
         "value": "Nguyễn Thị Thùy Linh",
-        "entity": "teacher"
+        "entity": "giao_vien"
       }
     ],
     "predicted_entities": []
   },
   {
-    "text": "Cô Nguyễn Thị Thủy Chung dạy môn nào vậy?",
-    "entities": [
-      {
-        "start": 3,
-        "end": 24,
-        "value": "Nguyễn Thị Thủy Chung",
-        "entity": "teacher"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "Bạn có biết cô Nguyễn Thị Thủy Chung dạy môn nào không ?",
-    "entities": [
-      {
-        "start": 15,
-        "end": 36,
-        "value": "Nguyễn Thị Thủy Chung",
-        "entity": "teacher"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "thầy Phạm Thế Phi bạn biết không?",
-    "entities": [
-      {
-        "start": 5,
-        "end": 17,
-        "value": "Phạm Thế Phi",
-        "entity": "teacher"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "thầy Phạm Thế Phi dạy môn nào vậy?",
-    "entities": [
-      {
-        "start": 5,
-        "end": 17,
-        "value": "Phạm Thế Phi",
-        "entity": "teacher"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "thầy Phạm Thế Phi dạy gì vậy?",
-    "entities": [
-      {
-        "start": 5,
-        "end": 17,
-        "value": "Phạm Thế Phi",
-        "entity": "teacher"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "Bạn có biết thầy Phạm Thế Phi dạy môn nào không ?",
-    "entities": [
-      {
-        "start": 17,
-        "end": 29,
-        "value": "Phạm Thế Phi",
-        "entity": "teacher"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "thầy Phạm Thế Phi chi tiết",
-    "entities": [
-      {
-        "start": 5,
-        "end": 17,
-        "value": "Phạm Thế Phi",
-        "entity": "teacher"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "thầy Lê Văn Lâm dạy môn nào vậy?",
-    "entities": [
-      {
-        "start": 5,
-        "end": 15,
-        "value": "Lê Văn Lâm",
-        "entity": "teacher"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "Bạn có biết thầy Lê Văn Lâm dạy môn nào không ?",
-    "entities": [
-      {
-        "start": 17,
-        "end": 27,
-        "value": "Lê Văn Lâm",
-        "entity": "teacher"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "thầy Trần Minh Tân dạy môn nào vậy?",
+    "text": "thầy Trần Minh Tân chi tiết",
     "entities": [
       {
         "start": 5,
         "end": 18,
         "value": "Trần Minh Tân",
-        "entity": "teacher"
+        "entity": "giao_vien"
       }
     ],
     "predicted_entities": []
   },
   {
-    "text": "Bạn có biết thầy Trần Minh Tân dạy môn nào không ?",
-    "entities": [
-      {
-        "start": 17,
-        "end": 30,
-        "value": "Trần Minh Tân",
-        "entity": "teacher"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "thầy Nguyễn Minh Trung dạy môn nào vậy?",
-    "entities": [
-      {
-        "start": 5,
-        "end": 22,
-        "value": "Nguyễn Minh Trung",
-        "entity": "teacher"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "Bạn có biết thầy Nguyễn Minh Trung dạy môn nào không ?",
-    "entities": [
-      {
-        "start": 17,
-        "end": 34,
-        "value": "Nguyễn Minh Trung",
-        "entity": "teacher"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "thầy Trương Minh Thái dạy môn nào vậy?",
-    "entities": [
-      {
-        "start": 5,
-        "end": 21,
-        "value": "Trương Minh Thái",
-        "entity": "teacher"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "Bạn có biết thầy Trương Minh Thái dạy môn nào không ?",
-    "entities": [
-      {
-        "start": 17,
-        "end": 33,
-        "value": "Trương Minh Thái",
-        "entity": "teacher"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "thầy Huỳnh Xuân Hiệp dạy môn nào vậy?",
-    "entities": [
-      {
-        "start": 5,
-        "end": 20,
-        "value": "Huỳnh Xuân Hiệp",
-        "entity": "teacher"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "Bạn có biết thầy Huỳnh Xuân Hiệp dạy môn nào không ?",
-    "entities": [
-      {
-        "start": 17,
-        "end": 32,
-        "value": "Huỳnh Xuân Hiệp",
-        "entity": "teacher"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "thầy Huỳnh Quang Nghi dạy môn nào vậy?",
-    "entities": [
-      {
-        "start": 5,
-        "end": 21,
-        "value": "Huỳnh Quang Nghi",
-        "entity": "teacher"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "Bạn có biết thầy Huỳnh Quang Nghi dạy môn nào không ?",
-    "entities": [
-      {
-        "start": 17,
-        "end": 33,
-        "value": "Huỳnh Quang Nghi",
-        "entity": "teacher"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "thầy Cù Vĩnh Lộc dạy môn nào vậy?",
-    "entities": [
-      {
-        "start": 5,
-        "end": 16,
-        "value": "Cù Vĩnh Lộc",
-        "entity": "teacher"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "Bạn có biết thầy Cù Vĩnh Lộc dạy môn nào không ?",
-    "entities": [
-      {
-        "start": 17,
-        "end": 28,
-        "value": "Cù Vĩnh Lộc",
-        "entity": "teacher"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "thầy Trần Văn Hoàng dạy môn nào vậy?",
-    "entities": [
-      {
-        "start": 5,
-        "end": 19,
-        "value": "Trần Văn Hoàng",
-        "entity": "teacher"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "Bạn có biết thầy Trần Văn Hoàng dạy môn nào không ?",
-    "entities": [
-      {
-        "start": 17,
-        "end": 31,
-        "value": "Trần Văn Hoàng",
-        "entity": "teacher"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "thầy Hồ Quang Thái dạy môn nào vậy?",
-    "entities": [
-      {
-        "start": 5,
-        "end": 18,
-        "value": "Hồ Quang Thái",
-        "entity": "teacher"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "Bạn có biết thầy Hồ Quang Thái dạy môn nào không ?",
-    "entities": [
-      {
-        "start": 17,
-        "end": 30,
-        "value": "Hồ Quang Thái",
-        "entity": "teacher"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "thầy Phan Tấn Tài dạy môn nào vậy?",
+    "text": "thầy Lâm Hoài Bảo chi tiết",
     "entities": [
       {
         "start": 5,
         "end": 17,
-        "value": "Phan Tấn Tài",
-        "entity": "teacher"
+        "value": "Lâm Hoài Bảo",
+        "entity": "giao_vien"
       }
     ],
     "predicted_entities": []
   },
   {
-    "text": "Bạn có biết thầy Phan Tấn Tài dạy môn nào không ?",
-    "entities": [
-      {
-        "start": 17,
-        "end": 29,
-        "value": "Phan Tấn Tài",
-        "entity": "teacher"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "thầy Trần Nguyễn Minh Thái dạy môn nào vậy?",
-    "entities": [
-      {
-        "start": 5,
-        "end": 26,
-        "value": "Trần Nguyễn Minh Thái",
-        "entity": "teacher"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "Bạn có biết thầy Trần Nguyễn Minh Thái dạy môn nào không ?",
-    "entities": [
-      {
-        "start": 17,
-        "end": 38,
-        "value": "Trần Nguyễn Minh Thái",
-        "entity": "teacher"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "thầy Nguyễn Thanh Hải dạy môn nào vậy?",
+    "text": "thầy Nguyễn Công Danh dạy môn nào vậy?",
     "entities": [
       {
         "start": 5,
         "end": 21,
-        "value": "Nguyễn Thanh Hải",
-        "entity": "teacher"
+        "value": "Nguyễn Công Danh",
+        "entity": "giao_vien"
       }
     ],
     "predicted_entities": []
   },
   {
-    "text": "Bạn có biết thầy Nguyễn Thanh Hải dạy môn nào không ?",
+    "text": "bạn có biết thầy Nguyễn Công Danh dạy môn nào không ?",
     "entities": [
       {
         "start": 17,
         "end": 33,
-        "value": "Nguyễn Thanh Hải",
-        "entity": "teacher"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "thầy Nguyễn Minh Khiêm dạy môn nào vậy?",
-    "entities": [
-      {
-        "start": 5,
-        "end": 22,
-        "value": "Nguyễn Minh Khiêm",
-        "entity": "teacher"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "Bạn có biết thầy Nguyễn Minh Khiêm dạy môn nào không ?",
-    "entities": [
-      {
-        "start": 17,
-        "end": 34,
-        "value": "Nguyễn Minh Khiêm",
-        "entity": "teacher"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "thầy Phạm Ngọc Quyền dạy môn nào vậy?",
-    "entities": [
-      {
-        "start": 5,
-        "end": 20,
-        "value": "Phạm Ngọc Quyền",
-        "entity": "teacher"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "Bạn có biết thầy Phạm Ngọc Quyền dạy môn nào không ?",
-    "entities": [
-      {
-        "start": 17,
-        "end": 32,
-        "value": "Phạm Ngọc Quyền",
-        "entity": "teacher"
+        "value": "Nguyễn Công Danh",
+        "entity": "giao_vien"
       }
     ],
     "predicted_entities": []
@@ -942,43 +201,31 @@
         "start": 5,
         "end": 20,
         "value": "Nguyễn Công Huy",
-        "entity": "teacher"
+        "entity": "giao_vien"
       }
     ],
     "predicted_entities": []
   },
   {
-    "text": "Bạn có biết thầy Nguyễn Công Huy dạy môn nào không ?",
+    "text": "thầy Nguyễn Công Huy dạy gì vậy?",
+    "entities": [
+      {
+        "start": 5,
+        "end": 20,
+        "value": "Nguyễn Công Huy",
+        "entity": "giao_vien"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "bạn có biết thầy Nguyễn Công Huy dạy môn nào không ?",
     "entities": [
       {
         "start": 17,
         "end": 32,
         "value": "Nguyễn Công Huy",
-        "entity": "teacher"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "thầy Phạm Hữu Tài dạy môn nào vậy?",
-    "entities": [
-      {
-        "start": 5,
-        "end": 17,
-        "value": "Phạm Hữu Tài",
-        "entity": "teacher"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "Bạn có biết thầy Phạm Hữu Tài dạy môn nào không ?",
-    "entities": [
-      {
-        "start": 17,
-        "end": 29,
-        "value": "Phạm Hữu Tài",
-        "entity": "teacher"
+        "entity": "giao_vien"
       }
     ],
     "predicted_entities": []
@@ -990,163 +237,19 @@
         "start": 5,
         "end": 21,
         "value": "Phan Thượng Cang",
-        "entity": "teacher"
+        "entity": "giao_vien"
       }
     ],
     "predicted_entities": []
   },
   {
-    "text": "Bạn có biết thầy Phan Thượng Cang dạy môn nào không ?",
+    "text": "bạn có biết thầy Phan Thượng Cang dạy môn nào không ?",
     "entities": [
       {
         "start": 17,
         "end": 33,
         "value": "Phan Thượng Cang",
-        "entity": "teacher"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "thầy Trần Thanh Điền dạy môn nào vậy?",
-    "entities": [
-      {
-        "start": 5,
-        "end": 20,
-        "value": "Trần Thanh Điền",
-        "entity": "teacher"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "Bạn có biết thầy Trần Thanh Điền dạy môn nào không ?",
-    "entities": [
-      {
-        "start": 17,
-        "end": 32,
-        "value": "Trần Thanh Điền",
-        "entity": "teacher"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "thầy Lâm Chí Nguyện dạy môn nào vậy?",
-    "entities": [
-      {
-        "start": 5,
-        "end": 19,
-        "value": "Lâm Chí Nguyện",
-        "entity": "teacher"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "Bạn có biết thầy Lâm Chí Nguyện dạy môn nào không ?",
-    "entities": [
-      {
-        "start": 17,
-        "end": 31,
-        "value": "Lâm Chí Nguyện",
-        "entity": "teacher"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "thầy Hà Duy An dạy môn nào vậy?",
-    "entities": [
-      {
-        "start": 5,
-        "end": 14,
-        "value": "Hà Duy An",
-        "entity": "teacher"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "Bạn có biết thầy Hà Duy An dạy môn nào không ?",
-    "entities": [
-      {
-        "start": 17,
-        "end": 26,
-        "value": "Hà Duy An",
-        "entity": "teacher"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "thầy Nguyễn Hữu Vân Long dạy môn nào vậy?",
-    "entities": [
-      {
-        "start": 5,
-        "end": 24,
-        "value": "Nguyễn Hữu Vân Long",
-        "entity": "teacher"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "Bạn có biết thầy Nguyễn Hữu Vân Long dạy môn nào không ?",
-    "entities": [
-      {
-        "start": 17,
-        "end": 36,
-        "value": "Nguyễn Hữu Vân Long",
-        "entity": "teacher"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "thầy Lưu Trùng Dương dạy môn nào vậy?",
-    "entities": [
-      {
-        "start": 5,
-        "end": 20,
-        "value": "Lưu Trùng Dương",
-        "entity": "teacher"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "Bạn có biết thầy Lưu Trùng Dương dạy môn nào không ?",
-    "entities": [
-      {
-        "start": 17,
-        "end": 32,
-        "value": "Lưu Trùng Dương",
-        "entity": "teacher"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "thầy Trần Thanh Điện dạy môn nào vậy?",
-    "entities": [
-      {
-        "start": 5,
-        "end": 20,
-        "value": "Trần Thanh Điện",
-        "entity": "teacher"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "Bạn có biết thầy Trần Thanh Điện dạy môn nào không ?",
-    "entities": [
-      {
-        "start": 17,
-        "end": 32,
-        "value": "Trần Thanh Điện",
-        "entity": "teacher"
+        "entity": "giao_vien"
       }
     ],
     "predicted_entities": []
@@ -1158,43 +261,19 @@
         "start": 5,
         "end": 18,
         "value": "Đoàn Hòa Minh",
-        "entity": "teacher"
+        "entity": "giao_vien"
       }
     ],
     "predicted_entities": []
   },
   {
-    "text": "Bạn có biết thầy Đoàn Hòa Minh dạy môn nào không ?",
+    "text": "bạn có biết thầy Đoàn Hòa Minh dạy môn nào không ?",
     "entities": [
       {
         "start": 17,
         "end": 30,
         "value": "Đoàn Hòa Minh",
-        "entity": "teacher"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "thầy Nguyễn Trọng Nghĩa dạy môn nào vậy?",
-    "entities": [
-      {
-        "start": 5,
-        "end": 23,
-        "value": "Nguyễn Trọng Nghĩa",
-        "entity": "teacher"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "Bạn có biết thầy Nguyễn Trọng Nghĩa dạy môn nào không ?",
-    "entities": [
-      {
-        "start": 17,
-        "end": 35,
-        "value": "Nguyễn Trọng Nghĩa",
-        "entity": "teacher"
+        "entity": "giao_vien"
       }
     ],
     "predicted_entities": []
@@ -1206,67 +285,67 @@
         "start": 5,
         "end": 19,
         "value": "Trần Việt Châu",
-        "entity": "teacher"
+        "entity": "giao_vien"
       }
     ],
     "predicted_entities": []
   },
   {
-    "text": "Bạn có biết thầy Trần Việt Châu dạy môn nào không ?",
+    "text": "bạn có biết thầy Trần Việt Châu dạy môn nào không ?",
     "entities": [
       {
         "start": 17,
         "end": 31,
         "value": "Trần Việt Châu",
-        "entity": "teacher"
+        "entity": "giao_vien"
       }
     ],
     "predicted_entities": []
   },
   {
-    "text": "thầy Phạm Nguyên Khang dạy môn nào vậy?",
+    "text": "thầy Lưu Tiến Đạo dạy môn nào vậy?",
     "entities": [
       {
         "start": 5,
-        "end": 22,
-        "value": "Phạm Nguyên Khang",
-        "entity": "teacher"
+        "end": 17,
+        "value": "Lưu Tiến Đạo",
+        "entity": "giao_vien"
       }
     ],
     "predicted_entities": []
   },
   {
-    "text": "Bạn có biết thầy Phạm Nguyên Khang dạy môn nào không ?",
+    "text": "thầy Lưu Tiến Đạo dạy gì vậy?",
+    "entities": [
+      {
+        "start": 5,
+        "end": 17,
+        "value": "Lưu Tiến Đạo",
+        "entity": "giao_vien"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "bạn có biết thầy Lưu Tiến Đạo dạy môn nào không ?",
     "entities": [
       {
         "start": 17,
-        "end": 34,
-        "value": "Phạm Nguyên Khang",
-        "entity": "teacher"
+        "end": 29,
+        "value": "Lưu Tiến Đạo",
+        "entity": "giao_vien"
       }
     ],
     "predicted_entities": []
   },
   {
-    "text": "thầy Nguyễn Bá Diệp dạy môn nào vậy?",
+    "text": "thầy Nguyễn Bá Diệp chi tiết",
     "entities": [
       {
         "start": 5,
         "end": 19,
         "value": "Nguyễn Bá Diệp",
-        "entity": "teacher"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "Bạn có biết thầy Nguyễn Bá Diệp dạy môn nào không ?",
-    "entities": [
-      {
-        "start": 17,
-        "end": 31,
-        "value": "Nguyễn Bá Diệp",
-        "entity": "teacher"
+        "entity": "giao_vien"
       }
     ],
     "predicted_entities": []
@@ -1278,151 +357,43 @@
         "start": 5,
         "end": 22,
         "value": "Phạm Nguyên Hoàng",
-        "entity": "teacher"
+        "entity": "giao_vien"
       }
     ],
     "predicted_entities": []
   },
   {
-    "text": "Bạn có biết thầy Phạm Nguyên Hoàng dạy môn nào không ?",
+    "text": "thầy Phạm Nguyên Hoàng dạy gì vậy?",
+    "entities": [
+      {
+        "start": 5,
+        "end": 22,
+        "value": "Phạm Nguyên Hoàng",
+        "entity": "giao_vien"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "bạn có biết thầy Phạm Nguyên Hoàng dạy môn nào không ?",
     "entities": [
       {
         "start": 17,
         "end": 34,
         "value": "Phạm Nguyên Hoàng",
-        "entity": "teacher"
+        "entity": "giao_vien"
       }
     ],
     "predicted_entities": []
   },
   {
-    "text": "thầy Nguyễn Hữu Hòa dạy môn nào vậy?",
+    "text": "thầy Bùi Quốc Chính chuyên ngành là gì vậy.",
     "entities": [
       {
         "start": 5,
         "end": 19,
-        "value": "Nguyễn Hữu Hòa",
-        "entity": "teacher"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "Bạn có biết thầy Nguyễn Hữu Hòa dạy môn nào không ?",
-    "entities": [
-      {
-        "start": 17,
-        "end": 31,
-        "value": "Nguyễn Hữu Hòa",
-        "entity": "teacher"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "thầy Hồ Văn Tú dạy môn nào vậy?",
-    "entities": [
-      {
-        "start": 5,
-        "end": 14,
-        "value": "Hồ Văn Tú",
-        "entity": "teacher"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "Bạn có biết thầy Hồ Văn Tú dạy môn nào không ?",
-    "entities": [
-      {
-        "start": 17,
-        "end": 26,
-        "value": "Hồ Văn Tú",
-        "entity": "teacher"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "thầy Trần Hoàng Việt dạy môn nào vậy?",
-    "entities": [
-      {
-        "start": 5,
-        "end": 20,
-        "value": "Trần Hoàng Việt",
-        "entity": "teacher"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "Bạn có biết thầy Trần Hoàng Việt dạy môn nào không ?",
-    "entities": [
-      {
-        "start": 17,
-        "end": 32,
-        "value": "Trần Hoàng Việt",
-        "entity": "teacher"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "thầy Vũ Duy Linh chi tiết",
-    "entities": [
-      {
-        "start": 5,
-        "end": 16,
-        "value": "Vũ Duy Linh",
-        "entity": "teacher"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "thầy Hoàng Minh Trí dạy môn nào vậy?",
-    "entities": [
-      {
-        "start": 5,
-        "end": 19,
-        "value": "Hoàng Minh Trí",
-        "entity": "teacher"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "Bạn có biết thầy Hoàng Minh Trí dạy môn nào không ?",
-    "entities": [
-      {
-        "start": 17,
-        "end": 31,
-        "value": "Hoàng Minh Trí",
-        "entity": "teacher"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "thầy Võ Hải Đăng dạy môn nào vậy?",
-    "entities": [
-      {
-        "start": 5,
-        "end": 16,
-        "value": "Võ Hải Đăng",
-        "entity": "teacher"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "Bạn có biết thầy Võ Hải Đăng dạy môn nào không ?",
-    "entities": [
-      {
-        "start": 17,
-        "end": 28,
-        "value": "Võ Hải Đăng",
-        "entity": "teacher"
+        "value": "Bùi Quốc Chính",
+        "entity": "giao_vien"
       }
     ],
     "predicted_entities": []
@@ -1434,43 +405,31 @@
         "start": 5,
         "end": 15,
         "value": "Lê Minh Lý",
-        "entity": "teacher"
+        "entity": "giao_vien"
       }
     ],
     "predicted_entities": []
   },
   {
-    "text": "Bạn có biết thầy Lê Minh Lý dạy môn nào không ?",
+    "text": "thầy Lê Minh Lý dạy gì vậy?",
+    "entities": [
+      {
+        "start": 5,
+        "end": 15,
+        "value": "Lê Minh Lý",
+        "entity": "giao_vien"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "bạn có biết thầy Lê Minh Lý dạy môn nào không ?",
     "entities": [
       {
         "start": 17,
         "end": 27,
         "value": "Lê Minh Lý",
-        "entity": "teacher"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "thầy Lê Văn Quan dạy môn nào vậy?",
-    "entities": [
-      {
-        "start": 5,
-        "end": 16,
-        "value": "Lê Văn Quan",
-        "entity": "teacher"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "Bạn có biết thầy Lê Văn Quan dạy môn nào không ?",
-    "entities": [
-      {
-        "start": 17,
-        "end": 28,
-        "value": "Lê Văn Quan",
-        "entity": "teacher"
+        "entity": "giao_vien"
       }
     ],
     "predicted_entities": []

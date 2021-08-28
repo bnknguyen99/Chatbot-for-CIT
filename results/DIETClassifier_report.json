@@ -1,62 +1,59 @@
 {
-  "major_name": {
-    "precision": 1.0,
-    "recall": 0.9928469241773963,
-    "f1-score": 0.9964106245513281,
-    "support": 1398,
-    "confused_with": {}
-  },
-  "university_name": {
+  "phong_hoc": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 2,
+    "support": 503,
     "confused_with": {}
   },
-  "define": {
+  "giao_vien": {
     "precision": 1.0,
-    "recall": 0.9866220735785953,
-    "f1-score": 0.9932659932659933,
-    "support": 897,
+    "recall": 0.9800771208226221,
+    "f1-score": 0.9899383317104835,
+    "support": 1556,
     "confused_with": {}
   },
-  "falcuty_name": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 8,
-    "confused_with": {}
+  "nganh_hoc": {
+    "precision": 0.9994553376906318,
+    "recall": 0.9989112683723462,
+    "f1-score": 0.9991832289681459,
+    "support": 1837,
+    "confused_with": {
+      "bo_mon": 2
+    }
   },
-  "teacher": {
-    "precision": 1.0,
-    "recall": 0.9023696682464455,
-    "f1-score": 0.9486796213253612,
-    "support": 2110,
-    "confused_with": {}
+  "bo_mon": {
+    "precision": 0.9885057471264368,
+    "recall": 0.9942196531791907,
+    "f1-score": 0.9913544668587896,
+    "support": 173,
+    "confused_with": {
+      "nganh_hoc": 1
+    }
   },
-  "location": {
+  "khai_niem": {
     "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 515,
+    "recall": 0.9990421455938697,
+    "f1-score": 0.9995208433157643,
+    "support": 1044,
     "confused_with": {}
   },
   "micro avg": {
-    "precision": 1.0,
-    "recall": 0.9537525354969574,
-    "f1-score": 0.976328903654485,
-    "support": 4930
+    "precision": 0.9994095650462508,
+    "recall": 0.99315470369646,
+    "f1-score": 0.9962723170492447,
+    "support": 5113
   },
   "macro avg": {
-    "precision": 1.0,
-    "recall": 0.9803064443337396,
-    "f1-score": 0.9897260398571137,
-    "support": 4930
+    "precision": 0.9975922169634137,
+    "recall": 0.9944500375936057,
+    "f1-score": 0.9959993741706367,
+    "support": 5113
   },
   "weighted avg": {
-    "precision": 1.0,
-    "recall": 0.9537525354969574,
-    "f1-score": 0.9757922211113316,
-    "support": 4930
+    "precision": 0.9994154018366054,
+    "recall": 0.99315470369646,
+    "f1-score": 0.9962541988938443,
+    "support": 5113
   }
 }
