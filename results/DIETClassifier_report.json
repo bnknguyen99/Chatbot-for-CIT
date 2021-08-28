@@ -1,9 +1,9 @@
 {
-  "falcuty_name": {
+  "major_name": {
     "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 8,
+    "recall": 0.9928469241773963,
+    "f1-score": 0.9964106245513281,
+    "support": 1398,
     "confused_with": {}
   },
   "university_name": {
@@ -15,34 +15,48 @@
   },
   "define": {
     "precision": 1.0,
-    "recall": 0.8258064516129032,
-    "f1-score": 0.9045936395759718,
-    "support": 930,
+    "recall": 0.9866220735785953,
+    "f1-score": 0.9932659932659933,
+    "support": 897,
     "confused_with": {}
   },
-  "major_name": {
+  "falcuty_name": {
     "precision": 1.0,
-    "recall": 0.96105702364395,
-    "f1-score": 0.9801418439716312,
-    "support": 1438,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 8,
+    "confused_with": {}
+  },
+  "teacher": {
+    "precision": 1.0,
+    "recall": 0.9023696682464455,
+    "f1-score": 0.9486796213253612,
+    "support": 2110,
+    "confused_with": {}
+  },
+  "location": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 515,
     "confused_with": {}
   },
   "micro avg": {
     "precision": 1.0,
-    "recall": 0.9083263246425568,
-    "f1-score": 0.9519612163948876,
-    "support": 2378
+    "recall": 0.9537525354969574,
+    "f1-score": 0.976328903654485,
+    "support": 4930
   },
   "macro avg": {
     "precision": 1.0,
-    "recall": 0.9467158688142132,
-    "f1-score": 0.9711838708869007,
-    "support": 2378
+    "recall": 0.9803064443337396,
+    "f1-score": 0.9897260398571137,
+    "support": 4930
   },
   "weighted avg": {
     "precision": 1.0,
-    "recall": 0.9083263246425568,
-    "f1-score": 0.9506795863906053,
-    "support": 2378
+    "recall": 0.9537525354969574,
+    "f1-score": 0.9757922211113316,
+    "support": 4930
   }
 }

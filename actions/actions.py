@@ -35,9 +35,9 @@ def nocheck(dispatcher: CollectingDispatcher, tracker: Tracker,):
         text = "Xin lỗi bạn vì hiện tại mình chưa hiểu bạn muốn gì! Bạn hãy bấm vào đây để  nhờ chị Google giải đáp nhé: https://www.google.com.vn/search?q=" + tracker.latest_message['text'].replace(" ", "%20") 
         return text
 
-class ActionAskKnowledgeBasenohoibomon(Action):
+class ask_bomon_gv(Action):
     def name(self) -> Text:
-        return "action_custom_hoi_bomon_gv"
+        return "ask_bomon_gv"
     
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
@@ -51,10 +51,7 @@ class ActionAskKnowledgeBasenohoibomon(Action):
         check = False
         print(text_input)
         for result in record:
-            name = result[1].lower()
-            sex = result[2].lower()
             subject = result[3].lower()
-            info = result[4].lower()
             if subject in text_input:
                 check = True
                 dispatcher.utter_message(result[4])       
@@ -87,9 +84,9 @@ class action_dinhnghia(Action):
             text="Xin lỗi bạn vì hiện tại mình chưa hiểu bạn muốn gì! Bạn hãy bấm vào đây để  nhờ chị Google giải đáp nhé: https://www.google.com.vn/search?q=" +
                  tracker.latest_message['text'].replace(" ", "%20") )
 
-class action_hoi_vitri(Action):
+class ask_vitri(Action):
     def name(self) -> Text:
-        return "action_hoi_vitri"
+        return "ask_vitri"
     
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
@@ -113,37 +110,31 @@ class action_hoi_vitri(Action):
             for i in kq:
                 dispatcher.utter_message(i)
 
-class ActionAskKnowledgeBasenohoigiaovien02(Action):
+class ask_gvfullname(Action):
     def name(self) -> Text:
-        return "action_custom_hoi_giaovien02"
-    
+        return "ask_gvfullname"    
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-        text = tracker.latest_message['text']
+        ent = '' #tracker.latest_message['entities'][0]['value'].lower()
+        for i in  tracker.latest_message['entities']:
+            ent += (' '+i['value'])
         print('[%s] <- %s' % (self.name(), tracker.latest_message['text']))
-        for x in text.split(' '):
-            if x.lower() == 'cô' or x.lower()=='thầy':
-                x = ''
-        text_input = text.lower()
         sqlite_select_Query = "SELECT * from giaoVien"
         cursor.execute(sqlite_select_Query)
         record = cursor.fetchall()
         check = False
         for result in record:
-            name = result[1]
-            sex = result[2].lower()
-            info = result[4].lower()
-            if text in name:
+            name = result[1].lower()
+            if ent[1:].lower() in name:
                 check = True
                 dispatcher.utter_message(result[4])   
         if not check :
             dispatcher.utter_message("Không có giáo viên bạn cần tìm trong khoa!!!")
 
-class ActionAskKnowledgeBasenohoigiaovien01(Action):
+class ask_gvname(Action):
     def name(self) -> Text:
-        return "action_custom_hoi_giaovien01"
-    
+        return "ask_gvname"
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
@@ -194,39 +185,37 @@ class action_whatnew(Action):
         url =  'https://www.ctu.edu.vn/tin-tuc.html'
         page = urllib.request.urlopen(url)
         soup = BeautifulSoup(page, 'html.parser')
-
         new_feeds = soup.find('div', class_='content').find_all('div', class_='items-row')
         dispatcher.utter_message('Thông tin mới nhất từ trang thông tin Đại học Cần Thơ:')
         for feed in list(new_feeds):
             feed_result= feed.find('a')
             title = feed_result.contents[0]
             link = feed_result.get('href')
-            dispatcher.utter_message('Title: {} \n Link: {}'.format(title, url+link))
+            dispatcher.utter_message('{} \nChi tiết: {}'.format(title, url+link))
 
 
 class action_ask(Action):
     def name(self) -> Text:
         return "action_ask"
-    
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-        text = tracker.latest_message['text']
+        ent = ''
+        for j in tracker.latest_message['entities']:
+            ent += (' '+ j['value'])
+        intent= tracker.latest_message['intent'].get('name')
         print('[%s] <- %s' % (self.name(), tracker.latest_message['text']))
-        ent = tracker.lastest_message['entities'].lower()
-        intent= tracker.latest_message['intent'].get('name').lower()
-        text_input = text.lower()
-        sqlite_select_Query = "SELECT * from" + intent
+        print('[%s] <- %s' % (self.name(), intent))
+        sqlite_select_Query = "SELECT * from " + intent
         cursor.execute(sqlite_select_Query)
         record = cursor.fetchall()
         check = False
-        print(text_input)
         for result in record:
             name = result[1].lower()
             define = result[2]
-            if name == ent:
+            if name in ent[1:].lower():
                 check = True
-                dispatcher.utter_message(define)       
+                dispatcher.utter_message(define) 
         if not check:
             dispatcher.utter_message(
             text="Xin lỗi bạn vì hiện tại mình chưa hiểu bạn muốn gì! Bạn hãy bấm vào đây để  nhờ chị Google giải đáp nhé: https://www.google.com.vn/search?q=" +

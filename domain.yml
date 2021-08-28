@@ -5,92 +5,104 @@ session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
 intents:
-- xin_chao:
-    use_entities: true
-- tam_biet:
-    use_entities: true
-- liet_ke_bo_mon:
-    use_entities: true
-- gioi_thieuten:
-    use_entities: true
-- gioi_thieuchucnang:
-    use_entities: true
-- cam_on:
-    use_entities: true
+- xin_chao
+- tam_biet
+- liet_ke_bo_mon
+- gioi_thieuten
+- gioi_thieuchucnang
+- cam_on
 - hoi_vitri:
-    use_entities: true
-- hoi_ttgv:
-    use_entities: true
-- hoi_nlgv:
-    use_entities: true
-- goyy_qchv:
-    use_entities: true
+    use_entities:
+        - location
 - dinhnghia:
-    use_entities: true
-- hoi_bomon_gv:
-    use_entities: true
-- hoi_giaovien01:
-    use_entities: true
-- hoi_giaovien02:
-    use_entities: true
-- what_new:
-    use_entities: true
-- ask_major:
-    use_entities: true
-- ask_studyplan:
-    use_entities: true
-- ask_chuandaura:
-    use_entities: true
-- ask_congty:
-    use_entities: true
-- ask_chvieclam:
-    use_entities: true
-- ask_muctieu:
-    use_entities: true
-- ask_vitrilamviec:
-    use_entities: true
-- ask_ktchuyennganh:
-    use_entities: true
-- ask_noilamviec:
-    use_entities: true
-- ask_ctDaoTao:
-    use_entities: true
+    use_entities:
+        - khai_niem
+- bomon_gv:
+    use_entities:
+        - nganh_hoc
+- gv_name:
+    use_entities:
+        - giao_vien
+- gv_fullname:
+    use_entities:
+        - giao_vien
+- what_new
+- chuyennganh:
+    use_entities:
+        - nganh_hoc
+- studyplan:
+    use_entities:
+        - nganh_hoc
+        - khai_niem
+- chuandaura:
+    use_entities:
+        - nganh_hoc
+        - khai_niem
+- congty:
+    use_entities:
+        - nganh_hoc
+        - khai_niem
+- chvieclam:
+    use_entities:
+        - nganh_hoc
+        - khai_niem
+- muctieu:
+    use_entities:
+        - nganh_hoc
+        - khai_niem
+- vitrilamviec:
+    use_entities:
+        - nganh_hoc
+        - khai_niem
+- ktchuyennganh:
+    use_entities:
+        - nganh_hoc
+        - khai_niem
+- noilamviec:
+    use_entities:
+        - nganh_hoc
+        - khai_niem
+- ctdaotao:
+    use_entities:
+        - nganh_hoc
+        - khai_niem
 entities:
-  - faculty_name
-  - subject_name
-  - major_name
-  - define
-  - university_name
-  - teacher
+
+  - bo_mon
+  - nganh_hoc
+  - khai_niem
+  - phong_hoc
+  - giao_vien
 slots: {}
 responses:
   utter_xin_chao:
-  - text: Chào bạn!
-  - text: Chào bạn! Mình có thể giúp gì được cho bạn?
-  - text: Chào bạn! Bạn muốn mình giúp việc gì?
+  - text: chào bạn!
+  - text: chào bạn! mình có thể giúp gì được cho bạn?
+  - text: chào bạn! bạn muốn mình giúp việc gì?
   utter_tam_biet:
-  - text: Bye bye, chúc bạn một ngày tốt lành
-  - text: Tạm biệt! Một ngày đầy năng lượng nhé!
-  - text: Chào bạn! Thắc mắc gì cứ tìm mình nhé.
-  - text: Rất vui vì đã giúp được bạn! Hẹn gặp lại.
+  - text: bye bye, chúc bạn một ngày tốt lành
+  - text: tạm biệt! một ngày đầy năng lượng nhé!
+  - text: chào bạn! thắc mắc gì cứ tìm mình nhé.
+  - text: rất vui vì đã giúp được bạn! hẹn gặp lại.
   utter_gioi_thieuten:
-  - text: Tôi tên là Dừa, là một chatbot hổ trợ sinh viên của khoa CNTT & TT.
-  - text: Tôi là Mr.Coconut, một hệ thống giúp trả lời các thắc mắc của sinh viên trong quá trình học và làm việc tại khoa CNTT & TT.
+  - text: tôi tên là dừa, là một chatbot hổ trợ sinh viên của khoa cntt & tt.
+  - text: tôi là mr.coconut, một hệ thống giúp trả lời các thắc mắc của sinh viên trong quá trình học và làm việc tại khoa cntt & tt.
   utter_gioi_thieuchucnang:
-  - text: 'Tôi có thể giải đáp các vấn đề: tìm vị trí phòng học, thông tin về giáo viên tại khoa, giải đáp các câu hỏi thường được hỏi về quy chế học vụ, và những công việc liên quán đến khoa CNTT&TT'
+  - text: tôi có thể giải đáp các thắc mắc của bạn về vị trí phòng học, thông tin giáo viên tại khoa, quy chế học vụ, và những công việc liên quán đến khoa cntt&tt.
   utter_cam_on:
-  - text: Giúp được bạn là niềm vui của tôi!
-  - text: Hi vọng bạn hài lòng với câu trả lời.
+  - text: giúp được bạn là niềm vui của tôi!
+  - text: hi vọng bạn hài lòng với câu trả lời.
   utter_lietkebomon:
-  - text: 'Khoa CNTT & TT gồm 7 bộ môn: Công nghệ thông tin, Công nghệ thông tin - CLC, Tin học Ứng dụng, Khoa học máy tính, Kỹ thuật phần mềm, Mạng máy tính, Hệ thống thông tin'
+  - text: Khoa gồm có 6 bộ môn là công nghệ thông tin, công nghệ phần mềm, hệ thống thống tin, mạng máy tính & truyền thông, khoa học máy tính và tin học ứng dụng.
+
 actions:
-- action_custom_hoi_bomon_gv
-- action_custom_hoi_giaovien01
-- action_custom_hoi_giaovien02
+- ask_bomon_gv
+- ask_gvname
+- ask_gvfullname
 - action_unknown
 - action_whatnew
 - action_dinhnghia
-- action_hoi_vitri
+- ask_vitri
 - action_ask
 forms: {}
 e2e_actions: []

@@ -1240,7 +1240,7 @@ nlu:
     - Các bộ môn đào tạo
     - Các bộ môn của khoa
     - Khoa CNNT & TT có những bộ môn nào
-- intent: hoi_giaovien01
+- intent: ask_gv01
   examples: |
     - Cô Khang
     - Thầy Khang
@@ -1314,7 +1314,7 @@ nlu:
     - Cô Hạnh
     - Thầy Quan
     - Cô Chung
-- intent: hoi_giaovien02
+- intent: ask_gv02
   examples: |
     - Võ Huỳnh Trâm
     - Huỳnh Xuân Hiệp

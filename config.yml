@@ -1,24 +1,29 @@
 language: vi
+
 pipeline:
-  - name: SpacyNLP
-    model: "vi_spacy_model"
-    case_sensitive: true
-  - name: SpacyTokenizer
-  - name: SpacyFeaturizer
-  - name: RegexFeaturizer
+  - name: VietnameseTokenizer
   - name: LexicalSyntacticFeaturizer
-  - name: CountVectorsFeaturizer
   - name: CountVectorsFeaturizer
     analyzer: word
     min_ngram: 1
     max_ngram: 4
+  - name: rasa_nlu_examples.featurizers.dense.BytePairFeaturizer
+    lang: vi
+    vs: 200000
+    dim: 300
   - name: DIETClassifier
-    epochs: 200
+    epochs: 300
+    constrain_similarities: true
+    model_confidence: softmax
   - name: EntitySynonymMapper
-
-# Configuration for Rasa Core.
-# https://rasa.com/docs/rasa/core/policies/
 policies:
+  - name: MemoizationPolicy
+  - name: TEDPolicy
+    max_history: 5
+    epochs: 100
+    constrain_similarities: true
+    model_confidence: softmax
+  - name: RulePolicy
   - name: MappingPolicy
   - name: FallbackPolicy
     nlu_threshold: 0.7

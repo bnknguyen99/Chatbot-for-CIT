@@ -1,16 +1,16 @@
 {
-  "hoi_bomon_gv": {
+  "cam_on": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 14,
+    "support": 25,
     "confused_with": {}
   },
-  "hoi_giaovien01": {
+  "ask_gv02": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 72,
+    "support": 1283,
     "confused_with": {}
   },
   "dinhnghia": {
@@ -20,25 +20,11 @@
     "support": 26,
     "confused_with": {}
   },
-  "xin_chao": {
+  "ask_chvieclam": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 13,
-    "confused_with": {}
-  },
-  "what_new": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 4,
-    "confused_with": {}
-  },
-  "ask_ctDaoTao": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 93,
+    "support": 62,
     "confused_with": {}
   },
   "ask_vitrilamviec": {
@@ -48,32 +34,11 @@
     "support": 51,
     "confused_with": {}
   },
-  "ask_studyplan": {
+  "ask_congty": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 61,
-    "confused_with": {}
-  },
-  "ask_ktchuyennganh": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 73,
-    "confused_with": {}
-  },
-  "cam_on": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 25,
-    "confused_with": {}
-  },
-  "liet_ke_bo_mon": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 4,
+    "support": 45,
     "confused_with": {}
   },
   "gioi_thieuten": {
@@ -83,32 +48,18 @@
     "support": 18,
     "confused_with": {}
   },
-  "gioi_thieuchucnang": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 13,
-    "confused_with": {}
-  },
-  "ask_congty": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 45,
-    "confused_with": {}
-  },
   "ask_chuandaura": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 91,
+    "support": 88,
     "confused_with": {}
   },
-  "tam_biet": {
+  "ask_ktchuyennganh": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 8,
+    "support": 74,
     "confused_with": {}
   },
   "ask_noilamviec": {
@@ -118,25 +69,46 @@
     "support": 42,
     "confused_with": {}
   },
+  "xin_chao": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 13,
+    "confused_with": {}
+  },
+  "ask_ctDaoTao": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 84,
+    "confused_with": {}
+  },
+  "gioi_thieuchucnang": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 13,
+    "confused_with": {}
+  },
   "hoi_vitri": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 53,
+    "support": 355,
     "confused_with": {}
   },
-  "ask_chvieclam": {
+  "ask_gv01": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 62,
+    "support": 72,
     "confused_with": {}
   },
-  "hoi_giaovien02": {
+  "ask_studyplan": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 67,
+    "support": 61,
     "confused_with": {}
   },
   "ask_muctieu": {
@@ -146,17 +118,45 @@
     "support": 83,
     "confused_with": {}
   },
+  "what_new": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 4,
+    "confused_with": {}
+  },
+  "tam_biet": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 8,
+    "confused_with": {}
+  },
+  "hoi_bomon_gv": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 14,
+    "confused_with": {}
+  },
+  "liet_ke_bo_mon": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 4,
+    "confused_with": {}
+  },
   "accuracy": 1.0,
   "macro avg": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 918
+    "support": 2425
   },
   "weighted avg": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 918
+    "support": 2425
   }
 }
