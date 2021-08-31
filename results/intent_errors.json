@@ -1,0 +1,26 @@
+[
+  {
+    "text": "khmt info.",
+    "intent": "chuyennganh",
+    "intent_prediction": {
+      "name": "bomon",
+      "confidence": 0.727632999420166
+    }
+  },
+  {
+    "text": "giới thiệu khmt .",
+    "intent": "chuyennganh",
+    "intent_prediction": {
+      "name": "bomon",
+      "confidence": 0.7478756308555603
+    }
+  },
+  {
+    "text": "khmt .",
+    "intent": "chuyennganh",
+    "intent_prediction": {
+      "name": "bomon",
+      "confidence": 0.739190936088562
+    }
+  }
+]
