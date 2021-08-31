@@ -333,7 +333,7 @@ nlu:
     - tôi không rõ về ngành [mạng máy tính và truyền thông dữ liệu](nganh_hoc), chatbot có thể giải thích thêm được không?
     - tôi cần trợ giúp về ngành [mạng máy tính và truyền thông dữ liệu](nganh_hoc)
     - tôi cần tư vấn về ngành [mạng máy tính và truyền thông dữ liệu](nganh_hoc)
-- intent: studyplan
+- intent: khht
   examples: |
     - [kế hoạch học tập](khai_niem) của ngành [hệ thống thông tin](nganh_hoc) là gì
     - ngành [hệ thống thông tin](nganh_hoc) có [kế hoạch học tập](khai_niem) như thế nào?

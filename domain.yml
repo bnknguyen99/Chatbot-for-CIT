@@ -30,7 +30,7 @@ intents:
 - chuyennganh:
     use_entities:
         - nganh_hoc
-- studyplan:
+- khht:
     use_entities:
         - nganh_hoc
         - khai_niem

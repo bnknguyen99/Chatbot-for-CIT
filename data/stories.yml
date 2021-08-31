@@ -59,9 +59,9 @@ stories:
   steps:
   - intent: chuyennganh
   - action: action_ask
-- story: studyplan
+- story: khht
   steps:
-  - intent: studyplan
+  - intent: khht
   - action: action_ask
 - story: chuandaura
   steps:
