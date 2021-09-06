@@ -124,13 +124,22 @@ class ask_gvfullname(Action):
         cursor.execute(sqlite_select_Query)
         record = cursor.fetchall()
         check = False
-        for result in record:
-            name = result[1].lower()
-            if ent[1:].lower() in name:
-                check = True
-                dispatcher.utter_message(result[4])   
-        if not check :
-            dispatcher.utter_message("Không có giáo viên bạn cần tìm trong khoa!!!")
+        if not ent: 
+            for result in record:
+                name = result[1].lower()
+                if tracker.latest_message['text'].lower() in name:
+                    check = True
+                    dispatcher.utter_message(result[4])   
+            if not check :
+                dispatcher.utter_message("Không có giáo viên bạn cần tìm trong khoa!!!")
+        else:
+            for result in record:
+                name = result[1].lower()
+                if ent[1:].lower() in name:
+                    check = True
+                    dispatcher.utter_message(result[4])   
+            if not check :
+                dispatcher.utter_message("Không có giáo viên bạn cần tìm trong khoa!!!")
 
 class ask_gvname(Action):
     def name(self) -> Text:
