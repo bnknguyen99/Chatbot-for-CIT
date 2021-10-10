@@ -94,11 +94,12 @@ nlu:
     - mình nhớ đường rồi
 - intent: bomon
   examples: |
+#1cntt
     - giới thiệu bộ môn [công nghệ thông tin](bo_mon)
-    - bộ môn [công nghệ thông tin](bo_mon) là gì?
-    - có bộ môn nào tên [công nghệ thông tin](bo_mon) không?
-    - thông tin về bộ môn [công nghệ thông tin](bo_mon)
-    - bot cho hỏi bộ môn [công nghệ thông tin](bo_mon) là gì?
+    - bộ môn [công nghệ tt](bo_mon) là gì?
+    - có bộ môn nào tên [cntt](bo_mon) không?
+    - thông tin về bộ môn [cn thông tin](bo_mon)
+    - bot cho hỏi bộ môn [it](bo_mon) là gì?
     - cho mình hỏi có bộ môn tên [công nghệ thông tin](bo_mon) không?
     - có thể cho mình biết thông tin về bộ môn [công nghệ thông tin](bo_mon) không?
     - tôi muốn biết thêm thông tin về bộ môn [công nghệ thông tin](bo_mon)
@@ -108,6 +109,7 @@ nlu:
     - cho tôi biết bộ môn [công nghệ thông tin](bo_mon) là gì?
     - tôi không rõ về bộ môn [công nghệ thông tin](bo_mon)
     - tôi cần trợ giúp về bộ môn [công nghệ thông tin](bo_mon)
+#2cnpm
     - giới thiệu bộ môn [công nghệ phần mềm](bo_mon)
     - bộ môn [cnpm](bo_mon) là gì?
     - có bộ môn nào tên [cnpm](bo_mon) không?
@@ -123,28 +125,30 @@ nlu:
     - tôi không rõ về bộ môn [công nghệ phần mềm](bo_mon)
     - tôi cần trợ giúp về bộ môn [công nghệ phần mềm](bo_mon)
     - tôi cần tư vấn về bộ môn [công nghệ phần mềm](bo_mon)
-    - giới thiệu bộ môn [mạng máy tính và truyền thông](bo_mon)
-    - bộ môn [mmt-tt](bo_mon) là gì?
-    - có bộ môn nào tên [mmt&tt](bo_mon) không?
-    - thông tin về bộ môn [mạng máy tính và truyền thông](bo_mon)
-    - bot cho hỏi bộ môn [mmt&tt](bo_mon) là gì?
-    - cho mình hỏi có bộ môn tên [mmtvtt](bo_mon) không?
-    - có thể cho mình biết thông tin về bộ môn [mmt-tt](bo_mon) không?
-    - tôi muốn biết thêm thông tin về bộ môn [mmt-tt](bo_mon)
-    - nói về bộ môn [mmt-tt](bo_mon)
-    - giải thích về bộ môn [mạng máy tính và truyền thông](bo_mon)
-    - những điều cần chú ý về bộ môn [mạng máy tính và truyền thông](bo_mon)
-    - cho tôi biết bộ môn [mạng máy tính và truyền thông](bo_mon) là gì?
-    - tôi không rõ về bộ môn [mạng máy tính và truyền thông](bo_mon)
-    - tôi cần trợ giúp về bộ môn [mạng máy tính và truyền thông](bo_mon)
-    - tôi cần tư vấn về bộ môn [mạng máy tính và truyền thông](bo_mon)
+#3mmt&ttdl
+    - giới thiệu bộ môn [mạng máy tính và truyền thông dữ liệu](bo_mon)
+    - bộ môn [mmt-ttdl](bo_mon) là gì?
+    - có bộ môn nào tên [mmt&ttdl](bo_mon) không?
+    - thông tin về bộ môn [mmtvttdl](bo_mon)
+    - bot cho hỏi bộ môn [mmt&ttdl](bo_mon) là gì?
+    - cho mình hỏi có bộ môn tên [mmtvttdl](bo_mon) không?
+    - có thể cho mình biết thông tin về bộ môn [mmt-ttdl](bo_mon) không?
+    - tôi muốn biết thêm thông tin về bộ môn [mmt-ttdl](bo_mon)
+    - nói về bộ môn [mmt-ttdl](bo_mon)
+    - giải thích về bộ môn [mạng máy tính và truyền thông dữ liệu](bo_mon)
+    - những điều cần chú ý về bộ môn [mạng máy tính và truyền thông dữ liệu](bo_mon)
+    - cho tôi biết bộ môn [mạng máy tính và truyền thông dữ liệu](bo_mon) là gì?
+    - tôi không rõ về bộ môn [mạng máy tính và truyền thông dữ liệu](bo_mon)
+    - tôi cần trợ giúp về bộ môn [mạng máy tính và truyền thông dữ liệu](bo_mon)
+    - tôi cần tư vấn về bộ môn [mạng máy tính và truyền thông dữ liệu](bo_mon)
+#4khmt
     - giới thiệu bộ môn [khoa học máy tính](bo_mon)
     - có bộ môn nào tên [khmt](bo_mon) không?
     - thông tin về bộ môn [khoa học máy tính](bo_mon)
     - thông tin về bộ môn [khmt](bo_mon)
-    - bot cho hỏi bộ môn [khmt](bo_mon) là gì?
+    - bot cho hỏi bộ môn [data science](bo_mon) là gì?
     - cho mình hỏi có bộ môn tên [data science](bo_mon) không?
-    - có thể cho mình biết thông tin về bộ môn [data science](bo_mon) không?
+    - có thể cho mình biết thông tin về bộ môn [ds](bo_mon) không?
     - tôi muốn biết thêm thông tin về bộ môn [ds](bo_mon)
     - giải thích về bộ môn [khoa học máy tính](bo_mon)
     - những điều cần chú ý về bộ môn [khoa học máy tính](bo_mon)
@@ -163,6 +167,7 @@ nlu:
     - giới thiệu [khmt](bo_mon)
     - [khmt](bo_mon)
     - bộ môn [khmt](bo_mon) là gì?
+#5thud
     - giới thiệu bộ môn [tin học ứng dụng](bo_mon)
     - có bộ môn nào tên [thud](bo_mon) không?
     - thông tin về bộ môn [tin học ứng dụng](bo_mon)
@@ -191,12 +196,13 @@ nlu:
     - giới thiệu [thud](bo_mon)
     - [thud](bo_mon)
     - bộ môn [thud](bo_mon) là gì?
+#6httt
     - giới thiệu bộ môn [hệ thống thông tin](bo_mon)
     - bộ môn [hệ thống thông tin](bo_mon) là gì?
     - có bộ môn nào tên [hệ thống thông tin](bo_mon) không?
-    - thông tin về bộ môn [hệ thống thông tin](bo_mon)
-    - bot cho hỏi bộ môn [hệ thống thông tin](bo_mon) là gì?
-    - cho mình hỏi có bộ môn tên [hệ thống thông tin](bo_mon) không?
+    - thông tin về bộ môn [httt](bo_mon)
+    - bot cho hỏi bộ môn [ht thông tin](bo_mon) là gì?
+    - cho mình hỏi có bộ môn tên [hệ thống tt](bo_mon) không?
     - có thể cho mình biết thông tin về bộ môn [hệ thống thông tin](bo_mon) không?
     - tôi muốn biết thêm thông tin về bộ môn [hệ thống thông tin](bo_mon)
     - nói về bộ môn [hệ thống thông tin](bo_mon)
@@ -207,6 +213,7 @@ nlu:
     - tôi cần trợ giúp về bộ môn [hệ thống thông tin](bo_mon)
 - intent: chuyennganh
   examples: |
+#1httt
     - giới thiệu ngành [hệ thống thông tin](nganh_hoc) 
     - có ngành nào tên [httt](nganh_hoc) không?
     - thông tin về ngành [httt](nganh_hoc) 
@@ -231,16 +238,17 @@ nlu:
     - giới thiệu [hệ thống thông tin](nganh_hoc) 
     - [hệ thống thông tin](nganh_hoc) 
     - ngành [hệ thống thông tin](nganh_hoc) là gì?
+#2cnttclc
     - giới thiệu ngành [công nghệ thông tin chất lượng cao](nganh_hoc) 
     - có ngành nào tên [cnttclc](nganh_hoc) không?
     - thông tin về ngành [công nghệ thông tin chất lượng cao](nganh_hoc) 
-    - bot cho hỏi ngành [cnttclc](nganh_hoc) là gì?
+    - bot cho hỏi ngành [cntt-clc](nganh_hoc) là gì?
     - cho mình hỏi có ngành tên [công nghệ thông tin chất lượng cao](nganh_hoc) không?
-    - có thể cho mình biết thông tin về ngành [công nghệ thông tin chất lượng cao](nganh_hoc) không?
-    - tôi muốn biết thêm thông tin về ngành [công nghệ thông tin chất lượng cao](nganh_hoc) 
+    - có thể cho mình biết thông tin về ngành [it clc](nganh_hoc) không?
+    - tôi muốn biết thêm thông tin về ngành [it-clc](nganh_hoc) 
     - nói về ngành [cnttclc](nganh_hoc) 
     - giải thích về ngành [công nghệ thông tin chất lượng cao](nganh_hoc) 
-    - những điều cần chú ý về ngành [công nghệ thông tin chất lượng cao](nganh_hoc) 
+    - những điều cần chú ý về ngành [high quality it](nganh_hoc) 
     - cho tôi biết ngành [công nghệ thông tin chất lượng cao](nganh_hoc) là gì?
     - tôi không rõ về ngành [công nghệ thông tin chất lượng cao](nganh_hoc) 
     - tôi cần trợ giúp về ngành [công nghệ thông tin chất lượng cao](nganh_hoc) 
@@ -248,6 +256,7 @@ nlu:
     - giới thiệu [công nghệ thông tin chất lượng cao](nganh_hoc) 
     - [công nghệ thông tin chất lượng cao](nganh_hoc) 
     - ngành [cnttclc](nganh_hoc) là gì?
+#3cntt
     - giới thiệu ngành [công nghệ thông tin](nganh_hoc) 
     - thông tin về ngành [công nghệ thông tin](nganh_hoc) 
     - bot cho hỏi ngành [công nghệ thông tin](nganh_hoc) là gì?
@@ -271,6 +280,7 @@ nlu:
     - giới thiệu [công nghệ thông tin](nganh_hoc) 
     - [công nghệ thông tin](nganh_hoc) 
     - ngành [cntt](nganh_hoc) là gì?
+#4ktpm
     - giới thiệu ngành [kỹ thuật phần mềm](nganh_hoc) 
     - ngành [kỹ thuật phần mềm](nganh_hoc) là gì?
     - có ngành nào tên [ktpm](nganh_hoc) không?
@@ -284,6 +294,7 @@ nlu:
     - cho tôi biết ngành [kỹ thuật phần mềm](nganh_hoc) là gì
     - tôi không rõ về ngành [kỹ thuật phần mềm](nganh_hoc), chatbot có thể giải thích thêm được không?
     - tôi cần trợ giúp về ngành [kỹ thuật phần mềm](nganh_hoc) 
+#5khmt
     - tôi cần tư vấn về ngành [kỹ thuật phần mềm](nganh_hoc) 
     - giới thiệu chuyên ngành [khoa học máy tính](nganh_hoc) 
     - giới thiệu chuyên ngành [khoa học máy tính](nganh_hoc) 
@@ -305,6 +316,7 @@ nlu:
     - giới thiệu [khmt](nganh_hoc) 
     - [khmt](nganh_hoc) 
     - ngành [khmt](nganh_hoc) là gì?
+#6thud
     - giới thiệu chuyên ngành [tin học ứng dụng](nganh_hoc) 
     - có chuyên ngành nào tên [tin học ứng dụng](nganh_hoc) không?
     - thông tin về ngành [tin học ứng dụng](nganh_hoc) 
@@ -320,6 +332,7 @@ nlu:
     - cho tôi biết ngành [tin học ứng dụng](nganh_hoc) là gì?
     - tôi không rõ về ngành [tin học ứng dụng](nganh_hoc) 
     - tôi cần trợ giúp về ngành [tin học ứng dụng](nganh_hoc)
+#7mmt-ttdl
     - giới thiệu ngành [mạng máy tính và truyền thông dữ liệu](nganh_hoc)
     - ngành [mạng máy tính và truyền thông dữ liệu](nganh_hoc) là gì?
     - có ngành nào tên [mmt-ttdl](nganh_hoc) không?
@@ -815,6 +828,8 @@ nlu:
     - tôi cần tư vấn về [job](khai_niem) của ngành [mạng máy tính và truyền thông dữ liệu](nganh_hoc)
 - intent: muctieu
   examples: |
+#1httt
+    - [mục tiêu](khai_niem) của khoa khi đào tạo ngành [hệ thống thông tin](nganh_hoc) là gì
     - [mục tiêu đào tạo](khai_niem) của ngành [hệ thống thông tin](nganh_hoc) là gì
     - thông tin về  [mục tiêu đào tạo](khai_niem) của ngành [hệ thống thông tin](nganh_hoc) 
     - [hệ thống thông tin](nganh_hoc) có [mục tiêu đào tạo](khai_niem) là gì
@@ -838,7 +853,9 @@ nlu:
     - những điều cần chú ý về [mục tiêu đào tạo](khai_niem) của ngành [hệ thống thông tin](nganh_hoc) 
     - cho tôi biết [mục tiêu đào tạo](khai_niem) của ngành [hệ thống thông tin](nganh_hoc) 
     - tôi không rõ về [mục tiêu đào tạo](khai_niem) của ngành [hệ thống thông tin](nganh_hoc), có thể cho tôi biết thêm không?
-    - tôi cần trợ giúp về [mục tiêu đào tạo](khai_niem) của ngành [hệ thống thông tin](nganh_hoc) 
+    - tôi cần trợ giúp về [mục tiêu đào tạo](khai_niem) của ngành [hệ thống thông tin](nganh_hoc)
+#2cnttclc
+    - [mục tiêu](khai_niem) của khoa khi đào tạo ngành [công nghệ thông tin chất lượng cao](nganh_hoc) là gì
     - [mục tiêu đào tạo](khai_niem) của ngành [công nghệ thông tin chất lượng cao](nganh_hoc) là gì
     - thông tin về  [mục tiêu đào tạo](khai_niem) của ngành [công nghệ thông tin chất lượng cao](nganh_hoc) 
     - [công nghệ thông tin chất lượng cao](nganh_hoc) có [mục tiêu đào tạo](khai_niem) là gì
@@ -850,7 +867,7 @@ nlu:
     - những điều cần chú ý về [mục tiêu đào tạo](khai_niem) của ngành [công nghệ thông tin chất lượng cao](nganh_hoc) 
     - cho tôi biết [mục tiêu đào tạo](khai_niem) của ngành [công nghệ thông tin chất lượng cao](nganh_hoc) là gì
     - tôi không rõ về [mục tiêu đào tạo](khai_niem) của ngành [công nghệ thông tin chất lượng cao](nganh_hoc), có thể cho tôi biết thêm không?
-    - tôi cần trợ giúp về [mục tiêu đào tạo](khai_niem) của ngành [công nghệ thông tin chất lượng cao](nganh_hoc) 
+    - tôi cần trợ giúp về [mục tiêu đào tạo](khai_niem) của ngành [công nghệ thông tin chất lượng cao](nganh_hoc)
     - [mục tiêu đào tạo](khai_niem) của ngành [công nghệ thông tin chất lượng cao](nganh_hoc) 
     - thông tin về  [mục tiêu đào tạo](khai_niem) của ngành [công nghệ thông tin chất lượng cao](nganh_hoc) 
     - [công nghệ thông tin chất lượng cao](nganh_hoc) có [mục tiêu đào tạo](khai_niem) là gì
@@ -862,7 +879,9 @@ nlu:
     - những điều cần chú ý về [mục tiêu đào tạo](khai_niem) của ngành [công nghệ thông tin chất lượng cao](nganh_hoc) 
     - cho tôi biết [mục tiêu đào tạo](khai_niem) của ngành [công nghệ thông tin chất lượng cao](nganh_hoc) 
     - tôi không rõ về [mục tiêu đào tạo](khai_niem) của ngành [công nghệ thông tin chất lượng cao](nganh_hoc), có thể cho tôi biết thêm không?
-    - tôi cần trợ giúp về [mục tiêu đào tạo](khai_niem) của ngành [công nghệ thông tin chất lượng cao](nganh_hoc) 
+    - tôi cần trợ giúp về [mục tiêu đào tạo](khai_niem) của ngành [công nghệ thông tin chất lượng cao](nganh_hoc)
+#3cntt
+    - [mục tiêu](khai_niem) của khoa khi đào tạo ngành [công nghệ thông tin](nganh_hoc) là gì
     - [mục tiêu đào tạo](khai_niem) của ngành [công nghệ thông tin](nganh_hoc) là gì
     - thông tin về [mục tiêu đào tạo](khai_niem) của ngành [công nghệ thông tin](nganh_hoc) 
     - [công nghệ thông tin](nganh_hoc) có [mục tiêu đào tạo](khai_niem) là gì
@@ -886,7 +905,9 @@ nlu:
     - những điều cần chú ý về [mục tiêu đào tạo](khai_niem) của ngành [công nghệ thông tin](nganh_hoc) 
     - cho tôi biết [mục tiêu đào tạo](khai_niem) của ngành [công nghệ thông tin](nganh_hoc) 
     - tôi không rõ về [mục tiêu đào tạo](khai_niem) của ngành [công nghệ thông tin](nganh_hoc), có thể cho tôi biết thêm không?
-    - tôi cần trợ giúp về [mục tiêu đào tạo](khai_niem) của ngành [công nghệ thông tin](nganh_hoc) 
+    - tôi cần trợ giúp về [mục tiêu đào tạo](khai_niem) của ngành [công nghệ thông tin](nganh_hoc)
+#4ktpm
+    - [mục tiêu](khai_niem) của khoa khi đào tạo ngành [kỹ thuật phần mềm](nganh_hoc) là gì
     - [mục tiêu đào tạo](khai_niem) của ngành [kỹ thuật phần mềm](nganh_hoc) là gì
     - thông tin về  [mục tiêu đào tạo](khai_niem) của ngành [kỹ thuật phần mềm](nganh_hoc) 
     - [kỹ thuật phần mềm](nganh_hoc) có [mục tiêu đào tạo](khai_niem) là gì
@@ -899,7 +920,9 @@ nlu:
     - cho tôi biết [mục tiêu đào tạo](khai_niem) của ngành [kỹ thuật phần mềm](nganh_hoc) là gì
     - tôi không rõ về [mục tiêu đào tạo](khai_niem) của ngành [kỹ thuật phần mềm](nganh_hoc), có thể cho tôi biết thêm không?
     - tôi cần trợ giúp về [mục tiêu đào tạo](khai_niem) của ngành [kỹ thuật phần mềm](nganh_hoc) 
-    - tôi cần tư vấn về [mục tiêu đào tạo](khai_niem) của ngành [kỹ thuật phần mềm](nganh_hoc) 
+    - tôi cần tư vấn về [mục tiêu đào tạo](khai_niem) của ngành [kỹ thuật phần mềm](nganh_hoc)
+#5khmt
+    - [mục tiêu](khai_niem) của khoa khi đào tạo ngành [khoa học máy tính](nganh_hoc) là gì
     - [mục tiêu đào tạo](khai_niem) của ngành [khoa học máy tính](nganh_hoc) là gì
     - thông tin về  [mục tiêu đào tạo](khai_niem) của ngành [khoa học máy tính](nganh_hoc) 
     - [khoa học máy tính](nganh_hoc) có [mục tiêu đào tạo](khai_niem) là gì
@@ -924,6 +947,8 @@ nlu:
     - cho tôi biết [mục tiêu đào tạo](khai_niem) của ngành [khoa học máy tính](nganh_hoc) 
     - tôi không rõ về [mục tiêu đào tạo](khai_niem) của ngành [khoa học máy tính](nganh_hoc), có thể cho tôi biết thêm không?
     - tôi cần trợ giúp về [mục tiêu đào tạo](khai_niem) của ngành [khoa học máy tính](nganh_hoc) 
+#6thud
+    - [mục tiêu](khai_niem) của khoa khi đào tạo ngành [tin học ứng dụng](nganh_hoc) là gì
     - [mục tiêu đào tạo](khai_niem) của ngành [tin học ứng dụng](nganh_hoc) là gì
     - thông tin về [mục tiêu đào tạo](khai_niem) của ngành [tin học ứng dụng](nganh_hoc) 
     - [tin học ứng dụng](nganh_hoc) có [mục tiêu đào tạo](khai_niem) là gì
@@ -948,6 +973,8 @@ nlu:
     - cho tôi biết [mục tiêu đào tạo](khai_niem) của ngành [tin học ứng dụng](nganh_hoc) 
     - tôi không rõ về [mục tiêu đào tạo](khai_niem) của ngành [tin học ứng dụng](nganh_hoc), có thể cho tôi biết thêm không?
     - tôi cần trợ giúp về [mục tiêu đào tạo](khai_niem) của ngành [tin học ứng dụng](nganh_hoc)
+#7mmt-ttdl
+    - [mục tiêu](khai_niem) của khoa khi đào tạo ngành [mạng máy tính và truyền thông dữ liệu](nganh_hoc) là gì
     - [mục tiêu đào tạo](khai_niem) của ngành [mạng máy tính và truyền thông dữ liệu](nganh_hoc) là gì
     - thông tin về  [mtdt](khai_niem) của ngành [mạng máy tính và truyền thông dữ liệu](nganh_hoc)
     - [mạng máy tính và truyền thông dữ liệu](nganh_hoc) có [mtdt](khai_niem) là gì
@@ -1024,7 +1051,9 @@ nlu:
 
 - intent: ktchuyennganh
   examples: |
-    - để tốt nghiệp ngành [hệ thống thông tin](nganh_hoc) cần [kiến thức đầu ra](khai_niem) gì?
+#httt
+    - học ngành [hệ thống thông tin](nganh_hoc) xong có kiến thức gì trong đầu?
+    - để tốt nghiệp ngành [httt](nganh_hoc) cần [kiến thức đầu ra](khai_niem) gì?
     - [kiến thức đầu ra](khai_niem) cần thiết để tốt nghiệp ngành [hệ thống thông tin](nganh_hoc) là gì?
     - ngành [hệ thống thông tin](nganh_hoc) cần [kiến thức đầu ra](khai_niem) như thế nào?
     - thông tin về [kiến thức đầu ra](khai_niem) của ngành [hệ thống thông tin](nganh_hoc) 
@@ -1048,6 +1077,8 @@ nlu:
     - cho tôi biết [kiến thức đầu ra](khai_niem) của ngành [hệ thống thông tin](nganh_hoc) gồm những gì
     - tôi không rõ về [kiến thức đầu ra](khai_niem) của ngành [hệ thống thông tin](nganh_hoc), có thể cho tôi biết thêm không?
     - tôi cần trợ giúp về [kiến thức đầu ra](khai_niem) của ngành [hệ thống thông tin](nganh_hoc) 
+#cnttclc
+    - học ngành [cntt-clc](nganh_hoc) xong có được những kiến thức gì?
     - để tốt nghiệp ngành [công nghệ thông tin chất lượng cao](nganh_hoc) cần [kiến thức đầu ra](khai_niem) gì?
     - [kiến thức đầu ra](khai_niem) cần thiết để tốt nghiệp ngành [công nghệ thông tin chất lượng cao](nganh_hoc) là gì?
     - ngành [công nghệ thông tin chất lượng cao](nganh_hoc) cần [kiến thức đầu ra](khai_niem) như thế nào?
@@ -1072,6 +1103,8 @@ nlu:
     - cho tôi biết [kiến thức đầu ra](khai_niem) của ngành [công nghệ thông tin chất lượng cao](nganh_hoc) gồm những gì
     - tôi không rõ về [kiến thức đầu ra](khai_niem) của ngành [công nghệ thông tin chất lượng cao](nganh_hoc), có thể cho tôi biết thêm không?
     - tôi cần trợ giúp về [kiến thức đầu ra](khai_niem) của ngành [công nghệ thông tin chất lượng cao](nganh_hoc) 
+#cntt
+    - học ngành [cntt](nganh_hoc) xong có kiến thức gì trong đầu?
     - để tốt nghiệp ngành [công nghệ thông tin](nganh_hoc) cần [kiến thức đầu ra](khai_niem) gì?
     - [kiến thức đầu ra](khai_niem) cần thiết để tốt nghiệp ngành [công nghệ thông tin](nganh_hoc) là gì?
     - ngành [công nghệ thông tin](nganh_hoc) cần [kiến thức đầu ra](khai_niem) như thế nào?
@@ -1096,6 +1129,8 @@ nlu:
     - cho tôi biết [kiến thức đầu ra](khai_niem) của ngành [công nghệ thông tin](nganh_hoc) gồm những gì
     - tôi không rõ về [kiến thức đầu ra](khai_niem) của ngành [công nghệ thông tin](nganh_hoc), có thể cho tôi biết thêm không?
     - tôi cần trợ giúp về [kiến thức đầu ra](khai_niem) của ngành [công nghệ thông tin](nganh_hoc) 
+#ktpm
+    - học ngành [ktpm](nganh_hoc) xong có kiến thức gì trong đầu?
     - để tốt nghiệp ngành [kỹ thuật phần mềm](nganh_hoc) cần [kiến thức đầu ra](khai_niem) gì?
     - [kiến thức đầu ra](khai_niem) cần thiết để tốt nghiệp ngành [kỹ thuật phần mềm](nganh_hoc) là gì?
     - ngành [kỹ thuật phần mềm](nganh_hoc) cần [kiến thức đầu ra](khai_niem) như thế nào?
@@ -1109,6 +1144,8 @@ nlu:
     - tôi không rõ về [kiến thức đầu ra](khai_niem) của ngành [kỹ thuật phần mềm](nganh_hoc), có thể cho tôi biết thêm không?
     - tôi cần trợ giúp về [kiến thức đầu ra](khai_niem) của ngành [kỹ thuật phần mềm](nganh_hoc) 
     - tôi cần tư vấn về [kiến thức đầu ra](khai_niem) của ngành [kỹ thuật phần mềm](nganh_hoc) 
+#khmt
+    - học ngành [khmt](nganh_hoc) xong có kiến thức gì trong đầu?
     - để tốt nghiệp ngành [khoa học máy tính](nganh_hoc) cần [kiến thức đầu ra](khai_niem) gì?
     - [kiến thức đầu ra](khai_niem) cần thiết để tốt nghiệp ngành [khoa học máy tính](nganh_hoc) là gì?
     - ngành [khoa học máy tính](nganh_hoc) cần [kiến thức đầu ra](khai_niem) như thế nào?
@@ -1133,6 +1170,8 @@ nlu:
     - cho tôi biết [kiến thức đầu ra](khai_niem) của ngành [khoa học máy tính](nganh_hoc) gồm những gì
     - tôi không rõ về [kiến thức đầu ra](khai_niem) của ngành [khoa học máy tính](nganh_hoc), có thể cho tôi biết thêm không?
     - tôi cần trợ giúp về [kiến thức đầu ra](khai_niem) của ngành [khoa học máy tính](nganh_hoc) 
+#thud
+    - học ngành [thud](nganh_hoc) xong có kiến thức gì trong đầu?
     - để tốt nghiệp ngành [tin học ứng dụng](nganh_hoc) cần [kiến thức đầu ra](khai_niem) gì?
     - [kiến thức đầu ra](khai_niem) cần thiết để tốt nghiệp ngành [tin học ứng dụng](nganh_hoc) là gì?
     - ngành [tin học ứng dụng](nganh_hoc) cần [kiến thức đầu ra](khai_niem) như thế nào?
@@ -1157,6 +1196,8 @@ nlu:
     - cho tôi biết [kiến thức đầu ra](khai_niem) của ngành [tin học ứng dụng](nganh_hoc) gồm những gì
     - tôi không rõ về [kiến thức đầu ra](khai_niem) của ngành [tin học ứng dụng](nganh_hoc) 
     - tôi cần trợ giúp về [kiến thức đầu ra](khai_niem) của ngành [tin học ứng dụng](nganh_hoc)
+#mmt-ttdl
+    - học ngành [mmtttdl](nganh_hoc) xong có kiến thức gì trong đầu?
     - để tốt nghiệp ngành [mạng máy tính và truyền thông dữ liệu](nganh_hoc) cần [kiến thức đầu ra](khai_niem) gì?
     - kiến thức đầu ra cần thiết để tốt nghiệp ngành [mạng máy tính và truyền thông dữ liệu](nganh_hoc) là gì?
     - ngành [mạng máy tính và truyền thông dữ liệu](nganh_hoc) cần [ktdr](khai_niem) như thế nào?
@@ -3157,160 +3198,164 @@ nlu:
     - [trợ cấp xã hội](khai_niem) 
     - [học phí](khai_niem) 
     - [bhyt](khai_niem) 
-    - [bảo hiểm ý tế](khai_niem) 
+    - [bảo hiểm y tế](khai_niem) 
     - [tín dụng sinh viên](khai_niem) 
     - [số tín chỉ](khai_niem) 
     - [xóa lớp học phần](khai_niem) 
     - [mở thêm lớp học phần](khai_niem) 
-    - [đại học cần thơ](khai_niem) 
+    - trường [đại học cần thơ](khai_niem)
+    - [trường đại học cần thơ](khai_niem)
+    - trường [dhct](khai_niem)
+    - trường [dh cần thơ](khai_niem)
+    - trường [đhct](khai_niem)
+    - trường [đh cần thơ](khai_niem)
     - [lớp chuyên ngành](khai_niem) là gì
-    - khoa [công nghệ thông tin và truyền thông](khai_niem) 
-    - [công nghệ thông tin và truyền thông](khai_niem) 
-
+    - khoa [công nghệ thông tin và truyền thông](khai_niem)
+    - khoa [cntt-tt](khai_niem)
+    - khoa [cntt&tt](khai_niem)
+    - khoa [ict](khai_niem)
+    - [văn phòng khoa](khai_niem) là gì
+    - [vpk](khai_niem)
+    - thông tin về [nghiên cứu khoa học](khai_niem)
+    - cho hỏi [nckh](khai_niem) là gì
 # từ đồng nghĩa
-- synonym: Công nghệ Thông tin và Truyền thông
+- synonym: công nghệ thông tin và truyền thông
   examples: |
-    - cNTT&TT
-    - cNTT-TT
-- synonym: Đại học Cần Thơ
+    - cntt-tt
+    - cntt&tt
+    - ict
+- synonym: đại học cần thơ
   examples: |
-    - DHCT
-    - đại học Cần Thơ
-    - đại học cần thơ
-    - trường Đại học Cần Thơ
+    - trường đại học cần thơ
     - dhct
-- synonym: Mạng máy tính và truyền thông
+    - dh cần thơ
+    - đhct
+    - đh cần thơ
+- synonym: mạng máy tính và truyền thông
   examples: |
-    - MMT-TT
-    - mạng máy tính và truyền thông
-    - MMT&TT
+    - mạng máy tính truyền thông
     - mmt&tt
     - mmtvtt
     - mmt-tt
 - synonym: mạng máy tính và truyền thông dữ liệu
   examples: |
-    - MMT&TTDL
-    - MMT-TTDL
-    - mạng máy tính và truyền thông dữ liệu
+    - mạng máy tính truyền thông dữ liệu
     - mmt-ttdl
     - mmtvttdl
     - mmt&ttdl
-- synonym: Công nghệ thông tin
+    - mmtttdl
+- synonym: công nghệ thông tin
   examples: |
-    - cNTT
-    - công nghệ thông tin
+    - công nghệ tt
     - cntt
-- synonym: Công nghệ thông tin Chất lượng cao
+    - cn thông tin
+    - it
+- synonym: công nghệ thông tin chất lượng cao
   examples: |
-    - cNTTCLC
-    - công nghệ thông tin chất lượng cao
     - cnttclc
-- synonym: Hệ thống thông tin 
+    - cntt-clc
+    - it clc
+    - it-clc
+    - high quality it
+- synonym: hệ thống thông tin 
   examples: |
-    - HTTT
-    - hệ thống thông tin
+    - hệ thống tt
     - httt
-- synonym: Công nghệ phần mềm 
+    - ht thông tin
+- synonym: công nghệ phần mềm 
   examples: |
-    - cNPM
-    - công nghệ phần mềm
+    - công nghệ pm
     - cnpm
-- synonym: Kỹ thuật phần mềm
+    - cn phần mềm
+- synonym: kỹ thuật phần mềm
   examples: |
-    - KTPM
     - ktpm
-    - kỹ thuật phần mềm
     - kt phần mềm
-    - KT phần mềm
     - kỹ thuật pm
-    - kỹ thuật PM
-    
-- synonym: Tin học ứng dụng
+- synonym: tin học ứng dụng
   examples: |
     - thud
-    - tH ứng dụng
-    - tin học UD
-    - tHUD
-    - tin học ứng dụng
+    - th ứng dụng
     - tin học ud
-- synonym: Khoa học máy tính
+- synonym: khoa học máy tính
   examples: |
-    - KHMT
-    - khoa học máy tính
-    - Data Science
     - khmt
     - data science
-    - DS
     - ds
-- synonym: Chương trình đào tạo
+- synonym: chương trình đào tạo
   examples: |
-    - cTDT
     - ctdt
-    - cT đào tạo
     - ct đào tạo
 - synonym: Mục tiêu đào tạo
   examples: |
-    - MTDT
     - mtdt
     - mục tiêu dt
-    - mục tiêu DT
-- synonym: Chuẩn đầu ra
+    - mục tiêu
+- synonym: chuẩn đầu ra
   examples: |
-    - chuẩn đầu ra
     - cđr
-    - cĐR
-    - cDR
-    - cdr
-- synonym: Kiến thức đầu ra
+    - đầu ra
+- synonym: kiến thức đầu ra
   examples: |
-    - kiến thức đầu ra
-    - KTDR
     - ktdr
-    - KTĐR
     - ktđr
-    - kiến thức
     - chuẩn đầu ra về kiến thức
-- synonym: Kỹ năng đầu ra
+- synonym: kỹ năng đầu ra
   examples: |
-    - kỹ năng đầu ra
     - kndr
-    - KNĐR
     - knđr
-    - KNDR
     - kỹ năng
     - chuẩn đầu ra về kỹ năng
-- synonym: Cơ hội việc làm
+- synonym: cơ hội việc làm
   examples: |
     - việc làm
     - job
     - jobs
     - việc
     - cơ hội việc làm
-    - cHVL
-    - VL
     - chvl
     - vl
-- synonym: Kế hoạch học tập
+- synonym: kế hoạch học tập
   examples: |
-    - kế hoạch học tập
+    - kh học tập
     - khht
-    - KHHT
-- synonym: Định hướng chương trình đào tạo
+- synonym: định hướng chương trình đào tạo
   examples: |
     - định hướng
     - hướng đào tạo 
     - định hướng đào tạo
-- synonym: Công ty
+- synonym: công ty
   examples: |
     - tổ chức
-    - công ty
-    - tổ chức 
     - cơ quan
-- synonym: Vị trí việc làm
+    - company
+- synonym: vị trí việc làm
   examples: |
-    - Job position
-    - vị trí
+    - job position
+    - vị trí làm việc
 - synonym: khó khăn
   examples: |
     - khó
     - sự khó khăn
+- synonym: sinh viên
+  examples: |
+    - student
+    - sv
+- synonym: học phần
+  examples: |
+    - hp
+    - term
+- synonym: khó khăn
+  examples: |
+    - khó
+    - sự khó khăn
+- synonym: bảo hiểm y tế
+  examples: |
+    - bhyt
+    - bảo hiểm yt
+- synonym: nghiên cứu khoa học
+  examples: |
+    - nckh
+- synonym: văn phòng khoa
+  examples: |
+    - vpk

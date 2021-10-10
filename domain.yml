@@ -30,6 +30,10 @@ intents:
 - chuyennganh:
     use_entities:
         - nganh_hoc
+- bomon:
+    use_entities:
+        - bo_mon
+        - khai_niem
 - khht:
     use_entities:
         - nganh_hoc
@@ -67,7 +71,6 @@ intents:
         - nganh_hoc
         - khai_niem
 entities:
-
   - bo_mon
   - nganh_hoc
   - khai_niem
