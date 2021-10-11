@@ -6,4 +6,3 @@ rules:
   steps:
   - intent: tam_biet
   - action: utter_tam_biet
-
