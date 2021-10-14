@@ -67,10 +67,6 @@ stories:
   steps:
   - intent: chuandaura
   - action: action_ask
-- story: congty
-  steps:
-  - intent: congty
-  - action: action_ask
 - story: chvieclam
   steps:
   - intent: chvieclam
@@ -87,11 +83,12 @@ stories:
   steps:
   - intent: ktchuyennganh
   - action: action_ask
-- story: noilamviec
-  steps:
-  - intent: noilamviec
-  - action: action_ask
 - story: ctdaotao
   steps:
   - intent: ctdaotao
   - action: action_ask
+
+- story: thoitiet
+  steps:
+  - intent: thoitiet
+  - action: ask_thoitiet

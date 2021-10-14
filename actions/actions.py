@@ -14,6 +14,7 @@ from rasa_sdk.events import SlotSet
 import json
 import re
 import sqlite3
+import requests
 from underthesea import pos_tag
 from bs4 import BeautifulSoup
 import urllib.request
@@ -52,26 +53,28 @@ class ask_bomon_gv(Action):
 class action_dinhnghia(Action):
     def name(self) -> Text:
         return "action_dinhnghia"
-    
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-        text = tracker.latest_message['text']
         print('[%s] <- %s' % (self.name(), tracker.latest_message['text']))
-        text_input = text.lower()
-        sqlite_select_Query = "SELECT * from quyChe"
-        cursor.execute(sqlite_select_Query)
-        record = cursor.fetchall()
-        check = False
-        print(text_input)
-        for result in record:
-            name = result[1].lower()
-            define = result[2]
-            if name in text_input:
-                check = True
-                dispatcher.utter_message(define)       
-        if not check:
-            action_unknown.run2(dispatcher, tracker, domain)
+        ent = ['','']
+        h = 0
+        for i in tracker.latest_message['entities']:
+            ent[h] =  '%'+i.get('value').lower()
+            h += 1
+        check = 0
+        try:
+            for i in ent:
+                sqlite_select_Query = 'SELECT * from dinhnghia where lower(entity) like ' + '"'+i+'"'
+                cursor.execute(sqlite_select_Query)
+                record = cursor.fetchall()
+                check += len(record)
+                print(ent)
+                for result in record:
+                    dispatcher.utter_message(result[2])
+            if check == 0: action_unknown.run2(dispatcher, tracker, domain)
+        except: action_unknown.run2(dispatcher, tracker, domain)
+
 class ask_vitri(Action):
     def name(self) -> Text:
         return "ask_vitri"
@@ -94,6 +97,7 @@ class ask_vitri(Action):
                 dispatcher.utter_message(define)       
         if not check:
            action_unknown.run2(dispatcher, tracker, domain)
+
 class ask_gvfullname(Action):
     def name(self) -> Text:
         return "ask_gvfullname"    
@@ -124,6 +128,26 @@ class ask_gvfullname(Action):
                     dispatcher.utter_message(result[4])   
             if not check :
                 dispatcher.utter_message("Không có giáo viên bạn cần tìm trong khoa!!!")
+
+class ask_thoitiet(Action):
+    def name(self) -> Text:
+        return "ask_thoitiet"
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        print('[%s] <- %s' % (self.name(), tracker.latest_message['text']))
+        headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'}
+        city= 'cantho'
+        city = city+'+weather'
+        res = requests.get(f'https://www.google.com/search?q={city}&oq={city}&aqs=chrome.0.35i39l2j0l4j46j69i60.6128j1j7&sourceid=chrome&ie=UTF-8', headers=headers)
+        soup = BeautifulSoup(res.text, 'html.parser')
+        location = soup.select('#wob_loc')[0].getText().strip()
+        time = soup.select('#wob_dts')[0].getText().strip()
+        info = soup.select('#wob_dc')[0].getText().strip()
+        weather = soup.select('#wob_tm')[0].getText().strip()
+        dispatcher.utter_message(location)
+        dispatcher.utter_message(info + ' vào lúc: '+ time.lower())
+        dispatcher.utter_message('Nhiệt độ trung bình: '+weather+"°C")
 
 class ask_gvname(Action):
     def name(self) -> Text:
@@ -172,25 +196,30 @@ class action_ask(Action):
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-        ent = ''
-        for j in tracker.latest_message['entities']:
-            ent += (' '+ j['value'])
-        intent= tracker.latest_message['intent'].get('name')
-        print('[%s] <- %s' % (self.name(), tracker.latest_message['text']))
-        print('[%s] <- %s' % (self.name(), intent))
-        sqlite_select_Query = "SELECT * from " + intent
-        cursor.execute(sqlite_select_Query)
-        record = cursor.fetchall()
-        check = False
-        for result in record:
-            name = result[1].lower()
-            define = result[2]
-            if name in ent[1:].lower():
-                check = True
-                dispatcher.utter_message(define) 
-        if not check:
-            action_unknown.run2(dispatcher, tracker, domain)
+        slot = tracker.get_slot('nganh_hoc')
+        ent = ['','']
+        if slot :
+            ent[0] = '%'+slot
+        else: 
+            h = 0
+            ent = ['','']
+            for i in tracker.latest_message['entities']:
+                ent[h] =  '%'+i.get('value').lower()
+                h += 1
 
+        intent = tracker.latest_message['intent'].get('name')
+        print('[%s] <- %s' % (self.name(), intent))
+        print(ent)
+        check = 0
+        for i in ent:
+            sqlite_select_Query = 'SELECT * from ' + intent + ' where entity like ' + '"'+i+'"'
+            cursor.execute(sqlite_select_Query)
+            print(sqlite_select_Query)
+            record = cursor.fetchall()
+            check += len(record)
+            for result in record:
+                dispatcher.utter_message(result[2]) 
+        if check == 0: action_unknown.run2(dispatcher, tracker, domain)
 
 
 class action_unknown(Action):
@@ -217,7 +246,7 @@ class action_unknown(Action):
     def run2(dispatcher: CollectingDispatcher,
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-        texttt = (tracker.latest_message['text']).lower()
+        texttt = (tracker.latest_message['text'])
         for i in stopword:
             s = texttt.replace(i, '')
             texttt = s

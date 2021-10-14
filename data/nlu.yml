@@ -15,7 +15,7 @@ nlu:
     - nice too meet you
     - hi my friend
     - hi buddy
-
+    -alo
 - intent: tam_biet
   examples: |
     - bye
@@ -47,6 +47,21 @@ nlu:
     - thông tin cá nhân
     - thông tin bản thân
     - info
+- intent: thoitiet
+  examples: |
+    - thời tiết hôm nay
+    - thời tiết
+    - weather
+    - thời tiết cần thơ
+    - hôm nay trời ra sao
+    - thời tiết như thế nào
+    - dự báo thời tiết
+    - trời có mưa không
+    - trời có nắng không
+    - trời đẹp
+    - ngày đẹp trời
+    - trời nắng
+    - trời mưa
 - intent: gioi_thieuchucnang
   examples: |
     - công việc của bạn là gì?
@@ -94,7 +109,7 @@ nlu:
     - mình nhớ đường rồi
 - intent: bomon
   examples: |
-#1cntt
+    - bộ môn [công nghệ thông tin](bo_mon)
     - giới thiệu bộ môn [công nghệ thông tin](bo_mon)
     - bộ môn [công nghệ tt](bo_mon) là gì?
     - có bộ môn nào tên [cntt](bo_mon) không?
@@ -109,7 +124,6 @@ nlu:
     - cho tôi biết bộ môn [công nghệ thông tin](bo_mon) là gì?
     - tôi không rõ về bộ môn [công nghệ thông tin](bo_mon)
     - tôi cần trợ giúp về bộ môn [công nghệ thông tin](bo_mon)
-#2cnpm
     - giới thiệu bộ môn [công nghệ phần mềm](bo_mon)
     - bộ môn [cnpm](bo_mon) là gì?
     - có bộ môn nào tên [cnpm](bo_mon) không?
@@ -125,7 +139,6 @@ nlu:
     - tôi không rõ về bộ môn [công nghệ phần mềm](bo_mon)
     - tôi cần trợ giúp về bộ môn [công nghệ phần mềm](bo_mon)
     - tôi cần tư vấn về bộ môn [công nghệ phần mềm](bo_mon)
-#3mmt&ttdl
     - giới thiệu bộ môn [mạng máy tính và truyền thông dữ liệu](bo_mon)
     - bộ môn [mmt-ttdl](bo_mon) là gì?
     - có bộ môn nào tên [mmt&ttdl](bo_mon) không?
@@ -141,7 +154,6 @@ nlu:
     - tôi không rõ về bộ môn [mạng máy tính và truyền thông dữ liệu](bo_mon)
     - tôi cần trợ giúp về bộ môn [mạng máy tính và truyền thông dữ liệu](bo_mon)
     - tôi cần tư vấn về bộ môn [mạng máy tính và truyền thông dữ liệu](bo_mon)
-#4khmt
     - giới thiệu bộ môn [khoa học máy tính](bo_mon)
     - có bộ môn nào tên [khmt](bo_mon) không?
     - thông tin về bộ môn [khoa học máy tính](bo_mon)
@@ -163,11 +175,10 @@ nlu:
     - cho tôi biết bộ môn [khoa học máy tínhbo_mon) là gì?
     - tôi không rõ về bộ môn [khoa học máy tính](bo_mon)
     - tôi cần trợ giúp về bộ môn [khoa học máy tính](bo_mon)
-    - [khmt](bo_mon) info
-    - giới thiệu [khmt](bo_mon)
-    - [khmt](bo_mon)
+    - bộ môn [khmt](bo_mon) info
+    - giới thiệu bộ môn [khmt](bo_mon)
+    - bộ môn [khmt](bo_mon)
     - bộ môn [khmt](bo_mon) là gì?
-#5thud
     - giới thiệu bộ môn [tin học ứng dụng](bo_mon)
     - có bộ môn nào tên [thud](bo_mon) không?
     - thông tin về bộ môn [tin học ứng dụng](bo_mon)
@@ -196,7 +207,6 @@ nlu:
     - giới thiệu [thud](bo_mon)
     - [thud](bo_mon)
     - bộ môn [thud](bo_mon) là gì?
-#6httt
     - giới thiệu bộ môn [hệ thống thông tin](bo_mon)
     - bộ môn [hệ thống thông tin](bo_mon) là gì?
     - có bộ môn nào tên [hệ thống thông tin](bo_mon) không?
@@ -213,7 +223,7 @@ nlu:
     - tôi cần trợ giúp về bộ môn [hệ thống thông tin](bo_mon)
 - intent: chuyennganh
   examples: |
-#1httt
+    - ngành [hệ thống thông tin](nganh_hoc)
     - giới thiệu ngành [hệ thống thông tin](nganh_hoc) 
     - có ngành nào tên [httt](nganh_hoc) không?
     - thông tin về ngành [httt](nganh_hoc) 
@@ -238,7 +248,6 @@ nlu:
     - giới thiệu [hệ thống thông tin](nganh_hoc) 
     - [hệ thống thông tin](nganh_hoc) 
     - ngành [hệ thống thông tin](nganh_hoc) là gì?
-#2cnttclc
     - giới thiệu ngành [công nghệ thông tin chất lượng cao](nganh_hoc) 
     - có ngành nào tên [cnttclc](nganh_hoc) không?
     - thông tin về ngành [công nghệ thông tin chất lượng cao](nganh_hoc) 
@@ -256,7 +265,6 @@ nlu:
     - giới thiệu [công nghệ thông tin chất lượng cao](nganh_hoc) 
     - [công nghệ thông tin chất lượng cao](nganh_hoc) 
     - ngành [cnttclc](nganh_hoc) là gì?
-#3cntt
     - giới thiệu ngành [công nghệ thông tin](nganh_hoc) 
     - thông tin về ngành [công nghệ thông tin](nganh_hoc) 
     - bot cho hỏi ngành [công nghệ thông tin](nganh_hoc) là gì?
@@ -280,7 +288,6 @@ nlu:
     - giới thiệu [công nghệ thông tin](nganh_hoc) 
     - [công nghệ thông tin](nganh_hoc) 
     - ngành [cntt](nganh_hoc) là gì?
-#4ktpm
     - giới thiệu ngành [kỹ thuật phần mềm](nganh_hoc) 
     - ngành [kỹ thuật phần mềm](nganh_hoc) là gì?
     - có ngành nào tên [ktpm](nganh_hoc) không?
@@ -294,7 +301,6 @@ nlu:
     - cho tôi biết ngành [kỹ thuật phần mềm](nganh_hoc) là gì
     - tôi không rõ về ngành [kỹ thuật phần mềm](nganh_hoc), chatbot có thể giải thích thêm được không?
     - tôi cần trợ giúp về ngành [kỹ thuật phần mềm](nganh_hoc) 
-#5khmt
     - tôi cần tư vấn về ngành [kỹ thuật phần mềm](nganh_hoc) 
     - giới thiệu chuyên ngành [khoa học máy tính](nganh_hoc) 
     - giới thiệu chuyên ngành [khoa học máy tính](nganh_hoc) 
@@ -312,11 +318,10 @@ nlu:
     - cho tôi biết ngành [khoa học máy tính](nganh_hoc) là gì?
     - tôi không rõ về ngành [khoa học máy tính](nganh_hoc) 
     - tôi cần trợ giúp về ngành [khoa học máy tính](nganh_hoc) 
-    - [khmt](nganh_hoc) info
-    - giới thiệu [khmt](nganh_hoc) 
-    - [khmt](nganh_hoc) 
+    - ngành [khmt](nganh_hoc) info
+    - giới thiệu ngành [khmt](nganh_hoc) 
+    - ngành [khmt](nganh_hoc) 
     - ngành [khmt](nganh_hoc) là gì?
-#6thud
     - giới thiệu chuyên ngành [tin học ứng dụng](nganh_hoc) 
     - có chuyên ngành nào tên [tin học ứng dụng](nganh_hoc) không?
     - thông tin về ngành [tin học ứng dụng](nganh_hoc) 
@@ -332,7 +337,6 @@ nlu:
     - cho tôi biết ngành [tin học ứng dụng](nganh_hoc) là gì?
     - tôi không rõ về ngành [tin học ứng dụng](nganh_hoc) 
     - tôi cần trợ giúp về ngành [tin học ứng dụng](nganh_hoc)
-#7mmt-ttdl
     - giới thiệu ngành [mạng máy tính và truyền thông dữ liệu](nganh_hoc)
     - ngành [mạng máy tính và truyền thông dữ liệu](nganh_hoc) là gì?
     - có ngành nào tên [mmt-ttdl](nganh_hoc) không?
@@ -349,6 +353,7 @@ nlu:
     - tôi cần tư vấn về ngành [mạng máy tính và truyền thông dữ liệu](nganh_hoc)
 - intent: khht
   examples: |
+    - [khht](khai_niem) của ngành [hệ thống thông tin](nganh_hoc)
     - [kế hoạch học tập](khai_niem) của ngành [hệ thống thông tin](nganh_hoc) là gì
     - ngành [hệ thống thông tin](nganh_hoc) có [kế hoạch học tập](khai_niem) như thế nào?
     - để học ngành [hệ thống thông tin](nganh_hoc) cần [khht](khai_niem) gì?
@@ -619,88 +624,6 @@ nlu:
     - tôi không rõ về [cđr](khai_niem) của ngành [mạng máy tính và truyền thông dữ liệu](nganh_hoc), có thể cho tôi biết thêm không?
     - tôi cần trợ giúp về [cđr](khai_niem) của ngành [mạng máy tính và truyền thông dữ liệu](nganh_hoc)
     - tôi cần tư vấn về [cđr](khai_niem) của ngành [mạng máy tính và truyền thông dữ liệu](nganh_hoc)
-- intent: congty
-  examples: |
-    - tốt nghiệp ngành [hệ thống thông tin](nganh_hoc) làm ở công ty nào?
-    - tổ chức, cơ quan, công ty tuyển dụng sinh viên ngành [hệ thống thông tin](nganh_hoc) 
-    - các công ty tiêu biểu tuyển dụng sinh viên ngành [hệ thống thông tin](nganh_hoc) 
-    - các công ty liên quan đến [hệ thống thông tin](nganh_hoc) 
-    - các công ty mạnh về [hệ thống thông tin](nganh_hoc) 
-    - [hệ thống thông tin](nganh_hoc) các công ty liên quan 
-    - sinh viên ngành [hệ thống thông tin](nganh_hoc) nên ứng tuyển vào những công ty nào
-    - các công ty tiêu biểu tuyển dụng sinh viên ngành [hệ thống thông tin](nganh_hoc) 
-    - các công ty liên quan đến [hệ thống thông tin](nganh_hoc) 
-    - các công ty mạnh về [hệ thống thông tin](nganh_hoc) 
-    - [hệ thống thông tin](nganh_hoc) các công ty liên quan 
-    - sinh viên ngành [hệ thống thông tin](nganh_hoc) nên ứng tuyển vào những công ty nào
-    - tốt nghiệp ngành [công nghệ thông tin chất lượng cao](nganh_hoc) làm ở công ty nào?
-    - tổ chức, cơ quan, công ty tuyển dụng sinh viên ngành [công nghệ thông tin chất lượng cao](nganh_hoc) 
-    - các công ty tiêu biểu tuyển dụng sinh viên ngành [công nghệ thông tin chất lượng cao](nganh_hoc) 
-    - các công ty liên quan đến [công nghệ thông tin chất lượng cao](nganh_hoc) 
-    - các công ty mạnh về [công nghệ thông tin chất lượng cao](nganh_hoc) 
-    - [công nghệ thông tin chất lượng cao](nganh_hoc) các công ty liên quan 
-    - sinh viên ngành [công nghệ thông tin chất lượng cao](nganh_hoc) nên ứng tuyển vào những công ty nào 
-    - các công ty tiêu biểu tuyển dụng sinh viên ngành [công nghệ thông tin chất lượng cao](nganh_hoc) 
-    - các công ty liên quan đến [công nghệ thông tin chất lượng cao](nganh_hoc) 
-    - các công ty mạnh về [công nghệ thông tin chất lượng cao](nganh_hoc) 
-    - [công nghệ thông tin chất lượng cao](nganh_hoc) các công ty liên quan 
-    - sinh viên ngành [công nghệ thông tin chất lượng cao](nganh_hoc) nên ứng tuyển vào những công ty nào
-    - tốt nghiệp ngành [công nghệ thông tin](nganh_hoc) làm ở công ty nào?
-    - tổ chức, cơ quan, công ty tuyển dụng sinh viên ngành [công nghệ thông tin](nganh_hoc) 
-    - các công ty tiêu biểu tuyển dụng sinh viên ngành [công nghệ thông tin](nganh_hoc) 
-    - các công ty liên quan đến [công nghệ thông tin](nganh_hoc) 
-    - các công ty mạnh về [công nghệ thông tin](nganh_hoc) 
-    - [công nghệ thông tin](nganh_hoc) các công ty liên quan 
-    - sinh viên ngành [công nghệ thông tin](nganh_hoc) nên ứng tuyển vào những công ty nào
-    - các công ty tiêu biểu tuyển dụng sinh viên ngành [công nghệ thông tin](nganh_hoc) 
-    - các công ty liên quan đến [công nghệ thông tin](nganh_hoc) 
-    - các công ty mạnh về [công nghệ thông tin](nganh_hoc) 
-    - [công nghệ thông tin](nganh_hoc) các công ty liên quan 
-    - sinh viên ngành [công nghệ thông tin](nganh_hoc) nên ứng tuyển vào những công ty nào
-    - tốt nghiệp ngành [kỹ thuật phần mềm](nganh_hoc) làm ở công ty nào?
-    - tổ chức, cơ quan, công ty tuyển dụng sinh viên ngành [kỹ thuật phần mềm](nganh_hoc) 
-    - sinh viên ngành [kỹ thuật phần mềm](nganh_hoc) được chỗ nào tuyển?
-    - nói về tổ chức, cơ quan, công ty tuyển dụng sinh viên ngành [kỹ thuật phần mềm](nganh_hoc) 
-    - tôi muốn biết thêm thông tin về tổ chức, cơ quan, công ty tuyển dụng sinh viên ngành [kỹ thuật phần mềm](nganh_hoc) 
-    - liệt kê các tổ chức, cơ quan, công ty tuyển dụng sinh viên ngành [kỹ thuật phần mềm](nganh_hoc) 
-    - cho tôi biết các tổ chức, cơ quan, công ty nào tuyển dụng sinh viên ngành [kỹ thuật phần mềm](nganh_hoc) 
-    - tôi không rõ về các tổ chức, cơ quan, công ty tuyển dụng sinh viên ngành [kỹ thuật phần mềm](nganh_hoc) 
-    - tôi cần tư vấn về các tổ chức, cơ quan, công ty tuyển dụng sinh viên ngành [kỹ thuật phần mềm](nganh_hoc) 
-    - tôi cần trợ giúp về các tổ chức, cơ quan, công ty tuyển dụng sinh viên ngành [kỹ thuật phần mềm](nganh_hoc) 
-    - tốt nghiệp ngành [khoa học máy tính](nganh_hoc) làm ở công ty nào?
-    - tổ chức, cơ quan, công ty tuyển dụng sinh viên ngành [khoa học máy tính](nganh_hoc) 
-    - các công ty tiêu biểu tuyển dụng sinh viên ngành [khoa học máy tính](nganh_hoc) 
-    - các công ty liên quan đến [khoa học máy tính](nganh_hoc) 
-    - các công ty mạnh về [khoa học máy tính](nganh_hoc) 
-    - [khoa học máy tính](nganh_hoc) các công ty liên quan 
-    - sinh viên ngành [khoa học máy tính](nganh_hoc) nên ứng tuyển vào những công ty nào
-    - các công ty tiêu biểu tuyển dụng sinh viên ngành [khoa học máy tính](nganh_hoc) 
-    - các công ty liên quan đến [khoa học máy tính](nganh_hoc) 
-    - các công ty mạnh về [khoa học máy tính](nganh_hoc) 
-    - [khoa học máy tính](nganh_hoc) các công ty liên quan 
-    - sinh viên ngành [khoa học máy tính](nganh_hoc) nên ứng tuyển vào những công ty nào
-    - tốt nghiệp ngành [tin học ứng dụng](nganh_hoc) làm ở công ty nào?
-    - tổ chức, cơ quan, công ty tuyển dụng sinh viên ngành [tin học ứng dụng](nganh_hoc) 
-    - các công ty tiêu biểu tuyển dụng sinh viên ngành [tin học ứng dụng](nganh_hoc) 
-    - các công ty liên quan đến [tin học ứng dụng](nganh_hoc) 
-    - các công ty mạnh về [tin học ứng dụng](nganh_hoc) 
-    - [tin học ứng dụng](nganh_hoc) các công ty liên quan 
-    - sinh viên ngành [tin học ứng dụng](nganh_hoc) nên ứng tuyển vào những công ty nào
-    - các công ty tiêu biểu tuyển dụng sinh viên ngành [tin học ứng dụng](nganh_hoc) 
-    - các công ty liên quan đến [tin học ứng dụng](nganh_hoc) 
-    - các công ty mạnh về [tin học ứng dụng](nganh_hoc) 
-    - [tin học ứng dụng](nganh_hoc) các công ty liên quan 
-    - sinh viên ngành [tin học ứng dụng](nganh_hoc) nên ứng tuyển vào những công ty nào
-    - tốt nghiệp ngành [mạng máy tính và truyền thông dữ liệu](nganh_hoc) làm ở [công ty](khai_niem) nào?
-    - [tổ chức](khai_niem), [cơ quan](khai_niem), [công ty](khai_niem) tuyển dụng sinh viên ngành [mạng máy tính và truyền thông dữ liệu](nganh_hoc)
-    - sinh viên ngành [mạng máy tính và truyền thông dữ liệu](nganh_hoc) được chỗ nào tuyển?
-    - nói về [tổ chức](khai_niem), [cơ quan](khai_niem), [công ty](khai_niem) tuyển dụng sinh viên ngành [mạng máy tính và truyền thông dữ liệu](nganh_hoc)
-    - tôi muốn biết thêm thông tin về [tổ chức](khai_niem), [cơ quan](khai_niem), [công ty](khai_niem) tuyển dụng sinh viên ngành [mạng máy tính và truyền thông dữ liệu](nganh_hoc)
-    - liệt kê các [tổ chức](khai_niem), [cơ quan](khai_niem), [công ty](khai_niem) tuyển dụng sinh viên ngành [mạng máy tính và truyền thông dữ liệu](nganh_hoc)
-    - cho tôi biết các [tổ chức](khai_niem), [cơ quan](khai_niem), [công ty](khai_niem) nào tuyển dụng sinh viên ngành [mạng máy tính và truyền thông dữ liệu](nganh_hoc)
-    - tôi không rõ về các [tổ chức](khai_niem), [cơ quan](khai_niem), [công ty](khai_niem) tuyển dụng sinh viên ngành [mạng máy tính và truyền thông dữ liệu](nganh_hoc)
-    - tôi cần tư vấn về các [tổ chức](khai_niem), [cơ quan](khai_niem), [công ty](khai_niem) tuyển dụng sinh viên ngành [mạng máy tính và truyền thông dữ liệu](nganh_hoc)
-    - tôi cần trợ giúp về các [tổ chức](khai_niem), [cơ quan](khai_niem), [công ty](khai_niem) tuyển dụng sinh viên ngành [mạng máy tính và truyền thông dữ liệu](nganh_hoc)
 - intent: chvieclam
   examples: |
     - [cơ hội việc làm](khai_niem) sau khi tốt nghiệp ngành [hệ thống thông tin](nganh_hoc) 
@@ -774,7 +697,6 @@ nlu:
     - tôi không rõ về [cơ hội việc làm](khai_niem) của ngành [kỹ thuật phần mềm](nganh_hoc), có thể cho tôi biết thêm không?
     - tôi cần trợ giúp về [cơ hội việc làm](khai_niem) của ngành [kỹ thuật phần mềm](nganh_hoc) 
     - tôi cần tư vấn về [cơ hội việc làm](khai_niem) của ngành [kỹ thuật phần mềm](nganh_hoc) 
-    - sinh viên ktpm ra trường làm gì
     - [cơ hội việc làm](khai_niem) sau khi tốt nghiệp ngành [khoa học máy tính](nganh_hoc) 
     - sau khi tốt nghiệp ngành [khoa học máy tính](nganh_hoc) làm việc gì
     - thông tin về việc làm của ngành [khoa học máy tính](nganh_hoc) 
@@ -826,9 +748,87 @@ nlu:
     - tôi không rõ về [chvl](khai_niem) của ngành [mạng máy tính và truyền thông dữ liệu](nganh_hoc), có thể cho tôi biết thêm không?
     - tôi cần trợ giúp về [vl](khai_niem) của ngành [mạng máy tính và truyền thông dữ liệu](nganh_hoc)
     - tôi cần tư vấn về [job](khai_niem) của ngành [mạng máy tính và truyền thông dữ liệu](nganh_hoc)
+    - tổ chức, cơ quan, công ty tuyển dụng sinh viên ngành [hệ thống thông tin](nganh_hoc) 
+    - các công ty tiêu biểu tuyển dụng sinh viên ngành [hệ thống thông tin](nganh_hoc) 
+    - các công ty liên quan đến [hệ thống thông tin](nganh_hoc) 
+    - các công ty mạnh về [hệ thống thông tin](nganh_hoc) 
+    - [hệ thống thông tin](nganh_hoc) các công ty liên quan 
+    - sinh viên ngành [hệ thống thông tin](nganh_hoc) nên ứng tuyển vào những công ty nào
+    - các công ty tiêu biểu tuyển dụng sinh viên ngành [hệ thống thông tin](nganh_hoc) 
+    - các công ty liên quan đến [hệ thống thông tin](nganh_hoc) 
+    - các công ty mạnh về [hệ thống thông tin](nganh_hoc) 
+    - [hệ thống thông tin](nganh_hoc) các công ty liên quan 
+    - sinh viên ngành [hệ thống thông tin](nganh_hoc) nên ứng tuyển vào những công ty nào
+    - tốt nghiệp ngành [công nghệ thông tin chất lượng cao](nganh_hoc) làm ở công ty nào?
+    - tổ chức, cơ quan, công ty tuyển dụng sinh viên ngành [công nghệ thông tin chất lượng cao](nganh_hoc) 
+    - các công ty tiêu biểu tuyển dụng sinh viên ngành [công nghệ thông tin chất lượng cao](nganh_hoc) 
+    - các công ty liên quan đến [công nghệ thông tin chất lượng cao](nganh_hoc) 
+    - các công ty mạnh về [công nghệ thông tin chất lượng cao](nganh_hoc) 
+    - [công nghệ thông tin chất lượng cao](nganh_hoc) các công ty liên quan 
+    - sinh viên ngành [công nghệ thông tin chất lượng cao](nganh_hoc) nên ứng tuyển vào những công ty nào 
+    - các công ty tiêu biểu tuyển dụng sinh viên ngành [công nghệ thông tin chất lượng cao](nganh_hoc) 
+    - các công ty liên quan đến [công nghệ thông tin chất lượng cao](nganh_hoc) 
+    - các công ty mạnh về [công nghệ thông tin chất lượng cao](nganh_hoc) 
+    - [công nghệ thông tin chất lượng cao](nganh_hoc) các công ty liên quan 
+    - sinh viên ngành [công nghệ thông tin chất lượng cao](nganh_hoc) nên ứng tuyển vào những công ty nào
+    - tốt nghiệp ngành [công nghệ thông tin](nganh_hoc) làm ở công ty nào?
+    - tổ chức, cơ quan, công ty tuyển dụng sinh viên ngành [công nghệ thông tin](nganh_hoc) 
+    - các công ty tiêu biểu tuyển dụng sinh viên ngành [công nghệ thông tin](nganh_hoc) 
+    - các công ty liên quan đến [công nghệ thông tin](nganh_hoc) 
+    - các công ty mạnh về [công nghệ thông tin](nganh_hoc) 
+    - [công nghệ thông tin](nganh_hoc) các công ty liên quan 
+    - sinh viên ngành [công nghệ thông tin](nganh_hoc) nên ứng tuyển vào những công ty nào
+    - các công ty tiêu biểu tuyển dụng sinh viên ngành [công nghệ thông tin](nganh_hoc) 
+    - các công ty liên quan đến [công nghệ thông tin](nganh_hoc) 
+    - các công ty mạnh về [công nghệ thông tin](nganh_hoc) 
+    - [công nghệ thông tin](nganh_hoc) các công ty liên quan 
+    - sinh viên ngành [công nghệ thông tin](nganh_hoc) nên ứng tuyển vào những công ty nào
+    - tốt nghiệp ngành [kỹ thuật phần mềm](nganh_hoc) làm ở công ty nào?
+    - tổ chức, cơ quan, công ty tuyển dụng sinh viên ngành [kỹ thuật phần mềm](nganh_hoc) 
+    - sinh viên ngành [kỹ thuật phần mềm](nganh_hoc) được chỗ nào tuyển?
+    - nói về tổ chức, cơ quan, công ty tuyển dụng sinh viên ngành [kỹ thuật phần mềm](nganh_hoc) 
+    - tôi muốn biết thêm thông tin về tổ chức, cơ quan, công ty tuyển dụng sinh viên ngành [kỹ thuật phần mềm](nganh_hoc) 
+    - liệt kê các tổ chức, cơ quan, công ty tuyển dụng sinh viên ngành [kỹ thuật phần mềm](nganh_hoc) 
+    - cho tôi biết các tổ chức, cơ quan, công ty nào tuyển dụng sinh viên ngành [kỹ thuật phần mềm](nganh_hoc) 
+    - tôi không rõ về các tổ chức, cơ quan, công ty tuyển dụng sinh viên ngành [kỹ thuật phần mềm](nganh_hoc) 
+    - tôi cần tư vấn về các tổ chức, cơ quan, công ty tuyển dụng sinh viên ngành [kỹ thuật phần mềm](nganh_hoc) 
+    - tôi cần trợ giúp về các tổ chức, cơ quan, công ty tuyển dụng sinh viên ngành [kỹ thuật phần mềm](nganh_hoc) 
+    - tốt nghiệp ngành [khoa học máy tính](nganh_hoc) làm ở công ty nào?
+    - tổ chức, cơ quan, công ty tuyển dụng sinh viên ngành [khoa học máy tính](nganh_hoc) 
+    - các công ty tiêu biểu tuyển dụng sinh viên ngành [khoa học máy tính](nganh_hoc) 
+    - các công ty liên quan đến [khoa học máy tính](nganh_hoc) 
+    - các công ty mạnh về [khoa học máy tính](nganh_hoc) 
+    - [khoa học máy tính](nganh_hoc) các công ty liên quan 
+    - sinh viên ngành [khoa học máy tính](nganh_hoc) nên ứng tuyển vào những công ty nào
+    - các công ty tiêu biểu tuyển dụng sinh viên ngành [khoa học máy tính](nganh_hoc) 
+    - các công ty liên quan đến [khoa học máy tính](nganh_hoc) 
+    - các công ty mạnh về [khoa học máy tính](nganh_hoc) 
+    - [khoa học máy tính](nganh_hoc) các công ty liên quan 
+    - sinh viên ngành [khoa học máy tính](nganh_hoc) nên ứng tuyển vào những công ty nào
+    - tốt nghiệp ngành [tin học ứng dụng](nganh_hoc) làm ở công ty nào?
+    - tổ chức, cơ quan, công ty tuyển dụng sinh viên ngành [tin học ứng dụng](nganh_hoc) 
+    - các công ty tiêu biểu tuyển dụng sinh viên ngành [tin học ứng dụng](nganh_hoc) 
+    - các công ty liên quan đến [tin học ứng dụng](nganh_hoc) 
+    - các công ty mạnh về [tin học ứng dụng](nganh_hoc) 
+    - [tin học ứng dụng](nganh_hoc) các công ty liên quan 
+    - sinh viên ngành [tin học ứng dụng](nganh_hoc) nên ứng tuyển vào những công ty nào
+    - các công ty tiêu biểu tuyển dụng sinh viên ngành [tin học ứng dụng](nganh_hoc) 
+    - các công ty liên quan đến [tin học ứng dụng](nganh_hoc) 
+    - các công ty mạnh về [tin học ứng dụng](nganh_hoc) 
+    - [tin học ứng dụng](nganh_hoc) các công ty liên quan 
+    - sinh viên ngành [tin học ứng dụng](nganh_hoc) nên ứng tuyển vào những công ty nào
+    - tốt nghiệp ngành [mạng máy tính và truyền thông dữ liệu](nganh_hoc) làm ở công ty nào?
+    - tổ chức, cơ quan, công ty tuyển dụng sinh viên ngành [mạng máy tính và truyền thông dữ liệu](nganh_hoc)
+    - sinh viên ngành [mạng máy tính và truyền thông dữ liệu](nganh_hoc) được chỗ nào tuyển?
+    - nói về tổ chức, cơ quan, công ty tuyển dụng sinh viên ngành [mạng máy tính và truyền thông dữ liệu](nganh_hoc)
+    - tôi muốn biết thêm thông tin về tổ chức, cơ quan, công ty tuyển dụng sinh viên ngành [mạng máy tính và truyền thông dữ liệu](nganh_hoc)
+    - liệt kê các tổ chức, cơ quan, công ty tuyển dụng sinh viên ngành [mạng máy tính và truyền thông dữ liệu](nganh_hoc)
+    - cho tôi biết các tổ chức, cơ quan, công ty nào tuyển dụng sinh viên ngành [mạng máy tính và truyền thông dữ liệu](nganh_hoc)
+    - tôi không rõ về các tổ chức, cơ quan, công ty tuyển dụng sinh viên ngành [mạng máy tính và truyền thông dữ liệu](nganh_hoc)
+    - tôi cần tư vấn về các tổ chức, cơ quan, công ty) tuyển dụng sinh viên ngành [mạng máy tính và truyền thông dữ liệu](nganh_hoc)
+    - tôi cần trợ giúp về các tổ chức, cơ quan, công ty tuyển dụng sinh viên ngành [mạng máy tính và truyền thông dữ liệu](nganh_hoc)
 - intent: muctieu
   examples: |
-#1httt
     - [mục tiêu](khai_niem) của khoa khi đào tạo ngành [hệ thống thông tin](nganh_hoc) là gì
     - [mục tiêu đào tạo](khai_niem) của ngành [hệ thống thông tin](nganh_hoc) là gì
     - thông tin về  [mục tiêu đào tạo](khai_niem) của ngành [hệ thống thông tin](nganh_hoc) 
@@ -854,7 +854,6 @@ nlu:
     - cho tôi biết [mục tiêu đào tạo](khai_niem) của ngành [hệ thống thông tin](nganh_hoc) 
     - tôi không rõ về [mục tiêu đào tạo](khai_niem) của ngành [hệ thống thông tin](nganh_hoc), có thể cho tôi biết thêm không?
     - tôi cần trợ giúp về [mục tiêu đào tạo](khai_niem) của ngành [hệ thống thông tin](nganh_hoc)
-#2cnttclc
     - [mục tiêu](khai_niem) của khoa khi đào tạo ngành [công nghệ thông tin chất lượng cao](nganh_hoc) là gì
     - [mục tiêu đào tạo](khai_niem) của ngành [công nghệ thông tin chất lượng cao](nganh_hoc) là gì
     - thông tin về  [mục tiêu đào tạo](khai_niem) của ngành [công nghệ thông tin chất lượng cao](nganh_hoc) 
@@ -880,7 +879,6 @@ nlu:
     - cho tôi biết [mục tiêu đào tạo](khai_niem) của ngành [công nghệ thông tin chất lượng cao](nganh_hoc) 
     - tôi không rõ về [mục tiêu đào tạo](khai_niem) của ngành [công nghệ thông tin chất lượng cao](nganh_hoc), có thể cho tôi biết thêm không?
     - tôi cần trợ giúp về [mục tiêu đào tạo](khai_niem) của ngành [công nghệ thông tin chất lượng cao](nganh_hoc)
-#3cntt
     - [mục tiêu](khai_niem) của khoa khi đào tạo ngành [công nghệ thông tin](nganh_hoc) là gì
     - [mục tiêu đào tạo](khai_niem) của ngành [công nghệ thông tin](nganh_hoc) là gì
     - thông tin về [mục tiêu đào tạo](khai_niem) của ngành [công nghệ thông tin](nganh_hoc) 
@@ -906,7 +904,6 @@ nlu:
     - cho tôi biết [mục tiêu đào tạo](khai_niem) của ngành [công nghệ thông tin](nganh_hoc) 
     - tôi không rõ về [mục tiêu đào tạo](khai_niem) của ngành [công nghệ thông tin](nganh_hoc), có thể cho tôi biết thêm không?
     - tôi cần trợ giúp về [mục tiêu đào tạo](khai_niem) của ngành [công nghệ thông tin](nganh_hoc)
-#4ktpm
     - [mục tiêu](khai_niem) của khoa khi đào tạo ngành [kỹ thuật phần mềm](nganh_hoc) là gì
     - [mục tiêu đào tạo](khai_niem) của ngành [kỹ thuật phần mềm](nganh_hoc) là gì
     - thông tin về  [mục tiêu đào tạo](khai_niem) của ngành [kỹ thuật phần mềm](nganh_hoc) 
@@ -921,7 +918,6 @@ nlu:
     - tôi không rõ về [mục tiêu đào tạo](khai_niem) của ngành [kỹ thuật phần mềm](nganh_hoc), có thể cho tôi biết thêm không?
     - tôi cần trợ giúp về [mục tiêu đào tạo](khai_niem) của ngành [kỹ thuật phần mềm](nganh_hoc) 
     - tôi cần tư vấn về [mục tiêu đào tạo](khai_niem) của ngành [kỹ thuật phần mềm](nganh_hoc)
-#5khmt
     - [mục tiêu](khai_niem) của khoa khi đào tạo ngành [khoa học máy tính](nganh_hoc) là gì
     - [mục tiêu đào tạo](khai_niem) của ngành [khoa học máy tính](nganh_hoc) là gì
     - thông tin về  [mục tiêu đào tạo](khai_niem) của ngành [khoa học máy tính](nganh_hoc) 
@@ -947,7 +943,6 @@ nlu:
     - cho tôi biết [mục tiêu đào tạo](khai_niem) của ngành [khoa học máy tính](nganh_hoc) 
     - tôi không rõ về [mục tiêu đào tạo](khai_niem) của ngành [khoa học máy tính](nganh_hoc), có thể cho tôi biết thêm không?
     - tôi cần trợ giúp về [mục tiêu đào tạo](khai_niem) của ngành [khoa học máy tính](nganh_hoc) 
-#6thud
     - [mục tiêu](khai_niem) của khoa khi đào tạo ngành [tin học ứng dụng](nganh_hoc) là gì
     - [mục tiêu đào tạo](khai_niem) của ngành [tin học ứng dụng](nganh_hoc) là gì
     - thông tin về [mục tiêu đào tạo](khai_niem) của ngành [tin học ứng dụng](nganh_hoc) 
@@ -973,7 +968,6 @@ nlu:
     - cho tôi biết [mục tiêu đào tạo](khai_niem) của ngành [tin học ứng dụng](nganh_hoc) 
     - tôi không rõ về [mục tiêu đào tạo](khai_niem) của ngành [tin học ứng dụng](nganh_hoc), có thể cho tôi biết thêm không?
     - tôi cần trợ giúp về [mục tiêu đào tạo](khai_niem) của ngành [tin học ứng dụng](nganh_hoc)
-#7mmt-ttdl
     - [mục tiêu](khai_niem) của khoa khi đào tạo ngành [mạng máy tính và truyền thông dữ liệu](nganh_hoc) là gì
     - [mục tiêu đào tạo](khai_niem) của ngành [mạng máy tính và truyền thông dữ liệu](nganh_hoc) là gì
     - thông tin về  [mtdt](khai_niem) của ngành [mạng máy tính và truyền thông dữ liệu](nganh_hoc)
@@ -990,6 +984,20 @@ nlu:
     - tôi cần tư vấn về [mục tiêu đào tạo](khai_niem) của ngành [mạng máy tính và truyền thông dữ liệu](nganh_hoc)
 - intent: vitrilamviec
   examples: |
+    - học ngành [hệ thống thông tin](nganh_hoc) ra trường làm gì
+    - học ngành [mạng máy tính và truyền thông dữ liệu](nganh_hoc) ra trường làm gì
+    - học ngành [khoa học máy tính](nganh_hoc) ra trường làm gì
+    - học ngành [công nghệ thông tin](nganh_hoc) có thể làm việc gì
+    - học ngành [công nghệ thông tin chất lượng cao](nganh_hoc) ra trường làm gì
+    - học ngành [kỹ thuật phần mềm](nganh_hoc) ra trường làm gì
+    - học ngành [tin học ứng dụng](nganh_hoc) ra trường làm gì
+    - học ngành [httt](nganh_hoc) ra trường làm gì
+    - học ngành [mmtttdl](nganh_hoc) ra trường làm gì
+    - học ngành [khmt](nganh_hoc) ra trường làm gì
+    - học ngành [cntt](nganh_hoc) có thể làm việc gì
+    - học ngành [cnttclc](nganh_hoc) ra trường làm gì
+    - học ngành [ktpm](nganh_hoc) ra trường làm gì
+    - học ngành [thưd](nganh_hoc) ra trường làm gì
     - kỹ sư [hệ thống thông tin](nganh_hoc) làm việc ở vị trí nào
     - [vị trí việc làm](khai_niem) của kỹ sư [hệ thống thông tin](nganh_hoc) là gì?
     - [cơ hội việc làm](khai_niem) position của kỹ sư [hệ thống thông tin](nganh_hoc) là gì?
@@ -1002,8 +1010,8 @@ nlu:
     - tôi cần trợ giúp về [vị trí việc làm](khai_niem) của kỹ sư [hệ thống thông tin](nganh_hoc) 
     - kỹ sư [công nghệ thông tin chất lượng cao](nganh_hoc) làm việc ở vị trí nào
     - [vị trí việc làm](khai_niem) của kỹ sư [công nghệ thông tin chất lượng cao](nganh_hoc) là gì?
-    - [cơ hội việc làm](khai_niem) position của kỹ sư [công nghệ thông tin chất lượng cao](nganh_hoc) là gì?
-    - sinh viên ngành [công nghệ thông tin chất lượng cao](nganh_hoc) có [vị trí việc làm](khai_niem) như thế nào?
+    - [cơ hội việc làm](khai_niem) position của kỹ sư [cntt clc](nganh_hoc) là gì?
+    - sinh viên ngành [cntt-clc](nganh_hoc) có [vị trí việc làm](khai_niem) như thế nào?
     - nói về [vị trí việc làm](khai_niem) của kỹ sư [công nghệ thông tin chất lượng cao](nganh_hoc) 
     - tôi muốn biết thêm thông tin về [vị trí việc làm](khai_niem) của kỹ sư [công nghệ thông tin chất lượng cao](nganh_hoc) 
     - cho tôi biết [vị trí việc làm](khai_niem) của kỹ sư [công nghệ thông tin chất lượng cao](nganh_hoc) là gì
@@ -1027,7 +1035,7 @@ nlu:
     - nói về [vị trí việc làm](khai_niem) của kỹ sư [kỹ thuật phần mềm](nganh_hoc) 
     - tôi muốn biết thêm thông tin về [vị trí việc làm](khai_niem) của kỹ sư [kỹ thuật phần mềm](nganh_hoc) 
     - cho tôi biết [vị trí việc làm](khai_niem) của kỹ sư [kỹ thuật phần mềm](nganh_hoc) là gì
-    - tôi không rõ về [vị trí việc làm](khai_niem) của kỹ sư [kỹ thuật phần mềm](nganh_hoc) 
+    - tôi không rõ kỹ sư [kỹ thuật phần mềm](nganh_hoc) ra trường làm gì
     - tôi cần tư vấn về [vị trí việc làm](khai_niem) của kỹ sư [kỹ thuật phần mềm](nganh_hoc) 
     - tôi cần trợ giúp về [vị trí việc làm](khai_niem) của kỹ sư [kỹ thuật phần mềm](nganh_hoc) 
     - kỹ sư [khoa học máy tính](nganh_hoc) làm việc ở vị trí nào
@@ -1043,176 +1051,11 @@ nlu:
     - kỹ sư [tin học ứng dụng](nganh_hoc) làm việc ở vị trí nào
     - [vị trí việc làm](khai_niem) của kỹ sư [tin học ứng dụng](nganh_hoc) là gì?
     - kỹ sư [tin học ứng dụng](nganh_hoc) làm việc ở vị trí nào
-    - [vị trí việc làm](khai_niem) của kỹ sư [tin học ứng dụng](nganh_hoc) là gì?
+    - [vị trí việc làm](khai_niem) của sinh viên [thud](nganh_hoc) là gì?
     - kỹ sư [mạng máy tính và truyền thông dữ liệu](nganh_hoc) làm việc ở vị trí nào
+    - [vị trí việc làm](khai_niem) của kỹ sư [mmt-ttdl](nganh_hoc) là gì?
+    - kỹ sư [mmt&ttdl](nganh_hoc) làm việc ở vị trí nào
     - [vị trí việc làm](khai_niem) của kỹ sư [mạng máy tính và truyền thông dữ liệu](nganh_hoc) là gì?
-    - kỹ sư [mạng máy tính và truyền thông dữ liệu](nganh_hoc) làm việc ở vị trí nào
-    - [vị trí việc làm](khai_niem) của kỹ sư [mạng máy tính và truyền thông dữ liệu](nganh_hoc) là gì?
-
-- intent: ktchuyennganh
-  examples: |
-#httt
-    - học ngành [hệ thống thông tin](nganh_hoc) xong có kiến thức gì trong đầu?
-    - để tốt nghiệp ngành [httt](nganh_hoc) cần [kiến thức đầu ra](khai_niem) gì?
-    - [kiến thức đầu ra](khai_niem) cần thiết để tốt nghiệp ngành [hệ thống thông tin](nganh_hoc) là gì?
-    - ngành [hệ thống thông tin](nganh_hoc) cần [kiến thức đầu ra](khai_niem) như thế nào?
-    - thông tin về [kiến thức đầu ra](khai_niem) của ngành [hệ thống thông tin](nganh_hoc) 
-    - nói về [kiến thức đầu ra](khai_niem) của ngành [hệ thống thông tin](nganh_hoc) 
-    - tôi muốn biết thêm thông tin về [kiến thức đầu ra](khai_niem) của ngành [hệ thống thông tin](nganh_hoc) 
-    - có thể cho tôi biết thêm thông tin về [kiến thức đầu ra](khai_niem) của ngành [hệ thống thông tin](nganh_hoc) không?
-    - giải thích về [kiến thức đầu ra](khai_niem) của ngành [hệ thống thông tin](nganh_hoc) 
-    - những điều cần chú ý về [kiến thức đầu ra](khai_niem) của ngành [hệ thống thông tin](nganh_hoc) 
-    - cho tôi biết [kiến thức đầu ra](khai_niem) của ngành [hệ thống thông tin](nganh_hoc) gồm những gì
-    - tôi không rõ về [kiến thức đầu ra](khai_niem) của ngành [hệ thống thông tin](nganh_hoc), có thể cho tôi biết thêm không?
-    - tôi cần trợ giúp về [kiến thức đầu ra](khai_niem) của ngành [hệ thống thông tin](nganh_hoc) 
-    - để tốt nghiệp ngành [hệ thống thông tin](nganh_hoc) cần [kiến thức đầu ra](khai_niem) gì?
-    - [kiến thức đầu ra](khai_niem) cần thiết để tốt nghiệp ngành [hệ thống thông tin](nganh_hoc) là gì?
-    - ngành [hệ thống thông tin](nganh_hoc) cần [kiến thức đầu ra](khai_niem) như thế nào?
-    - thông tin về [kiến thức đầu ra](khai_niem) của ngành [hệ thống thông tin](nganh_hoc) 
-    - nói về [kiến thức đầu ra](khai_niem) của ngành [hệ thống thông tin](nganh_hoc) 
-    - tôi muốn biết thêm thông tin về [kiến thức đầu ra](khai_niem) của ngành [hệ thống thông tin](nganh_hoc) 
-    - có thể cho tôi biết thêm thông tin về [kiến thức đầu ra](khai_niem) của ngành [hệ thống thông tin](nganh_hoc) không?
-    - giải thích về [kiến thức đầu ra](khai_niem) của ngành [hệ thống thông tin](nganh_hoc) 
-    - những điều cần chú ý về [kiến thức đầu ra](khai_niem) của ngành [hệ thống thông tin](nganh_hoc) 
-    - cho tôi biết [kiến thức đầu ra](khai_niem) của ngành [hệ thống thông tin](nganh_hoc) gồm những gì
-    - tôi không rõ về [kiến thức đầu ra](khai_niem) của ngành [hệ thống thông tin](nganh_hoc), có thể cho tôi biết thêm không?
-    - tôi cần trợ giúp về [kiến thức đầu ra](khai_niem) của ngành [hệ thống thông tin](nganh_hoc) 
-#cnttclc
-    - học ngành [cntt-clc](nganh_hoc) xong có được những kiến thức gì?
-    - để tốt nghiệp ngành [công nghệ thông tin chất lượng cao](nganh_hoc) cần [kiến thức đầu ra](khai_niem) gì?
-    - [kiến thức đầu ra](khai_niem) cần thiết để tốt nghiệp ngành [công nghệ thông tin chất lượng cao](nganh_hoc) là gì?
-    - ngành [công nghệ thông tin chất lượng cao](nganh_hoc) cần [kiến thức đầu ra](khai_niem) như thế nào?
-    - thông tin về [kiến thức đầu ra](khai_niem) của ngành [công nghệ thông tin chất lượng cao](nganh_hoc) 
-    - nói về [kiến thức đầu ra](khai_niem) của ngành [công nghệ thông tin chất lượng cao](nganh_hoc) 
-    - tôi muốn biết thêm thông tin về [kiến thức đầu ra](khai_niem) của ngành [công nghệ thông tin chất lượng cao](nganh_hoc) 
-    - có thể cho tôi biết thêm thông tin về [kiến thức đầu ra](khai_niem) của ngành [công nghệ thông tin chất lượng cao](nganh_hoc) không?
-    - giải thích về [kiến thức đầu ra](khai_niem) của ngành [công nghệ thông tin chất lượng cao](nganh_hoc) 
-    - những điều cần chú ý về [kiến thức đầu ra](khai_niem) của ngành [công nghệ thông tin chất lượng cao](nganh_hoc) 
-    - cho tôi biết [kiến thức đầu ra](khai_niem) của ngành [công nghệ thông tin chất lượng cao](nganh_hoc) gồm những gì
-    - tôi không rõ về [kiến thức đầu ra](khai_niem) của ngành [công nghệ thông tin chất lượng cao](nganh_hoc), có thể cho tôi biết thêm không?
-    - tôi cần trợ giúp về [kiến thức đầu ra](khai_niem) của ngành [công nghệ thông tin chất lượng cao](nganh_hoc) 
-    - để tốt nghiệp ngành [công nghệ thông tin chất lượng cao](nganh_hoc) cần [kiến thức đầu ra](khai_niem) gì?
-    - [kiến thức đầu ra](khai_niem) cần thiết để tốt nghiệp ngành [công nghệ thông tin chất lượng cao](nganh_hoc) là gì?
-    - ngành [công nghệ thông tin chất lượng cao](nganh_hoc) cần [kiến thức đầu ra](khai_niem) như thế nào?
-    - thông tin về [kiến thức đầu ra](khai_niem) của ngành [công nghệ thông tin chất lượng cao](nganh_hoc) 
-    - nói về [kiến thức đầu ra](khai_niem) của ngành [công nghệ thông tin chất lượng cao](nganh_hoc) 
-    - tôi muốn biết thêm thông tin về [kiến thức đầu ra](khai_niem) của ngành [công nghệ thông tin chất lượng cao](nganh_hoc) 
-    - có thể cho tôi biết thêm thông tin về [kiến thức đầu ra](khai_niem) của ngành [công nghệ thông tin chất lượng cao](nganh_hoc) không?
-    - giải thích về [kiến thức đầu ra](khai_niem) của ngành [công nghệ thông tin chất lượng cao](nganh_hoc) 
-    - những điều cần chú ý về [kiến thức đầu ra](khai_niem) của ngành [công nghệ thông tin chất lượng cao](nganh_hoc) 
-    - cho tôi biết [kiến thức đầu ra](khai_niem) của ngành [công nghệ thông tin chất lượng cao](nganh_hoc) gồm những gì
-    - tôi không rõ về [kiến thức đầu ra](khai_niem) của ngành [công nghệ thông tin chất lượng cao](nganh_hoc), có thể cho tôi biết thêm không?
-    - tôi cần trợ giúp về [kiến thức đầu ra](khai_niem) của ngành [công nghệ thông tin chất lượng cao](nganh_hoc) 
-#cntt
-    - học ngành [cntt](nganh_hoc) xong có kiến thức gì trong đầu?
-    - để tốt nghiệp ngành [công nghệ thông tin](nganh_hoc) cần [kiến thức đầu ra](khai_niem) gì?
-    - [kiến thức đầu ra](khai_niem) cần thiết để tốt nghiệp ngành [công nghệ thông tin](nganh_hoc) là gì?
-    - ngành [công nghệ thông tin](nganh_hoc) cần [kiến thức đầu ra](khai_niem) như thế nào?
-    - thông tin về [kiến thức đầu ra](khai_niem) của ngành [công nghệ thông tin](nganh_hoc) 
-    - nói về [kiến thức đầu ra](khai_niem) của ngành [công nghệ thông tin](nganh_hoc) 
-    - tôi muốn biết thêm thông tin về [kiến thức đầu ra](khai_niem) của ngành [công nghệ thông tin](nganh_hoc) 
-    - có thể cho tôi biết thêm thông tin về [kiến thức đầu ra](khai_niem) của ngành [công nghệ thông tin](nganh_hoc) không?
-    - giải thích về [kiến thức đầu ra](khai_niem) của ngành [công nghệ thông tin](nganh_hoc) 
-    - những điều cần chú ý về [kiến thức đầu ra](khai_niem) của ngành [công nghệ thông tin](nganh_hoc) 
-    - cho tôi biết [kiến thức đầu ra](khai_niem) của ngành [công nghệ thông tin](nganh_hoc) gồm những gì
-    - tôi không rõ về [kiến thức đầu ra](khai_niem) của ngành [công nghệ thông tin](nganh_hoc), có thể cho tôi biết thêm không?
-    - tôi cần trợ giúp về [kiến thức đầu ra](khai_niem) của ngành [công nghệ thông tin](nganh_hoc) 
-    - để tốt nghiệp ngành [công nghệ thông tin](nganh_hoc) cần [kiến thức đầu ra](khai_niem) gì?
-    - [kiến thức đầu ra](khai_niem) cần thiết để tốt nghiệp ngành [công nghệ thông tin](nganh_hoc) là gì?
-    - ngành [công nghệ thông tin](nganh_hoc) cần [kiến thức đầu ra](khai_niem) như thế nào?
-    - thông tin về [kiến thức đầu ra](khai_niem) của ngành [công nghệ thông tin](nganh_hoc) 
-    - nói về [kiến thức đầu ra](khai_niem) của ngành [công nghệ thông tin](nganh_hoc) 
-    - tôi muốn biết thêm thông tin về [kiến thức đầu ra](khai_niem) của ngành [công nghệ thông tin](nganh_hoc) 
-    - có thể cho tôi biết thêm thông tin về [kiến thức đầu ra](khai_niem) của ngành [công nghệ thông tin](nganh_hoc) không?
-    - giải thích về [kiến thức đầu ra](khai_niem) của ngành [công nghệ thông tin](nganh_hoc) 
-    - những điều cần chú ý về [kiến thức đầu ra](khai_niem) của ngành [công nghệ thông tin](nganh_hoc) 
-    - cho tôi biết [kiến thức đầu ra](khai_niem) của ngành [công nghệ thông tin](nganh_hoc) gồm những gì
-    - tôi không rõ về [kiến thức đầu ra](khai_niem) của ngành [công nghệ thông tin](nganh_hoc), có thể cho tôi biết thêm không?
-    - tôi cần trợ giúp về [kiến thức đầu ra](khai_niem) của ngành [công nghệ thông tin](nganh_hoc) 
-#ktpm
-    - học ngành [ktpm](nganh_hoc) xong có kiến thức gì trong đầu?
-    - để tốt nghiệp ngành [kỹ thuật phần mềm](nganh_hoc) cần [kiến thức đầu ra](khai_niem) gì?
-    - [kiến thức đầu ra](khai_niem) cần thiết để tốt nghiệp ngành [kỹ thuật phần mềm](nganh_hoc) là gì?
-    - ngành [kỹ thuật phần mềm](nganh_hoc) cần [kiến thức đầu ra](khai_niem) như thế nào?
-    - thông tin về [kiến thức đầu ra](khai_niem) của ngành [kỹ thuật phần mềm](nganh_hoc) 
-    - nói về [kiến thức đầu ra](khai_niem) của ngành [kỹ thuật phần mềm](nganh_hoc) 
-    - tôi muốn biết thêm thông tin về [kiến thức đầu ra](khai_niem) của ngành [kỹ thuật phần mềm](nganh_hoc) 
-    - có thể cho tôi biết thêm thông tin về [kiến thức đầu ra](khai_niem) của ngành [kỹ thuật phần mềm](nganh_hoc) không?
-    - giải thích về kiến thức đạt được sau khi tốt nghiệp của ngành [kỹ thuật phần mềm](nganh_hoc) 
-    - những điều cần chú ý về [kiến thức đầu ra](khai_niem) của ngành [kỹ thuật phần mềm](nganh_hoc) 
-    - cho tôi biết [chuẩn đầu ra](khai_niem) về kiến thức của ngành [kỹ thuật phần mềm](nganh_hoc) gồm những gì
-    - tôi không rõ về [kiến thức đầu ra](khai_niem) của ngành [kỹ thuật phần mềm](nganh_hoc), có thể cho tôi biết thêm không?
-    - tôi cần trợ giúp về [kiến thức đầu ra](khai_niem) của ngành [kỹ thuật phần mềm](nganh_hoc) 
-    - tôi cần tư vấn về [kiến thức đầu ra](khai_niem) của ngành [kỹ thuật phần mềm](nganh_hoc) 
-#khmt
-    - học ngành [khmt](nganh_hoc) xong có kiến thức gì trong đầu?
-    - để tốt nghiệp ngành [khoa học máy tính](nganh_hoc) cần [kiến thức đầu ra](khai_niem) gì?
-    - [kiến thức đầu ra](khai_niem) cần thiết để tốt nghiệp ngành [khoa học máy tính](nganh_hoc) là gì?
-    - ngành [khoa học máy tính](nganh_hoc) cần [kiến thức đầu ra](khai_niem) như thế nào?
-    - thông tin về [kiến thức đầu ra](khai_niem) của ngành [khoa học máy tính](nganh_hoc) 
-    - nói về [kiến thức đầu ra](khai_niem) của ngành [khoa học máy tính](nganh_hoc) 
-    - tôi muốn biết thêm thông tin về [kiến thức đầu ra](khai_niem) của ngành [khoa học máy tính](nganh_hoc) 
-    - có thể cho tôi biết thêm thông tin về [kiến thức đầu ra](khai_niem) của ngành [khoa học máy tính](nganh_hoc) không?
-    - giải thích về [kiến thức đầu ra](khai_niem) của ngành [khoa học máy tính](nganh_hoc) 
-    - những điều cần chú ý về [kiến thức đầu ra](khai_niem) của ngành [khoa học máy tính](nganh_hoc) 
-    - cho tôi biết [kiến thức đầu ra](khai_niem) của ngành [khoa học máy tính](nganh_hoc) gồm những gì
-    - tôi không rõ về [kiến thức đầu ra](khai_niem) của ngành [khoa học máy tính](nganh_hoc), có thể cho tôi biết thêm không?
-    - tôi cần trợ giúp về [kiến thức đầu ra](khai_niem) của ngành [khoa học máy tính](nganh_hoc) 
-    - để tốt nghiệp ngành [khoa học máy tính](nganh_hoc) cần [kiến thức đầu ra](khai_niem) gì?
-    - [kiến thức đầu ra](khai_niem) cần thiết để tốt nghiệp ngành [khoa học máy tính](nganh_hoc) là gì?
-    - ngành [khoa học máy tính](nganh_hoc) cần [kiến thức đầu ra](khai_niem) như thế nào?
-    - thông tin về [kiến thức đầu ra](khai_niem) của ngành [khoa học máy tính](nganh_hoc) 
-    - nói về [kiến thức đầu ra](khai_niem) của ngành [khoa học máy tính](nganh_hoc) 
-    - tôi muốn biết thêm thông tin về [kiến thức đầu ra](khai_niem) của ngành [khoa học máy tính](nganh_hoc) 
-    - có thể cho tôi biết thêm thông tin về [kiến thức đầu ra](khai_niem) của ngành [khoa học máy tính](nganh_hoc) không?
-    - giải thích về [kiến thức đầu ra](khai_niem) của ngành [khoa học máy tính](nganh_hoc) 
-    - những điều cần chú ý về [kiến thức đầu ra](khai_niem) của ngành [khoa học máy tính](nganh_hoc) 
-    - cho tôi biết [kiến thức đầu ra](khai_niem) của ngành [khoa học máy tính](nganh_hoc) gồm những gì
-    - tôi không rõ về [kiến thức đầu ra](khai_niem) của ngành [khoa học máy tính](nganh_hoc), có thể cho tôi biết thêm không?
-    - tôi cần trợ giúp về [kiến thức đầu ra](khai_niem) của ngành [khoa học máy tính](nganh_hoc) 
-#thud
-    - học ngành [thud](nganh_hoc) xong có kiến thức gì trong đầu?
-    - để tốt nghiệp ngành [tin học ứng dụng](nganh_hoc) cần [kiến thức đầu ra](khai_niem) gì?
-    - [kiến thức đầu ra](khai_niem) cần thiết để tốt nghiệp ngành [tin học ứng dụng](nganh_hoc) là gì?
-    - ngành [tin học ứng dụng](nganh_hoc) cần [kiến thức đầu ra](khai_niem) như thế nào?
-    - thông tin về [kiến thức đầu ra](khai_niem) của ngành [tin học ứng dụng](nganh_hoc) 
-    - nói về [kiến thức đầu ra](khai_niem) của ngành [tin học ứng dụng](nganh_hoc) 
-    - tôi muốn biết thêm thông tin về [kiến thức đầu ra](khai_niem) của ngành [tin học ứng dụng](nganh_hoc) 
-    - có thể cho tôi biết thêm thông tin về [kiến thức đầu ra](khai_niem) của ngành [tin học ứng dụng](nganh_hoc) không?
-    - giải thích về [kiến thức đầu ra](khai_niem) của ngành [tin học ứng dụng](nganh_hoc) 
-    - những điều cần chú ý về [kiến thức đầu ra](khai_niem) của ngành [tin học ứng dụng](nganh_hoc) 
-    - cho tôi biết [kiến thức đầu ra](khai_niem) của ngành [tin học ứng dụng](nganh_hoc) gồm những gì
-    - tôi không rõ về [kiến thức đầu ra](khai_niem) của ngành [tin học ứng dụng](nganh_hoc), có thể cho tôi biết thêm không?
-    - tôi cần trợ giúp về [kiến thức đầu ra](khai_niem) của ngành [tin học ứng dụng](nganh_hoc) 
-    - để tốt nghiệp ngành [tin học ứng dụng](nganh_hoc) cần [kiến thức đầu ra](khai_niem) gì?
-    - [kiến thức đầu ra](khai_niem) cần thiết để tốt nghiệp ngành [tin học ứng dụng](nganh_hoc) là gì?
-    - ngành [tin học ứng dụng](nganh_hoc) cần [kiến thức đầu ra](khai_niem) như thế nào?
-    - thông tin về [kiến thức đầu ra](khai_niem) của ngành [tin học ứng dụng](nganh_hoc) 
-    - nói về [kiến thức đầu ra](khai_niem) của ngành [tin học ứng dụng](nganh_hoc) 
-    - tôi muốn biết thêm thông tin về [kiến thức đầu ra](khai_niem) của ngành [tin học ứng dụng](nganh_hoc) 
-    - có thể cho tôi biết thêm thông tin về [kiến thức đầu ra](khai_niem) của ngành [tin học ứng dụng](nganh_hoc) không?
-    - giải thích về [kiến thức đầu ra](khai_niem) của ngành [tin học ứng dụng](nganh_hoc) 
-    - những điều cần chú ý về [kiến thức đầu ra](khai_niem) của ngành [tin học ứng dụng](nganh_hoc) 
-    - cho tôi biết [kiến thức đầu ra](khai_niem) của ngành [tin học ứng dụng](nganh_hoc) gồm những gì
-    - tôi không rõ về [kiến thức đầu ra](khai_niem) của ngành [tin học ứng dụng](nganh_hoc) 
-    - tôi cần trợ giúp về [kiến thức đầu ra](khai_niem) của ngành [tin học ứng dụng](nganh_hoc)
-#mmt-ttdl
-    - học ngành [mmtttdl](nganh_hoc) xong có kiến thức gì trong đầu?
-    - để tốt nghiệp ngành [mạng máy tính và truyền thông dữ liệu](nganh_hoc) cần [kiến thức đầu ra](khai_niem) gì?
-    - kiến thức đầu ra cần thiết để tốt nghiệp ngành [mạng máy tính và truyền thông dữ liệu](nganh_hoc) là gì?
-    - ngành [mạng máy tính và truyền thông dữ liệu](nganh_hoc) cần [ktdr](khai_niem) như thế nào?
-    - thông tin về [ktdr](khai_niem) của ngành [mạng máy tính và truyền thông dữ liệu](nganh_hoc)
-    - nói về [ktđr](khai_niem) của ngành [mạng máy tính và truyền thông dữ liệu](nganh_hoc)
-    - tôi muốn biết thêm thông tin về [ktđr](khai_niem) của ngành [mạng máy tính và truyền thông dữ liệu](nganh_hoc)
-    - có thể cho tôi biết thêm thông tin về [kiến thức đầu ra](khai_niem) của ngành [mạng máy tính và truyền thông dữ liệu](nganh_hoc) không?
-    - giải thích về [kiến thức](khai_niem) đạt được sau khi tốt nghiệp của ngành [mạng máy tính và truyền thông dữ liệu](nganh_hoc)
-    - những điều cần chú ý về [kiến thức đầu ra](khai_niem) của ngành [mạng máy tính và truyền thông dữ liệu](nganh_hoc)
-    - cho tôi biết [chuẩn đầu ra về kiến thức](khai_niem) của ngành [mạng máy tính và truyền thông dữ liệu](nganh_hoc) gồm những gì
-    - tôi không rõ về [kiến thức đầu ra](khai_niem) của ngành [mạng máy tính và truyền thông dữ liệu](nganh_hoc), có thể cho tôi biết thêm không?
-    - tôi cần trợ giúp về [kiến thức đầu ra](khai_niem) của ngành [mạng máy tính và truyền thông dữ liệu](nganh_hoc)
-    - tôi cần tư vấn về [kiến thức đầu ra](khai_niem) của ngành [mạng máy tính và truyền thông dữ liệu](nganh_hoc)
-- intent: noilamviec
-  examples: |
     - làm việc ở đâu sau khi tốt nghiệp ngành [hệ thống thông tin](nganh_hoc) ?
     - sinh viên tốt nghiệp ngành [hệ thống thông tin](nganh_hoc) có thể làm việc ở đâu?
     - nói về chỗ làm việc sau khi tốt nghiệp ngành [hệ thống thông tin](nganh_hoc) 
@@ -1248,7 +1091,7 @@ nlu:
     - làm việc ở đâu sau khi tốt nghiệp ngành [khoa học máy tính](nganh_hoc) ?
     - sinh viên tốt nghiệp ngành [khoa học máy tính](nganh_hoc) có thể làm việc ở đâu?
     - nói về chỗ làm việc sau khi tốt nghiệp ngành [khoa học máy tính](nganh_hoc) 
-    - tôi muốn biết về chỗ làm việc sau khi tốt nghiệp ngành [khoa học máy tính](nganh_hoc) 
+    - tôi muốn biết về chỗ làm sau khi tốt nghiệp ngành [khoa học máy tính](nganh_hoc) 
     - cho mình biết về chỗ làm việc sau khi tốt nghiệp ngành [khoa học máy tính](nganh_hoc) 
     - tôi không rõ về chỗ làm việc sau khi tốt nghiệp ngành [khoa học máy tính](nganh_hoc) 
     - tôi cần tư vấn về chỗ làm việc sau khi tốt nghiệp ngành [khoa học máy tính](nganh_hoc) 
@@ -1257,6 +1100,162 @@ nlu:
     - sinh viên tốt nghiệp ngành [tin học ứng dụng](nganh_hoc) có thể làm việc ở đâu?
     - làm việc ở đâu sau khi tốt nghiệp ngành [tin học ứng dụng](nganh_hoc) 
     - sinh viên tốt nghiệp ngành [tin học ứng dụng](nganh_hoc) có thể làm việc ở đâu?
+    - tốt nghiệp ngành [hệ thống thông tin](nganh_hoc) làm ở công ty nào?
+- intent: ktchuyennganh
+  examples: |
+    - học ngành [hệ thống thông tin](nganh_hoc) xong có kiến thức gì trong đầu?
+    - để tốt nghiệp ngành [httt](nganh_hoc) cần [kiến thức đầu ra](khai_niem) gì?
+    - [kiến thức đầu ra](khai_niem) cần thiết để tốt nghiệp ngành [hệ thống thông tin](nganh_hoc) là gì?
+    - ngành [hệ thống thông tin](nganh_hoc) cần [kiến thức đầu ra](khai_niem) như thế nào?
+    - thông tin về [kiến thức đầu ra](khai_niem) của ngành [hệ thống thông tin](nganh_hoc) 
+    - nói về [kiến thức đầu ra](khai_niem) của ngành [hệ thống thông tin](nganh_hoc) 
+    - tôi muốn biết thêm thông tin về [kiến thức đầu ra](khai_niem) của ngành [hệ thống thông tin](nganh_hoc) 
+    - có thể cho tôi biết thêm thông tin về [kiến thức đầu ra](khai_niem) của ngành [hệ thống thông tin](nganh_hoc) không?
+    - giải thích về [kiến thức đầu ra](khai_niem) của ngành [hệ thống thông tin](nganh_hoc) 
+    - những điều cần chú ý về [kiến thức đầu ra](khai_niem) của ngành [hệ thống thông tin](nganh_hoc) 
+    - cho tôi biết [kiến thức đầu ra](khai_niem) của ngành [hệ thống thông tin](nganh_hoc) gồm những gì
+    - tôi không rõ về [kiến thức đầu ra](khai_niem) của ngành [hệ thống thông tin](nganh_hoc), có thể cho tôi biết thêm không?
+    - tôi cần trợ giúp về [kiến thức đầu ra](khai_niem) của ngành [hệ thống thông tin](nganh_hoc) 
+    - để tốt nghiệp ngành [hệ thống thông tin](nganh_hoc) cần [kiến thức đầu ra](khai_niem) gì?
+    - [kiến thức đầu ra](khai_niem) cần thiết để tốt nghiệp ngành [hệ thống thông tin](nganh_hoc) là gì?
+    - ngành [hệ thống thông tin](nganh_hoc) cần [kiến thức đầu ra](khai_niem) như thế nào?
+    - thông tin về [kiến thức đầu ra](khai_niem) của ngành [hệ thống thông tin](nganh_hoc) 
+    - nói về [kiến thức đầu ra](khai_niem) của ngành [hệ thống thông tin](nganh_hoc) 
+    - tôi muốn biết thêm thông tin về [kiến thức đầu ra](khai_niem) của ngành [hệ thống thông tin](nganh_hoc) 
+    - có thể cho tôi biết thêm thông tin về [kiến thức đầu ra](khai_niem) của ngành [hệ thống thông tin](nganh_hoc) không?
+    - giải thích về [kiến thức đầu ra](khai_niem) của ngành [hệ thống thông tin](nganh_hoc) 
+    - những điều cần chú ý về [kiến thức đầu ra](khai_niem) của ngành [hệ thống thông tin](nganh_hoc) 
+    - cho tôi biết [kiến thức đầu ra](khai_niem) của ngành [hệ thống thông tin](nganh_hoc) gồm những gì
+    - tôi không rõ về [kiến thức đầu ra](khai_niem) của ngành [hệ thống thông tin](nganh_hoc), có thể cho tôi biết thêm không?
+    - tôi cần trợ giúp về [kiến thức đầu ra](khai_niem) của ngành [hệ thống thông tin](nganh_hoc) 
+    - học ngành [cntt-clc](nganh_hoc) xong có được những kiến thức gì?
+    - để tốt nghiệp ngành [công nghệ thông tin chất lượng cao](nganh_hoc) cần [kiến thức đầu ra](khai_niem) gì?
+    - [kiến thức đầu ra](khai_niem) cần thiết để tốt nghiệp ngành [công nghệ thông tin chất lượng cao](nganh_hoc) là gì?
+    - ngành [công nghệ thông tin chất lượng cao](nganh_hoc) cần [kiến thức đầu ra](khai_niem) như thế nào?
+    - thông tin về [kiến thức đầu ra](khai_niem) của ngành [công nghệ thông tin chất lượng cao](nganh_hoc) 
+    - nói về [kiến thức đầu ra](khai_niem) của ngành [công nghệ thông tin chất lượng cao](nganh_hoc) 
+    - tôi muốn biết thêm thông tin về [kiến thức đầu ra](khai_niem) của ngành [công nghệ thông tin chất lượng cao](nganh_hoc) 
+    - có thể cho tôi biết thêm thông tin về [kiến thức đầu ra](khai_niem) của ngành [công nghệ thông tin chất lượng cao](nganh_hoc) không?
+    - giải thích về [kiến thức đầu ra](khai_niem) của ngành [cntt clc](nganh_hoc) 
+    - những điều cần chú ý về [kiến thức đầu ra](khai_niem) của ngành [công nghệ thông tin chất lượng cao](nganh_hoc) 
+    - cho tôi biết [kiến thức đầu ra](khai_niem) của ngành [công nghệ thông tin chất lượng cao](nganh_hoc) gồm những gì
+    - tôi không rõ về [kiến thức đầu ra](khai_niem) của ngành [công nghệ thông tin chất lượng cao](nganh_hoc), có thể cho tôi biết thêm không?
+    - tôi cần trợ giúp về [kiến thức đầu ra](khai_niem) của ngành [công nghệ thông tin chất lượng cao](nganh_hoc) 
+    - để tốt nghiệp ngành [công nghệ thông tin chất lượng cao](nganh_hoc) cần [kiến thức đầu ra](khai_niem) gì?
+    - [kiến thức đầu ra](khai_niem) cần thiết để tốt nghiệp ngành [công nghệ thông tin chất lượng cao](nganh_hoc) là gì?
+    - ngành [công nghệ thông tin chất lượng cao](nganh_hoc) cần [kiến thức đầu ra](khai_niem) như thế nào?
+    - thông tin về [kiến thức đầu ra](khai_niem) của ngành [công nghệ thông tin chất lượng cao](nganh_hoc) 
+    - nói về [kiến thức đầu ra](khai_niem) của ngành [công nghệ thông tin chất lượng cao](nganh_hoc) 
+    - tôi muốn biết thêm thông tin về [kiến thức đầu ra](khai_niem) của ngành [công nghệ thông tin chất lượng cao](nganh_hoc) 
+    - có thể cho tôi biết thêm thông tin về [kiến thức đầu ra](khai_niem) của ngành [công nghệ thông tin chất lượng cao](nganh_hoc) không?
+    - giải thích về [kiến thức đầu ra](khai_niem) của ngành [công nghệ thông tin chất lượng cao](nganh_hoc) 
+    - những điều cần chú ý về [kiến thức đầu ra](khai_niem) của ngành [công nghệ thông tin chất lượng cao](nganh_hoc) 
+    - cho tôi biết [kiến thức đầu ra](khai_niem) của ngành [công nghệ thông tin chất lượng cao](nganh_hoc) gồm những gì
+    - tôi không rõ về [kiến thức đầu ra](khai_niem) của ngành [công nghệ thông tin chất lượng cao](nganh_hoc), có thể cho tôi biết thêm không?
+    - tôi cần trợ giúp về [kiến thức đầu ra](khai_niem) của ngành [công nghệ thông tin chất lượng cao](nganh_hoc) 
+    - học ngành [cntt](nganh_hoc) xong có kiến thức gì trong đầu?
+    - để tốt nghiệp ngành [công nghệ thông tin](nganh_hoc) cần [kiến thức đầu ra](khai_niem) gì?
+    - [kiến thức đầu ra](khai_niem) cần thiết để tốt nghiệp ngành [công nghệ thông tin](nganh_hoc) là gì?
+    - ngành [công nghệ thông tin](nganh_hoc) cần [kiến thức đầu ra](khai_niem) như thế nào?
+    - thông tin về [kiến thức đầu ra](khai_niem) của ngành [công nghệ thông tin](nganh_hoc) 
+    - nói về [kiến thức đầu ra](khai_niem) của ngành [công nghệ thông tin](nganh_hoc) 
+    - tôi muốn biết thêm thông tin về [kiến thức đầu ra](khai_niem) của ngành [công nghệ thông tin](nganh_hoc) 
+    - có thể cho tôi biết thêm thông tin về [kiến thức đầu ra](khai_niem) của ngành [công nghệ thông tin](nganh_hoc) không?
+    - giải thích về [kiến thức đầu ra](khai_niem) của ngành [công nghệ thông tin](nganh_hoc) 
+    - những điều cần chú ý về [kiến thức đầu ra](khai_niem) của ngành [công nghệ thông tin](nganh_hoc) 
+    - cho tôi biết [kiến thức đầu ra](khai_niem) của ngành [công nghệ thông tin](nganh_hoc) gồm những gì
+    - tôi không rõ về [kiến thức đầu ra](khai_niem) của ngành [công nghệ thông tin](nganh_hoc), có thể cho tôi biết thêm không?
+    - tôi cần trợ giúp về [kiến thức đầu ra](khai_niem) của ngành [công nghệ thông tin](nganh_hoc) 
+    - để tốt nghiệp ngành [công nghệ thông tin](nganh_hoc) cần [kiến thức đầu ra](khai_niem) gì?
+    - [kiến thức đầu ra](khai_niem) cần thiết để tốt nghiệp ngành [công nghệ thông tin](nganh_hoc) là gì?
+    - ngành [công nghệ thông tin](nganh_hoc) cần [kiến thức đầu ra](khai_niem) như thế nào?
+    - thông tin về [kiến thức đầu ra](khai_niem) của ngành [công nghệ thông tin](nganh_hoc) 
+    - nói về [kiến thức đầu ra](khai_niem) của ngành [công nghệ thông tin](nganh_hoc) 
+    - tôi muốn biết thêm thông tin về [kiến thức đầu ra](khai_niem) của ngành [công nghệ thông tin](nganh_hoc) 
+    - có thể cho tôi biết thêm thông tin về [kiến thức đầu ra](khai_niem) của ngành [công nghệ thông tin](nganh_hoc) không?
+    - giải thích về [kiến thức đầu ra](khai_niem) của ngành [công nghệ thông tin](nganh_hoc) 
+    - những điều cần chú ý về [kiến thức đầu ra](khai_niem) của ngành [công nghệ thông tin](nganh_hoc) 
+    - cho tôi biết [kiến thức đầu ra](khai_niem) của ngành [công nghệ thông tin](nganh_hoc) gồm những gì
+    - tôi không rõ về [kiến thức đầu ra](khai_niem) của ngành [công nghệ thông tin](nganh_hoc), có thể cho tôi biết thêm không?
+    - tôi cần trợ giúp về [kiến thức đầu ra](khai_niem) của ngành [công nghệ thông tin](nganh_hoc) 
+    - học ngành [ktpm](nganh_hoc) xong có kiến thức gì trong đầu?
+    - để tốt nghiệp ngành [kỹ thuật phần mềm](nganh_hoc) cần [kiến thức đầu ra](khai_niem) gì?
+    - [kiến thức đầu ra](khai_niem) cần thiết để tốt nghiệp ngành [kỹ thuật phần mềm](nganh_hoc) là gì?
+    - ngành [kỹ thuật phần mềm](nganh_hoc) cần [kiến thức đầu ra](khai_niem) như thế nào?
+    - thông tin về [kiến thức đầu ra](khai_niem) của ngành [kỹ thuật phần mềm](nganh_hoc) 
+    - nói về [kiến thức đầu ra](khai_niem) của ngành [kỹ thuật phần mềm](nganh_hoc) 
+    - tôi muốn biết thêm thông tin về [kiến thức đầu ra](khai_niem) của ngành [kỹ thuật phần mềm](nganh_hoc) 
+    - có thể cho tôi biết thêm thông tin về [kiến thức đầu ra](khai_niem) của ngành [kỹ thuật phần mềm](nganh_hoc) không?
+    - giải thích về kiến thức đạt được sau khi tốt nghiệp của ngành [kỹ thuật phần mềm](nganh_hoc) 
+    - những điều cần chú ý về [kiến thức đầu ra](khai_niem) của ngành [kỹ thuật phần mềm](nganh_hoc) 
+    - cho tôi biết [chuẩn đầu ra](khai_niem) về kiến thức của ngành [kỹ thuật phần mềm](nganh_hoc) gồm những gì
+    - tôi không rõ về [kiến thức đầu ra](khai_niem) của ngành [kỹ thuật phần mềm](nganh_hoc), có thể cho tôi biết thêm không?
+    - tôi cần trợ giúp về [kiến thức đầu ra](khai_niem) của ngành [kỹ thuật phần mềm](nganh_hoc) 
+    - tôi cần tư vấn về [kiến thức đầu ra](khai_niem) của ngành [kỹ thuật phần mềm](nganh_hoc) 
+    - học ngành [khmt](nganh_hoc) xong có kiến thức gì trong đầu?
+    - để tốt nghiệp ngành [khoa học máy tính](nganh_hoc) cần [kiến thức đầu ra](khai_niem) gì?
+    - [kiến thức đầu ra](khai_niem) cần thiết để tốt nghiệp ngành [khoa học máy tính](nganh_hoc) là gì?
+    - ngành [khoa học máy tính](nganh_hoc) cần [kiến thức đầu ra](khai_niem) như thế nào?
+    - thông tin về [kiến thức đầu ra](khai_niem) của ngành [khoa học máy tính](nganh_hoc) 
+    - nói về [kiến thức đầu ra](khai_niem) của ngành [khoa học máy tính](nganh_hoc) 
+    - tôi muốn biết thêm thông tin về [kiến thức đầu ra](khai_niem) của ngành [khoa học máy tính](nganh_hoc) 
+    - có thể cho tôi biết thêm thông tin về [kiến thức đầu ra](khai_niem) của ngành [khoa học máy tính](nganh_hoc) không?
+    - giải thích về [kiến thức đầu ra](khai_niem) của ngành [khoa học máy tính](nganh_hoc) 
+    - những điều cần chú ý về [kiến thức đầu ra](khai_niem) của ngành [khoa học máy tính](nganh_hoc) 
+    - cho tôi biết [kiến thức đầu ra](khai_niem) của ngành [khoa học máy tính](nganh_hoc) gồm những gì
+    - tôi không rõ về [kiến thức đầu ra](khai_niem) của ngành [khoa học máy tính](nganh_hoc), có thể cho tôi biết thêm không?
+    - tôi cần trợ giúp về [kiến thức đầu ra](khai_niem) của ngành [khoa học máy tính](nganh_hoc) 
+    - để tốt nghiệp ngành [khoa học máy tính](nganh_hoc) cần [kiến thức đầu ra](khai_niem) gì?
+    - [kiến thức đầu ra](khai_niem) cần thiết để tốt nghiệp ngành [khoa học máy tính](nganh_hoc) là gì?
+    - ngành [khoa học máy tính](nganh_hoc) cần [kiến thức đầu ra](khai_niem) như thế nào?
+    - thông tin về [kiến thức đầu ra](khai_niem) của ngành [khoa học máy tính](nganh_hoc) 
+    - nói về [kiến thức đầu ra](khai_niem) của ngành [khoa học máy tính](nganh_hoc) 
+    - tôi muốn biết thêm thông tin về [kiến thức đầu ra](khai_niem) của ngành [khoa học máy tính](nganh_hoc) 
+    - có thể cho tôi biết thêm thông tin về [kiến thức đầu ra](khai_niem) của ngành [khoa học máy tính](nganh_hoc) không?
+    - giải thích về [kiến thức đầu ra](khai_niem) của ngành [khoa học máy tính](nganh_hoc) 
+    - những điều cần chú ý về [kiến thức đầu ra](khai_niem) của ngành [khoa học máy tính](nganh_hoc) 
+    - cho tôi biết [kiến thức đầu ra](khai_niem) của ngành [khoa học máy tính](nganh_hoc) gồm những gì
+    - tôi không rõ về [kiến thức đầu ra](khai_niem) của ngành [khoa học máy tính](nganh_hoc), có thể cho tôi biết thêm không?
+    - tôi cần trợ giúp về [kiến thức đầu ra](khai_niem) của ngành [khoa học máy tính](nganh_hoc) 
+    - học ngành [thud](nganh_hoc) xong có kiến thức gì trong đầu?
+    - để tốt nghiệp ngành [tin học ứng dụng](nganh_hoc) cần [kiến thức đầu ra](khai_niem) gì?
+    - [kiến thức đầu ra](khai_niem) cần thiết để tốt nghiệp ngành [tin học ứng dụng](nganh_hoc) là gì?
+    - ngành [tin học ứng dụng](nganh_hoc) cần [kiến thức đầu ra](khai_niem) như thế nào?
+    - thông tin về [kiến thức đầu ra](khai_niem) của ngành [tin học ứng dụng](nganh_hoc) 
+    - nói về [kiến thức đầu ra](khai_niem) của ngành [tin học ứng dụng](nganh_hoc) 
+    - tôi muốn biết thêm thông tin về [kiến thức đầu ra](khai_niem) của ngành [tin học ứng dụng](nganh_hoc) 
+    - có thể cho tôi biết thêm thông tin về [kiến thức đầu ra](khai_niem) của ngành [tin học ứng dụng](nganh_hoc) không?
+    - giải thích về [kiến thức đầu ra](khai_niem) của ngành [tin học ứng dụng](nganh_hoc) 
+    - những điều cần chú ý về [kiến thức đầu ra](khai_niem) của ngành [tin học ứng dụng](nganh_hoc) 
+    - cho tôi biết [kiến thức đầu ra](khai_niem) của ngành [tin học ứng dụng](nganh_hoc) gồm những gì
+    - tôi không rõ về [kiến thức đầu ra](khai_niem) của ngành [tin học ứng dụng](nganh_hoc), có thể cho tôi biết thêm không?
+    - tôi cần trợ giúp về [kiến thức đầu ra](khai_niem) của ngành [tin học ứng dụng](nganh_hoc) 
+    - để tốt nghiệp ngành [tin học ứng dụng](nganh_hoc) cần [kiến thức đầu ra](khai_niem) gì?
+    - [kiến thức đầu ra](khai_niem) cần thiết để tốt nghiệp ngành [tin học ứng dụng](nganh_hoc) là gì?
+    - ngành [tin học ứng dụng](nganh_hoc) cần [kiến thức đầu ra](khai_niem) như thế nào?
+    - thông tin về [kiến thức đầu ra](khai_niem) của ngành [tin học ứng dụng](nganh_hoc) 
+    - nói về [kiến thức đầu ra](khai_niem) của ngành [tin học ứng dụng](nganh_hoc) 
+    - tôi muốn biết thêm thông tin về [kiến thức đầu ra](khai_niem) của ngành [tin học ứng dụng](nganh_hoc) 
+    - có thể cho tôi biết thêm thông tin về [kiến thức đầu ra](khai_niem) của ngành [tin học ứng dụng](nganh_hoc) không?
+    - giải thích về [kiến thức đầu ra](khai_niem) của ngành [tin học ứng dụng](nganh_hoc) 
+    - những điều cần chú ý về [kiến thức đầu ra](khai_niem) của ngành [tin học ứng dụng](nganh_hoc) 
+    - cho tôi biết [kiến thức đầu ra](khai_niem) của ngành [tin học ứng dụng](nganh_hoc) gồm những gì
+    - tôi không rõ về [kiến thức đầu ra](khai_niem) của ngành [tin học ứng dụng](nganh_hoc) 
+    - tôi cần trợ giúp về [kiến thức đầu ra](khai_niem) của ngành [tin học ứng dụng](nganh_hoc)
+    - học ngành [mmtttdl](nganh_hoc) xong có kiến thức gì trong đầu?
+    - để tốt nghiệp ngành [mạng máy tính và truyền thông dữ liệu](nganh_hoc) cần [kiến thức đầu ra](khai_niem) gì?
+    - kiến thức đầu ra cần thiết để tốt nghiệp ngành [mạng máy tính và truyền thông dữ liệu](nganh_hoc) là gì?
+    - ngành [mạng máy tính và truyền thông dữ liệu](nganh_hoc) cần [ktdr](khai_niem) như thế nào?
+    - thông tin về [ktdr](khai_niem) của ngành [mạng máy tính và truyền thông dữ liệu](nganh_hoc)
+    - nói về [ktđr](khai_niem) của ngành [mạng máy tính và truyền thông dữ liệu](nganh_hoc)
+    - tôi muốn biết thêm thông tin về [ktđr](khai_niem) của ngành [mạng máy tính và truyền thông dữ liệu](nganh_hoc)
+    - có thể cho tôi biết thêm thông tin về [kiến thức đầu ra](khai_niem) của ngành [mạng máy tính và truyền thông dữ liệu](nganh_hoc) không?
+    - giải thích về [kiến thức](khai_niem) đạt được sau khi tốt nghiệp của ngành [mạng máy tính và truyền thông dữ liệu](nganh_hoc)
+    - những điều cần chú ý về [kiến thức đầu ra](khai_niem) của ngành [mạng máy tính và truyền thông dữ liệu](nganh_hoc)
+    - cho tôi biết [chuẩn đầu ra về kiến thức](khai_niem) của ngành [mạng máy tính và truyền thông dữ liệu](nganh_hoc) gồm những gì
+    - tôi không rõ về [kiến thức đầu ra](khai_niem) của ngành [mạng máy tính và truyền thông dữ liệu](nganh_hoc), có thể cho tôi biết thêm không?
+    - tôi cần trợ giúp về [kiến thức đầu ra](khai_niem) của ngành [mạng máy tính và truyền thông dữ liệu](nganh_hoc)
+    - tôi cần tư vấn về [kiến thức đầu ra](khai_niem) của ngành [mạng máy tính và truyền thông dữ liệu](nganh_hoc)
 - intent: ctdaotao
   examples: |
     - [chương trình đào tạo](khai_niem) của ngành [hệ thống thông tin](nganh_hoc) gồm những gì?
@@ -1419,7 +1418,7 @@ nlu:
     - tôi cần tư vấn về [chương trình đào tạo](khai_niem) của ngành [mạng máy tính và truyền thông dữ liệu](nganh_hoc)
 - intent: hoi_vitri
   examples: |
-    - [văn phòng trung tâm](phong_hoc) ở đâu
+    - [văn phòng trung tâm](phong_hoc) nằm ở đâu
     - cho tôi biết [văn phòng trung tâm](phong_hoc) ở đâu
     - tìm giúp tôi [văn phòng trung tâm](phong_hoc) 
     - [văn phòng trung tâm](phong_hoc) là phòng nào
@@ -1431,7 +1430,7 @@ nlu:
     - tìm giúp tôi phòng [công nghệ phần mềm](phong_hoc) 
     - phòng [công nghệ phần mềm](phong_hoc) là phòng nào
     - chỉ chỗ phòng [công nghệ phần mềm](phong_hoc) 
-    - tìm phòng [công nghệ phần mềm](phong_hoc) 
+    - vị trí của [công nghệ phần mềm](phong_hoc) 
     - phòng [công nghệ phần mềm](phong_hoc) 
     - phòng bộ môn [công nghệ thông tin](phong_hoc) ở đâu
     - cho tôi biết phòng [công nghệ thông tin](phong_hoc) ở đâu
@@ -1774,7 +1773,6 @@ nlu:
     - chỉ chỗ phòng [văn phòng khoa](phong_hoc) 
     - tìm phòng [văn phòng khoa](phong_hoc) 
     - phòng [văn phòng khoa](phong_hoc) 
-
 - intent: bomon_gv
   examples: |
     - bộ môn [công nghệ thông tin](bo_mon) gồm có ai
@@ -1790,7 +1788,7 @@ nlu:
     - bộ môn [hệ thống thông tin](bo_mon) có giáo viên nào
     - bộ môn [tin học ứng dụng](bo_mon) có giáo viên nào
     - bộ môn [công nghệ phần mềm](bo_mon) có giáo viên nào
-    - văn phòng khoa có giáo viên nào
+    - [văn phòng khoa](bo_mon) có giáo viên nào
 - intent: what_new
   examples: |
     - có tin tức gì mới
@@ -3181,8 +3179,8 @@ nlu:
     - chi tiết về thầy [Trần Minh Tân](giao_vien)
 - intent: dinhnghia
   examples: |
-    - [kế hoạch học tập](khai_niem) là gì
-    - thông tin về [khht](khai_niem) 
+    - [kế hoạch học tập toàn khóa](khai_niem) là gì
+    - thông tin về [khht toàn khóa](khai_niem) 
     - [học phần](khai_niem) 
     - [học phần bắt buộc](khai_niem) 
     - [học phần tự chọn](khai_niem) 
@@ -3218,9 +3216,217 @@ nlu:
     - [vpk](khai_niem)
     - thông tin về [nghiên cứu khoa học](khai_niem)
     - cho hỏi [nckh](khai_niem) là gì
+    - thông tin về [điểm chuẩn](khai_niem)
+    - thông tin về [kết quả xét tuyển](khai_niem)
+    - [điểm xét tuyển](khai_niem) là bao nhiêu
+    - [ban chủ nhiệm khoa](khai_niem) có ai
+    - [ban chủ nhiệm](khai_niem) gồm những ai
+    - [bcn](khai_niem)
+    - [hội cựu sinh viên](khai_niem) là gì
+    - [hội cựu sv](khai_niem)
+    - [hồ sơ nhập học](khai_niem) gồm những gì
+    - [hồ sơ](khai_niem) cần thiết để nhập học
+    - [thủ tục nhập học](khai_niem)
+    - [thời khóa biểu](khai_niem)
+    - [tkb](khai_niem)
+    - [cố vấn học tập](khai_niem)
+    - [cố vấn](khai_niem)
+    - [giáo viên chủ nhiệm](khai_niem)
+    - [công tác học vụ](khai_niem)
+    - có tổ chức nào là [đoàn khoa](khai_niem) không
+    - [đoàn TNCS](khai_niem)
+    - khoa có [câu lạc bộ](khai_niem) nào không
+    - có [clb](khai_niem) nào không
+    - danh sách [club](khai_niem) ở khoa
+    - [câu lạc bộ tin học](khai_niem)
+    - [clb tin học](khai_niem)
+    - [câu lạc bộ tiếng anh](khai_niem)
+    - [clb tiếng anh](khai_niem)
+    - [kí túc xá](khai_niem)
+    - [ktx](khai_niem)
+    - [khởi nghiệp](khai_niem)
+    - [nội quy](khai_niem)
+    - [miễn giảm học phí](khai_niem)
+    - [giảm học phí](khai_niem)
+    - [nghỉ học tạm thời](khai_niem)
+    - [cảnh báo học tập](khai_niem)
+    - [cảnh báo học vụ](khai_niem)
+    - bị [cảnh báo](khai_niem) trong học tập
+    - [đình chỉ học tập](khai_niem)
+    - [đình chỉ](khai_niem)
+    - khi nào thì bị [buộc thôi học](khai_niem)
+    - quy định về [giờ học](khai_niem)
+    - [thời gian tiết học](khai_niem)
+    - [điểm học phần](khai_niem)
+    - [điểm trung bình chung học kỳ](khai_niem)
+    - [điểm trung bình học kỳ](khai_niem)
+    - [điểm trung bình chung tích lũy](khai_niem)
+    - [điểm trung bình tích lũy](khai_niem)
+    - [điểm rèn luyện](khai_niem)
+    - [đrl](khai_niem)
+    - [drl](khai_niem)
+    - [điều kiện tốt nghiệp](khai_niem)
+    - [quản lý đơn](khai_niem)
+    - [in bảng điểm](khai_niem)
+    - [in bản điểm](khai_niem)
+    - [quản lí đơn](khai_niem)
+    - [in giấy tờ](khai_niem)
+    - [tạm hoãn nvqs](khai_niem)
+    - [tạm hoãn nghĩa vụ quân sự](khai_niem)
+    - [phòng công tác sinh viên](khai_niem)
+    - [pctsv](khai_niem)
+    - [ctsv](khai_niem)
+    - [phòng đào tạo](khai_niem)
+    - [hệ thống quản lý](khai_niem)
+    - [hệ thống quản lí](khai_niem)
+    - [htql](khai_niem)
+    - [ban cán sự](khai_niem)
+    - [ban chấp hành](khai_niem)
+    - [bcs](khai_niem)
+    - [thông tin tuyển dụng](khai_niem)
+    - [tuyển dụng](khai_niem)
+    - [bảo hiểm tai nạn](khai_niem)
+    - [chương trình tiên tiến](khai_niem)
+    - [cttt](khai_niem)
+    - [ct tiên tiến](khai_niem)
+    - [ct tt](khai_niem)
+    - [chương trình chất lượng cao](khai_niem)
+    - [ctclc](khai_niem)
+    - [ct chất lượng cao](khai_niem)
+    - [ct clc](khai_niem)
+    - [khu I](khai_niem)
+    - [khu 1](khai_niem)
+    - [khu cán bộ](khai_niem)
+    - [khu tập thể cán bộ](khai_niem)
+    - [khu II](khai_niem)
+    - [khu 2](khai_niem)
+    - [khu III](khai_niem)
+    - [khu 3](khai_niem)
+    - [trung tâm cnpm](khai_niem)
+    - [trung tâm công nghệ phần mềm](khai_niem)
+    - [ttcnpm](khai_niem)
+    - [khu IV](khai_niem)
+    - [khu 4](khai_niem)
+    - [khu hòa an](khai_niem)
+    - [hòa an](khai_niem)
+    - [khu V](khai_niem)
+    - [khu 5](khai_niem)
+    - [giáo dục quốc phòng](khai_niem)
+    - [giáo dục quốc phòng và an ninh](khai_niem)
+    - [giáo dục quốc phòng an ninh](khai_niem)
+    - [GDQP-AN](khai_niem)
+    - [GDQP&AN](khai_niem)
 # từ đồng nghĩa
+- synonym: giáo dục quốc phòng
+  examples: |
+    - giáo dục quốc phòng và an ninh
+    - giáo dục quốc phòng an ninh
+    - GDQP-AN
+    - GDQP&AN
+- synonym: khu V
+  examples: |
+    - khu 5
+- synonym: khu IV
+  examples: |
+    - khu 4
+    - khu hòa an
+    - hòa an
+- synonym: khu III
+  examples: |
+    - khu 3
+    - trung tâm cnpm
+    - trung tâm công nghệ phần mềm
+    - ttcnpm
+- synonym: khu II
+  examples: |
+    - khu 2
+- synonym: khu I
+  examples: |
+    - khu 1
+    - khu cán bộ
+    - khu tập thể cán bộ
+- synonym: chương trình chất lượng cao
+  examples: |
+    - ctclc
+    - ct chất lượng cao
+    - ct clc
+- synonym: chương trình tiên tiến
+  examples: |
+    - cttt
+    - ct tiên tiến
+    - ct tt
+- synonym: thông tin tuyển dụng
+  examples: |
+    - tuyển dụng
+- synonym: ban cán sự
+  examples: |
+    - ban chấp hành
+    - bcs
+- synonym: hệ thống quản lý
+  examples: |
+    - hệ thống quản lí
+    - htql
+- synonym: phòng công tác sinh viên
+  examples: |
+    - pctsv
+    - ctsv
+- synonym: quản lý đơn
+  examples: |
+    - in bảng điểm
+    - in bản điểm
+    - quản lí đơn
+    - in giấy tờ
+    - tạm hoãn nvqs
+    - tạm hoãn nghĩa vụ quân sự
+- synonym: điểm rèn luyện
+  examples: |
+    - đrl
+    - drl
+- synonym: điểm trung bình chung tích lũy
+  examples: |
+    - điểm trung bình tích lũy
+- synonym: điểm trung bình chung học kỳ
+  examples: |
+    - điểm trung bình học kỳ
+- synonym: giờ học
+  examples: |
+    - thời gian tiết học
+- synonym: đình chỉ học tập
+  examples: |
+    - đình chỉ
+- synonym: cảnh báo học tập
+  examples: |
+    - cảnh báo học vụ
+    - cảnh báo
+- synonym: miễn giảm học phí
+  examples: |
+    - giảm học phí
+- synonym: kí túc xá
+  examples: |
+    - ktx
+- synonym: câu lạc bộ tin học
+  examples: |
+    - clb tin học
+- synonym: câu lạc bộ tiếng anh
+  examples: |
+    - clb tiếng anh
+- synonym: câu lạc bộ
+  examples: |
+    - clb
+    - club
+- synonym: đoàn khoa
+  examples: |
+    - đoàn TNCS
+- synonym: cố vấn học tập
+  examples: |
+    - cố vấn
+    - giáo viên chủ nhiệm
+- synonym: thời khóa biểu
+  examples: |
+    - tkb
 - synonym: công nghệ thông tin và truyền thông
   examples: |
+    - cntttt 
     - cntt-tt
     - cntt&tt
     - ict
@@ -3231,6 +3437,7 @@ nlu:
     - dh cần thơ
     - đhct
     - đh cần thơ
+    - trường
 - synonym: mạng máy tính và truyền thông
   examples: |
     - mạng máy tính truyền thông
@@ -3252,6 +3459,7 @@ nlu:
     - it
 - synonym: công nghệ thông tin chất lượng cao
   examples: |
+    - cntt clc
     - cnttclc
     - cntt-clc
     - it clc
@@ -3274,6 +3482,7 @@ nlu:
     - kỹ thuật pm
 - synonym: tin học ứng dụng
   examples: |
+    - thưd
     - thud
     - th ứng dụng
     - tin học ud
@@ -3359,3 +3568,17 @@ nlu:
 - synonym: văn phòng khoa
   examples: |
     - vpk
+- synonym: điểm chuẩn
+  examples: |
+    - điểm xét tuyển
+    - kết quả xét tuyển
+- synonym: ban chủ nhiệm khoa
+  examples: |
+    - ban chủ nhiệm
+    - bcn
+- synonym: hội cựu sinh viên
+  examples: |
+    - hội cựu sv
+- synonym: hồ sơ nhập học
+  examples: |
+    - hồ sơ

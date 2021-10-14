@@ -26,6 +26,6 @@ policies:
   - name: RulePolicy
   - name: MappingPolicy
   - name: FallbackPolicy
-    nlu_threshold: 0.7
-    core_threshold: 0.7
+    nlu_threshold: 0.6
+    core_threshold: 0.6
     fallback_action_name: "action_unknown"

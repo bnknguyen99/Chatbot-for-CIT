@@ -11,6 +11,7 @@ intents:
 - gioi_thieuten
 - gioi_thieuchucnang
 - cam_on
+- thoitiet
 - hoi_vitri:
     use_entities:
         - location
@@ -42,10 +43,6 @@ intents:
     use_entities:
         - nganh_hoc
         - khai_niem
-- congty:
-    use_entities:
-        - nganh_hoc
-        - khai_niem
 - chvieclam:
     use_entities:
         - nganh_hoc
@@ -62,10 +59,6 @@ intents:
     use_entities:
         - nganh_hoc
         - khai_niem
-- noilamviec:
-    use_entities:
-        - nganh_hoc
-        - khai_niem
 - ctdaotao:
     use_entities:
         - nganh_hoc
@@ -76,7 +69,9 @@ entities:
   - khai_niem
   - phong_hoc
   - giao_vien
-slots: {}
+slots: 
+  nganh_hoc:
+    type: text
 responses:
   utter_xin_chao:
   - text: chào bạn!
@@ -88,10 +83,10 @@ responses:
   - text: chào bạn! thắc mắc gì cứ tìm mình nhé.
   - text: rất vui vì đã giúp được bạn! hẹn gặp lại.
   utter_gioi_thieuten:
-  - text: tôi tên là dừa, là một chatbot hổ trợ sinh viên của khoa cntt & tt.
-  - text: tôi là mr.coconut, một hệ thống giúp trả lời các thắc mắc của sinh viên trong quá trình học và làm việc tại khoa cntt & tt.
+  - text: tôi là chatbot hỗ trợ sinh viên của khoa cntt & tt.
+  - text: tôi là chatbot giúp trả lời các thắc mắc của sinh viên trong quá trình học và làm việc tại khoa cntt & tt.
   utter_gioi_thieuchucnang:
-  - text: tôi có thể giải đáp các thắc mắc của bạn về vị trí phòng học, thông tin giáo viên tại khoa, quy chế học vụ, và những công việc liên quán đến khoa cntt&tt.
+  - text: tôi có thể giải đáp các thắc mắc của bạn về vị trí phòng học, thông tin giáo viên tại khoa, quy chế học vụ, và một số việc liên quán đến khoa cntt&tt.
   utter_cam_on:
   - text: giúp được bạn là niềm vui của tôi!
   - text: hi vọng bạn hài lòng với câu trả lời.
@@ -107,5 +102,7 @@ actions:
 - action_dinhnghia
 - ask_vitri
 - action_ask
+- ask_thoitiet
+
 forms: {}
 e2e_actions: []
