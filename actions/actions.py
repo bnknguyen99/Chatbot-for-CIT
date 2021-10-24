@@ -11,8 +11,6 @@ from rasa_sdk import Action, Tracker
 from rasa_sdk.events import SlotSet, SessionStarted, ActionExecuted, EventType
 from rasa_sdk.executor import CollectingDispatcher
 from rasa_sdk.events import SlotSet
-import json
-import re
 import sqlite3
 import requests
 from underthesea import pos_tag
@@ -26,6 +24,9 @@ cursor = conn.cursor()
 print("Database created and Successfully Connected to SQLite")
 
 stopword = ['là gì','là ai', 'như thế nào', 'chưa hiểu', 'muốn biết về', 'ở đâu']
+xinchao = ['hello', 'hey yo', 'hey', 'hi', 'nice to meet you', 'hello my friend', 'alo', 'hi buddy', 'yo']
+gioi_thieuten = ['chatbot?', 'who are you', 'info']
+camon = ['tks', 'thank you', 'i got it', 'ok', 'perfect', 'briliant', 'wah', 'oh']
 
 class ask_bomon_gv(Action):
     def name(self) -> Text:
@@ -57,23 +58,26 @@ class action_dinhnghia(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         print('[%s] <- %s' % (self.name(), tracker.latest_message['text']))
-        ent = ['','']
+        ent = []
         h = 0
         for i in tracker.latest_message['entities']:
-            ent[h] =  '%'+i.get('value').lower()
+            s = i.get('value').lower()
+            s = s.replace(' và', '')
+            s = s.replace('và ', '')
+            ent.append(s)
             h += 1
         check = 0
-        try:
-            for i in ent:
-                sqlite_select_Query = 'SELECT * from dinhnghia where lower(entity) like ' + '"'+i+'"'
-                cursor.execute(sqlite_select_Query)
-                record = cursor.fetchall()
-                check += len(record)
-                print(ent)
-                for result in record:
-                    dispatcher.utter_message(result[2])
-            if check == 0: action_unknown.run2(dispatcher, tracker, domain)
-        except: action_unknown.run2(dispatcher, tracker, domain)
+        print(ent)
+        for i in ent:
+            sqlite_select_Query = 'SELECT * from quyChe where lower(entity) = ' + '"'+i+'"'
+            cursor.execute(sqlite_select_Query)
+            print(sqlite_select_Query)
+            record = cursor.fetchall()
+            check += len(record)
+            print(ent)
+            for result in record:
+                dispatcher.utter_message(result[2])
+        if check == 0: action_unknown.run2(dispatcher, tracker, domain)
 
 class ask_vitri(Action):
     def name(self) -> Text:
@@ -85,18 +89,23 @@ class ask_vitri(Action):
         text = tracker.latest_message['text']
         print('[%s] <- %s' % (self.name(), tracker.latest_message['text']))
         text_input = text.lower()
-        sqlite_select_Query = "SELECT * from phongHoc"
-        cursor.execute(sqlite_select_Query)
-        record = cursor.fetchall()
-        check = False
-        for result in record:
-            name = result[1].lower()
-            define = result[2]
-            if name in text_input:
-                check = True
-                dispatcher.utter_message(define)       
-        if not check:
-           action_unknown.run2(dispatcher, tracker, domain)
+        ent = ['','']
+        h = 0
+        for i in tracker.latest_message['entities']:
+            ent[h] =  '%'+i.get('value').lower()
+            h += 1
+        check = 0
+        print(ent)
+        for i in ent:
+            sqlite_select_Query = 'SELECT * from phongHoc where lower(entity) like ' + '"'+i+'"'
+            cursor.execute(sqlite_select_Query)
+            print(sqlite_select_Query)
+            record = cursor.fetchall()
+            check += len(record)
+            print(ent)
+            for result in record:
+                dispatcher.utter_message(result[2])
+        if check == 0: action_unknown.run2(dispatcher, tracker, domain)
 
 class ask_gvfullname(Action):
     def name(self) -> Text:
@@ -119,7 +128,7 @@ class ask_gvfullname(Action):
                     check = True
                     dispatcher.utter_message(result[4])   
             if not check :
-                dispatcher.utter_message("Không có giáo viên bạn cần tìm trong khoa!!!")
+                dispatcher.utter_message("Xin lỗi, mình không biết giáo viên bạn muốn tìm!")
         else:
             for result in record:
                 name = result[1].lower()
@@ -127,7 +136,7 @@ class ask_gvfullname(Action):
                     check = True
                     dispatcher.utter_message(result[4])   
             if not check :
-                dispatcher.utter_message("Không có giáo viên bạn cần tìm trong khoa!!!")
+                dispatcher.utter_message("Xin lỗi, mình không biết giáo viên bạn muốn tìm!")
 
 class ask_thoitiet(Action):
     def name(self) -> Text:
@@ -136,7 +145,7 @@ class ask_thoitiet(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         print('[%s] <- %s' % (self.name(), tracker.latest_message['text']))
-        headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'}
+        headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3', 'Accept-Language': 'vi'}
         city= 'cantho'
         city = city+'+weather'
         res = requests.get(f'https://www.google.com/search?q={city}&oq={city}&aqs=chrome.0.35i39l2j0l4j46j69i60.6128j1j7&sourceid=chrome&ie=UTF-8', headers=headers)
@@ -156,8 +165,13 @@ class ask_gvname(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         print('[%s] <- %s' % (self.name(), tracker.latest_message['text']))
+        if 'cô' in tracker.latest_message['text']:
+            gioitinh = 'cô'
+        elif 'thầy' in tracker.latest_message['text']:
+            gioitinh = 'thầy'
+        else: gioitinh = '%'
         ten = '%'+tracker.latest_message['entities'][0].get('value')
-        sqlite_select_Query = 'SELECT * from giaoVien where ten like ' + '"'+ten+'"'
+        sqlite_select_Query = 'SELECT * from giaoVien where ten like ' + '"'+ten+'"' + 'and gioitinh like ' + '"' + gioitinh+ '"'
         cursor.execute(sqlite_select_Query)
         record = cursor.fetchall()
         if record:
@@ -167,8 +181,8 @@ class ask_gvname(Action):
                 for i in record:
                     dispatcher.utter_message(i[4]) 
             except:
-                dispatcher.utter_message("Không có giáo viên bạn cần tìm trong khoa!!!")
-        else: dispatcher.utter_message("Không có giáo viên bạn cần tìm trong khoa!!!")
+                dispatcher.utter_message("Xin lỗi, mình không biết giáo viên bạn muốn tìm!")
+        else: dispatcher.utter_message("Xin lỗi, mình không biết giáo viên bạn muốn tìm!")
 
 class action_whatnew(Action):
 
@@ -198,7 +212,7 @@ class action_ask(Action):
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         slot = tracker.get_slot('nganh_hoc')
         ent = ['','']
-        if slot :
+        if slot:
             ent[0] = '%'+slot
         else: 
             h = 0
@@ -240,8 +254,7 @@ class action_unknown(Action):
             dispatcher.utter_message(s1.url)
         except:
             dispatcher.utter_message(
-                text="Xin lỗi bạn vì hiện tại mình chưa hiểu bạn muốn gì! Bạn hãy bấm vào đây để  nhờ chị Google giải đáp nhé: https://www.google.com.vn/search?q=" +
-                    tracker.latest_message['text'].replace(" ", "%20") )
+                text="Xin lỗi bạn vì hiện tại mình chưa hiểu bạn muốn gì!")
     @staticmethod
     def run2(dispatcher: CollectingDispatcher,
             tracker: Tracker,
@@ -256,8 +269,6 @@ class action_unknown(Action):
             dispatcher.utter_message(s)
             dispatcher.utter_message(s1.url)
         except:
-            dispatcher.utter_message(
-                text="Xin lỗi bạn vì hiện tại mình chưa hiểu bạn muốn gì! Bạn hãy bấm vào đây để  nhờ chị Google giải đáp nhé: https://www.google.com.vn/search?q=" +
-                    tracker.latest_message['text'].replace(" ", "%20") )
+            dispatcher.utter_message(text="Xin lỗi bạn vì hiện tại mình chưa hiểu bạn muốn gì!")
 
 

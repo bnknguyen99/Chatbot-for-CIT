@@ -5,17 +5,11 @@ nlu:
     - xin chào
     - chào bạn
     - chào
-    - hi
-    - hey
-    - hello
     - 2
-    - yo
-    - hey yo	
     - chào cậu
-    - nice too meet you
-    - hi my friend
-    - hi buddy
-    -alo
+    - xin chào, tôi là tân sinh viên của khoa
+    - hello, tôi là sinh viên mới của đhct
+    - chào bot tôi là sinh viên khóa 47
 - intent: tam_biet
   examples: |
     - bye
@@ -36,22 +30,18 @@ nlu:
     - bạn tên gì?
     - bạn là chatbot à?
     - chat bot gì?
-    - chatbot?
     - bạn là gì?
     - bạn là gì vậy?
     - giới thiệu về bản thân?
     - giới thiệu
-    - who are you?
     - giới thiệu đi
     - bản thân
     - thông tin cá nhân
     - thông tin bản thân
-    - info
 - intent: thoitiet
   examples: |
     - thời tiết hôm nay
     - thời tiết
-    - weather
     - thời tiết cần thơ
     - hôm nay trời ra sao
     - thời tiết như thế nào
@@ -88,139 +78,132 @@ nlu:
     - ngon
     - siêu
     - tuyệt
-    - tks
-    - thanks you
-    - i got it
-    - ok
-    - perfect
-    - briliant
     - ok luôn
     - ok bạn ey
     - ok luôn bạn ơi
     - ồ
     - thì ra là vậy
     - mình hiểu rồi
-    - wah
     - dễ vậy à
     - cuối cùng cũng biết
-    - oh
     - tiện nhỉ
     - tìm được rồi
     - mình nhớ đường rồi
 - intent: bomon
   examples: |
-    - bộ môn [công nghệ thông tin](bo_mon)
-    - giới thiệu bộ môn [công nghệ thông tin](bo_mon)
-    - bộ môn [công nghệ tt](bo_mon) là gì?
-    - có bộ môn nào tên [cntt](bo_mon) không?
-    - thông tin về bộ môn [cn thông tin](bo_mon)
-    - bot cho hỏi bộ môn [it](bo_mon) là gì?
-    - cho mình hỏi có bộ môn tên [công nghệ thông tin](bo_mon) không?
-    - có thể cho mình biết thông tin về bộ môn [công nghệ thông tin](bo_mon) không?
-    - tôi muốn biết thêm thông tin về bộ môn [công nghệ thông tin](bo_mon)
-    - nói về bộ môn [công nghệ thông tin](bo_mon)
-    - giải thích về bộ môn [công nghệ thông tin](bo_mon)
-    - những điều cần chú ý về bộ môn [công nghệ thông tin](bo_mon)
-    - cho tôi biết bộ môn [công nghệ thông tin](bo_mon) là gì?
-    - tôi không rõ về bộ môn [công nghệ thông tin](bo_mon)
-    - tôi cần trợ giúp về bộ môn [công nghệ thông tin](bo_mon)
-    - giới thiệu bộ môn [công nghệ phần mềm](bo_mon)
-    - bộ môn [cnpm](bo_mon) là gì?
-    - có bộ môn nào tên [cnpm](bo_mon) không?
-    - thông tin về bộ môn [công nghệ phần mềm](bo_mon)
-    - bot cho hỏi bộ môn [công nghệ phần mềm](bo_mon) là gì?
-    - cho mình hỏi có bộ môn tên [công nghệ phần mềm](bo_mon) không?
-    - có thể cho mình biết thông tin về bộ môn [công nghệ phần mềm](bo_mon) không?
-    - tôi muốn biết thêm thông tin về bộ môn [công nghệ phần mềm](bo_mon)
-    - nói về bộ môn [công nghệ phần mềm](bo_mon)
-    - giải thích về bộ môn [công nghệ phần mềm](bo_mon)
-    - những điều cần chú ý về bộ môn [công nghệ phần mềm](bo_mon)
-    - cho tôi biết bộ môn [công nghệ phần mềm](bo_mon) là gì?
-    - tôi không rõ về bộ môn [công nghệ phần mềm](bo_mon)
-    - tôi cần trợ giúp về bộ môn [công nghệ phần mềm](bo_mon)
-    - tôi cần tư vấn về bộ môn [công nghệ phần mềm](bo_mon)
-    - giới thiệu bộ môn [mạng máy tính và truyền thông dữ liệu](bo_mon)
-    - bộ môn [mmt-ttdl](bo_mon) là gì?
-    - có bộ môn nào tên [mmt&ttdl](bo_mon) không?
-    - thông tin về bộ môn [mmtvttdl](bo_mon)
-    - bot cho hỏi bộ môn [mmt&ttdl](bo_mon) là gì?
-    - cho mình hỏi có bộ môn tên [mmtvttdl](bo_mon) không?
-    - có thể cho mình biết thông tin về bộ môn [mmt-ttdl](bo_mon) không?
-    - tôi muốn biết thêm thông tin về bộ môn [mmt-ttdl](bo_mon)
-    - nói về bộ môn [mmt-ttdl](bo_mon)
-    - giải thích về bộ môn [mạng máy tính và truyền thông dữ liệu](bo_mon)
-    - những điều cần chú ý về bộ môn [mạng máy tính và truyền thông dữ liệu](bo_mon)
-    - cho tôi biết bộ môn [mạng máy tính và truyền thông dữ liệu](bo_mon) là gì?
-    - tôi không rõ về bộ môn [mạng máy tính và truyền thông dữ liệu](bo_mon)
-    - tôi cần trợ giúp về bộ môn [mạng máy tính và truyền thông dữ liệu](bo_mon)
-    - tôi cần tư vấn về bộ môn [mạng máy tính và truyền thông dữ liệu](bo_mon)
-    - giới thiệu bộ môn [khoa học máy tính](bo_mon)
-    - có bộ môn nào tên [khmt](bo_mon) không?
-    - thông tin về bộ môn [khoa học máy tính](bo_mon)
-    - thông tin về bộ môn [khmt](bo_mon)
-    - bot cho hỏi bộ môn [data science](bo_mon) là gì?
-    - cho mình hỏi có bộ môn tên [data science](bo_mon) không?
-    - có thể cho mình biết thông tin về bộ môn [ds](bo_mon) không?
-    - tôi muốn biết thêm thông tin về bộ môn [ds](bo_mon)
-    - giải thích về bộ môn [khoa học máy tính](bo_mon)
-    - những điều cần chú ý về bộ môn [khoa học máy tính](bo_mon)
-    - những điều cần chú ý về bộ môn [khmt](bo_mon)
-    - cho tôi biết bộ môn [khoa học máy tính](bo_mon) là gì?
-    - tôi không rõ về bộ môn [khoa học máy tính](bo_mon)
-    - tôi cần trợ giúp về bộ môn [khoa học máy tính](bo_mon)
-    - giới thiệu bộ môn [khoa học máy tính](bo_mon)
-    - thông tin về bộ môn [khoa học máy tính](bo_mon)
-    - giải thích về bộ môn [khoa học máy tính](bo_mon)
-    - những điều cần chú ý về bộ môn [khoa học máy tính](bo_mon)
-    - cho tôi biết bộ môn [khoa học máy tínhbo_mon) là gì?
-    - tôi không rõ về bộ môn [khoa học máy tính](bo_mon)
-    - tôi cần trợ giúp về bộ môn [khoa học máy tính](bo_mon)
-    - bộ môn [khmt](bo_mon) info
-    - giới thiệu bộ môn [khmt](bo_mon)
-    - bộ môn [khmt](bo_mon)
-    - bộ môn [khmt](bo_mon) là gì?
-    - giới thiệu bộ môn [tin học ứng dụng](bo_mon)
-    - có bộ môn nào tên [thud](bo_mon) không?
-    - thông tin về bộ môn [tin học ứng dụng](bo_mon)
-    - thông tin về bộ môn [thud](bo_mon)
-    - bot cho hỏi bộ môn [th ứng dụng](bo_mon) là gì?
-    - cho mình hỏi có bộ môn tên [tin học ud](bo_mon) không?
-    - có thể cho mình biết thông tin về bộ môn [tin học ud](bo_mon) không?
-    - tôi muốn biết thêm thông tin về bộ môn [thud](bo_mon)
-    - nói về bộ môn [thud](bo_mon)
-    - giải thích về bộ môn [tin học ứng dụng](bo_mon)
-    - những điều cần chú ý về bộ môn [tin học ứng dụng](bo_mon)
-    - những điều cần chú ý về bộ môn [thud](bo_mon)
-    - cho tôi biết bộ môn [tin học ứng dụng](bo_mon) là gì?
-    - tôi không rõ về bộ môn [tin học ứng dụng](bo_mon)
-    - tôi cần trợ giúp về bộ môn [tin học ứng dụng](bo_mon)
-    - giới thiệu bộ môn [tin học ứng dụng](bo_mon)
-    - thông tin về bộ môn [tin học ứng dụng](bo_mon)
-    - giải thích về bộ môn [tin học ứng dụng](bo_mon)
-    - những điều cần chú ý về bộ môn [tin học ứng dụng](bo_mon)
-    - cho tôi biết bộ môn [tin học ứng dụngbo_mon) là gì?
-    - tôi không rõ về bộ môn [tin học ứng dụng](bo_mon)
-    - tôi cần trợ giúp về bộ môn [tin học ứng dụng](bo_mon)
-    - [thud](bo_mon) info
-    - giới thiệu [thud](bo_mon)
-    - [thud](bo_mon)
-    - giới thiệu [thud](bo_mon)
-    - [thud](bo_mon)
-    - bộ môn [thud](bo_mon) là gì?
-    - giới thiệu bộ môn [hệ thống thông tin](bo_mon)
-    - bộ môn [hệ thống thông tin](bo_mon) là gì?
-    - có bộ môn nào tên [hệ thống thông tin](bo_mon) không?
-    - thông tin về bộ môn [httt](bo_mon)
-    - bot cho hỏi bộ môn [ht thông tin](bo_mon) là gì?
-    - cho mình hỏi có bộ môn tên [hệ thống tt](bo_mon) không?
-    - có thể cho mình biết thông tin về bộ môn [hệ thống thông tin](bo_mon) không?
-    - tôi muốn biết thêm thông tin về bộ môn [hệ thống thông tin](bo_mon)
-    - nói về bộ môn [hệ thống thông tin](bo_mon)
-    - giải thích về bộ môn [hệ thống thông tin](bo_mon)
-    - những điều cần chú ý về bộ môn [hệ thống thông tin](bo_mon)
-    - cho tôi biết bộ môn [hệ thống thông tin](bo_mon) là gì?
-    - tôi không rõ về bộ môn [hệ thống thông tin](bo_mon)
-    - tôi cần trợ giúp về bộ môn [hệ thống thông tin](bo_mon)
+    - [bộ môn công nghệ thông tin](bo_mon)
+    - giới thiệu [bộ môn công nghệ thông tin](bo_mon)
+    - [bộ môn công nghệ tt](bo_mon) là gì?
+    - có bộ môn nào tên là [bộ môn cntt](bo_mon) không?
+    - thông tin về [bộ môn cn thông tin](bo_mon)
+    - bot cho hỏi [bộ môn it](bo_mon) là gì?
+    - cho mình hỏi có [bộ môn tên công nghệ thông tin](bo_mon) không?
+    - có thể cho mình biết thông tin về [bộ môn công nghệ thông tin](bo_mon) không?
+    - tôi muốn biết thêm thông tin về [bộ môn tên công nghệ tt](bo_mon)
+    - nói về [bộ môn tên cntt](bo_mon)
+    - giải thích về [bộ môn tên it](bo_mon)
+    - những điều cần chú ý về [bộ môn tên cn thông tin](bo_mon)
+    - cho tôi biết [bộ môn công nghệ thông tin](bo_mon) là gì?
+    - tôi không rõ về [bộ môn công nghệ thông tin](bo_mon)
+    - tôi cần trợ giúp về [bộ môn công nghệ thông tin](bo_mon)
+    - giới thiệu [bộ môn công nghệ phần mềm](bo_mon)
+    - [bộ môn cnpm](bo_mon) là gì?
+    - có bộ môn nào tên [bộ môn công nghệ pm](bo_mon) không?
+    - thông tin về [bộ môn cn phần mềm](bo_mon)
+    - bot cho hỏi [bộ môn công nghệ phần mềm](bo_mon) là gì?
+    - cho mình hỏi có [bộ môn tên công nghệ phần mềm](bo_mon) không?
+    - có thể cho mình biết thông tin về [bộ môn tên công nghệ pm](bo_mon) không?
+    - tôi muốn biết thêm thông tin về [bộ môn tên cnpm](bo_mon)
+    - nói về [bộ môn tên cn phần mềm](bo_mon)
+    - giải thích về [bộ môn công nghệ phần mềm](bo_mon)
+    - những điều cần chú ý về [bộ môn công nghệ phần mềm](bo_mon)
+    - cho tôi biết [bộ môn công nghệ phần mềm](bo_mon) là gì?
+    - tôi không rõ về [bộ môn công nghệ phần mềm](bo_mon)
+    - tôi cần trợ giúp về [bộ môn công nghệ phần mềm](bo_mon)
+    - tôi cần tư vấn về [bộ môn công nghệ phần mềm](bo_mon)
+    - giới thiệu [bộ môn mạng máy tính và truyền thông](bo_mon)
+    - [bộ môn mmt-tt](bo_mon) là gì?
+    - [bộ môn mmt và tt](bo_mon) là gì?]
+    - có bộ môn nào tên [bộ môn mmt&tt](bo_mon) không?
+    - thông tin về [bộ môn mmtvtt](bo_mon)
+    - bot cho hỏi [bộ môn mmt&tt](bo_mon) là gì?
+    - cho mình hỏi có [bộ môn tên mmttt](bo_mon) không?
+    - có thể cho mình biết thông tin về [bộ môn tên mmt-tt](bo_mon) không?
+    - tôi muốn biết thêm thông tin về [bộ môn mmt-tt](bo_mon)
+    - nói về [bộ môn mmt-tt](bo_mon)
+    - giải thích về [bộ môn tên mạng máy tính và truyền thông](bo_mon)
+    - những điều cần chú ý về [bộ môn tên mmt&tt](bo_mon)
+    - cho tôi biết [bộ môn tên mmttt](bo_mon) là gì?
+    - tôi không rõ về [bộ môn tên mmtvtt](bo_mon)
+    - tôi cần trợ giúp về [bộ môn tên mạng máy tính truyền thông](bo_mon)
+    - tôi cần tư vấn về [bộ môn tên mmt-tt](bo_mon)
+    - giới thiệu [bộ môn khoa học máy tính](bo_mon)
+    - có bộ môn nào tên [bộ môn khmt](bo_mon) không?
+    - thông tin về [bộ môn khoa học máy tính](bo_mon)
+    - thông tin về [bộ môn khmt](bo_mon)
+    - bot cho hỏi [bộ môn khmt](bo_mon) là gì?
+    - cho mình hỏi có [bộ môn tên khoa học máy tính](bo_mon) không?
+    - có thể cho mình biết thông tin về [bộ môn tên khmt](bo_mon) không?
+    - tôi muốn biết thêm thông tin về [bộ môn tên khmt](bo_mon)
+    - giải thích về [bộ môn khoa học máy tính](bo_mon)
+    - những điều cần chú ý về [bộ môn khoa học máy tính](bo_mon)
+    - những điều cần chú ý về [bộ môn khmt](bo_mon)
+    - cho tôi biết [bộ môn khoa học máy tính](bo_mon) là gì?
+    - tôi không rõ về [bộ môn khoa học mt](bo_mon)
+    - tôi cần trợ giúp về [bộ môn kh máy tính](bo_mon)
+    - giới thiệu [bộ môn tên khoa học mt](bo_mon)
+    - thông tin về [bộ môn tên khoa học máy tính](bo_mon)
+    - giải thích về [bộ môn tên khmt](bo_mon)
+    - những điều cần chú ý về [bộ môn tên kh máy tính](bo_mon)
+    - cho tôi biết [bộ môn khoa học máy tính](bo_mon) là gì?
+    - tôi không rõ về [bộ môn khoa học máy tính](bo_mon)
+    - tôi cần trợ giúp về [bộ môn khoa học máy tính](bo_mon)
+    - [bộ môn khmt](bo_mon) info
+    - giới thiệu [bộ môn khmt](bo_mon)
+    - [bộ môn khmt](bo_mon)
+    - [bộ môn khmt](bo_mon) là gì?
+    - giới thiệu [bộ môn tin học ứng dụng](bo_mon)
+    - có bộ môn nào tên [bộ môn thud](bo_mon) không?
+    - thông tin về [bộ môn thưd](bo_mon)
+    - thông tin về [bộ môn th ứng dụng](bo_mon)
+    - bot cho hỏi [bộ môn tin học ud](bo_mon) là gì?
+    - cho mình hỏi có [bộ môn tin học ưd](bo_mon) không?
+    - có thể cho mình biết thông tin về [bộ môn tên tin học ứng dụng](bo_mon) không?
+    - tôi muốn biết thêm thông tin về [bộ môn tên thud](bo_mon)
+    - nói về [bộ môn tên thưd](bo_mon)
+    - giải thích về [bộ môn tên th ứng dụng](bo_mon)
+    - những điều cần chú ý về [bộ môn tên tin học ud](bo_mon)
+    - những điều cần chú ý về [bộ môn tên tin học ưd](bo_mon)
+    - cho tôi biết [bộ môn tin học ứng dụng](bo_mon) là gì?
+    - tôi không rõ về [bộ môn tin học ứng dụng](bo_mon)
+    - tôi cần trợ giúp về [bộ môn tin học ứng dụng](bo_mon)
+    - giới thiệu [bộ môn tin học ứng dụng](bo_mon)
+    - thông tin về [bộ môn tin học ứng dụng](bo_mon)
+    - giải thích về [bộ môn tin học ứng dụng](bo_mon)
+    - những điều cần chú ý về [bộ môn tin học ứng dụng](bo_mon)
+    - cho tôi biết [bộ môn tin học ứng dụng](bo_mon) là gì?
+    - tôi không rõ về [bộ môn tin học ứng dụng](bo_mon)
+    - tôi cần trợ giúp về [bộ môn tin học ứng dụng](bo_mon)
+    - [bộ môn thud](bo_mon) info
+    - giới thiệu [bộ môn thud](bo_mon)
+    - [bộ môn thưd](bo_mon)
+    - giới thiệu [bộ môn thud](bo_mon)
+    - [bộ môn thud](bo_mon)
+    - [bộ môn thud](bo_mon) là gì?
+    - giới thiệu [bộ môn hệ thống thông tin](bo_mon)
+    - [bộ môn httt](bo_mon) là gì?
+    - có bộ môn nào tên [bộ môn ht thông tin](bo_mon) không?
+    - thông tin về [bộ môn hệ thống tt](bo_mon)
+    - bot cho hỏi [bộ môn ht thông tin](bo_mon) là gì?
+    - cho mình hỏi có [bộ môn tên hệ thống tt](bo_mon) không?
+    - có thể cho mình biết thông tin về [bộ môn tên hệ thống thông tin](bo_mon) không?
+    - tôi muốn biết thêm thông tin về [bộ môn hệ thống thông tin](bo_mon)
+    - nói về [bộ môn tên httt](bo_mon)
+    - giải thích về [bộ môn hệ thống thông tin](bo_mon)
+    - những điều cần chú ý về [bộ môn tên ht thông tin](bo_mon)
+    - cho tôi biết [bộ môn hệ thống thông tin](bo_mon) là gì?
+    - tôi không rõ về [bộ môn tên hệ thống tt](bo_mon)
+    - tôi cần trợ giúp về [bộ môn hệ thống thông tin](bo_mon)
 - intent: chuyennganh
   examples: |
     - ngành [hệ thống thông tin](nganh_hoc)
@@ -257,7 +240,7 @@ nlu:
     - tôi muốn biết thêm thông tin về ngành [it-clc](nganh_hoc) 
     - nói về ngành [cnttclc](nganh_hoc) 
     - giải thích về ngành [công nghệ thông tin chất lượng cao](nganh_hoc) 
-    - những điều cần chú ý về ngành [high quality it](nganh_hoc) 
+    - những điều cần chú ý về ngành [công nghệ thông tin chất lượng cao](nganh_hoc) 
     - cho tôi biết ngành [công nghệ thông tin chất lượng cao](nganh_hoc) là gì?
     - tôi không rõ về ngành [công nghệ thông tin chất lượng cao](nganh_hoc) 
     - tôi cần trợ giúp về ngành [công nghệ thông tin chất lượng cao](nganh_hoc) 
@@ -659,7 +642,7 @@ nlu:
     - [cơ hội việc làm](khai_niem) sau khi tốt nghiệp ngành [công nghệ thông tin chất lượng cao](nganh_hoc) 
     - sau khi tốt nghiệp ngành [công nghệ thông tin chất lượng cao](nganh_hoc) làm việc gì
     - thông tin về việc làm của ngành [công nghệ thông tin chất lượng cao](nganh_hoc) 
-    - nói về [cơ hội việc làm](khai_niem) của ngành [công nghệ thông tin chất lượng cao](nganh_hoc) 
+    - nói về [ch việc làm](khai_niem) của ngành [công nghệ thông tin chất lượng cao](nganh_hoc) 
     - tôi muốn biết thêm thông tin về [cơ hội việc làm](khai_niem) của ngành [công nghệ thông tin chất lượng cao](nganh_hoc) 
     - giải thích về [cơ hội việc làm](khai_niem) của ngành [công nghệ thông tin chất lượng cao](nganh_hoc) 
     - những điều cần chú ý về [cơ hội việc làm](khai_niem) của ngành [công nghệ thông tin chất lượng cao](nganh_hoc) 
@@ -1451,7 +1434,7 @@ nlu:
     - tìm giúp tôi phòng [khoa học máy tính](phong_hoc) 
     - phòng [khoa học máy tính](phong_hoc) là phòng nào
     - chỉ chỗ phòng [khoa học máy tính](phong_hoc) 
-    - tìm phòng [khoa học máy tính](phong_hoc) 
+    - tôi vẫn chưa biết vị trí của phòng [khoa học máy tính](phong_hoc) 
     - phòng [khoa học máy tính](phong_hoc) 
     - phòng bộ môn [mạng máy tính và truyền thông](phong_hoc) ở đâu
     - cho tôi biết phòng [mạng máy tính và truyền thông](phong_hoc) ở đâu
@@ -1611,8 +1594,8 @@ nlu:
     - phòng [20](phong_hoc) là phòng nào
     - chỉ chỗ phòng [20](phong_hoc) 
     - tìm phòng [20](phong_hoc) 
-    - phòng [20](phong_hoc) 
-    - phòng [21](phong_hoc) ở đâu
+    - vị trí của phòng [20](phong_hoc)
+    - vị trí phòng [21](phong_hoc) ở đâu
     - cho tôi biết phòng [21](phong_hoc) ở đâu
     - tìm giúp tôi phòng [21](phong_hoc) 
     - phòng [21](phong_hoc) là phòng nào
@@ -1748,31 +1731,38 @@ nlu:
     - phòng [thư viện](phong_hoc) ở đâu
     - cho tôi biết phòng [thư viện](phong_hoc) ở đâu
     - tìm giúp tôi phòng [thư viện](phong_hoc) 
-    - phòng [thư viện](phong_hoc) là phòng nào
+    - phòng [thư viện khoa](phong_hoc) là phòng nào
     - chỉ chỗ phòng [thư viện](phong_hoc) 
     - tìm phòng [thư viện](phong_hoc) 
     - phòng [thư viện](phong_hoc) 
-    - phòng [văn phòng đoàn thanh niên khoa](phong_hoc) ở đâu
+    - phòng [phòng đoàn khoa](phong_hoc) ở đâu
     - cho tôi biết phòng [văn phòng đoàn thanh niên khoa](phong_hoc) ở đâu
     - tìm giúp tôi phòng [văn phòng đoàn thanh niên khoa](phong_hoc) 
     - phòng [văn phòng đoàn thanh niên khoa](phong_hoc) là phòng nào
     - chỉ chỗ phòng [văn phòng đoàn thanh niên khoa](phong_hoc) 
     - tìm phòng [văn phòng đoàn thanh niên khoa](phong_hoc) 
     - phòng [văn phòng đoàn thanh niên khoa](phong_hoc) 
-    - phòng [đoàn thanh niên khoa](phong_hoc) ở đâu
-    - cho tôi biết phòng [đoàn thanh niên khoa](phong_hoc) ở đâu
-    - tìm giúp tôi phòng [đoàn thanh niên khoa](phong_hoc) 
-    - phòng [đoàn thanh niên khoa](phong_hoc) là phòng nào
-    - chỉ chỗ phòng [đoàn thanh niên khoa](phong_hoc) 
-    - tìm phòng [đoàn thanh niên khoa](phong_hoc) 
-    - phòng [đoàn thanh niên khoa](phong_hoc) 
+    - phòng [văn phòng đoàn thanh niên khoa](phong_hoc) ở đâu
+    - cho tôi biết phòng [văn phòng đoàn thanh niên khoa](phong_hoc) ở đâu
+    - tìm giúp tôi phòng [văn phòng đoàn khoa](phong_hoc) 
+    - [văn phòng đoàn](phong_hoc) là phòng nào
+    - chỉ chỗ phòng [văn phòng đoàn thanh niên khoa](phong_hoc) 
+    - tìm phòng [văn phòng đoàn khoa](phong_hoc) 
     - phòng [văn phòng khoa](phong_hoc) ở đâu
     - cho tôi biết phòng [văn phòng khoa](phong_hoc) ở đâu
     - tìm giúp tôi phòng [văn phòng khoa](phong_hoc) 
-    - phòng [văn phòng khoa](phong_hoc) là phòng nào
+    - phòng [vpk](phong_hoc) là phòng nào
     - chỉ chỗ phòng [văn phòng khoa](phong_hoc) 
     - tìm phòng [văn phòng khoa](phong_hoc) 
     - phòng [văn phòng khoa](phong_hoc) 
+    - khoa [công nghệ thông tin và truyền thông](phong_hoc) nằm chỗ nào
+    - [khoa cntt](phong_hoc) ở đâu 
+    - [khoa cntt và tt](phong_hoc) ở đâu 
+    - [khoa công nghệ thông tin](phong_hoc) ở đâu
+    - [cntttt](phong_hoc) chỗ nào
+    - [cntt-tt](phong_hoc) ở đâu
+    - [cntt&tt](phong_hoc) nằm ở đâu
+    - [ict](phong_hoc) chỗ nào
 - intent: bomon_gv
   examples: |
     - bộ môn [công nghệ thông tin](bo_mon) gồm có ai
@@ -1797,10 +1787,22 @@ nlu:
     - có gì mới không
 - intent: liet_ke_bo_mon
   examples: |
-    - khoa có những bộ môn nào
+    - cho hỏi khoa có những bộ môn nào
     - các bộ môn đào tạo
     - các bộ môn của khoa
     - khoa cnnt & tt có những bộ môn nào
+    - danh sách bộ môn
+    - khoa có bao nhiêu bộ môn
+    - liệt kê bộ môn
+- intent: liet_ke_nganh
+  examples: |
+    - khoa có những ngành nào
+    - các chuyên ngành đào tạo
+    - các chuyên ngành của khoa
+    - khoa cnnt & tt có những ngành nào
+    - danh sách ngành
+    - khoa có bao nhiêu ngành
+    - liệt kê ngành
 - intent: gv_name
   examples: |
     - cô [Khang](giao_vien) là ai
@@ -3191,10 +3193,10 @@ nlu:
     - [lớp chuyên ngành](khai_niem) 
     - [tín chỉ](khai_niem) 
     - [tc](khai_niem) 
-    - [học bổng](khai_niem) 
+    - làm sao để nhận được [học bổng](khai_niem) 
     - [quỹ hỗ trợ sinh viên](khai_niem) 
-    - [trợ cấp xã hội](khai_niem) 
-    - [học phí](khai_niem) 
+    - tôi muốn lấy [trợ cấp xã hội](khai_niem) 
+    - [học phí](khai_niem) của ngành là bao nhiêu
     - [bhyt](khai_niem) 
     - [bảo hiểm y tế](khai_niem) 
     - [tín dụng sinh viên](khai_niem) 
@@ -3209,9 +3211,13 @@ nlu:
     - trường [đh cần thơ](khai_niem)
     - [lớp chuyên ngành](khai_niem) là gì
     - khoa [công nghệ thông tin và truyền thông](khai_niem)
-    - khoa [cntt-tt](khai_niem)
+    - giới thiệu khoa [cntt-tt](khai_niem) đi
     - khoa [cntt&tt](khai_niem)
     - khoa [ict](khai_niem)
+    - [khoa cntt](khai_niem)
+    - [khoa công nghệ thông tin](khai_niem)
+    - [khoa cntt và tt](khai_niem) là gì
+    - giới thiệu [khoa cntt-tt](khai_niem)
     - [văn phòng khoa](khai_niem) là gì
     - [vpk](khai_niem)
     - thông tin về [nghiên cứu khoa học](khai_niem)
@@ -3225,31 +3231,31 @@ nlu:
     - [hội cựu sinh viên](khai_niem) là gì
     - [hội cựu sv](khai_niem)
     - [hồ sơ nhập học](khai_niem) gồm những gì
-    - [hồ sơ](khai_niem) cần thiết để nhập học
+    - tôi cần thông tin về [hồ sơ](khai_niem) cần thiết để nhập học
     - [thủ tục nhập học](khai_niem)
     - [thời khóa biểu](khai_niem)
     - [tkb](khai_niem)
-    - [cố vấn học tập](khai_niem)
-    - [cố vấn](khai_niem)
-    - [giáo viên chủ nhiệm](khai_niem)
+    - [cố vấn học tập](khai_niem) của lớp khóa 47
+    - tôi muốn biết [cố vấn](khai_niem) lớp là ai
+    - danh sách [giáo viên chủ nhiệm](khai_niem)
     - [công tác học vụ](khai_niem)
     - có tổ chức nào là [đoàn khoa](khai_niem) không
     - [đoàn TNCS](khai_niem)
     - khoa có [câu lạc bộ](khai_niem) nào không
     - có [clb](khai_niem) nào không
     - danh sách [club](khai_niem) ở khoa
-    - [câu lạc bộ tin học](khai_niem)
+    - giới thiệu về [câu lạc bộ tin học](khai_niem)
     - [clb tin học](khai_niem)
     - [câu lạc bộ tiếng anh](khai_niem)
     - [clb tiếng anh](khai_niem)
-    - [kí túc xá](khai_niem)
-    - [ktx](khai_niem)
+    - tôi muốn đăng kí [kí túc xá](khai_niem)
+    - tôi muốn đăng ký [ktx](khai_niem)
     - [khởi nghiệp](khai_niem)
-    - [nội quy](khai_niem)
+    - [nội quy](khai_niem) quy định như thế nào
     - [miễn giảm học phí](khai_niem)
     - [giảm học phí](khai_niem)
     - [nghỉ học tạm thời](khai_niem)
-    - [cảnh báo học tập](khai_niem)
+    - [cảnh báo học tập](khai_niem) qui định như thế nào
     - [cảnh báo học vụ](khai_niem)
     - bị [cảnh báo](khai_niem) trong học tập
     - [đình chỉ học tập](khai_niem)
@@ -3265,25 +3271,28 @@ nlu:
     - [điểm rèn luyện](khai_niem)
     - [đrl](khai_niem)
     - [drl](khai_niem)
-    - [điều kiện tốt nghiệp](khai_niem)
+    - [điều kiện tốt nghiệp](khai_niem) là như thế nào
     - [quản lý đơn](khai_niem)
-    - [in bảng điểm](khai_niem)
+    - tôi cần [in bảng điểm](khai_niem)
     - [in bản điểm](khai_niem)
     - [quản lí đơn](khai_niem)
     - [in giấy tờ](khai_niem)
-    - [tạm hoãn nvqs](khai_niem)
+    - làm [tạm hoãn nvqs](khai_niem) ở chỗ nào
     - [tạm hoãn nghĩa vụ quân sự](khai_niem)
     - [phòng công tác sinh viên](khai_niem)
+    - [pctsv](khai_niem) là gì
+    - [ctsv](khai_niem)là gì
     - [pctsv](khai_niem)
-    - [ctsv](khai_niem)
+    - phòng [ctsv](khai_niem)
     - [phòng đào tạo](khai_niem)
     - [hệ thống quản lý](khai_niem)
     - [hệ thống quản lí](khai_niem)
     - [htql](khai_niem)
-    - [ban cán sự](khai_niem)
-    - [ban chấp hành](khai_niem)
-    - [bcs](khai_niem)
+    - [ban cán sự](khai_niem) lớp gồm những ai
+    - danh sách thành viên [ban chấp hành](khai_niem)
+    - thông tin về [bcs](khai_niem) của các lớp
     - [thông tin tuyển dụng](khai_niem)
+    - cho xem [tin tuyển dụng](khai_niem)
     - [tuyển dụng](khai_niem)
     - [bảo hiểm tai nạn](khai_niem)
     - [chương trình tiên tiến](khai_niem)
@@ -3308,15 +3317,94 @@ nlu:
     - [khu IV](khai_niem)
     - [khu 4](khai_niem)
     - [khu hòa an](khai_niem)
-    - [hòa an](khai_niem)
+    - [hòa an](khai_niem) ở đâu
     - [khu V](khai_niem)
-    - [khu 5](khai_niem)
+    - [khu 5](khai_niem) ở chỗ nào
     - [giáo dục quốc phòng](khai_niem)
     - [giáo dục quốc phòng và an ninh](khai_niem)
     - [giáo dục quốc phòng an ninh](khai_niem)
     - [GDQP-AN](khai_niem)
     - [GDQP&AN](khai_niem)
+    - [ngày hội việc làm](khai_niem)
+    - [cơ sở vật chất](khai_niem)
+    - tham gia [hoạt động ngoại khóa](khai_niem)
+    - [cuộc thi](khai_niem)
+    - [trung tâm học liệu](khai_niem)
+    - [thư viện khoa](khai_niem)
+    - [thư viện](khai_niem)
 # từ đồng nghĩa
+- synonym: bộ môn công nghệ thông tin
+  examples: |
+    - bộ môn công nghệ tt
+    - bộ môn cntt
+    - bộ môn cn thông tin
+    - bộ môn it
+    - bộ môn tên công nghệ thông tin
+    - bộ môn tên công nghệ tt
+    - bộ môn tên cntt
+    - bộ môn tên it
+    - bộ môn tên cn thông tin
+- synonym: bộ môn công nghệ phần mềm
+  examples: |
+    - bộ môn công nghệ pm
+    - bộ môn cnpm
+    - bộ môn cn phần mềm
+    - bộ môn tên công nghệ phần mềm
+    - bộ môn tên công nghệ pm
+    - bộ môn tên cnpm
+    - bộ môn tên cn phần mềm
+- synonym: bộ môn mạng máy tính và truyền thông
+  examples: |
+    - bộ môn mạng máy tính truyền thông
+    - bộ môn mmt-tt
+    - bộ môn mmt&tt
+    - bộ môn mmtvtt
+    - bộ môn mmttt
+    - bộ môn tên mạng máy tính và truyền thông
+    - bộ môn tên mạng máy tính truyền thông
+    - bộ môn tên mmt-tt
+    - bộ môn tên mmt&tt
+    - bộ môn tên mmtvtt
+    - bộ môn tên mmttt
+- synonym: bộ môn khoa học máy tính
+  examples: |
+    - bộ môn khmt
+    - bộ môn khoa học mt
+    - bộ môn kh máy tính
+    - bộ môn tên khoa học máy tính
+    - bộ môn tên khmt
+    - bộ môn tên khoa học mt
+    - bộ môn tên kh máy tính
+- synonym: bộ môn tin học ứng dụng
+  examples: |
+    - bộ môn thud
+    - bộ môn thưd
+    - bộ môn th ứng dụng
+    - bộ môn tin học ud
+    - bộ môn tin học ưd
+    - bộ môn tên tin học ứng dụng
+    - bộ môn tên thud
+    - bộ môn tên thưd
+    - bộ môn tên th ứng dụng
+    - bộ môn tên tin học ud
+    - bộ môn tên tin học ưd
+- synonym: bộ môn hệ thống thông tin
+  examples: |
+    - bộ môn httt
+    - bộ môn ht thông tin
+    - bộ môn hệ thống tt
+    - bộ môn tên hệ thống thông tin
+    - bộ môn tên httt
+    - bộ môn tên ht thông tin
+    - bộ môn tên hệ thống tt
+- synonym: văn phòng đoàn thanh niên khoa
+  examples: |
+    - văn phòng đoàn
+    - văn phòng đoàn khoa
+    - phòng đoàn khoa
+- synonym: thư viện
+  examples: |
+    - thư viện khoa
 - synonym: giáo dục quốc phòng
   examples: |
     - giáo dục quốc phòng và an ninh
@@ -3358,6 +3446,7 @@ nlu:
 - synonym: thông tin tuyển dụng
   examples: |
     - tuyển dụng
+    - tin tuyển dụng
 - synonym: ban cán sự
   examples: |
     - ban chấp hành
@@ -3417,6 +3506,7 @@ nlu:
 - synonym: đoàn khoa
   examples: |
     - đoàn TNCS
+    - đoàn thanh niên khoa
 - synonym: cố vấn học tập
   examples: |
     - cố vấn
@@ -3430,6 +3520,11 @@ nlu:
     - cntt-tt
     - cntt&tt
     - ict
+    - khoa cntt
+    - khoa công nghệ thông tin
+    - cntt và tt
+    - khoa cntt-tt
+    - khoa cntt và tt
 - synonym: đại học cần thơ
   examples: |
     - trường đại học cần thơ
@@ -3444,6 +3539,7 @@ nlu:
     - mmt&tt
     - mmtvtt
     - mmt-tt
+    - mmt và tt
 - synonym: mạng máy tính và truyền thông dữ liệu
   examples: |
     - mạng máy tính truyền thông dữ liệu
@@ -3464,7 +3560,6 @@ nlu:
     - cntt-clc
     - it clc
     - it-clc
-    - high quality it
 - synonym: hệ thống thông tin 
   examples: |
     - hệ thống tt
@@ -3524,6 +3619,7 @@ nlu:
     - cơ hội việc làm
     - chvl
     - vl
+    - ch việc làm
 - synonym: kế hoạch học tập
   examples: |
     - kh học tập
@@ -3554,6 +3650,9 @@ nlu:
   examples: |
     - hp
     - term
+- synonym: kế hoạch học tập toàn khóa
+  examples: |
+    - khht toàn khóa
 - synonym: khó khăn
   examples: |
     - khó

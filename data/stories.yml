@@ -55,6 +55,11 @@ stories:
   steps:
   - intent: hoi_vitri
   - action: ask_vitri
+- story: bo mon
+  steps:
+  - intent: bomon
+  - action: action_ask
+
 - story: chuyennganh 
   steps:
   - intent: chuyennganh
@@ -87,7 +92,10 @@ stories:
   steps:
   - intent: ctdaotao
   - action: action_ask
-
+- story: liet_ke_nganh
+  steps:
+  - intent: liet_ke_nganh
+  - action: utter_lietkenganh
 - story: thoitiet
   steps:
   - intent: thoitiet

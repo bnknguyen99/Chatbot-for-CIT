@@ -8,6 +8,7 @@ intents:
 - xin_chao
 - tam_biet
 - liet_ke_bo_mon
+- liet_ke_nganh
 - gioi_thieuten
 - gioi_thieuchucnang
 - cam_on
@@ -80,19 +81,20 @@ responses:
   utter_tam_biet:
   - text: bye bye, chúc bạn một ngày tốt lành
   - text: tạm biệt! một ngày đầy năng lượng nhé!
-  - text: chào bạn! thắc mắc gì cứ tìm mình nhé.
+  - text: chào bạn! có thắc mắc gì cứ tìm mình nhé.
   - text: rất vui vì đã giúp được bạn! hẹn gặp lại.
   utter_gioi_thieuten:
   - text: tôi là chatbot hỗ trợ sinh viên của khoa cntt & tt.
   - text: tôi là chatbot giúp trả lời các thắc mắc của sinh viên trong quá trình học và làm việc tại khoa cntt & tt.
   utter_gioi_thieuchucnang:
-  - text: tôi có thể giải đáp các thắc mắc của bạn về vị trí phòng học, thông tin giáo viên tại khoa, quy chế học vụ, và một số việc liên quán đến khoa cntt&tt.
+  - text: tôi có thể giải đáp các thắc mắc của bạn về vị trí phòng học, thông tin giáo viên tại khoa, quy chế học vụ, và một số việc liên quan đến khoa cntt&tt.
   utter_cam_on:
   - text: giúp được bạn là niềm vui của tôi!
   - text: hi vọng bạn hài lòng với câu trả lời.
   utter_lietkebomon:
   - text: Khoa gồm có 6 bộ môn là công nghệ thông tin, công nghệ phần mềm, hệ thống thống tin, mạng máy tính & truyền thông, khoa học máy tính và tin học ứng dụng.
-
+  utter_lietkenganh: 
+    - text: hiện tại khoa đào tạo 7 chuyên ngành là công nghệ thông tin. công nghệ thông tin CLC, hệ thống thông tin, khoa học máy tính, mạng máy tính và truyền thông dữ liệu, tin học ứng dụng và kỹ thuật phần mềm.
 actions:
 - ask_bomon_gv
 - ask_gvname

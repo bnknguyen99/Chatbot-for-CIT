@@ -1,0 +1,63 @@
+*Kịch bản 1: hỏi đáp về ngành Công nghệ thông tin - Chất lượng cao
+
+- Xin chào
+- thông tin về ngành công nghệ thông tin chất lượng cao
+- học phí quy định như thế nào
+- cho tôi biết về chương trình đào tạo của ngành này
+- ngành này có kế hoạch học tập như thế nào
+- cơ hội việc làm sau khi tốt nghiệp ngành này có lớn không
+- học ngành này ra trường làm việc gì
+- cho xem tin tuyển dụng đi
+- ok xin cảm ơn
+
+?Kịch bản 2: hỏi đáp về vị trí phòng học và đội ngũ giảng viên của bộ môn cntt
+- 2
+- cho hỏi khoa có những bộ môn nào
+X- giới thiệu cho tôi bộ môn cntt 
+- vị trí phòng bộ môn công nghệ thông tin
+- bộ môn công nghệ thông tin có bao nhiêu giảng viên
+- biết cô Lâm Nhựt Khang không?
+- phòng clc2 ở đâu
+- ok tiện thể cho hỏi thư viện khoa ở đâu luôn nhé
+- cảm ơn, bye
+
+*Kịch bản 3: hỏi đáp về những vấn đề liên quan
+- xin chào tôi là tân sinh viên của khoa
+- Tôi muốn đăng ký vào kí túc xá
+- tôi muốn biết hồ sơ nhập học gồm những gì
+- Quy định về giờ học là như thế nào
+- điểm rèn luyện là gì
+- tín chỉ là gì
+- đối tượng được miễn giảm học phí gồm những ai
+- Phải làm gì để nhận được học bổng
+- nghiên cứu khoa học là như thế nào vậy?
+- cảm ơn
+
+*Kịch bản 4: hỏi đáp về đoàn khoa
+- Bạn ơi
+- tôi muốn hỏi thông tin về đoàn khoa
+- vị trí của văn phòng đoàn khoa ở đâu
+- thông tin về ban chấp hành của các lớp
+- khoa có clb nào không
+- giới thiệu về clb tin học đi
+- ok đã hiểu
+
+*Kịch bản 5: Hỏi về học phần GDQP-AN
+- Chào bot
+- Cho hỏi làm giấy tạm hoãn nvqs ở đâu
+- Môn giáo dục quốc phòng an ninh là gì
+- Hòa An là ở đâu
+- ok cảm ơn vì thông tin nhé
+
+*Kịch bản 6: Hỏi đáp, giới thiệu chung về khoa
+- chào
+- giới thiệu khoa cntt-tt đi
+- ban chủ nhiệm khoa gồm có ai
+- văn phòng khoa là gì
+- vpk nằm ở đâu
+- thư viện khoa nằm ở đâu
+- danh sách cố vấn học tập khóa 47
+- ok
+
+Kịch bản 7: Hỏi đáp, giới thiệu chung về trường
+- 
